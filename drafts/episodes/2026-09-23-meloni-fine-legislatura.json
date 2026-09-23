@@ -14,7 +14,7 @@
   "question": "Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?",
   "answer": "Certo. Fino alla prossima smentita delle elezioni anticipate.",
   "image": "/assets/episodes/2026-09-23-meloni-fine-legislatura.jpg",
-  "imageAlt": "Bozza grafica in attesa della vignetta finale su Meloni, Travaglio e la Suprema IA",
+  "imageAlt": "Vignetta satirica con Marco Travaglio, Giorgia Meloni e la Suprema IA sul tema delle elezioni anticipate.",
   "characters": [
     "Marco Travaglio",
     "Giorgia Meloni",
@@ -22,6 +22,5 @@
   ],
   "status": "published",
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
-  "editorialNotes": "Bozza iniziale. Non pubblicare automaticamente. Vignetta di lavoro collegata in draft_image; spostare/copiare l'immagine in assets/episodes solo dopo approvazione.",
   "published_at": "2026-09-23T05:33:39.474Z"
 }
