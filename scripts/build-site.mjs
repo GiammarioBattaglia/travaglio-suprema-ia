@@ -29,12 +29,14 @@ function buildEpisodePage(ep) {
   const title = `${ep.title} – Travaglio & la Suprema IA`;
   const desc = ep.summary;
   const image = ep.image || '/assets/social.jpg';
+  const imageName = `${ep.slug}-vignetta${path.extname(image) || '.jpg'}`;
+
   return `<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#f6f2ea">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(desc)}">
   <meta property="og:type" content="article">
@@ -46,46 +48,86 @@ function buildEpisodePage(ep) {
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=20260923-3">
+  <script type="module" src="/viewer.mjs?v=1"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">EPISODIO</p>
-      <h1>${escapeHtml(ep.title)}</h1>
-      <p class="tagline">${escapeHtml(ep.summary)}</p>
+  <header class="masthead">
+    <div class="brand">
+      <div class="brand-top">SATIRA INDIPENDENTE</div>
+      <h1>Travaglio <span>&</span> la Suprema IA</h1>
     </div>
-    <div class="episode-actions">
-      <a class="button secondary" href="/">Home</a>
-      <a class="button tertiary" href="/archive/">Archivio</a>
-    </div>
+    <a class="install" href="/">Home</a>
   </header>
-  <main class="shell">
-    <section class="card episode-lead">
-      <div>
-        <p class="mini">FONTE E CONTESTO</p>
-        <h2>${escapeHtml(ep.headline)}</h2>
-        <p class="episode-meta">${escapeHtml(ep.date)} · ${escapeHtml(ep.source?.name || '')}${ep.source?.url ? ` · <a href="${escapeHtml(ep.source.url)}" target="_blank" rel="noreferrer">link originale</a>` : ''}</p>
+
+  <main class="page">
+    <article class="episode">
+      <header class="episode-header">
+        <div class="eyebrow">EPISODIO</div>
+        <h2>${escapeHtml(ep.title)}</h2>
+        <div class="source-line">
+          ${escapeHtml(ep.date)} · ${escapeHtml(ep.source?.name || '')}
+          ${ep.source?.url ? ` · <a href="${escapeHtml(ep.source.url)}" target="_blank" rel="noreferrer">fonte originale</a>` : ''}
+        </div>
+      </header>
+
+      <figure class="vignette">
+        <img id="heroImage" class="zoomable-image" src="${escapeHtml(image)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1600" height="900" tabindex="0" role="button" aria-label="Apri la vignetta ingrandita">
+        <figcaption class="image-tools">
+          <button id="zoomBtn" class="image-tool" type="button">Apri e ingrandisci</button>
+          <a id="originalImageBtn" class="image-tool" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri originale</a>
+          <a id="downloadImageBtn" class="image-tool" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica</a>
+        </figcaption>
+      </figure>
+
+      <section class="fact">
+        <div class="label">LA NOTIZIA</div>
+        <h3>${escapeHtml(ep.headline)}</h3>
         <p>${escapeHtml(ep.news_text)}</p>
-        <p class="notice">${escapeHtml(ep.satire_notice || 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.')}</p>
+      </section>
+
+      <section class="dialogue">
+        <div class="bubble question">
+          <div class="speaker">TRAVAGLIO</div>
+          <p>${escapeHtml(ep.question)}</p>
+        </div>
+        <div class="bubble answer">
+          <div class="speaker">SUPREMA IA</div>
+          <p>${escapeHtml(ep.answer)}</p>
+        </div>
+      </section>
+
+      <div class="actions">
+        <a class="btn secondary" href="/archive/">Archivio</a>
+        <a class="btn primary" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica vignetta</a>
       </div>
-      <div class="hero-art">
-        <img class="hero-image" src="${escapeHtml(image)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1200" height="630">
-      </div>
-    </section>
-    <section class="episode-single-grid">
-      <article class="card">
-        <p class="mini">LA DOMANDA DI TRAVAGLIO</p>
-        <blockquote>${escapeHtml(ep.question)}</blockquote>
-      </article>
-      <article class="card">
-        <p class="mini">LA RISPOSTA DELLA SUPREMA IA</p>
-        <blockquote>${escapeHtml(ep.answer)}</blockquote>
-      </article>
-    </section>
+    </article>
   </main>
+
+  <div id="imageViewer" class="image-viewer" hidden>
+    <div id="viewerBackdrop" class="viewer-backdrop"></div>
+    <section class="viewer-panel" role="dialog" aria-modal="true" aria-label="Vignetta ingrandita">
+      <div class="viewer-toolbar">
+        <div class="viewer-zoom-controls">
+          <button id="viewerZoomOut" type="button" aria-label="Riduci">−</button>
+          <button id="viewerReset" type="button">100%</button>
+          <button id="viewerZoomIn" type="button" aria-label="Ingrandisci">+</button>
+        </div>
+        <button id="viewerCloseBtn" class="viewer-close" type="button" aria-label="Chiudi">×</button>
+      </div>
+      <div class="viewer-canvas">
+        <img id="viewerImage" alt="Vignetta ingrandita">
+      </div>
+      <div class="viewer-footer">
+        <a id="viewerOriginalBtn" class="btn secondary" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri originale</a>
+        <a id="viewerDownloadBtn" class="btn primary" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica</a>
+      </div>
+    </section>
+  </div>
+
   <footer class="footer">
     <p>${escapeHtml(ep.satire_notice || 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.')}</p>
+    <p>Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
   </footer>
 </body>
 </html>`;
