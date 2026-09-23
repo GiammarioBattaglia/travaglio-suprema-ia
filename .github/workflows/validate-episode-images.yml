@@ -1,0 +1,37 @@
+name: Validate episode images
+on:
+  push:
+    paths:
+      - '.github/workflows/validate-episode-images.yml'
+      - 'assets/episodes/**'
+      - 'drafts/images/**'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install pillow
+      - name: Decode all episode images fully
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageFile, ImageStat
+          import hashlib
+          for root in ['assets/episodes','drafts/images']:
+            for p in sorted(Path(root).glob('*')):
+              if p.suffix.lower() not in ('.jpg','.jpeg','.png','.webp'):continue
+              try:
+                with Image.open(p) as im:
+                  im.load()
+                  pix=im.convert('RGB')
+                  bottom=pix.crop((0,pix.height*3//4,pix.width,pix.height))
+                  stats=ImageStat.Stat(bottom)
+                  print('VALID',str(p),'bytes=',p.stat().st_size,'pixels=',im.size,'bottom_stddev=',','.join(f'{s:.2f}' for s in stats.stddev),'sha256=',hashlib.sha256(p.read_bytes()).hexdigest())
+              except Exception as ex:
+                print('INVALID',str(p),'bytes=',p.stat().st_size,type(ex).__name__,str(ex))
+          PY
