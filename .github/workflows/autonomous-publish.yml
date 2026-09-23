@@ -30,6 +30,8 @@ jobs:
         run: |
           npm --silent init -y >/dev/null 2>&1
           npm --silent install --no-save --no-package-lock sharp@0.34.4 >/dev/null 2>&1
+      - name: Validate renderer with offline fixture
+        run: node scripts/test-render-caricature.mjs
       - name: Check image generation configuration
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
