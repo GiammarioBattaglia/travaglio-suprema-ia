@@ -215,7 +215,14 @@ async function main(){
   const files=(await fs.readdir(incomingDir)).filter(f=>f.endsWith('.json')).sort();
   let changed=false;
   for(const file of files){
-    if (await publishFile(file)) { changed = true; break; }
+    if (await publishFile(file)) {
+      changed = true;
+      if (process.env.GITHUB_OUTPUT) {
+        const item = JSON.parse(await fs.readFile(path.join(incomingDir, file), 'utf8'));
+        await fs.appendFile(process.env.GITHUB_OUTPUT, 'slug=' + item.slug + '\n');
+      }
+      break;
+    }
   }
   console.log(changed?'AUTONOMOUS_PUBLISH_CHANGED=1':'AUTONOMOUS_PUBLISH_CHANGED=0');
 }
