@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101d"/><stop offset=".55" stop-color="#12284a"/><stop offset="1" stop-color="#070d16"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#d1f3ff" stop-opacity=".95"/><stop offset=".55" stop-color="#4bb8ff" stop-opacity=".48"/><stop offset="1" stop-color="#1476c8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect x="0" y="0" width="14" height="630" fill="#b3262d"/>
+<text x="70" y="105" fill="#ffffff" font-size="82" font-family="Georgia,serif" font-weight="700">Travaglio &amp;</text>
+<text x="70" y="184" fill="#f4c75c" font-size="78" font-family="Georgia,serif" font-weight="700">la SUPREMA IA</text>
+<rect x="70" y="214" width="500" height="5" fill="#b3262d"/>
+<text x="72" y="278" fill="#ffffff" font-size="31" font-family="Arial,sans-serif">Ogni giorno una notizia.</text>
+<text x="72" y="323" fill="#ffffff" font-size="31" font-family="Arial,sans-serif">Una domanda scomoda.</text>
+<text x="72" y="368" fill="#ffffff" font-size="31" font-family="Arial,sans-serif">Una risposta decisamente artificiale.</text>
+<rect x="70" y="418" width="420" height="78" rx="18" fill="#b3262d"/>
+<text x="280" y="468" text-anchor="middle" fill="#ffffff" font-size="27" font-family="Arial,sans-serif" font-weight="700">SATIRA POLITICA · OGNI GIORNO</text>
+<text x="72" y="565" fill="#aebbd0" font-size="20" font-family="Arial,sans-serif">Opera satirica indipendente · nessuna affiliazione editoriale</text>
+
+<circle cx="950" cy="230" r="190" fill="url(#glow)"/>
+<circle cx="960" cy="218" r="108" fill="#bde7ff" opacity=".94"/>
+<path d="M904 214c21-69 89-93 137-38 24 28 29 73 11 106-18 35-54 55-96 49-58-8-84-64-52-117z" fill="#bde7ff"/>
+<path d="M916 195c39-28 89-34 130-9-20-53-78-79-124-49-17 11-29 30-35 51 9-2 19 1 29 7z" fill="#72c7ff"/>
+<path d="M932 226q24 17 48 0M948 263q19 11 38 0" fill="none" stroke="#173a61" stroke-width="8" stroke-linecap="round"/>
+<text x="960" y="130" text-anchor="middle" fill="#ffffff" font-size="46" font-family="Georgia,serif" font-weight="700">IA</text>
+
+<path d="M665 300c-38 54-51 121-25 179 26 57 85 93 148 90 62-3 117-43 137-102 18-56 0-121-42-161-61-58-164-61-218-6z" fill="#d9a27b"/>
+<path d="M658 284c47-64 155-73 217-25 15 12 27 27 36 45-41-27-82-36-127-24-42 11-73 40-99 72-14-24-22-46-27-68z" fill="#e1dfdc"/>
+<path d="M672 273c20-48 67-78 120-82 51-4 102 18 131 61-40-19-81-22-120-6-37 16-65 47-83 84-11-23-27-42-48-57z" fill="#f2f2ef"/>
+<path d="M692 400c36-13 73-16 106 2M742 445c23 12 46 11 69-2" fill="none" stroke="#4d2e26" stroke-width="10" stroke-linecap="round"/>
+<path d="M815 388c26 16 53 22 83 16" fill="none" stroke="#4d2e26" stroke-width="9" stroke-linecap="round"/>
+<path d="M845 466c-16 40-11 77 16 110" fill="none" stroke="#d9a27b" stroke-width="30" stroke-linecap="round"/>
+<path d="M870 495l103-72" stroke="#f2d37b" stroke-width="10" stroke-linecap="round"/>
+<circle cx="870" cy="495" r="10" fill="#2b2119"/>
+</svg>
