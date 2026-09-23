@@ -24,20 +24,22 @@ function wrapText(value, maxChars = 43, maxLines = 5) {
 }
 
 function renderSpeechBubble(text, box, tail, stroke) {
-  const lines = wrapText(text, 41, 5);
+  const lines = wrapText(text, 41, 4);
   const lineHeight = 36;
-  const textY = box.y + 58;
+  const textY = box.y + 52;
   const labels = lines.map((line, index) =>
-    '<text x="' + (box.x + 34) + '" y="' + (textY + index * lineHeight) + '" font-size="28" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
+    '<text x="' + (box.x + 32) + '" y="' + (textY + index * lineHeight) + '" font-size="28" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
   ).join('');
+  // Coda classica molto sottile: collega il fumetto al parlante senza coprire la scena.
+  const halfBase = 10;
   const tailPath =
-    '<path d="M ' + tail.base1.x + ' ' + tail.base1.y +
+    '<path d="M ' + (tail.baseX - halfBase) + ' ' + box.y +
     ' L ' + tail.tip.x + ' ' + tail.tip.y +
-    ' L ' + tail.base2.x + ' ' + tail.base2.y +
-    ' Z" fill="#fffefb" stroke="' + stroke + '" stroke-width="5" stroke-linejoin="round"/>';
+    ' L ' + (tail.baseX + halfBase) + ' ' + box.y +
+    ' Z" fill="#fffefb" stroke="' + stroke + '" stroke-width="3.5" stroke-linejoin="round"/>';
   const bubble =
     '<rect x="' + box.x + '" y="' + box.y + '" width="' + box.w + '" height="' + box.h +
-    '" rx="34" fill="#fffefb" stroke="' + stroke + '" stroke-width="5"/>';
+    '" rx="28" fill="#fffefb" stroke="' + stroke + '" stroke-width="3.5"/>';
   return tailPath + bubble + labels;
 }
 
@@ -48,14 +50,14 @@ function captionSvg(ep) {
     '<g font-family="Arial,Helvetica,sans-serif">' +
     renderSpeechBubble(
       ep.question,
-      { x: 55, y: 610, w: 700, h: 235 },
-      { base1: { x: 235, y: 610 }, base2: { x: 315, y: 610 }, tip: { x: 300, y: 390 } },
+      { x: 55, y: 640, w: 700, h: 205 },
+      { baseX: 250, tip: { x: 292, y: 410 } },
       '#a32226'
     ) +
     renderSpeechBubble(
       ep.answer,
-      { x: 845, y: 610, w: 700, h: 235 },
-      { base1: { x: 975, y: 610 }, base2: { x: 1050, y: 610 }, tip: { x: 810, y: 395 } },
+      { x: 845, y: 640, w: 700, h: 205 },
+      { baseX: 925, tip: { x: 812, y: 420 } },
       '#173c62'
     ) +
     '</g></svg>';
@@ -72,7 +74,7 @@ function imagePrompt(ep) {
     'La situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ' + context,
     'Non raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.',
     'Colori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.',
-    'Mantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti con coda chiaramente collegata a chi parla.',
+    'Mantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.',
     'IMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.'
   ].join('\n');
 }
