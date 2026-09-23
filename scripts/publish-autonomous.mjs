@@ -95,8 +95,8 @@ function buildSvg(ep) {
   <line x1="275" y1="302" x2="291" y2="302" stroke="#151515" stroke-width="6"/>
   <path d="M230 355 Q282 390 334 355" fill="none" stroke="#151515" stroke-width="5"/>
   <path d="M160 650 Q282 505 405 650 L405 760 L160 760Z" fill="#283444"/>
-  <path d="M220 575 L282 385 L338 575 Z" fill="#ffffff" stroke="#a32226" stroke-width="4" stroke-linejoin="round"/>
-  <rect x="72" y="575" width="422" height="165" rx="30" fill="#ffffff" stroke="#a32226" stroke-width="4"/>
+  <path d="M270 595 L282 420 L290 595 Z" fill="#ffffff" stroke="#a32226" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="72" y="595" width="422" height="145" rx="26" fill="#ffffff" stroke="#a32226" stroke-width="3"/>
   ${textBlock(q,283,620,27,34,'700','middle')}
 
   <rect x="565" y="155" width="470" height="590" rx="42" fill="#122a42"/>
@@ -104,8 +104,8 @@ function buildSvg(ep) {
   <circle cx="800" cy="335" r="82" fill="none" stroke="#72c7ff" stroke-width="14"/>
   <circle cx="800" cy="335" r="40" fill="#72c7ff"/>
   <path d="M690 335 H625 M975 335 H910 M800 225 V165 M800 505 V445" stroke="#72c7ff" stroke-width="12" stroke-linecap="round"/>
-  <path d="M742 565 L800 430 L862 565 Z" fill="#ffffff" stroke="#173c62" stroke-width="4" stroke-linejoin="round"/>
-  <rect x="595" y="565" width="410" height="155" rx="30" fill="#ffffff" stroke="#173c62" stroke-width="4"/>
+  <path d="M790 585 L800 440 L808 585 Z" fill="#ffffff" stroke="#173c62" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="595" y="585" width="410" height="135" rx="26" fill="#ffffff" stroke="#173c62" stroke-width="3"/>
   ${textBlock(a,800,610,27,34,'700','middle')}
 
   <rect x="1082" y="110" width="470" height="680" rx="28" fill="#ffffff" stroke="#d7cfc2" stroke-width="3"/>
@@ -126,8 +126,10 @@ function validate(ep){
   }
   if(!/^\d{4}-\d{2}-\d{2}$/.test(ep.date)) throw new Error('Data non valida');
   if(!/^[a-z0-9-]+$/.test(ep.slug)) throw new Error('Slug non valido');
-  if(ep.question.length>180) throw new Error('Domanda troppo lunga');
-  if(ep.answer.length>180) throw new Error('Risposta troppo lunga');
+  if(ep.question.length>130) throw new Error('Domanda troppo lunga: massimo 130 caratteri');
+  if(ep.answer.length>90) throw new Error('Risposta troppo lunga: massimo 90 caratteri');
+  if(ep.answer.trim().split(/\s+/).length>16) throw new Error('Risposta IA troppo prolissa: massimo 16 parole');
+  if(/^(non così in fretta|in pratica|significa che|in altre parole|dipende)\b/i.test(ep.answer.trim())) throw new Error('Risposta IA troppo esplicativa: serve una punchline più netta');
   wrap(ep.question,32,4);
   wrap(ep.answer,34,4);
   if(!ep.source?.name || !ep.source?.url?.startsWith('http')) throw new Error('Fonte primaria non valida');
@@ -140,6 +142,7 @@ function validate(ep){
   if(ep.autonomous !== true) throw new Error('Manca autonomous=true');
   if(ep.editorial_pass !== true) throw new Error('Manca editorial_pass=true');
   if(ep.political_neutrality_pass !== true) throw new Error('Manca political_neutrality_pass=true');
+  if(ep.satire_quality_pass !== true) throw new Error('Manca satire_quality_pass=true');
 }
 
 async function runBuild(){
