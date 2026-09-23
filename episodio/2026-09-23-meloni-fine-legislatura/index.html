@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#f6f2ea">
   <title>Meloni: si vota a fine legislatura – Travaglio &amp; la Suprema IA</title>
   <meta name="description" content="Meloni esclude l'ipotesi di elezioni anticipate e conferma la volontà di arrivare fino alla fine della legislatura. Il tema resta però al centro del dibattito politico.">
   <meta property="og:type" content="article">
@@ -15,46 +15,86 @@
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=20260923-3">
+  <script type="module" src="/viewer.mjs?v=1"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">EPISODIO</p>
-      <h1>Meloni: si vota a fine legislatura</h1>
-      <p class="tagline">Meloni esclude l'ipotesi di elezioni anticipate e conferma la volontà di arrivare fino alla fine della legislatura. Il tema resta però al centro del dibattito politico.</p>
+  <header class="masthead">
+    <div class="brand">
+      <div class="brand-top">SATIRA INDIPENDENTE</div>
+      <h1>Travaglio <span>&</span> la Suprema IA</h1>
     </div>
-    <div class="episode-actions">
-      <a class="button secondary" href="/">Home</a>
-      <a class="button tertiary" href="/archive/">Archivio</a>
-    </div>
+    <a class="install" href="/">Home</a>
   </header>
-  <main class="shell">
-    <section class="card episode-lead">
-      <div>
-        <p class="mini">FONTE E CONTESTO</p>
-        <h2>Giorgia Meloni ribadisce l'intenzione di arrivare fino alla fine della legislatura</h2>
-        <p class="episode-meta">2026-09-23 · Reuters · <a href="https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/" target="_blank" rel="noreferrer">link originale</a></p>
+
+  <main class="page">
+    <article class="episode">
+      <header class="episode-header">
+        <div class="eyebrow">EPISODIO</div>
+        <h2>Meloni: si vota a fine legislatura</h2>
+        <div class="source-line">
+          2026-09-23 · Reuters
+           · <a href="https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/" target="_blank" rel="noreferrer">fonte originale</a>
+        </div>
+      </header>
+
+      <figure class="vignette">
+        <img id="heroImage" class="zoomable-image" src="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" alt="Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA." width="1600" height="900" tabindex="0" role="button" aria-label="Apri la vignetta ingrandita">
+        <figcaption class="image-tools">
+          <button id="zoomBtn" class="image-tool" type="button">Apri e ingrandisci</button>
+          <a id="originalImageBtn" class="image-tool" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" target="_blank" rel="noopener">Apri originale</a>
+          <a id="downloadImageBtn" class="image-tool" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" download="2026-09-23-meloni-fine-legislatura-vignetta.webp">Scarica</a>
+        </figcaption>
+      </figure>
+
+      <section class="fact">
+        <div class="label">LA NOTIZIA</div>
+        <h3>Giorgia Meloni ribadisce l'intenzione di arrivare fino alla fine della legislatura</h3>
         <p>Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.</p>
-        <p class="notice">Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.</p>
+      </section>
+
+      <section class="dialogue">
+        <div class="bubble question">
+          <div class="speaker">TRAVAGLIO</div>
+          <p>Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?</p>
+        </div>
+        <div class="bubble answer">
+          <div class="speaker">SUPREMA IA</div>
+          <p>Certo. Fino alla prossima smentita delle elezioni anticipate.</p>
+        </div>
+      </section>
+
+      <div class="actions">
+        <a class="btn secondary" href="/archive/">Archivio</a>
+        <a class="btn primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" download="2026-09-23-meloni-fine-legislatura-vignetta.webp">Scarica vignetta</a>
       </div>
-      <div class="hero-art">
-        <img class="hero-image" src="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" alt="Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA." width="1200" height="630">
-      </div>
-    </section>
-    <section class="episode-single-grid">
-      <article class="card">
-        <p class="mini">LA DOMANDA DI TRAVAGLIO</p>
-        <blockquote>Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?</blockquote>
-      </article>
-      <article class="card">
-        <p class="mini">LA RISPOSTA DELLA SUPREMA IA</p>
-        <blockquote>Certo. Fino alla prossima smentita delle elezioni anticipate.</blockquote>
-      </article>
-    </section>
+    </article>
   </main>
+
+  <div id="imageViewer" class="image-viewer" hidden>
+    <div id="viewerBackdrop" class="viewer-backdrop"></div>
+    <section class="viewer-panel" role="dialog" aria-modal="true" aria-label="Vignetta ingrandita">
+      <div class="viewer-toolbar">
+        <div class="viewer-zoom-controls">
+          <button id="viewerZoomOut" type="button" aria-label="Riduci">−</button>
+          <button id="viewerReset" type="button">100%</button>
+          <button id="viewerZoomIn" type="button" aria-label="Ingrandisci">+</button>
+        </div>
+        <button id="viewerCloseBtn" class="viewer-close" type="button" aria-label="Chiudi">×</button>
+      </div>
+      <div class="viewer-canvas">
+        <img id="viewerImage" alt="Vignetta ingrandita">
+      </div>
+      <div class="viewer-footer">
+        <a id="viewerOriginalBtn" class="btn secondary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" target="_blank" rel="noopener">Apri originale</a>
+        <a id="viewerDownloadBtn" class="btn primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.webp" download="2026-09-23-meloni-fine-legislatura-vignetta.webp">Scarica</a>
+      </div>
+    </section>
+  </div>
+
   <footer class="footer">
     <p>Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.</p>
+    <p>Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
   </footer>
 </body>
 </html>
