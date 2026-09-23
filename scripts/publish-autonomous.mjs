@@ -62,15 +62,16 @@ function wrap(text, maxChars=34, maxLines=4) {
   const words=String(text||'').trim().split(/\s+/).filter(Boolean);
   const lines=[];
   let line='';
-  for(const w of words){
-    const next=line?line+' '+w:w;
-    if(next.length<=maxChars){ line=next; continue; }
-    if(line) lines.push(line);
-    line=w;
-    if(lines.length>=maxLines-1) break;
+  for (const word of words) {
+    if (word.length > maxChars) throw new Error('Parola troppo lunga nel fallback SVG');
+    const next=line ? line+' '+word : word;
+    if (next.length<=maxChars) { line=next; continue; }
+    lines.push(line);
+    line=word;
   }
-  if(line && lines.length<maxLines) lines.push(line);
-  return lines.slice(0,maxLines);
+  if(line) lines.push(line);
+  if(lines.length>maxLines) throw new Error('Testo troppo lungo per il fallback SVG; non troncare');
+  return lines;
 }
 
 function textBlock(lines, x, y, size, lineHeight, weight='700', anchor='start') {
@@ -127,6 +128,8 @@ function validate(ep){
   if(!/^[a-z0-9-]+$/.test(ep.slug)) throw new Error('Slug non valido');
   if(ep.question.length>180) throw new Error('Domanda troppo lunga');
   if(ep.answer.length>180) throw new Error('Risposta troppo lunga');
+  wrap(ep.question,32,4);
+  wrap(ep.answer,34,4);
   if(!ep.source?.name || !ep.source?.url?.startsWith('http')) throw new Error('Fonte primaria non valida');
   if(!Array.isArray(ep.sources) || ep.sources.length<2) throw new Error('Servono almeno due fonti');
   if(ep.sources.some(s=>!s?.name||!String(s.url||'').startsWith('https://'))) throw new Error('Fonti non valide');
