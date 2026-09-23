@@ -25,3 +25,10 @@ Sono inclusi gli asset PWA di produzione: `icon-192.png`, `icon-512.png` e `soci
 
 ## Indipendenza del progetto
 Il progetto è una satira indipendente e non è affiliato a Marco Travaglio né a testate giornalistiche.
+
+
+## Deploy su Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGiammarioBattaglia%2Ftravaglio-suprema-ia&project-name=travaglio-suprema-ia&repository-name=travaglio-suprema-ia)
+
+Il deploy deve creare un progetto Vercel separato chiamato `travaglio-suprema-ia` collegato a questo repository GitHub. Non usare o sovrascrivere progetti HEF/Trump esistenti.
