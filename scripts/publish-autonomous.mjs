@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
+import { generateCaricature } from './render-caricature.mjs';
 
 const root = process.cwd();
 const incomingDir = path.join(root, 'incoming');
@@ -10,6 +11,38 @@ const siteFile = path.join(root, 'data', 'site.json');
 const compatFile = path.join(root, 'data', 'episodes.json');
 
 const REQUIRED = ['date','slug','title','headline','summary','news_text','question','answer'];
+
+function todayRome() {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+}
+
+function independentHost(url) {
+  const u = new URL(url);
+  if (u.protocol !== 'https:') throw new Error('Le fonti devono usare HTTPS');
+  return u.hostname.toLowerCase().replace(/^www\./, '');
+}
+
+async function guardDailyUniqueness(ep) {
+  if (ep.date !== todayRome()) throw new Error('Episodio di data diversa da oggi a Roma: fail-closed');
+  if (!ep.slug.startsWith(ep.date + '-')) throw new Error('Slug e data incoerenti');
+  const existing = (await fs.readdir(episodesDir)).filter(name => name.endsWith('.json'));
+  for (const name of existing) {
+    const record = JSON.parse(await fs.readFile(path.join(episodesDir, name), 'utf8'));
+    if (record.published === true && record.date === ep.date && record.slug !== ep.slug) {
+      if (ep.edition !== 'extra' || ep.extra_approved !== true || !String(ep.extra_reason || '').trim()) {
+        throw new Error('Esiste già un episodio oggi: nessuna pubblicazione duplicata automatica');
+      }
+    }
+  }
+  if (ep.edition === 'extra' && (ep.extra_approved !== true || !String(ep.extra_reason || '').trim())) {
+    throw new Error('Extra non esplicitamente approvato');
+  }
+  const day = ep.event_date || ep.date;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) throw new Error('event_date non valida');
+  const age = (Date.parse(ep.date + 'T12:00:00Z') - Date.parse(day + 'T12:00:00Z')) / 86400000;
+  if (age < 0 || age > 1) throw new Error('Notizia non abbastanza recente: serve un fatto delle ultime 24 ore');
+}
+
 
 function escapeXml(value='') {
   return String(value)
@@ -96,7 +129,11 @@ function validate(ep){
   if(ep.answer.length>180) throw new Error('Risposta troppo lunga');
   if(!ep.source?.name || !ep.source?.url?.startsWith('http')) throw new Error('Fonte primaria non valida');
   if(!Array.isArray(ep.sources) || ep.sources.length<2) throw new Error('Servono almeno due fonti');
-  if(ep.sources.some(s=>!s?.name||!String(s.url||'').startsWith('http'))) throw new Error('Fonti non valide');
+  if(ep.sources.some(s=>!s?.name||!String(s.url||'').startsWith('https://'))) throw new Error('Fonti non valide');
+  if (new Set(ep.sources.map(s => independentHost(s.url))).size < 2) throw new Error('Fonti non indipendenti');
+  if (new Set(ep.sources.map(s => String(s.name).trim().toLowerCase())).size < 2) throw new Error('Nomi fonti non indipendenti');
+  if (!ep.characters?.includes('Marco Travaglio') || !ep.characters?.includes('Suprema IA')) throw new Error('Personaggi obbligatori mancanti');
+  if (!String(ep.satire_notice || '').includes('Satira indipendente')) throw new Error('Avvertenza satira mancante');
   if(ep.autonomous !== true) throw new Error('Manca autonomous=true');
   if(ep.editorial_pass !== true) throw new Error('Manca editorial_pass=true');
   if(ep.political_neutrality_pass !== true) throw new Error('Manca political_neutrality_pass=true');
@@ -122,29 +159,47 @@ async function promote(slug){
 async function publishFile(file){
   const raw=await fs.readFile(path.join(incomingDir,file),'utf-8');
   const ep=JSON.parse(raw);
-  validate(ep);
-
   const publishedPath=path.join(episodesDir,`${ep.slug}.json`);
-  try{
-    const existing=JSON.parse(await fs.readFile(publishedPath,'utf-8'));
-    if(existing?.published===true){
-      console.log(`Già pubblicato: ${ep.slug}`);
-      return false;
-    }
-  }catch{}
+  try {
+    await fs.access(publishedPath);
+    console.log(`Episodio già presente, non sovrascrivo: ${ep.slug}`);
+    return false;
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
+  validate(ep);
+  await guardDailyUniqueness(ep);
 
+  // Nessun file pubblico viene scritto prima di aver validato l'episodio.
   await fs.mkdir(episodesDir,{recursive:true});
   await fs.mkdir(assetsDir,{recursive:true});
-
-  const svgPath=path.join(assetsDir,`${ep.slug}.svg`);
-  await fs.writeFile(svgPath,buildSvg(ep));
+  let image, imageAlt, imageStatus, imageFallback = false, imagePrompt = null;
+  try {
+    const result = await generateCaricature(ep);
+    image = `/assets/episodes/${ep.slug}.jpg`;
+    imageAlt = ep.imageAlt || `Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: ${ep.title}`;
+    imageStatus = 'generated_jpeg';
+    imagePrompt = result.prompt;
+    await fs.writeFile(path.join(assetsDir, `${ep.slug}.jpg`), result.buffer, {flag:'wx'});
+    console.log(`Caricatura reale generata e verificata: ${image}`);
+  } catch (error) {
+    console.warn('Generazione JPEG fallita; fallback SVG: ' + error.message);
+    image = `/assets/episodes/${ep.slug}.svg`;
+    imageAlt = ep.imageAlt || `Vignetta satirica vettoriale di riserva: ${ep.title}`;
+    imageStatus = 'fallback_svg';
+    imageFallback = true;
+    await fs.writeFile(path.join(assetsDir,`${ep.slug}.svg`),buildSvg(ep),{flag:'wx'});
+  }
 
   const published={
     ...ep,
     published:true,
     status:'published',
-    image:`/assets/episodes/${ep.slug}.svg`,
-    imageAlt:ep.imageAlt||`Vignetta satirica vettoriale dell'episodio ${ep.title}`,
+    image,
+    imageAlt,
+    image_prompt: imagePrompt,
+    image_status: imageStatus,
+    image_fallback: imageFallback,
     satire_notice:ep.satire_notice||"Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
     published_at:new Date().toISOString()
   };
@@ -160,7 +215,7 @@ async function main(){
   const files=(await fs.readdir(incomingDir)).filter(f=>f.endsWith('.json')).sort();
   let changed=false;
   for(const file of files){
-    changed=(await publishFile(file))||changed;
+    if (await publishFile(file)) { changed = true; break; }
   }
   console.log(changed?'AUTONOMOUS_PUBLISH_CHANGED=1':'AUTONOMOUS_PUBLISH_CHANGED=0');
 }
