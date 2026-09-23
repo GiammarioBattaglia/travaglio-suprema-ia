@@ -13,8 +13,8 @@
   "news_text": "Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.",
   "question": "Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?",
   "answer": "Certo. Fino alla prossima smentita delle elezioni anticipate.",
-  "image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-api.jpg",
-  "imageAlt": "Caricatura satirica rigenerata tramite OpenAI Image API con Marco Travaglio, Suprema IA e Giorgia Meloni.",
+  "image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-speech.jpg",
+  "imageAlt": "Caricatura satirica con dialogo in fumetti collegati ai personaggi.",
   "characters": [
     "Marco Travaglio",
     "Giorgia Meloni",
@@ -23,10 +23,11 @@
   "status": "published",
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
   "published_at": "2026-09-23T05:33:39.474Z",
-  "previous_image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg",
-  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nRiserva l’ultimo 32% della composizione a uno sfondo semplice e uniforme: verranno aggiunte digitalmente due didascalie REALI e perfettamente leggibili.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; i testi saranno applicati con tipografia reale in un passaggio successivo.",
+  "previous_image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-api.jpg",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti con coda chiaramente collegata a chi parla.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
   "image_status": "generated_jpeg",
   "image_fallback": false,
   "image_model": "gpt-image-2.5-sunburst",
-  "image_generated_at": "2026-09-23T12:13:37.334Z"
+  "image_generated_at": "2026-09-23T12:19:36.804Z",
+  "dialogue_layout": "speech_bubbles"
 }
