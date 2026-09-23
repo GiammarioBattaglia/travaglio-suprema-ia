@@ -95,8 +95,8 @@ function buildSvg(ep) {
   <line x1="275" y1="302" x2="291" y2="302" stroke="#151515" stroke-width="6"/>
   <path d="M230 355 Q282 390 334 355" fill="none" stroke="#151515" stroke-width="5"/>
   <path d="M160 650 Q282 505 405 650 L405 760 L160 760Z" fill="#283444"/>
-  <text x="283" y="535" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="900" text-anchor="middle" fill="#a32226">TRAVAGLIO</text>
-  <rect x="95" y="575" width="376" height="155" rx="24" fill="#ffffff" stroke="#a32226" stroke-width="4"/>
+  <path d="M220 575 L282 385 L338 575 Z" fill="#ffffff" stroke="#a32226" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="72" y="575" width="422" height="165" rx="30" fill="#ffffff" stroke="#a32226" stroke-width="4"/>
   ${textBlock(q,283,620,27,34,'700','middle')}
 
   <rect x="565" y="155" width="470" height="590" rx="42" fill="#122a42"/>
@@ -104,8 +104,8 @@ function buildSvg(ep) {
   <circle cx="800" cy="335" r="82" fill="none" stroke="#72c7ff" stroke-width="14"/>
   <circle cx="800" cy="335" r="40" fill="#72c7ff"/>
   <path d="M690 335 H625 M975 335 H910 M800 225 V165 M800 505 V445" stroke="#72c7ff" stroke-width="12" stroke-linecap="round"/>
-  <text x="800" y="520" font-family="Georgia,'Times New Roman',serif" font-size="48" font-weight="700" text-anchor="middle" fill="#ffffff">SUPREMA IA</text>
-  <rect x="615" y="565" width="370" height="145" rx="24" fill="#ffffff"/>
+  <path d="M742 565 L800 430 L862 565 Z" fill="#ffffff" stroke="#173c62" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="595" y="565" width="410" height="155" rx="30" fill="#ffffff" stroke="#173c62" stroke-width="4"/>
   ${textBlock(a,800,610,27,34,'700','middle')}
 
   <rect x="1082" y="110" width="470" height="680" rx="28" fill="#ffffff" stroke="#d7cfc2" stroke-width="3"/>
@@ -116,7 +116,7 @@ function buildSvg(ep) {
   <text x="1317" y="599" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="900" text-anchor="middle" fill="#ffffff">${escapeXml(subject)}</text>
   <text x="1317" y="752" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" text-anchor="middle" fill="#6b655d">IL CASO DEL GIORNO</text>
 
-  <text x="800" y="842" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#6b655d">Notizia reale · fonte indicata · domanda inventata · risposta satirica</text>
+  <text x="800" y="842" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#6b655d">TRAVAGLIO &amp; LA SUPREMA IA</text>
 </svg>`;
 }
 
