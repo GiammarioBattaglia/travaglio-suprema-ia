@@ -1,28 +1,27 @@
 {
   "current": {
-    "id": "2026-09-23-001",
+    "id": "2026-09-23-primo-concept",
+    "slug": "2026-09-23-primo-concept",
     "date": "2026-09-23",
-    "source": "Fonte editoriale da definire",
-    "url": "",
+    "published": true,
+    "source": {
+      "name": "Fonte editoriale da definire",
+      "url": ""
+    },
     "title": "Primo concept di episodio giornaliero",
     "headline": "Una notizia politica del giorno come spunto satirico",
     "summary": "Questo starter mostra la struttura dell'app e il formato dell'episodio quotidiano.",
     "news_text": "Qui andrà una breve ricostruzione fattuale, separata graficamente dalla parte umoristica.",
     "question": "Suprema IA, puoi almeno spiegarmi chi ha ragione senza peggiorare la situazione?",
-    "answer": "Desiderio accolto. Ho semplificato tutto: adesso nessuno parla e tutti hanno una conferenza stampa."
+    "answer": "Desiderio accolto. Ho semplificato tutto: adesso nessuno parla e tutti hanno una conferenza stampa.",
+    "image": "/assets/social.jpg",
+    "imageAlt": "Anteprima demo di Travaglio & la Suprema IA",
+    "characters": [
+      "Marco Travaglio"
+    ],
+    "status": "demo",
+    "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+    "url": "/episodio/2026-09-23-primo-concept/"
   },
-  "archive": [
-    {
-      "id": "2026-09-22-001",
-      "date": "2026-09-22",
-      "source": "Archivio demo",
-      "title": "Episodio demo precedente"
-    },
-    {
-      "id": "2026-09-21-001",
-      "date": "2026-09-21",
-      "source": "Archivio demo",
-      "title": "Secondo episodio demo"
-    }
-  ]
+  "archive": []
 }
