@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-23-meloni-fine-legislatura",
+  "slug": "2026-09-23-meloni-fine-legislatura",
+  "date": "2026-09-23",
+  "published": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/"
+  },
+  "title": "Meloni: si vota a fine legislatura",
+  "headline": "Giorgia Meloni ribadisce l'intenzione di arrivare fino alla fine della legislatura",
+  "summary": "Meloni esclude l'ipotesi di elezioni anticipate e conferma la volontà di arrivare fino alla fine della legislatura. Il tema resta però al centro del dibattito politico.",
+  "news_text": "Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.",
+  "question": "Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?",
+  "answer": "Certo. Fino alla prossima smentita delle elezioni anticipate.",
+  "image": "/assets/social.jpg",
+  "imageAlt": "Bozza grafica in attesa della vignetta finale su Meloni, Travaglio e la Suprema IA",
+  "characters": [
+    "Marco Travaglio",
+    "Giorgia Meloni",
+    "Suprema IA"
+  ],
+  "status": "published",
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+  "editorialNotes": "Bozza iniziale. Non pubblicare automaticamente. Vignetta di lavoro collegata in draft_image; spostare/copiare l'immagine in assets/episodes solo dopo approvazione.",
+  "draft_image": "/drafts/images/2026-09-23-meloni-fine-legislatura.jpg"
+}
