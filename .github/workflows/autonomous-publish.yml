@@ -1,0 +1,39 @@
+name: Autonomous Daily Publish
+
+on:
+  push:
+    paths:
+      - 'incoming/*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autonomous-daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate and publish autonomous episode
+        run: node scripts/publish-autonomous.mjs
+      - name: Commit generated episode and site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/episodes data/site.json data/episodes.json episodio archive/index.html assets/episodes
+          if git diff --cached --quiet; then
+            echo "No autonomous publication changes"
+          else
+            git commit -m "Publish autonomous daily episode"
+            git pull --rebase origin main
+            git push origin main
+          fi
