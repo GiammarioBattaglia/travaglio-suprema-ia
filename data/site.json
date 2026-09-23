@@ -1,33 +1,118 @@
 {
   "current": {
-    "id": "2026-09-23-meloni-fine-legislatura",
-    "slug": "2026-09-23-meloni-fine-legislatura",
+    "id": "2026-09-23-bollo-appuntamento-2027",
     "date": "2026-09-23",
-    "published": true,
+    "slug": "2026-09-23-bollo-appuntamento-2027",
+    "edition": "extra",
+    "event_date": "2026-09-16",
+    "autonomous": true,
+    "editorial_pass": true,
+    "political_neutrality_pass": true,
     "source": {
       "name": "Reuters",
-      "url": "https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/"
+      "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
     },
-    "title": "Meloni: si vota a fine legislatura",
-    "headline": "Giorgia Meloni ribadisce l'intenzione di arrivare fino alla fine della legislatura",
-    "summary": "Meloni esclude l'ipotesi di elezioni anticipate e conferma la volontà di arrivare fino alla fine della legislatura. Il tema resta però al centro del dibattito politico.",
-    "news_text": "Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.",
-    "question": "Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?",
-    "answer": "Certo. Fino alla prossima smentita delle elezioni anticipate.",
-    "image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg",
-    "imageAlt": "Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA.",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+      },
+      {
+        "name": "ANSA",
+        "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/17/la-mossa-di-meloni-addio-al-bollo-per-le-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html"
+      }
+    ],
+    "title": "Il bollo ha preso appuntamento",
+    "headline": "Il decreto sul bollo prevede l’esenzione nel 2027 per molte auto e moto",
+    "summary": "L’annuncio risale al 16 settembre: la misura prevede per il 2027 l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli, limitata a un veicolo per cittadino.",
+    "news_text": "Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.",
+    "question": "Suprema IA, il governo ha abolito il bollo: posso smettere di pagarlo subito?",
+    "answer": "Non così in fretta: il bollo ha fissato l’addio per il 2027.",
     "characters": [
       "Marco Travaglio",
-      "Giorgia Meloni",
-      "Suprema IA"
+      "Suprema IA",
+      "Giorgia Meloni"
     ],
-    "status": "published",
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
-    "published_at": "2026-09-23T05:33:39.474Z",
-    "url": "/episodio/2026-09-23-meloni-fine-legislatura/"
+    "published": true,
+    "status": "published",
+    "image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027.svg",
+    "imageAlt": "Vignetta satirica vettoriale dell'episodio Il bollo ha preso appuntamento",
+    "published_at": "2026-09-23T09:17:03.392Z",
+    "url": "/episodio/2026-09-23-bollo-appuntamento-2027/"
   },
-  "archive": [],
+  "archive": [
+    {
+      "id": "2026-09-23-meloni-fine-legislatura",
+      "slug": "2026-09-23-meloni-fine-legislatura",
+      "date": "2026-09-23",
+      "published": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/italys-meloni-says-she-aims-remain-office-until-end-term-2026-09-16/"
+      },
+      "title": "Meloni: si vota a fine legislatura",
+      "headline": "Giorgia Meloni ribadisce l'intenzione di arrivare fino alla fine della legislatura",
+      "summary": "Meloni esclude l'ipotesi di elezioni anticipate e conferma la volontà di arrivare fino alla fine della legislatura. Il tema resta però al centro del dibattito politico.",
+      "news_text": "Giorgia Meloni ha dichiarato di voler restare in carica fino alla fine della legislatura e ha respinto le ipotesi di elezioni anticipate, affermando di voler continuare a governare finché potrà contare su una maggioranza forte e solida.",
+      "question": "Suprema IA, Meloni dice che si vota a fine legislatura. Caso chiuso?",
+      "answer": "Certo. Fino alla prossima smentita delle elezioni anticipate.",
+      "image": "/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg",
+      "imageAlt": "Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA.",
+      "characters": [
+        "Marco Travaglio",
+        "Giorgia Meloni",
+        "Suprema IA"
+      ],
+      "status": "published",
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+      "published_at": "2026-09-23T05:33:39.474Z",
+      "url": "/episodio/2026-09-23-meloni-fine-legislatura/"
+    }
+  ],
   "all": [
+    {
+      "id": "2026-09-23-bollo-appuntamento-2027",
+      "date": "2026-09-23",
+      "slug": "2026-09-23-bollo-appuntamento-2027",
+      "edition": "extra",
+      "event_date": "2026-09-16",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/17/la-mossa-di-meloni-addio-al-bollo-per-le-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html"
+        }
+      ],
+      "title": "Il bollo ha preso appuntamento",
+      "headline": "Il decreto sul bollo prevede l’esenzione nel 2027 per molte auto e moto",
+      "summary": "L’annuncio risale al 16 settembre: la misura prevede per il 2027 l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli, limitata a un veicolo per cittadino.",
+      "news_text": "Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.",
+      "question": "Suprema IA, il governo ha abolito il bollo: posso smettere di pagarlo subito?",
+      "answer": "Non così in fretta: il bollo ha fissato l’addio per il 2027.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027.svg",
+      "imageAlt": "Vignetta satirica vettoriale dell'episodio Il bollo ha preso appuntamento",
+      "published_at": "2026-09-23T09:17:03.392Z",
+      "url": "/episodio/2026-09-23-bollo-appuntamento-2027/"
+    },
     {
       "id": "2026-09-23-meloni-fine-legislatura",
       "slug": "2026-09-23-meloni-fine-legislatura",

@@ -1,0 +1,41 @@
+{
+  "id": "2026-09-23-bollo-appuntamento-2027",
+  "date": "2026-09-23",
+  "slug": "2026-09-23-bollo-appuntamento-2027",
+  "edition": "extra",
+  "event_date": "2026-09-16",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/17/la-mossa-di-meloni-addio-al-bollo-per-le-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html"
+    }
+  ],
+  "title": "Il bollo ha preso appuntamento",
+  "headline": "Il decreto sul bollo prevede l’esenzione nel 2027 per molte auto e moto",
+  "summary": "L’annuncio risale al 16 settembre: la misura prevede per il 2027 l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli, limitata a un veicolo per cittadino.",
+  "news_text": "Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.",
+  "question": "Suprema IA, il governo ha abolito il bollo: posso smettere di pagarlo subito?",
+  "answer": "Non così in fretta: il bollo ha fissato l’addio per il 2027.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Giorgia Meloni"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027.svg",
+  "imageAlt": "Vignetta satirica vettoriale dell'episodio Il bollo ha preso appuntamento",
+  "published_at": "2026-09-23T09:17:03.392Z"
+}

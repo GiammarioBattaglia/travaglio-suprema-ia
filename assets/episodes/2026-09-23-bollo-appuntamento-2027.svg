@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6f2ea"/>
+  <rect x="0" y="0" width="1600" height="72" fill="#122a42"/>
+  <text x="54" y="47" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" fill="#ffffff">TRAVAGLIO &amp; LA SUPREMA IA · SATIRA INDIPENDENTE</text>
+
+  <rect x="48" y="110" width="470" height="680" rx="28" fill="#ffffff" stroke="#d7cfc2" stroke-width="3"/>
+  <circle cx="283" cy="300" r="100" fill="#e8e3dc" stroke="#151515" stroke-width="5"/>
+  <path d="M205 282 Q282 205 360 282 Q345 225 282 215 Q220 225 205 282Z" fill="#292929"/>
+  <rect x="217" y="285" width="58" height="35" rx="12" fill="none" stroke="#151515" stroke-width="6"/>
+  <rect x="291" y="285" width="58" height="35" rx="12" fill="none" stroke="#151515" stroke-width="6"/>
+  <line x1="275" y1="302" x2="291" y2="302" stroke="#151515" stroke-width="6"/>
+  <path d="M230 355 Q282 390 334 355" fill="none" stroke="#151515" stroke-width="5"/>
+  <path d="M160 650 Q282 505 405 650 L405 760 L160 760Z" fill="#283444"/>
+  <text x="283" y="535" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="900" text-anchor="middle" fill="#a32226">TRAVAGLIO</text>
+  <rect x="95" y="575" width="376" height="155" rx="24" fill="#ffffff" stroke="#a32226" stroke-width="4"/>
+  <text x="283" y="620" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#151515">Suprema IA, il governo ha</text>
+<text x="283" y="654" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#151515">abolito il bollo: posso smettere</text>
+<text x="283" y="688" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#151515">di pagarlo subito?</text>
+
+  <rect x="565" y="155" width="470" height="590" rx="42" fill="#122a42"/>
+  <circle cx="800" cy="335" r="120" fill="#d7efff" opacity=".95"/>
+  <circle cx="800" cy="335" r="82" fill="none" stroke="#72c7ff" stroke-width="14"/>
+  <circle cx="800" cy="335" r="40" fill="#72c7ff"/>
+  <path d="M690 335 H625 M975 335 H910 M800 225 V165 M800 505 V445" stroke="#72c7ff" stroke-width="12" stroke-linecap="round"/>
+  <text x="800" y="520" font-family="Georgia,'Times New Roman',serif" font-size="48" font-weight="700" text-anchor="middle" fill="#ffffff">SUPREMA IA</text>
+  <rect x="615" y="565" width="370" height="145" rx="24" fill="#ffffff"/>
+  <text x="800" y="610" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#151515">Non così in fretta: il bollo ha</text>
+<text x="800" y="644" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#151515">fissato l’addio per il 2027.</text>
+
+  <rect x="1082" y="110" width="470" height="680" rx="28" fill="#ffffff" stroke="#d7cfc2" stroke-width="3"/>
+  <rect x="1162" y="520" width="310" height="180" rx="18" fill="#ece7df" stroke="#151515" stroke-width="4"/>
+  <circle cx="1317" cy="330" r="95" fill="#e8e3dc" stroke="#151515" stroke-width="5"/>
+  <path d="M1225 650 H1410" stroke="#151515" stroke-width="7"/>
+  <rect x="1192" y="560" width="250" height="58" rx="10" fill="#a32226"/>
+  <text x="1317" y="599" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="900" text-anchor="middle" fill="#ffffff">Giorgia Meloni</text>
+  <text x="1317" y="752" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" text-anchor="middle" fill="#6b655d">IL CASO DEL GIORNO</text>
+
+  <text x="800" y="842" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#6b655d">Notizia reale · fonte indicata · domanda inventata · risposta satirica</text>
+</svg>
