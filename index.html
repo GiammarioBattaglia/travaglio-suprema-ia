@@ -35,15 +35,15 @@
       <div class="hero-copy">
         <p class="mini">EPISODIO DEL GIORNO</p>
         <h2 id="episodeTitle">Caricamento…</h2>
-        <p id="episodeSummary">Sto recuperando la notizia del giorno.</p>
+        <p id="episodeSummary">Sto recuperando l’episodio pubblicato più recente.</p>
         <div class="hero-actions">
-          <button id="openEpisodeBtn" class="primary">Sentiamo cosa chiede oggi Travaglio</button>
+          <a id="openEpisodeBtn" class="button primary" href="#">Apri l'episodio</a>
           <button id="shareBtn" class="secondary">Condividi</button>
         </div>
         <p class="source-line" id="sourceLine"></p>
       </div>
       <div class="hero-art">
-        <img class="hero-image" src="/assets/social.jpg" alt="Caricatura satirica di un giornalista davanti alla Suprema IA" width="1200" height="630">
+        <img class="hero-image" id="heroImage" src="/assets/social.jpg" alt="Caricatura satirica di Travaglio con la Suprema IA" width="1200" height="630">
       </div>
     </section>
 
@@ -67,8 +67,9 @@
       <div class="archive-head">
         <div>
           <p class="mini">ARCHIVIO</p>
-          <h3>Episodi recenti</h3>
+          <h3>Episodi pubblicati</h3>
         </div>
+        <a class="button tertiary" href="/archive/">Apri archivio completo</a>
       </div>
       <ul id="archiveList"></ul>
     </section>
