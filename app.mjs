@@ -44,8 +44,14 @@ function renderCurrent(ep){
   open.href=ep.url;
 
   const version=encodeURIComponent(ep.published_at||ep.date||Date.now());
-  img.src=(ep.image||'/assets/social.jpg')+'?v='+version;
+  const imagePath=ep.image||'/assets/social.jpg';
+  img.src=imagePath+'?v='+version;
   img.alt=ep.imageAlt||ep.title;
+
+  for (const id of ['originalImageBtn','downloadImageBtn','viewerOriginalBtn','viewerDownloadBtn']) {
+    const el=document.getElementById(id);
+    if (el) el.href=imagePath;
+  }
 
   document.getElementById('shareBtn').onclick=async()=>{
     const shareData={
