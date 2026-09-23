@@ -6,6 +6,9 @@ const image=await fs.readFile('assets/episodes/2026-09-23-meloni-fine-legislatur
 const rendererSource=await fs.readFile('scripts/render-caricature.mjs','utf8');
 if(/DOMANDA INVENTATA|RISPOSTA SATIRICA/.test(rendererSource)) throw new Error('Etichette editoriali vietate nel renderer');
 if(!rendererSource.includes('renderSpeechBubble')) throw new Error('Layout a fumetti non attivo');
+const halfBaseMatch=rendererSource.match(/const halfBase = (\d+);/);
+if(!halfBaseMatch || Number(halfBaseMatch[1])>12) throw new Error('Coda fumetto troppo larga: regressione visiva');
+if(!rendererSource.includes('stroke-width="3.5"')) throw new Error('Bordo fumetto troppo pesante o non conforme');
 
 process.env.OPENAI_API_KEY='test-only-not-a-secret';
 const request=globalThis.fetch;
