@@ -1,7 +1,7 @@
 import sharp from 'sharp';
 
 const IMAGE_API = 'https://api.openai.com/v1/images/generations';
-const MODEL = process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2';
+const MODEL = process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2.5-sunburst';
 
 function escapeXml(value = '') {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;');
