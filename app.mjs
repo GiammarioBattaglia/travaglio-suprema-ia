@@ -1,14 +1,28 @@
 let deferredInstallPrompt = null;
 
 async function loadSite() {
-  const res = await fetch('/data/site.json', { cache: 'no-store' });
+  const res = await fetch(`/data/site.json?t=${Date.now()}`, { cache: 'no-store' });
   if (!res.ok) throw new Error('site.json non disponibile');
   return res.json();
 }
 
+function setSourceLine(el, ep) {
+  el.textContent = '';
+  const label = document.createTextNode(`Fonte: ${ep.source?.name || '—'} · ${ep.date}`);
+  el.appendChild(label);
+  if (ep.source?.url) {
+    el.appendChild(document.createTextNode(' · '));
+    const link = document.createElement('a');
+    link.href = ep.source.url;
+    link.target = '_blank';
+    link.rel = 'noreferrer';
+    link.textContent = 'fonte originale';
+    el.appendChild(link);
+  }
+}
+
 function renderCurrent(ep) {
   const title = document.getElementById('episodeTitle');
-  const summary = document.getElementById('episodeSummary');
   const sourceLine = document.getElementById('sourceLine');
   const newsHeadline = document.getElementById('newsHeadline');
   const newsText = document.getElementById('newsText');
@@ -19,52 +33,56 @@ function renderCurrent(ep) {
 
   if (!ep) {
     title.textContent = 'Nessun episodio pubblicato';
-    summary.textContent = 'L’infrastruttura è pronta ma non è ancora stato pubblicato alcun episodio.';
     sourceLine.textContent = '';
+    newsHeadline.textContent = '—';
+    newsText.textContent = '—';
+    questionText.textContent = '—';
+    answerText.textContent = '—';
+    heroImage.src = '/assets/social.jpg';
     openEpisodeBtn.href = '/archive/';
     openEpisodeBtn.textContent = 'Apri archivio';
     return;
   }
 
   title.textContent = ep.title;
-  summary.textContent = ep.summary;
-  sourceLine.textContent = `Fonte: ${ep.source.name} · ${ep.date}`;
+  setSourceLine(sourceLine, ep);
   newsHeadline.textContent = ep.headline;
   newsText.textContent = ep.news_text;
   questionText.textContent = ep.question;
   answerText.textContent = ep.answer;
   openEpisodeBtn.href = ep.url;
-  heroImage.src = ep.image || '/assets/social.jpg';
+
+  const version = encodeURIComponent(ep.published_at || ep.date || Date.now());
+  heroImage.src = `${ep.image || '/assets/social.jpg'}?v=${version}`;
   heroImage.alt = ep.imageAlt || ep.title;
 
   document.getElementById('shareBtn').onclick = async () => {
-    const shareData = { title: ep.title, text: ep.summary, url: new URL(ep.url, location.origin).toString() };
-    if (navigator.share) return navigator.share(shareData);
+    const shareData = {
+      title: ep.title,
+      text: `${ep.question} — ${ep.answer}`,
+      url: new URL(ep.url, location.origin).toString()
+    };
+    if (navigator.share) {
+      await navigator.share(shareData);
+      return;
+    }
     await navigator.clipboard.writeText(`${shareData.text} ${shareData.url}`);
     alert('Link copiato negli appunti.');
   };
 }
 
-function renderArchive(items) {
-  const list = document.getElementById('archiveList');
-  list.innerHTML = '';
-  for (const item of (items || []).slice(0, 5)) {
-    const li = document.createElement('li');
-    li.innerHTML = `<a href="${item.url}"><strong>${item.title}</strong><span>${item.date} · ${item.source.name}</span></a>`;
-    list.appendChild(li);
-  }
-}
-
-window.addEventListener('beforeinstallprompt', (event) => {
+window.addEventListener('beforeinstallprompt', event => {
   event.preventDefault();
   deferredInstallPrompt = event;
 });
 
 async function init() {
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(console.error);
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').catch(console.error);
+  }
+
   const data = await loadSite();
   renderCurrent(data.current);
-  renderArchive(data.archive);
 
   document.getElementById('installBtn').addEventListener('click', async () => {
     if (!deferredInstallPrompt) {
@@ -77,4 +95,7 @@ async function init() {
   });
 }
 
-init().catch(console.error);
+init().catch(error => {
+  console.error(error);
+  document.getElementById('episodeTitle').textContent = 'Impossibile caricare l’episodio';
+});
