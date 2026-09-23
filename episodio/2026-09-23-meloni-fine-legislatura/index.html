@@ -16,6 +16,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="stylesheet" href="/styles.css?v=20260923-3">
+  <script type="module" src="/viewer.mjs?v=1"></script>
 </head>
 <body>
   <header class="masthead">
@@ -38,11 +39,11 @@
       </header>
 
       <figure class="vignette">
-        <a class="image-direct-link" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" target="_blank" rel="noopener"><img id="heroImage" class="zoomable-image" src="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg?v=hq2" alt="Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA." width="1672" height="941"></a>
+        <img id="heroImage" class="zoomable-image" src="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" alt="Vignetta satirica ad alta risoluzione con Marco Travaglio, Giorgia Meloni e la Suprema IA." width="1600" height="900" tabindex="0" role="button" aria-label="Apri la vignetta ingrandita">
         <figcaption class="image-tools">
-          <button id="originalImageBtn" class="image-tool image-tool-primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" target="_blank" rel="noopener">Apri e ingrandisci</a>
+          <button id="zoomBtn" class="image-tool" type="button">Apri e ingrandisci</button>
           <a id="originalImageBtn" class="image-tool" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" target="_blank" rel="noopener">Apri originale</a>
-          <a id="downloadImageBtn" class="image-tool" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" download="2026-09-23-meloni-fine-legislatura-vignetta.webp">Scarica</a>
+          <a id="downloadImageBtn" class="image-tool" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" download="2026-09-23-meloni-fine-legislatura-vignetta.jpg">Scarica</a>
         </figcaption>
       </figure>
 
@@ -65,10 +66,31 @@
 
       <div class="actions">
         <a class="btn secondary" href="/archive/">Archivio</a>
-        <a class="btn primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" download="2026-09-23-meloni-fine-legislatura-vignetta.webp">Scarica vignetta</a>
+        <a class="btn primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" download="2026-09-23-meloni-fine-legislatura-vignetta.jpg">Scarica vignetta</a>
       </div>
     </article>
   </main>
+
+  <div id="imageViewer" class="image-viewer" hidden>
+    <div id="viewerBackdrop" class="viewer-backdrop"></div>
+    <section class="viewer-panel" role="dialog" aria-modal="true" aria-label="Vignetta ingrandita">
+      <div class="viewer-toolbar">
+        <div class="viewer-zoom-controls">
+          <button id="viewerZoomOut" type="button" aria-label="Riduci">−</button>
+          <button id="viewerReset" type="button">100%</button>
+          <button id="viewerZoomIn" type="button" aria-label="Ingrandisci">+</button>
+        </div>
+        <button id="viewerCloseBtn" class="viewer-close" type="button" aria-label="Chiudi">×</button>
+      </div>
+      <div class="viewer-canvas">
+        <img id="viewerImage" alt="Vignetta ingrandita">
+      </div>
+      <div class="viewer-footer">
+        <a id="viewerOriginalBtn" class="btn secondary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" target="_blank" rel="noopener">Apri originale</a>
+        <a id="viewerDownloadBtn" class="btn primary" href="/assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg" download="2026-09-23-meloni-fine-legislatura-vignetta.jpg">Scarica</a>
+      </div>
+    </section>
+  </div>
 
   <footer class="footer">
     <p>Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.</p>
