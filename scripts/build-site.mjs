@@ -10,7 +10,7 @@ const episodeRoot = path.join(root, 'episodio');
 async function ensureDir(dir) { await fs.mkdir(dir, { recursive: true }); }
 
 function compareEpisodes(a, b) {
-  return String(b.date).localeCompare(String(a.date)) || String(b.slug).localeCompare(String(a.slug));
+  return String(b.date).localeCompare(String(a.date)) || String(b.published_at || '').localeCompare(String(a.published_at || '')) || String(b.slug).localeCompare(String(a.slug));
 }
 
 function publicShape(ep) {
@@ -48,8 +48,7 @@ function buildEpisodePage(ep) {
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css?v=20260923-3">
-  <script type="module" src="/viewer.mjs?v=1"></script>
+  <link rel="stylesheet" href="/styles.css?v=20260923-5">
 </head>
 <body>
   <header class="masthead">
@@ -72,10 +71,11 @@ function buildEpisodePage(ep) {
       </header>
 
       <figure class="vignette">
-        <img id="heroImage" class="zoomable-image" src="${escapeHtml(image)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1600" height="900" tabindex="0" role="button" aria-label="Apri la vignetta ingrandita">
+        <a class="image-direct-link" href="${escapeHtml(image)}" target="_blank" rel="noopener" aria-label="Apri la vignetta ingrandita">
+          <img id="heroImage" src="${escapeHtml(image)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1600" height="900">
+        </a>
         <figcaption class="image-tools">
-          <button id="zoomBtn" class="image-tool" type="button">Apri e ingrandisci</button>
-          <a id="originalImageBtn" class="image-tool" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri originale</a>
+          <a id="originalImageBtn" class="image-tool image-tool-primary" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri e ingrandisci</a>
           <a id="downloadImageBtn" class="image-tool" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica</a>
         </figcaption>
       </figure>
@@ -103,27 +103,6 @@ function buildEpisodePage(ep) {
       </div>
     </article>
   </main>
-
-  <div id="imageViewer" class="image-viewer" hidden>
-    <div id="viewerBackdrop" class="viewer-backdrop"></div>
-    <section class="viewer-panel" role="dialog" aria-modal="true" aria-label="Vignetta ingrandita">
-      <div class="viewer-toolbar">
-        <div class="viewer-zoom-controls">
-          <button id="viewerZoomOut" type="button" aria-label="Riduci">−</button>
-          <button id="viewerReset" type="button">100%</button>
-          <button id="viewerZoomIn" type="button" aria-label="Ingrandisci">+</button>
-        </div>
-        <button id="viewerCloseBtn" class="viewer-close" type="button" aria-label="Chiudi">×</button>
-      </div>
-      <div class="viewer-canvas">
-        <img id="viewerImage" alt="Vignetta ingrandita">
-      </div>
-      <div class="viewer-footer">
-        <a id="viewerOriginalBtn" class="btn secondary" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri originale</a>
-        <a id="viewerDownloadBtn" class="btn primary" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica</a>
-      </div>
-    </section>
-  </div>
 
   <footer class="footer">
     <p>${escapeHtml(ep.satire_notice || 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.')}</p>
