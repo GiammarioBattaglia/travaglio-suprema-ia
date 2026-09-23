@@ -23,13 +23,22 @@ function wrapText(value, maxChars = 43, maxLines = 5) {
   return lines;
 }
 
-function renderPanel(text, x, label, stroke) {
-  const lines = wrapText(text);
+function renderSpeechBubble(text, box, tail, stroke) {
+  const lines = wrapText(text, 41, 5);
+  const lineHeight = 36;
+  const textY = box.y + 58;
   const labels = lines.map((line, index) =>
-    '<text x="' + (x + 31) + '" y="' + (731 + index * 32) + '" font-size="25" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
+    '<text x="' + (box.x + 34) + '" y="' + (textY + index * lineHeight) + '" font-size="28" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
   ).join('');
-  return '<rect x="' + x + '" y="628" width="739" height="242" rx="22" fill="#fffefb" stroke="' + stroke + '" stroke-width="5"/>' +
-    '<text x="' + (x + 31) + '" y="683" font-size="29" font-weight="900" fill="' + stroke + '">' + escapeXml(label) + '</text>' + labels;
+  const tailPath =
+    '<path d="M ' + tail.base1.x + ' ' + tail.base1.y +
+    ' L ' + tail.tip.x + ' ' + tail.tip.y +
+    ' L ' + tail.base2.x + ' ' + tail.base2.y +
+    ' Z" fill="#fffefb" stroke="' + stroke + '" stroke-width="5" stroke-linejoin="round"/>';
+  const bubble =
+    '<rect x="' + box.x + '" y="' + box.y + '" width="' + box.w + '" height="' + box.h +
+    '" rx="34" fill="#fffefb" stroke="' + stroke + '" stroke-width="5"/>';
+  return tailPath + bubble + labels;
 }
 
 function captionSvg(ep) {
@@ -37,8 +46,18 @@ function captionSvg(ep) {
     '<rect x="0" y="0" width="1600" height="62" fill="#122a42" fill-opacity=".96"/>' +
     '<text x="36" y="42" font-family="Arial,sans-serif" font-size="25" font-weight="900" fill="#ffffff">TRAVAGLIO &amp; LA SUPREMA IA · SATIRA INDIPENDENTE</text>' +
     '<g font-family="Arial,Helvetica,sans-serif">' +
-    renderPanel(ep.question, 42, 'TRAVAGLIO · DOMANDA INVENTATA', '#a32226') +
-    renderPanel(ep.answer, 819, 'SUPREMA IA · RISPOSTA SATIRICA', '#173c62') +
+    renderSpeechBubble(
+      ep.question,
+      { x: 55, y: 610, w: 700, h: 235 },
+      { base1: { x: 235, y: 610 }, base2: { x: 315, y: 610 }, tip: { x: 300, y: 390 } },
+      '#a32226'
+    ) +
+    renderSpeechBubble(
+      ep.answer,
+      { x: 845, y: 610, w: 700, h: 235 },
+      { base1: { x: 975, y: 610 }, base2: { x: 1050, y: 610 }, tip: { x: 810, y: 395 } },
+      '#173c62'
+    ) +
     '</g></svg>';
   return Buffer.from(svg);
 }
@@ -53,8 +72,8 @@ function imagePrompt(ep) {
     'La situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ' + context,
     'Non raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.',
     'Colori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.',
-    'Riserva l’ultimo 32% della composizione a uno sfondo semplice e uniforme: verranno aggiunte digitalmente due didascalie REALI e perfettamente leggibili.',
-    'IMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; i testi saranno applicati con tipografia reale in un passaggio successivo.'
+    'Mantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti con coda chiaramente collegata a chi parla.',
+    'IMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.'
   ].join('\n');
 }
 
