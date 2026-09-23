@@ -1,0 +1,61 @@
+name: Generate Daily Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Data episodio (YYYY-MM-DD)'
+        required: true
+      sourceName:
+        description: 'Fonte della notizia'
+        required: true
+        default: 'Il Fatto Quotidiano'
+      sourceUrl:
+        description: 'URL originale della notizia'
+        required: false
+      headline:
+        description: 'Titolo notizia'
+        required: true
+      summary:
+        description: 'Sintesi breve episodio'
+        required: true
+      newsText:
+        description: 'Ricostruzione fattuale breve'
+        required: true
+      characters:
+        description: 'Personaggi coinvolti separati da virgole'
+        required: false
+        default: 'Marco Travaglio'
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate draft files
+        env:
+          EPISODE_DATE: ${{ github.event.inputs.date }}
+          SOURCE_NAME: ${{ github.event.inputs.sourceName }}
+          SOURCE_URL: ${{ github.event.inputs.sourceUrl }}
+          HEADLINE: ${{ github.event.inputs.headline }}
+          SUMMARY: ${{ github.event.inputs.summary }}
+          NEWS_TEXT: ${{ github.event.inputs.newsText }}
+          CHARACTERS: ${{ github.event.inputs.characters }}
+        run: node scripts/generate-daily.mjs
+      - name: Commit draft files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add drafts/episodes drafts/prompts
+          if git diff --cached --quiet; then
+            echo "No draft changes"
+          else
+            git commit -m "Add daily draft"
+            git push
+          fi
