@@ -1,0 +1,37 @@
+name: Build Static Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/episodes/**'
+      - 'scripts/build-site.mjs'
+      - 'styles.css'
+      - 'manifest.webmanifest'
+      - 'assets/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build pages
+        run: node scripts/build-site.mjs
+      - name: Commit generated files if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/site.json data/episodes.json episodio archive/index.html
+          if git diff --cached --quiet; then
+            echo "No generated changes"
+          else
+            git commit -m "Build static pages"
+            git push
+          fi
