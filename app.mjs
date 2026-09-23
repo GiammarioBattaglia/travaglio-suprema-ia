@@ -1,101 +1,89 @@
-let deferredInstallPrompt = null;
+let deferredInstallPrompt=null;
 
-async function loadSite() {
-  const res = await fetch(`/data/site.json?t=${Date.now()}`, { cache: 'no-store' });
-  if (!res.ok) throw new Error('site.json non disponibile');
+async function loadSite(){
+  const res=await fetch('/data/site.json?ts='+Date.now(),{cache:'no-store'});
+  if(!res.ok)throw new Error('site.json non disponibile');
   return res.json();
 }
 
-function setSourceLine(el, ep) {
-  el.textContent = '';
-  const label = document.createTextNode(`Fonte: ${ep.source?.name || '—'} · ${ep.date}`);
-  el.appendChild(label);
-  if (ep.source?.url) {
-    el.appendChild(document.createTextNode(' · '));
-    const link = document.createElement('a');
-    link.href = ep.source.url;
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-    link.textContent = 'fonte originale';
-    el.appendChild(link);
+function setSourceLine(el,ep){
+  el.replaceChildren();
+  el.append(document.createTextNode(`Fonte: ${ep.source?.name||'—'} · ${ep.date}`));
+  if(ep.source?.url){
+    el.append(document.createTextNode(' · '));
+    const a=document.createElement('a');
+    a.href=ep.source.url;
+    a.target='_blank';
+    a.rel='noreferrer';
+    a.textContent='fonte originale';
+    el.append(a);
   }
 }
 
-function renderCurrent(ep) {
-  const title = document.getElementById('episodeTitle');
-  const sourceLine = document.getElementById('sourceLine');
-  const newsHeadline = document.getElementById('newsHeadline');
-  const newsText = document.getElementById('newsText');
-  const questionText = document.getElementById('questionText');
-  const answerText = document.getElementById('answerText');
-  const openEpisodeBtn = document.getElementById('openEpisodeBtn');
-  const heroImage = document.getElementById('heroImage');
+function renderCurrent(ep){
+  const title=document.getElementById('episodeTitle');
+  const source=document.getElementById('sourceLine');
+  const headline=document.getElementById('newsHeadline');
+  const news=document.getElementById('newsText');
+  const q=document.getElementById('questionText');
+  const a=document.getElementById('answerText');
+  const open=document.getElementById('openEpisodeBtn');
+  const img=document.getElementById('heroImage');
 
-  if (!ep) {
-    title.textContent = 'Nessun episodio pubblicato';
-    sourceLine.textContent = '';
-    newsHeadline.textContent = '—';
-    newsText.textContent = '—';
-    questionText.textContent = '—';
-    answerText.textContent = '—';
-    heroImage.src = '/assets/social.jpg';
-    openEpisodeBtn.href = '/archive/';
-    openEpisodeBtn.textContent = 'Apri archivio';
+  if(!ep){
+    title.textContent='Nessun episodio pubblicato';
     return;
   }
 
-  title.textContent = ep.title;
-  setSourceLine(sourceLine, ep);
-  newsHeadline.textContent = ep.headline;
-  newsText.textContent = ep.news_text;
-  questionText.textContent = ep.question;
-  answerText.textContent = ep.answer;
-  openEpisodeBtn.href = ep.url;
+  title.textContent=ep.title;
+  setSourceLine(source,ep);
+  headline.textContent=ep.headline;
+  news.textContent=ep.news_text;
+  q.textContent=ep.question;
+  a.textContent=ep.answer;
+  open.href=ep.url;
 
-  const version = encodeURIComponent(ep.published_at || ep.date || Date.now());
-  heroImage.src = `${ep.image || '/assets/social.jpg'}?v=${version}`;
-  heroImage.alt = ep.imageAlt || ep.title;
+  const version=encodeURIComponent(ep.published_at||ep.date||Date.now());
+  img.src=(ep.image||'/assets/social.jpg')+'?v='+version;
+  img.alt=ep.imageAlt||ep.title;
 
-  document.getElementById('shareBtn').onclick = async () => {
-    const shareData = {
-      title: ep.title,
-      text: `${ep.question} — ${ep.answer}`,
-      url: new URL(ep.url, location.origin).toString()
+  document.getElementById('shareBtn').onclick=async()=>{
+    const shareData={
+      title:ep.title,
+      text:`${ep.question} — ${ep.answer}`,
+      url:new URL(ep.url,location.origin).toString()
     };
-    if (navigator.share) {
-      await navigator.share(shareData);
-      return;
-    }
-    await navigator.clipboard.writeText(`${shareData.text} ${shareData.url}`);
+    if(navigator.share){await navigator.share(shareData);return;}
+    await navigator.clipboard.writeText(shareData.text+' '+shareData.url);
     alert('Link copiato negli appunti.');
   };
 }
 
-window.addEventListener('beforeinstallprompt', event => {
+window.addEventListener('beforeinstallprompt',event=>{
   event.preventDefault();
-  deferredInstallPrompt = event;
+  deferredInstallPrompt=event;
 });
 
-async function init() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').catch(console.error);
+async function init(){
+  if('serviceWorker' in navigator){
+    const reg=await navigator.serviceWorker.register('/sw.js?v=5').catch(()=>null);
+    if(reg)reg.update().catch(()=>{});
   }
-
-  const data = await loadSite();
+  const data=await loadSite();
   renderCurrent(data.current);
 
-  document.getElementById('installBtn').addEventListener('click', async () => {
-    if (!deferredInstallPrompt) {
-      alert('Su iPhone usa Safari e scegli “Aggiungi alla schermata Home”. Su Android usa “Installa app”.');
+  document.getElementById('installBtn').addEventListener('click',async()=>{
+    if(!deferredInstallPrompt){
+      alert('Su Android usa il menu del browser e scegli “Installa app”. Su iPhone usa Safari e “Aggiungi alla schermata Home”.');
       return;
     }
     deferredInstallPrompt.prompt();
     await deferredInstallPrompt.userChoice;
-    deferredInstallPrompt = null;
+    deferredInstallPrompt=null;
   });
 }
 
-init().catch(error => {
-  console.error(error);
-  document.getElementById('episodeTitle').textContent = 'Impossibile caricare l’episodio';
+init().catch(err=>{
+  console.error(err);
+  document.getElementById('episodeTitle').textContent='Impossibile caricare l’episodio';
 });
