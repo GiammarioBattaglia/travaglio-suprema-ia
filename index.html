@@ -15,7 +15,7 @@
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css?v=20260923-5">
+  <link rel="stylesheet" href="/styles.css?v=20260923-6">
   <script type="module" src="/app.mjs?v=20260923-4"></script>
 </head>
 <body>
@@ -28,23 +28,6 @@
   </header>
 
   <main class="page">
-    <section class="why-travaglio" aria-labelledby="whyTravaglioTitle">
-      <div class="why-kicker">PERCHÉ PROPRIO TRAVAGLIO?</div>
-      <h2 id="whyTravaglioTitle">Chi è Marco Travaglio e perché lo abbiamo scelto</h2>
-      <p class="why-lead"><strong>Marco Travaglio è un giornalista e scrittore italiano, nato a Torino nel 1964.</strong> Ha lavorato con Indro Montanelli a <em>Il Giornale</em> e <em>La Voce</em>, ha contribuito alla nascita de <em>Il Fatto Quotidiano</em> e ne è direttore dal 2015.</p>
-      <p>Nel suo lavoro ha seguito soprattutto politica e cronaca giudiziaria. Noi lo abbiamo scelto come protagonista di questa app perché il suo stile pubblico è spesso associato a domande dirette, memoria delle dichiarazioni e attenzione alle contraddizioni.</p>
-
-      <details class="why-details">
-        <summary>Leggi la spiegazione completa</summary>
-        <div class="why-body">
-          <p><strong>Non lo abbiamo scelto perché pensiamo che abbia sempre ragione.</strong> Lo abbiamo scelto perché, come personaggio giornalistico, si presta bene al gioco dell'app: una notizia reale, una domanda semplice e una risposta ironica della Suprema IA.</p>
-          <p>Qui, però, <strong>non parla il vero Marco Travaglio</strong>. Il Travaglio dell'app è un personaggio satirico: le domande sono inventate, lui non collabora con questo progetto e non approva preventivamente testi o vignette.</p>
-          <p class="why-formula"><strong>Notizia reale. Fonte indicata. Domanda inventata. Risposta satirica.</strong></p>
-          <p class="why-sources">Fonti biografiche: <a href="https://www.treccani.it/enciclopedia/marco-travaglio/" target="_blank" rel="noreferrer">Treccani</a> · <a href="https://www.ilfattoquotidiano.it/autori/mtravaglio/" target="_blank" rel="noreferrer">Il Fatto Quotidiano</a>.</p>
-        </div>
-      </details>
-    </section>
-
     <article class="episode">
       <header class="episode-header">
         <div class="eyebrow">EPISODIO DEL GIORNO</div>
@@ -85,9 +68,31 @@
       </div>
     </article>
 
-    <div class="simple-nav">
-      <a href="/archive/">Archivio</a>
-    </div>
+    <nav class="home-archive" aria-label="Archivio degli episodi">
+      <a class="archive-cta" href="/archive/">
+        <span class="archive-cta-kicker">TUTTE LE VIGNETTE</span>
+        <span class="archive-cta-title">Apri l’Archivio</span>
+        <span class="archive-cta-arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+
+    <section class="why-travaglio" aria-labelledby="whyTravaglioTitle">
+      <div class="why-kicker">PERCHÉ PROPRIO TRAVAGLIO?</div>
+      <h2 id="whyTravaglioTitle">Chi è Marco Travaglio e perché lo abbiamo scelto</h2>
+      <p class="why-lead"><strong>Marco Travaglio è un giornalista e scrittore italiano, nato a Torino nel 1964.</strong> Ha lavorato con Indro Montanelli a <em>Il Giornale</em> e <em>La Voce</em>, ha contribuito alla nascita de <em>Il Fatto Quotidiano</em> e ne è direttore dal 2015.</p>
+      <p>Nel suo lavoro ha seguito soprattutto politica e cronaca giudiziaria. Noi lo abbiamo scelto come protagonista di questa app perché il suo stile pubblico è spesso associato a domande dirette, memoria delle dichiarazioni e attenzione alle contraddizioni.</p>
+
+      <details class="why-details">
+        <summary>Leggi la spiegazione completa</summary>
+        <div class="why-body">
+          <p><strong>Non lo abbiamo scelto perché pensiamo che abbia sempre ragione.</strong> Lo abbiamo scelto perché, come personaggio giornalistico, si presta bene al gioco dell'app: una notizia reale, una domanda semplice e una risposta ironica della Suprema IA.</p>
+          <p>Qui, però, <strong>non parla il vero Marco Travaglio</strong>. Il Travaglio dell'app è un personaggio satirico: le domande sono inventate, lui non collabora con questo progetto e non approva preventivamente testi o vignette.</p>
+          <p class="why-formula"><strong>Notizia reale. Fonte indicata. Domanda inventata. Risposta satirica.</strong></p>
+          <p class="why-sources">Fonti biografiche: <a href="https://www.treccani.it/enciclopedia/marco-travaglio/" target="_blank" rel="noreferrer">Treccani</a> · <a href="https://www.ilfattoquotidiano.it/autori/mtravaglio/" target="_blank" rel="noreferrer">Il Fatto Quotidiano</a>.</p>
+        </div>
+      </details>
+    </section>
+
   </main>
 
   <footer class="footer">
