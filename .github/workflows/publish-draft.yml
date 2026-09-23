@@ -1,0 +1,35 @@
+name: Publish Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug bozza da pubblicare'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Publish selected draft
+        env:
+          DRAFT_SLUG: ${{ github.event.inputs.slug }}
+        run: node scripts/publish-draft.mjs --slug="$DRAFT_SLUG"
+      - name: Commit publication
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+GiammarioBattaglia@users.noreply.github.com"
+          git add data/episodes data/site.json data/episodes.json episodio archive/index.html
+          if git diff --cached --quiet; then
+            echo "No publish changes"
+          else
+            git commit -m "Publish approved draft"
+            git push
+          fi
