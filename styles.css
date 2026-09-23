@@ -321,6 +321,7 @@ blockquote{
 }
 .viewer-canvas img{
   display:block;
+  transform-origin:top left;
   max-width:100%;
   max-height:calc(100vh - 150px);
   width:auto;
