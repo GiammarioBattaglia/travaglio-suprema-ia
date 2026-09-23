@@ -48,7 +48,7 @@ function renderCurrent(ep){
   img.src=imagePath+'?v='+version;
   img.alt=ep.imageAlt||ep.title;
 
-  for (const id of ['originalImageBtn','downloadImageBtn','viewerOriginalBtn','viewerDownloadBtn']) {
+  for (const id of ['imageOpenLink','originalImageBtn','downloadImageBtn']) {
     const el=document.getElementById(id);
     if (el) el.href=imagePath;
   }
