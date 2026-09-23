@@ -3,15 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#f6f2ea">
   <title>Travaglio & la Suprema IA</title>
-  <meta name="description" content="Ogni giorno una notizia. Una domanda scomoda. Una risposta decisamente artificiale.">
+  <meta name="description" content="Una notizia politica, una domanda di Travaglio, una risposta della Suprema IA. Satira indipendente.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Travaglio & la Suprema IA">
-  <meta property="og:description" content="Ogni giorno una notizia. Una domanda scomoda. Una risposta decisamente artificiale.">
+  <meta property="og:description" content="Una notizia politica, una domanda, una risposta.">
   <meta property="og:image" content="https://travaglio-suprema-ia.vercel.app/assets/social.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://travaglio-suprema-ia.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
@@ -21,63 +19,58 @@
   <script type="module" src="/app.mjs"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">SATIRA POLITICA</p>
-      <h1>Travaglio & la Suprema <span>IA</span></h1>
-      <p class="tagline">Ogni giorno una notizia. Una domanda scomoda. Una risposta decisamente artificiale.</p>
+  <header class="masthead">
+    <div class="brand">
+      <p class="kicker">SATIRA INDIPENDENTE</p>
+      <h1>Travaglio <span>&</span> la Suprema IA</h1>
     </div>
-    <button id="installBtn" class="secondary">Installa</button>
+    <button id="installBtn" class="icon-button" type="button">Installa</button>
   </header>
 
-  <main class="shell">
-    <section class="hero card">
-      <div class="hero-copy">
-        <p class="mini">EPISODIO DEL GIORNO</p>
+  <main class="page">
+    <article class="daily" aria-live="polite">
+      <div class="daily-head">
+        <p class="date-label">EPISODIO DEL GIORNO</p>
         <h2 id="episodeTitle">Caricamento…</h2>
-        <p id="episodeSummary">Sto recuperando l’episodio pubblicato più recente.</p>
-        <div class="hero-actions">
-          <a id="openEpisodeBtn" class="button primary" href="#">Apri l'episodio</a>
-          <button id="shareBtn" class="secondary">Condividi</button>
-        </div>
         <p class="source-line" id="sourceLine"></p>
       </div>
-      <div class="hero-art">
-        <img class="hero-image" id="heroImage" src="/assets/social.jpg" alt="Caricatura satirica di Travaglio con la Suprema IA" width="1200" height="630">
-      </div>
-    </section>
 
-    <section class="episode-grid">
-      <article class="card">
-        <p class="mini">LA NOTIZIA</p>
+      <figure class="vignette">
+        <img id="heroImage" src="/assets/social.jpg" alt="Vignetta satirica" width="1200" height="630">
+      </figure>
+
+      <section class="news-block">
+        <p class="section-label">LA NOTIZIA</p>
         <h3 id="newsHeadline">—</h3>
         <p id="newsText">—</p>
-      </article>
-      <article class="card">
-        <p class="mini">LA DOMANDA DI TRAVAGLIO</p>
-        <blockquote id="questionText">—</blockquote>
-      </article>
-      <article class="card">
-        <p class="mini">LA RISPOSTA DELLA SUPREMA IA</p>
-        <blockquote id="answerText">—</blockquote>
-      </article>
-    </section>
+      </section>
 
-    <section class="card archive">
-      <div class="archive-head">
-        <div>
-          <p class="mini">ARCHIVIO</p>
-          <h3>Episodi pubblicati</h3>
+      <section class="dialogue">
+        <div class="speech travaglio">
+          <p class="speaker">TRAVAGLIO</p>
+          <p id="questionText">—</p>
         </div>
-        <a class="button tertiary" href="/archive/">Apri archivio completo</a>
+        <div class="speech ai">
+          <p class="speaker">SUPREMA IA</p>
+          <p id="answerText">—</p>
+        </div>
+      </section>
+
+      <div class="actions">
+        <a id="openEpisodeBtn" class="button primary" href="#">Apri episodio</a>
+        <button id="shareBtn" class="button secondary" type="button">Condividi</button>
       </div>
-      <ul id="archiveList"></ul>
-    </section>
+    </article>
+
+    <nav class="bottom-nav" aria-label="Navigazione">
+      <a href="/archive/">Archivio</a>
+      <span>•</span>
+      <span>Satira indipendente</span>
+    </nav>
   </main>
 
   <footer class="footer">
-    <p>Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.</p>
-    <p>Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
+    <p>Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità. Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
   </footer>
 </body>
 </html>
