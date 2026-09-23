@@ -2,75 +2,74 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f6f2ea">
   <title>Travaglio & la Suprema IA</title>
   <meta name="description" content="Una notizia politica, una domanda di Travaglio, una risposta della Suprema IA. Satira indipendente.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Travaglio & la Suprema IA">
   <meta property="og:description" content="Una notizia politica, una domanda, una risposta.">
-  <meta property="og:image" content="https://travaglio-suprema-ia.vercel.app/assets/social.jpg">
+  <meta property="og:image" content="https://travaglio-suprema-ia.vercel.app/assets/episodes/2026-09-23-meloni-fine-legislatura.jpg">
   <meta property="og:url" content="https://travaglio-suprema-ia.vercel.app/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon-180.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css">
-  <script type="module" src="/app.mjs"></script>
+  <link rel="stylesheet" href="/styles.css?v=20260923-2">
+  <script type="module" src="/app.mjs?v=20260923-2"></script>
 </head>
 <body>
   <header class="masthead">
     <div class="brand">
-      <p class="kicker">SATIRA INDIPENDENTE</p>
+      <div class="brand-top">SATIRA INDIPENDENTE</div>
       <h1>Travaglio <span>&</span> la Suprema IA</h1>
     </div>
-    <button id="installBtn" class="icon-button" type="button">Installa</button>
+    <button id="installBtn" class="install" type="button">Installa</button>
   </header>
 
   <main class="page">
-    <article class="daily" aria-live="polite">
-      <div class="daily-head">
-        <p class="date-label">EPISODIO DEL GIORNO</p>
+    <article class="episode">
+      <header class="episode-header">
+        <div class="eyebrow">EPISODIO DEL GIORNO</div>
         <h2 id="episodeTitle">Caricamento…</h2>
-        <p class="source-line" id="sourceLine"></p>
-      </div>
+        <div class="source-line" id="sourceLine"></div>
+      </header>
 
       <figure class="vignette">
-        <img id="heroImage" src="/assets/social.jpg" alt="Vignetta satirica" width="1200" height="630">
+        <img id="heroImage" src="/assets/episodes/2026-09-23-meloni-fine-legislatura.jpg?v=2" alt="Vignetta satirica" width="1200" height="630">
       </figure>
 
-      <section class="news-block">
-        <p class="section-label">LA NOTIZIA</p>
+      <section class="fact">
+        <div class="label">LA NOTIZIA</div>
         <h3 id="newsHeadline">—</h3>
         <p id="newsText">—</p>
       </section>
 
       <section class="dialogue">
-        <div class="speech travaglio">
-          <p class="speaker">TRAVAGLIO</p>
+        <div class="bubble question">
+          <div class="speaker">TRAVAGLIO</div>
           <p id="questionText">—</p>
         </div>
-        <div class="speech ai">
-          <p class="speaker">SUPREMA IA</p>
+        <div class="bubble answer">
+          <div class="speaker">SUPREMA IA</div>
           <p id="answerText">—</p>
         </div>
       </section>
 
       <div class="actions">
-        <a id="openEpisodeBtn" class="button primary" href="#">Apri episodio</a>
-        <button id="shareBtn" class="button secondary" type="button">Condividi</button>
+        <a id="openEpisodeBtn" class="btn primary" href="#">Apri episodio</a>
+        <button id="shareBtn" class="btn secondary" type="button">Condividi</button>
       </div>
     </article>
 
-    <nav class="bottom-nav" aria-label="Navigazione">
+    <div class="simple-nav">
       <a href="/archive/">Archivio</a>
-      <span>•</span>
-      <span>Satira indipendente</span>
-    </nav>
+    </div>
   </main>
 
   <footer class="footer">
-    <p>Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità. Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
+    <p>Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.</p>
+    <p>Il progetto non è affiliato a Marco Travaglio o a testate giornalistiche.</p>
   </footer>
 </body>
 </html>
