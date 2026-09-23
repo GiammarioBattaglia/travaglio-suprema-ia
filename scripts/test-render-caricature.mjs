@@ -3,6 +3,10 @@ import sharp from 'sharp';
 import { generateCaricature } from './render-caricature.mjs';
 const fixture=JSON.parse(await fs.readFile('data/episodes/2026-09-23-bollo-appuntamento-2027.json','utf8'));
 const image=await fs.readFile('assets/episodes/2026-09-23-meloni-fine-legislatura-hq.jpg');
+const rendererSource=await fs.readFile('scripts/render-caricature.mjs','utf8');
+if(/DOMANDA INVENTATA|RISPOSTA SATIRICA/.test(rendererSource)) throw new Error('Etichette editoriali vietate nel renderer');
+if(!rendererSource.includes('renderSpeechBubble')) throw new Error('Layout a fumetti non attivo');
+
 process.env.OPENAI_API_KEY='test-only-not-a-secret';
 const request=globalThis.fetch;
 globalThis.fetch=async()=>new Response(JSON.stringify({data:[{b64_json:image.toString('base64')}]}),{status:200,headers:{'content-type':'application/json'}});
