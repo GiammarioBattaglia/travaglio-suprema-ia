@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Travaglio & la Suprema IA",
+  "short_name": "Suprema IA",
+  "description": "Ogni giorno una notizia. Una domanda scomoda. Una risposta decisamente artificiale.",
+  "lang": "it",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
