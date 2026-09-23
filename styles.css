@@ -348,3 +348,7 @@ body.viewer-open{overflow:hidden}
   .viewer-footer{display:grid;grid-template-columns:1fr 1fr}
   .viewer-footer .btn{min-width:0}
 }
+
+.image-direct-link{display:block;background:#fff;line-height:0}
+.image-direct-link img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:#fff}
+.image-tool-primary{background:var(--navy)!important;color:#fff!important;border-color:var(--navy)!important}
