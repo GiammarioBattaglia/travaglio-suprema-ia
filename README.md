@@ -2,33 +2,38 @@
 
 PWA satirica autonoma e separata da `trump-oracolo-ia`.
 
-## Obiettivo
-- nuova app indipendente
-- deploy su Vercel
-- repository GitHub separato
-- installabile su smartphone come PWA
-- logo dedicato e social preview dedicata
-- episodio quotidiano: notizia → domanda di Travaglio → risposta della Suprema IA → vignetta
+## Cosa contiene questa versione
+- home dell'app
+- archivio episodi
+- pagine statiche per episodio (`/episodio/<slug>/`)
+- generatore giornaliero **in modalità bozza**
+- workflow GitHub **manuali**, senza pubblicazione automatica attiva
+- build statico dell'archivio e delle pagine episodio
 
-## Struttura
-- `index.html` home/app shell
-- `styles.css` stile base
-- `app.mjs` logica base e rendering episodio
-- `manifest.webmanifest` PWA manifest
-- `sw.js` service worker
-- `api/daily-episode.js` base serverless Vercel
-- `data/episodes.json` archivio episodi
-- `vercel.json` configurazione Vercel
+## Flusso editoriale previsto
+1. Eseguire manualmente il workflow **Generate Daily Draft**.
+2. Ottenere una bozza con notizia, sintesi, domanda di Travaglio, risposta della Suprema IA e prompt vignetta.
+3. Revisionare la bozza.
+4. Generare/approvare la vignetta finale.
+5. Pubblicare manualmente la bozza con il workflow **Publish Draft**.
+6. Vercel aggiorna il sito perché il repository è già collegato al deploy.
 
-## Asset grafici
-Sono inclusi gli asset PWA di produzione: `icon-192.png`, `icon-512.png` e `social.jpg` (1200x630). La stessa social card viene usata come hero iniziale. La grafica identifica il progetto come satira indipendente e non usa il marchio di una testata come brand dell’app.
+## Pubblicazione automatica
+Al momento è **disattivata**: non ci sono cron giornalieri attivi.
 
-## Indipendenza del progetto
+## Comandi locali principali
+```bash
+node scripts/build-site.mjs
+node scripts/generate-daily.mjs --input=drafts/source-news.json --date=2026-09-24
+node scripts/publish-draft.mjs --slug=2026-09-24-sample
+```
+
+## Segreti GitHub da aggiungere in futuro (facoltativi)
+- `OPENAI_API_KEY` – se si vorrà automatizzare la scrittura della bozza tramite API.
+
+## Deploy
+Il progetto Vercel di produzione è separato e collegato a questo repository:
+`https://travaglio-suprema-ia.vercel.app/`
+
+## Indipendenza
 Il progetto è una satira indipendente e non è affiliato a Marco Travaglio né a testate giornalistiche.
-
-
-## Deploy su Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGiammarioBattaglia%2Ftravaglio-suprema-ia&project-name=travaglio-suprema-ia&repository-name=travaglio-suprema-ia)
-
-Il deploy deve creare un progetto Vercel separato chiamato `travaglio-suprema-ia` collegato a questo repository GitHub. Non usare o sovrascrivere progetti HEF/Trump esistenti.
