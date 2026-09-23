@@ -5,6 +5,10 @@ on:
     paths:
       - 'incoming/*.json'
       - '.github/workflows/autonomous-publish.yml'
+      - 'scripts/publish-autonomous.mjs'
+      - 'scripts/render-caricature.mjs'
+      - 'scripts/test-render-caricature.mjs'
+      - 'scripts/verify-production.mjs'
   schedule:
     - cron: '15 10 * * *' # Controllo di recupero: la redazione quotidiana resta nell'automazione ChatGPT
   workflow_dispatch:
