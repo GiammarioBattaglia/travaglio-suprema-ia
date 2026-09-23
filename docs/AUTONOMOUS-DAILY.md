@@ -1,44 +1,39 @@
 # Pubblicazione autonoma quotidiana
 
-Il progetto usa una pipeline in due livelli.
+## Flusso attivo
 
-1. Ogni mattina un'automazione ChatGPT ricerca una notizia politica italiana recente, verifica almeno due fonti autorevoli e indipendenti, prepara un episodio breve e neutrale nei fatti e salva un singolo JSON in `incoming/`.
-2. GitHub Actions intercetta il nuovo JSON, esegue validazioni fail-closed, genera una vignetta SVG vettoriale, pubblica l'episodio, aggiorna home/archivio e lascia che Vercel effettui il deploy.
+La pipeline è operativa e fail-closed:
 
-## Regole editoriali obbligatorie
+1. Il turno editoriale quotidiano usa Europe/Rome e verifica se esiste già un episodio del giorno.
+2. Se manca, seleziona una notizia italiana recente e la verifica su almeno due fonti autorevoli e indipendenti.
+3. Scrive un solo JSON in `incoming/`.
+4. GitHub Actions valida data, slug, fonti, indipendenza dei domini, campi editoriali e unicità giornaliera.
+5. OpenAI Image API genera una vera caricatura con `gpt-image-2.5-sunburst`.
+6. Il renderer applica domanda e risposta come testo tipografico e produce un JPEG 1600×900.
+7. Se l'API immagini fallisce, viene usato il fallback SVG e `image_status` registra `fallback_svg`.
+8. Il sito viene ricostruito, home e archivio aggiornati e Vercel effettua il deploy.
 
-- Nessuna previsione elettorale o indicazione di voto.
-- Nessun endorsement o opposizione a partiti, candidati o politici.
-- Nessuna diagnosi, speculazione sanitaria o giudizio di competenza/fitness.
-- Evitare minori, tragedie personali, lutti e salute come materiale satirico.
-- La parte fattuale deve essere separata dalla parte satirica.
-- Almeno due fonti; preferire Reuters, ANSA e fonti istituzionali.
-- Il criterio di scelta della notizia non deve favorire o penalizzare una parte politica.
-- Domanda di Travaglio e risposta della Suprema IA devono essere chiaramente inventate.
-- In caso di dubbio o verifica insufficiente, non creare il file `incoming/`.
+## Segreto
 
-## Schema minimo JSON
+Il workflow legge esclusivamente `OPENAI_API_KEY` dai GitHub Actions secrets. La chiave non viene salvata nel repository.
 
-```json
-{
-  "date": "2026-09-24",
-  "slug": "2026-09-24-esempio",
-  "autonomous": true,
-  "editorial_pass": true,
-  "political_neutrality_pass": true,
-  "source": {"name":"Reuters","url":"https://..."},
-  "sources": [
-    {"name":"Reuters","url":"https://..."},
-    {"name":"Fonte istituzionale","url":"https://..."}
-  ],
-  "title": "Titolo breve",
-  "headline": "Titolo fattuale",
-  "summary": "Sintesi breve",
-  "news_text": "Ricostruzione fattuale breve.",
-  "question": "Suprema IA, ...?",
-  "answer": "Risposta satirica breve.",
-  "characters": ["Marco Travaglio","Suprema IA","Altro protagonista"]
-}
-```
+## Controlli editoriali
 
-La vignetta automatica è SVG 1600×900: non sgrana, è apribile e scaricabile. Una vignetta AI può eventualmente sostituirla in seguito senza modificare il flusso di pubblicazione.
+- almeno due fonti indipendenti;
+- fatto recente e data verificata;
+- parte fattuale separata dalla satira;
+- nessun endorsement o indicazione di voto;
+- nessuna previsione elettorale presentata come fatto;
+- nessuna speculazione su salute, stato mentale, competenza o idoneità;
+- niente minori, lutti o tragedie personali come materiale satirico;
+- domanda e risposta inventate e chiaramente satiriche.
+
+## Antiduplicazione
+
+Un episodio già pubblicato non viene sovrascritto. Se esiste già un episodio con la data corrente, una nuova pubblicazione automatica viene bloccata. Gli extra richiedono campi espliciti di approvazione e non sono creati dal turno editoriale ordinario.
+
+## Immagini
+
+Percorso principale: JPEG generato dall'API e validato.
+Fallback: SVG locale.
+Le pagine episodio espongono l'immagine come file apribile e scaricabile.
