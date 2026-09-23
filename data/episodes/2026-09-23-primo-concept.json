@@ -2,7 +2,7 @@
   "id": "2026-09-23-primo-concept",
   "slug": "2026-09-23-primo-concept",
   "date": "2026-09-23",
-  "published": true,
+  "published": false,
   "source": {
     "name": "Fonte editoriale da definire",
     "url": ""
@@ -18,6 +18,6 @@
   "characters": [
     "Marco Travaglio"
   ],
-  "status": "demo",
+  "status": "demo-unpublished",
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità."
 }
