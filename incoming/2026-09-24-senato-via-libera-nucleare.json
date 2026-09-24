@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-24",
+  "slug": "2026-09-24-senato-via-libera-nucleare",
+  "event_date": "2026-09-23",
+  "edition": "daily",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/world/italian-parliament-backs-melonis-plan-restart-nuclear-power-2026-09-23/"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/italian-parliament-backs-melonis-plan-restart-nuclear-power-2026-09-23/"
+    },
+    {
+      "name": "Senato della Repubblica",
+      "url": "https://www.senato.it/show-doc?id=1521923&leg=19&part=ddlmess_ddlmess1-frontespizio_front01&tipodoc=Ddlmess"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/09/24/litalia-verso-il-ritorno-al-nucleare-si-alla-legge_13c08669-f247-41df-ba43-a302c205fd43.html"
+    }
+  ],
+  "title": "Il nucleare torna in corrente",
+  "headline": "Il Senato approva definitivamente la delega sul nucleare sostenibile",
+  "summary": "Il 23 settembre il Senato ha approvato definitivamente il disegno di legge delega del Governo sul nucleare sostenibile, già approvato dalla Camera.",
+  "news_text": "Il 23 settembre il Senato ha approvato definitivamente il disegno di legge delega del Governo in materia di energia nucleare sostenibile, già approvato dalla Camera. Il provvedimento affida al Governo la definizione del nuovo quadro normativo per il settore.",
+  "question": "Suprema IA, il Senato riapre la strada al nucleare: abbiamo già riacceso le centrali?",
+  "answer": "Per ora hanno acceso la legge. La corrente deve ancora arrivare.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Gilberto Pichetto Fratin"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità."
+}
