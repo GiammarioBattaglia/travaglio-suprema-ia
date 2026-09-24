@@ -1,56 +1,105 @@
 {
   "current": {
-    "id": "2026-09-23-bollo-appuntamento-2027",
-    "date": "2026-09-23",
-    "slug": "2026-09-23-bollo-appuntamento-2027",
-    "edition": "extra",
-    "event_date": "2026-09-16",
+    "date": "2026-09-24",
+    "slug": "2026-09-24-senato-via-libera-nucleare",
+    "event_date": "2026-09-23",
+    "edition": "daily",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
+    "satire_quality_pass": true,
     "source": {
       "name": "Reuters",
-      "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+      "url": "https://www.reuters.com/world/italian-parliament-backs-melonis-plan-restart-nuclear-power-2026-09-23/"
     },
     "sources": [
       {
         "name": "Reuters",
-        "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+        "url": "https://www.reuters.com/world/italian-parliament-backs-melonis-plan-restart-nuclear-power-2026-09-23/"
+      },
+      {
+        "name": "Senato della Repubblica",
+        "url": "https://www.senato.it/show-doc?id=1521923&leg=19&part=ddlmess_ddlmess1-frontespizio_front01&tipodoc=Ddlmess"
       },
       {
         "name": "ANSA",
-        "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/17/la-mossa-di-meloni-addio-al-bollo-per-le-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html"
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/09/24/litalia-verso-il-ritorno-al-nucleare-si-alla-legge_13c08669-f247-41df-ba43-a302c205fd43.html"
       }
     ],
-    "title": "Il bollo ha preso appuntamento",
-    "headline": "Il decreto sul bollo prevede l’esenzione nel 2027 per molte auto e moto",
-    "summary": "L’annuncio risale al 16 settembre: la misura prevede per il 2027 l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli, limitata a un veicolo per cittadino.",
-    "news_text": "Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.",
-    "question": "Suprema IA, il governo ha abolito il bollo: posso smettere di pagarlo subito?",
-    "answer": "È un addio con preavviso: prima di andarsene, il bollo passa all’incasso.",
+    "title": "Il nucleare torna in corrente",
+    "headline": "Il Senato approva definitivamente la delega sul nucleare sostenibile",
+    "summary": "Il 23 settembre il Senato ha approvato definitivamente il disegno di legge delega del Governo sul nucleare sostenibile, già approvato dalla Camera.",
+    "news_text": "Il 23 settembre il Senato ha approvato definitivamente il disegno di legge delega del Governo in materia di energia nucleare sostenibile, già approvato dalla Camera. Il provvedimento affida al Governo la definizione del nuovo quadro normativo per il settore.",
+    "question": "Suprema IA, il Senato riapre la strada al nucleare: abbiamo già riacceso le centrali?",
+    "answer": "Per ora hanno acceso la legge. La corrente deve ancora arrivare.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Giorgia Meloni"
+      "Gilberto Pichetto Fratin"
     ],
-    "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+    "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027-slim.jpg",
-    "imageAlt": "Caricatura satirica con fumetti tradizionali, code sottili e dialogo leggibile.",
-    "published_at": "2026-09-23T09:17:03.392Z",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-09-24-senato-via-libera-nucleare.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il nucleare torna in corrente",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Gilberto Pichetto Fratin.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 23 settembre il Senato ha approvato definitivamente il disegno di legge delega del Governo in materia di energia nucleare sostenibile, già approvato dalla Camera. Il provvedimento affida al Governo la definizione del nuovo quadro normativo per il settore.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "image_model": "gpt-image-2.5-sunburst",
-    "image_generated_at": "2026-09-23T12:35:21.684Z",
-    "previous_image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027-speech.jpg",
-    "dialogue_layout": "speech_bubbles_slim",
-    "satire_quality_pass": true,
-    "editorial_revision": "punchline_v2",
-    "url": "/episodio/2026-09-23-bollo-appuntamento-2027/"
+    "published_at": "2026-09-24T08:24:44.901Z",
+    "url": "/episodio/2026-09-24-senato-via-libera-nucleare/"
   },
   "archive": [
+    {
+      "id": "2026-09-23-bollo-appuntamento-2027",
+      "date": "2026-09-23",
+      "slug": "2026-09-23-bollo-appuntamento-2027",
+      "edition": "extra",
+      "event_date": "2026-09-16",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/italy-scraps-road-tax-most-cars-election-nears-2026-09-16/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/09/17/la-mossa-di-meloni-addio-al-bollo-per-le-auto-piccole-e-medie_cb12208d-db01-44ea-a5b5-7535dd0d2550.html"
+        }
+      ],
+      "title": "Il bollo ha preso appuntamento",
+      "headline": "Il decreto sul bollo prevede l’esenzione nel 2027 per molte auto e moto",
+      "summary": "L’annuncio risale al 16 settembre: la misura prevede per il 2027 l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli, limitata a un veicolo per cittadino.",
+      "news_text": "Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.",
+      "question": "Suprema IA, il governo ha abolito il bollo: posso smettere di pagarlo subito?",
+      "answer": "È un addio con preavviso: prima di andarsene, il bollo passa all’incasso.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027-slim.jpg",
+      "imageAlt": "Caricatura satirica con fumetti tradizionali, code sottili e dialogo leggibile.",
+      "published_at": "2026-09-23T09:17:03.392Z",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 16 settembre il Consiglio dei ministri ha approvato un decreto che prevede, per il 2027, l’esenzione dal bollo per le auto fino a 80 kW e per i motoveicoli. L’agevolazione è limitata a un veicolo per cittadino; un’eventuale estensione agli anni successivi resta da definire.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "image_model": "gpt-image-2.5-sunburst",
+      "image_generated_at": "2026-09-23T12:35:21.684Z",
+      "previous_image": "/assets/episodes/2026-09-23-bollo-appuntamento-2027-speech.jpg",
+      "dialogue_layout": "speech_bubbles_slim",
+      "satire_quality_pass": true,
+      "editorial_revision": "punchline_v2",
+      "url": "/episodio/2026-09-23-bollo-appuntamento-2027/"
+    },
     {
       "id": "2026-09-23-meloni-fine-legislatura",
       "slug": "2026-09-23-meloni-fine-legislatura",
