@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-25",
+  "slug": "2026-09-25-scuola-tetto-30",
+  "event_date": "2026-09-24",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/09/24/scuola-multe-per-il-burqa-e-ai-genitori-che-non-sanno-litaliano.-meloni_39a231c7-1897-4df4-bfd9-a0e0bb8f798b.html"
+    }
+  ],
+  "title": "Il 30% entra in classe",
+  "headline": "Il Governo approva nuove regole per l’integrazione scolastica",
+  "summary": "Il 24 settembre il Consiglio dei ministri ha approvato un decreto scuola che introduce un limite del 30% in alcune classi prime per determinate categorie di studenti con cittadinanza non italiana e vieta la partecipazione alle attività scolastiche con il volto non riconoscibile, salvo eccezioni.",
+  "news_text": "Il 24 settembre il Consiglio dei ministri ha approvato nuove misure per la scuola. Nelle classi prime il decreto prevede, secondo criteri diversi per primaria e secondaria, un limite del 30% per determinate categorie di studenti con cittadinanza non italiana. Introduce inoltre il divieto di partecipare alle attività scolastiche con il volto coperto in modo da impedirne il riconoscimento, salvo specifiche ragioni sanitarie o di sicurezza.",
+  "question": "Suprema IA, col tetto del 30% la scuola diventa una questione di matematica?",
+  "answer": "La percentuale entra in classe. Speriamo abbia fatto i compiti.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Giuseppe Valditara"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily"
+}
