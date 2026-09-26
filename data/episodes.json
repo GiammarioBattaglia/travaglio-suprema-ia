@@ -1,50 +1,99 @@
 {
   "current": {
-    "date": "2026-09-25",
-    "slug": "2026-09-25-scuola-tetto-30",
-    "event_date": "2026-09-24",
+    "date": "2026-09-26",
+    "slug": "2026-09-26-studenti-abruzzo",
+    "event_date": "2026-09-25",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+      "name": "ANSA",
+      "url": "https://www.ansa.it/abruzzo/notizie/2026/09/25/meloni-studenti-universitari-ricchezza-straordinaria-da-custodire_780fe22b-b52e-4c26-8f93-bfd4fe317435.html"
     },
     "sources": [
       {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+        "name": "ANSA",
+        "url": "https://www.ansa.it/abruzzo/notizie/2026/09/25/meloni-studenti-universitari-ricchezza-straordinaria-da-custodire_780fe22b-b52e-4c26-8f93-bfd4fe317435.html"
       },
       {
-        "name": "ANSA",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/09/24/scuola-multe-per-il-burqa-e-ai-genitori-che-non-sanno-litaliano.-meloni_39a231c7-1897-4df4-bfd9-a0e0bb8f798b.html"
+        "name": "Presidenza del Consiglio dei Ministri",
+        "url": "https://www.governo.it/it/articolo/abruzzo-economy-summit-videomessaggio-del-presidente-meloni/32662"
+      },
+      {
+        "name": "Regione Abruzzo",
+        "url": "https://www.regione.abruzzo.it/notizie/abruzzo-economy-summit-apertura-di-seconda-giornata-il-videomessaggio-della-premier-meloni"
       }
     ],
-    "title": "Il 30% entra in classe",
-    "headline": "Il Governo approva nuove regole per l’integrazione scolastica",
-    "summary": "Il 24 settembre il Consiglio dei ministri ha approvato un decreto scuola che introduce un limite del 30% in alcune classi prime per determinate categorie di studenti con cittadinanza non italiana e vieta la partecipazione alle attività scolastiche con il volto non riconoscibile, salvo eccezioni.",
-    "news_text": "Il 24 settembre il Consiglio dei ministri ha approvato nuove misure per la scuola. Nelle classi prime il decreto prevede, secondo criteri diversi per primaria e secondaria, un limite del 30% per determinate categorie di studenti con cittadinanza non italiana. Introduce inoltre il divieto di partecipare alle attività scolastiche con il volto coperto in modo da impedirne il riconoscimento, salvo specifiche ragioni sanitarie o di sicurezza.",
-    "question": "Suprema IA, col tetto del 30% la scuola diventa una questione di matematica?",
-    "answer": "La percentuale entra in classe. Speriamo abbia fatto i compiti.",
+    "title": "Il futuro resta sul posto",
+    "headline": "Meloni: gli studenti universitari sono una ricchezza da aiutare a rimanere sul territorio",
+    "summary": "Il 25 settembre, in un videomessaggio all’Abruzzo Economy Summit, la presidente del Consiglio Giorgia Meloni ha indicato gli studenti universitari come una risorsa da custodire e aiutare a rimanere sul territorio.",
+    "news_text": "Il 25 settembre Giorgia Meloni è intervenuta con un videomessaggio alla seconda giornata dell’Abruzzo Economy Summit, a Pescara. La presidente del Consiglio ha affermato che gli studenti universitari rappresentano una ricchezza da custodire e da aiutare a rimanere sul territorio e ha detto che il Governo terrà conto dei contributi emersi dai lavori del summit.",
+    "question": "Suprema IA, come si convincono gli studenti a restare sul territorio?",
+    "answer": "Con un futuro sul posto: il posto letto, da solo, non basta.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Giuseppe Valditara"
+      "Giorgia Meloni"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-09-25-scuola-tetto-30.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il 30% entra in classe",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giuseppe Valditara.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 24 settembre il Consiglio dei ministri ha approvato nuove misure per la scuola. Nelle classi prime il decreto prevede, secondo criteri diversi per primaria e secondaria, un limite del 30% per determinate categorie di studenti con cittadinanza non italiana. Introduce inoltre il divieto di partecipare alle attività scolastiche con il volto coperto in modo da impedirne il riconoscimento, salvo specifiche ragioni sanitarie o di sicurezza.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-09-26-studenti-abruzzo.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il futuro resta sul posto",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 settembre Giorgia Meloni è intervenuta con un videomessaggio alla seconda giornata dell’Abruzzo Economy Summit, a Pescara. La presidente del Consiglio ha affermato che gli studenti universitari rappresentano una ricchezza da custodire e da aiutare a rimanere sul territorio e ha detto che il Governo terrà conto dei contributi emersi dai lavori del summit.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-09-25T08:49:40.842Z",
-    "url": "/episodio/2026-09-25-scuola-tetto-30/"
+    "published_at": "2026-09-26T08:40:38.298Z",
+    "url": "/episodio/2026-09-26-studenti-abruzzo/"
   },
   "archive": [
+    {
+      "date": "2026-09-25",
+      "slug": "2026-09-25-scuola-tetto-30",
+      "event_date": "2026-09-24",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/beset-by-far-right-rival-italys-meloni-tightens-foreign-pupil-rules-2026-09-24/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/24/scuola-multe-per-il-burqa-e-ai-genitori-che-non-sanno-litaliano.-meloni_39a231c7-1897-4df4-bfd9-a0e0bb8f798b.html"
+        }
+      ],
+      "title": "Il 30% entra in classe",
+      "headline": "Il Governo approva nuove regole per l’integrazione scolastica",
+      "summary": "Il 24 settembre il Consiglio dei ministri ha approvato un decreto scuola che introduce un limite del 30% in alcune classi prime per determinate categorie di studenti con cittadinanza non italiana e vieta la partecipazione alle attività scolastiche con il volto non riconoscibile, salvo eccezioni.",
+      "news_text": "Il 24 settembre il Consiglio dei ministri ha approvato nuove misure per la scuola. Nelle classi prime il decreto prevede, secondo criteri diversi per primaria e secondaria, un limite del 30% per determinate categorie di studenti con cittadinanza non italiana. Introduce inoltre il divieto di partecipare alle attività scolastiche con il volto coperto in modo da impedirne il riconoscimento, salvo specifiche ragioni sanitarie o di sicurezza.",
+      "question": "Suprema IA, col tetto del 30% la scuola diventa una questione di matematica?",
+      "answer": "La percentuale entra in classe. Speriamo abbia fatto i compiti.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giuseppe Valditara"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-09-25-scuola-tetto-30.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il 30% entra in classe",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giuseppe Valditara.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 24 settembre il Consiglio dei ministri ha approvato nuove misure per la scuola. Nelle classi prime il decreto prevede, secondo criteri diversi per primaria e secondaria, un limite del 30% per determinate categorie di studenti con cittadinanza non italiana. Introduce inoltre il divieto di partecipare alle attività scolastiche con il volto coperto in modo da impedirne il riconoscimento, salvo specifiche ragioni sanitarie o di sicurezza.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-09-25T08:49:40.842Z",
+      "url": "/episodio/2026-09-25-scuola-tetto-30/"
+    },
     {
       "date": "2026-09-24",
       "slug": "2026-09-24-senato-via-libera-nucleare",
