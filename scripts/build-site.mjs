@@ -100,6 +100,8 @@ function buildEpisodePage(ep) {
   const desc = ep.summary;
   const image = ep.image || '/assets/social.jpg';
   const imageName = `${ep.slug}-vignetta${path.extname(image) || '.jpg'}`;
+  const imageVersion = socialVersion(ep);
+  const versionedImage = `${image}?v=${imageVersion}`;
 
   return `<!doctype html>
 <html lang="it">
@@ -152,12 +154,12 @@ function buildEpisodePage(ep) {
       </header>
 
       <figure class="vignette">
-        <a class="image-direct-link" href="${escapeHtml(image)}" target="_blank" rel="noopener" aria-label="Apri la vignetta ingrandita">
-          <img id="heroImage" src="${escapeHtml(image)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1600" height="900">
+        <a class="image-direct-link" href="${escapeHtml(versionedImage)}" target="_blank" rel="noopener" aria-label="Apri la vignetta ingrandita">
+          <img id="heroImage" src="${escapeHtml(versionedImage)}" alt="${escapeHtml(ep.imageAlt || ep.title)}" width="1600" height="900">
         </a>
         <figcaption class="image-tools">
-          <a id="originalImageBtn" class="image-tool image-tool-primary" href="${escapeHtml(image)}" target="_blank" rel="noopener">Apri e ingrandisci</a>
-          <a id="downloadImageBtn" class="image-tool" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica</a>
+          <a id="originalImageBtn" class="image-tool image-tool-primary" href="${escapeHtml(versionedImage)}" target="_blank" rel="noopener">Apri e ingrandisci</a>
+          <a id="downloadImageBtn" class="image-tool" href="${escapeHtml(versionedImage)}" download="${escapeHtml(imageName)}">Scarica</a>
         </figcaption>
       </figure>
 
@@ -180,7 +182,7 @@ function buildEpisodePage(ep) {
 
       <div class="actions">
         <a class="btn secondary" href="/archive/">Archivio</a>
-        <a class="btn primary" href="${escapeHtml(image)}" download="${escapeHtml(imageName)}">Scarica vignetta</a>
+        <a class="btn primary" href="${escapeHtml(versionedImage)}" download="${escapeHtml(imageName)}">Scarica vignetta</a>
       </div>
     </article>
   </main>
