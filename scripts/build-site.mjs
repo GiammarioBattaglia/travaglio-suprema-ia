@@ -55,14 +55,14 @@ function replaceMeta(html, key, tag) {
 
 function updateHomeSocialMeta(html, ep) {
   if (!ep) return html;
-  const image = socialImageFor(ep);
-  const version = socialVersion(ep);
+  const image = '/assets/social.jpg';
+  const version = 'app-logo-20260926';
   const meta = imageMeta(image);
   const imageUrl = origin + image + '?v=' + version;
   const pageUrl = origin + '/';
-  const title = 'Travaglio & la Suprema IA — ' + ep.title;
-  const desc = ep.summary || 'Una notizia reale, una domanda e una risposta satirica della Suprema IA.';
-  const alt = ep.imageAlt || ('Vignetta satirica: ' + ep.title);
+  const title = 'Travaglio & la Suprema IA';
+  const desc = 'Una notizia politica, una domanda di Travaglio, una risposta della Suprema IA. Satira indipendente.';
+  const alt = 'Logo di Travaglio & la Suprema IA';
   const tags = [
     ['property="og:type"', '<meta property="og:type" content="website">'],
     ['property="og:site_name"', '<meta property="og:site_name" content="Travaglio &amp; la Suprema IA">'],
