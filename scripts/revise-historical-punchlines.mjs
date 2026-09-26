@@ -16,7 +16,12 @@ for (const [slug,answer] of Object.entries(revisions)) {
   const ep=JSON.parse(await fs.readFile(file,'utf8'));
   if (ep.slug!==slug || ep.published!==true || ep.image_status!=='generated_jpeg') throw new Error('Stato inatteso: '+slug);
   const next={...ep,answer,satire_quality_pass:true};
-  const generated=await generateCaricature(next);
+  // Per la vignetta scuola, usa un contesto visivo neutro e istituzionale per evitare
+  // che il renderer trasformi dettagli sensibili della notizia in elementi grafici.
+  const renderEp = slug === '2026-09-25-scuola-tetto-30'
+    ? {...next, news_text: 'Il Governo ha approvato nuove misure organizzative per la scuola. La vignetta commenta soltanto, in modo leggero e astratto, il ricorso a una soglia percentuale nelle regole scolastiche.', headline: 'Nuove regole organizzative per la scuola'}
+    : next;
+  const generated=await generateCaricature(renderEp);
   staged.push({slug,file,next,buffer:generated.buffer,prompt:generated.prompt});
   console.log('STAGED '+slug+' '+generated.buffer.length);
 }
