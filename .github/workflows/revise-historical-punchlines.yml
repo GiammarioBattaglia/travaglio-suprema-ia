@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/revise-historical-punchlines.yml'
+      - 'scripts/revise-historical-punchlines.mjs'
 
 permissions:
   contents: write
