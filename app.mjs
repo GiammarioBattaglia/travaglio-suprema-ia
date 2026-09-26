@@ -135,7 +135,7 @@ function renderCurrent(ep){
 
   for(const id of ['imageOpenLink','originalImageBtn','downloadImageBtn']){
     const el=document.getElementById(id);
-    if(el)el.href=imagePath;
+    if(el)el.href=imagePath+'?v='+version;
   }
   const download=document.getElementById('downloadImageBtn');
   if(download)download.download=`${ep.slug||'travaglio-suprema-ia'}-vignetta${imagePath.endsWith('.svg')?'.svg':'.jpg'}`;
