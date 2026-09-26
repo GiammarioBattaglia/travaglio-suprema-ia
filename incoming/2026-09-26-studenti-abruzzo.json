@@ -29,12 +29,15 @@
   "summary": "Il 25 settembre, in un videomessaggio all’Abruzzo Economy Summit, la presidente del Consiglio Giorgia Meloni ha indicato gli studenti universitari come una risorsa da custodire e aiutare a rimanere sul territorio.",
   "news_text": "Il 25 settembre Giorgia Meloni è intervenuta con un videomessaggio alla seconda giornata dell’Abruzzo Economy Summit, a Pescara. La presidente del Consiglio ha affermato che gli studenti universitari rappresentano una ricchezza da custodire e da aiutare a rimanere sul territorio e ha detto che il Governo terrà conto dei contributi emersi dai lavori del summit.",
   "question": "Suprema IA, come si convincono gli studenti a restare sul territorio?",
-  "answer": "Con un futuro sul posto: il posto letto, da solo, non basta.",
+  "answer": "Semplice. Prima convinciamo il futuro a trasferirsi qui.",
   "characters": [
     "Marco Travaglio",
     "Suprema IA",
     "Giorgia Meloni"
   ],
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
-  "edition": "daily"
+  "edition": "daily",
+  "revision_requested": true,
+  "revision_of": "2026-09-26-studenti-abruzzo",
+  "revision_reason": "Miglioramento editoriale della punchline: chiarezza immediata, paradosso e chiusa autonoma."
 }

@@ -166,10 +166,17 @@ async function publishFile(file){
   const raw=await fs.readFile(path.join(incomingDir,file),'utf-8');
   const ep=JSON.parse(raw);
   const publishedPath=path.join(episodesDir,`${ep.slug}.json`);
+  let existingRecord = null;
+  let isRevision = false;
   try {
-    await fs.access(publishedPath);
-    console.log(`Episodio già presente, non sovrascrivo: ${ep.slug}`);
-    return false;
+    existingRecord = JSON.parse(await fs.readFile(publishedPath, 'utf8'));
+    if (ep.revision_requested === true && ep.revision_of === ep.slug && existingRecord.slug === ep.slug) {
+      isRevision = true;
+      console.log(`Revisione editoriale controllata: ${ep.slug}`);
+    } else {
+      console.log(`Episodio già presente, non sovrascrivo: ${ep.slug}`);
+      return false;
+    }
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }
@@ -186,9 +193,10 @@ async function publishFile(file){
     imageAlt = ep.imageAlt || `Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: ${ep.title}`;
     imageStatus = 'generated_jpeg';
     imagePrompt = result.prompt;
-    await fs.writeFile(path.join(assetsDir, `${ep.slug}.jpg`), result.buffer, {flag:'wx'});
+    await fs.writeFile(path.join(assetsDir, `${ep.slug}.jpg`), result.buffer, isRevision ? undefined : {flag:'wx'});
     console.log(`Caricatura reale generata e verificata: ${image}`);
   } catch (error) {
+    if (isRevision) throw new Error('Revisione non applicata: nuova caricatura JPEG non generata; pubblicazione precedente preservata. ' + error.message);
     console.warn('Generazione JPEG fallita; fallback SVG: ' + error.message);
     image = `/assets/episodes/${ep.slug}.svg`;
     imageAlt = ep.imageAlt || `Vignetta satirica vettoriale di riserva: ${ep.title}`;
@@ -207,7 +215,9 @@ async function publishFile(file){
     image_status: imageStatus,
     image_fallback: imageFallback,
     satire_notice:ep.satire_notice||"Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all'attualità.",
-    published_at:new Date().toISOString()
+    published_at:isRevision ? existingRecord.published_at : new Date().toISOString(),
+    image_generated_at:new Date().toISOString(),
+    ...(isRevision ? { revised_at:new Date().toISOString() } : {})
   };
   await fs.writeFile(publishedPath,JSON.stringify(published,null,2)+'\n');
   await runBuild();
