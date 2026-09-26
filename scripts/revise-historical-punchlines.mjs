@@ -4,10 +4,8 @@ import { generateCaricature } from './render-caricature.mjs';
 
 const root=process.cwd();
 const revisions={
-  '2026-09-23-bollo-appuntamento-2027': 'È abolito dal 2027. Fino ad allora vuole godersi gli ultimi stipendi.',
-  '2026-09-23-meloni-fine-legislatura': 'Caso chiuso. In politica è il modo elegante di lasciare la porta aperta.',
-  '2026-09-24-senato-via-libera-nucleare': 'Hanno acceso il nucleare. Per ora consuma soltanto carta.',
-  '2026-09-25-scuola-tetto-30': 'Finalmente la matematica serve: adesso decide anche chi si siede al banco.'
+  '2026-09-23-bollo-appuntamento-2027': 'Non ancora. Anche le tasse, quando se ne vanno, pretendono il preavviso.',
+  '2026-09-24-senato-via-libera-nucleare': 'Tranquillo. Per ora l’unica cosa radioattiva è il dibattito.'
 };
 const staged=[];
 for (const [slug,answer] of Object.entries(revisions)) {
@@ -16,12 +14,7 @@ for (const [slug,answer] of Object.entries(revisions)) {
   const ep=JSON.parse(await fs.readFile(file,'utf8'));
   if (ep.slug!==slug || ep.published!==true || ep.image_status!=='generated_jpeg') throw new Error('Stato inatteso: '+slug);
   const next={...ep,answer,satire_quality_pass:true};
-  // Per la vignetta scuola, usa un contesto visivo neutro e istituzionale per evitare
-  // che il renderer trasformi dettagli sensibili della notizia in elementi grafici.
-  const renderEp = slug === '2026-09-25-scuola-tetto-30'
-    ? {...next, news_text: 'Il Governo ha approvato nuove misure organizzative per la scuola. La vignetta commenta soltanto, in modo leggero e astratto, il ricorso a una soglia percentuale nelle regole scolastiche.', headline: 'Nuove regole organizzative per la scuola'}
-    : next;
-  const generated=await generateCaricature(renderEp);
+  const generated=await generateCaricature(next);
   staged.push({slug,file,next,buffer:generated.buffer,prompt:generated.prompt});
   console.log('STAGED '+slug+' '+generated.buffer.length);
 }
