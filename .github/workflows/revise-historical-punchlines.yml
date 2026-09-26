@@ -2,6 +2,9 @@ name: Revise Historical Punchlines
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/revise-historical-punchlines.yml'
 
 permissions:
   contents: write
