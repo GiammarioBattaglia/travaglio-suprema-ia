@@ -29,7 +29,7 @@
   "summary": "Il 25 settembre, in un videomessaggio all’Abruzzo Economy Summit, la presidente del Consiglio Giorgia Meloni ha indicato gli studenti universitari come una risorsa da custodire e aiutare a rimanere sul territorio.",
   "news_text": "Il 25 settembre Giorgia Meloni è intervenuta con un videomessaggio alla seconda giornata dell’Abruzzo Economy Summit, a Pescara. La presidente del Consiglio ha affermato che gli studenti universitari rappresentano una ricchezza da custodire e da aiutare a rimanere sul territorio e ha detto che il Governo terrà conto dei contributi emersi dai lavori del summit.",
   "question": "Suprema IA, come si convincono gli studenti a restare sul territorio?",
-  "answer": "Con un futuro sul posto: il posto letto, da solo, non basta.",
+  "answer": "Semplice. Prima convinciamo il futuro a trasferirsi qui.",
   "characters": [
     "Marco Travaglio",
     "Suprema IA",
@@ -37,6 +37,9 @@
   ],
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
   "edition": "daily",
+  "revision_requested": true,
+  "revision_of": "2026-09-26-studenti-abruzzo",
+  "revision_reason": "Miglioramento editoriale della punchline: chiarezza immediata, paradosso e chiusa autonoma.",
   "published": true,
   "status": "published",
   "image": "/assets/episodes/2026-09-26-studenti-abruzzo.jpg",
@@ -44,5 +47,7 @@
   "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 settembre Giorgia Meloni è intervenuta con un videomessaggio alla seconda giornata dell’Abruzzo Economy Summit, a Pescara. La presidente del Consiglio ha affermato che gli studenti universitari rappresentano una ricchezza da custodire e da aiutare a rimanere sul territorio e ha detto che il Governo terrà conto dei contributi emersi dai lavori del summit.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
   "image_status": "generated_jpeg",
   "image_fallback": false,
-  "published_at": "2026-09-26T08:40:38.298Z"
+  "published_at": "2026-09-26T08:40:38.298Z",
+  "image_generated_at": "2026-09-26T08:47:07.546Z",
+  "revised_at": "2026-09-26T08:47:07.547Z"
 }
