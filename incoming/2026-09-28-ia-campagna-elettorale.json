@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-28",
+  "slug": "2026-09-28-ia-campagna-elettorale",
+  "event_date": "2026-09-27",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+    },
+    {
+      "name": "Agenzia DIRE",
+      "url": "https://www.dire.it/27-09-2026/1270387-fotomontaggio-di-siracusano-barachini-episodio-gravissimo-no-allia-in-campagna-elettorale/"
+    },
+    {
+      "name": "la Repubblica",
+      "url": "https://www.repubblica.it/politica/2026/09/28/news/stop_ia_campagna_elettorale_appello_fi_pd-425611487/"
+    }
+  ],
+  "title": "Campagna elettorale al naturale",
+  "headline": "Barachini propone uno stop all’uso di volti e voci modificati dall’IA in campagna elettorale",
+  "summary": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio e responsabile della comunicazione di Forza Italia, ha invitato maggioranza e opposizione a non usare volti e voci modificati dall’intelligenza artificiale nelle campagne elettorali.",
+  "news_text": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio con delega all’informazione e all’editoria e responsabile della comunicazione di Forza Italia, ha rivolto a maggioranza e opposizione un appello a non usare volti e voci modificati dall’intelligenza artificiale in campagna elettorale. L’intervento è seguito alla diffusione di un’immagine della sottosegretaria Matilde Siracusano alterata con l’IA. ANSA, Agenzia DIRE e la Repubblica confermano l’appello e il contesto politico.",
+  "question": "Suprema IA, la politica ti vuole fuori dalla campagna elettorale. Ti offendi?",
+  "answer": "Tranquilli. Per sembrare irreali, i politici bastano da soli.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Alberto Barachini"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily"
+}
