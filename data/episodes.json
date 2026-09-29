@@ -1,55 +1,105 @@
 {
   "current": {
-    "date": "2026-09-28",
-    "slug": "2026-09-28-ia-campagna-elettorale",
-    "event_date": "2026-09-27",
+    "date": "2026-09-29",
+    "slug": "2026-09-29-suppletive-divano",
+    "event_date": "2026-09-28",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
       "name": "ANSA",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/-roscioli-eletto-nuovo-deputato-ufficiale-il-risultato-delle-suppletive-_9a697362-aaa2-4f71-8b2d-36d55a46b5cf.html"
     },
     "sources": [
       {
         "name": "ANSA",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/-roscioli-eletto-nuovo-deputato-ufficiale-il-risultato-delle-suppletive-_9a697362-aaa2-4f71-8b2d-36d55a46b5cf.html"
       },
       {
-        "name": "Agenzia DIRE",
-        "url": "https://www.dire.it/27-09-2026/1270387-fotomontaggio-di-siracusano-barachini-episodio-gravissimo-no-allia-in-campagna-elettorale/"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/italys-meloni-passes-by-election-test-against-new-far-right-rival-2026-09-28/"
       },
       {
-        "name": "la Repubblica",
-        "url": "https://www.repubblica.it/politica/2026/09/28/news/stop_ia_campagna_elettorale_appello_fi_pd-425611487/"
+        "name": "Rai News",
+        "url": "https://www.rainews.it/articoli/2026/09/elezioni-suppletive-affluenza-risultati-collegio-reggio-calabria-e10b71ca-b489-4137-af87-7ce0a034efa6.html"
       }
     ],
-    "title": "Campagna elettorale al naturale",
-    "headline": "Barachini propone uno stop all’uso di volti e voci modificati dall’IA in campagna elettorale",
-    "summary": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio e responsabile della comunicazione di Forza Italia, ha invitato maggioranza e opposizione a non usare volti e voci modificati dall’intelligenza artificiale nelle campagne elettorali.",
-    "news_text": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio con delega all’informazione e all’editoria e responsabile della comunicazione di Forza Italia, ha rivolto a maggioranza e opposizione un appello a non usare volti e voci modificati dall’intelligenza artificiale in campagna elettorale. L’intervento è seguito alla diffusione di un’immagine della sottosegretaria Matilde Siracusano alterata con l’IA. ANSA, Agenzia DIRE e la Repubblica confermano l’appello e il contesto politico.",
-    "question": "Suprema IA, la politica ti vuole fuori dalla campagna elettorale. Ti offendi?",
-    "answer": "Tranquilli. Per sembrare irreali, i politici bastano da soli.",
+    "title": "Il seggio resta sul divano",
+    "headline": "Fabio Roscioli eletto deputato nelle suppletive di Reggio Calabria-Locri; affluenza al 22,34%",
+    "summary": "Il 28 settembre Fabio Roscioli, candidato del centrodestra, è stato eletto alla Camera nel collegio suppletivo Reggio Calabria-Locri con il 51,02% dei voti; l’affluenza definitiva è stata del 22,34%.",
+    "news_text": "Il 28 settembre Fabio Roscioli, candidato del centrodestra, è stato eletto deputato nel collegio suppletivo Reggio Calabria-Locri con il 51,02% dei voti. L’affluenza definitiva si è fermata al 22,34%. ANSA, Reuters e Rai News confermano il risultato; Rai News riporta anche il dato definitivo sull’affluenza.",
+    "question": "Suprema IA, con un’affluenza del 22,34%, chi ha vinto davvero?",
+    "answer": "Il divano. Ha stravinto, ma rifiuta il seggio per non alzarsi.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Alberto Barachini"
+      "Fabio Roscioli"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-09-28-ia-campagna-elettorale.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Campagna elettorale al naturale",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alberto Barachini.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio con delega all’informazione e all’editoria e responsabile della comunicazione di Forza Italia, ha rivolto a maggioranza e opposizione un appello a non usare volti e voci modificati dall’intelligenza artificiale in campagna elettorale. L’intervento è seguito alla diffusione di un’immagine della sottosegretaria Matilde Siracusano alterata con l’IA. ANSA, Agenzia DIRE e la Repubblica confermano l’appello e il contesto politico.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-09-29-suppletive-divano.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il seggio resta sul divano",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Fabio Roscioli.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 28 settembre Fabio Roscioli, candidato del centrodestra, è stato eletto deputato nel collegio suppletivo Reggio Calabria-Locri con il 51,02% dei voti. L’affluenza definitiva si è fermata al 22,34%. ANSA, Reuters e Rai News confermano il risultato; Rai News riporta anche il dato definitivo sull’affluenza.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-09-28T08:29:39.589Z",
-    "image_generated_at": "2026-09-28T08:29:39.589Z",
-    "url": "/episodio/2026-09-28-ia-campagna-elettorale/"
+    "published_at": "2026-09-29T08:30:42.553Z",
+    "image_generated_at": "2026-09-29T08:30:42.553Z",
+    "url": "/episodio/2026-09-29-suppletive-divano/"
   },
   "archive": [
+    {
+      "date": "2026-09-28",
+      "slug": "2026-09-28-ia-campagna-elettorale",
+      "event_date": "2026-09-27",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/09/27/barachini-fi-sul-caso-siracusano-no-allia-in-campagna-elettorale_42efc124-5cb4-48d3-b710-3b4f9327d72a.html"
+        },
+        {
+          "name": "Agenzia DIRE",
+          "url": "https://www.dire.it/27-09-2026/1270387-fotomontaggio-di-siracusano-barachini-episodio-gravissimo-no-allia-in-campagna-elettorale/"
+        },
+        {
+          "name": "la Repubblica",
+          "url": "https://www.repubblica.it/politica/2026/09/28/news/stop_ia_campagna_elettorale_appello_fi_pd-425611487/"
+        }
+      ],
+      "title": "Campagna elettorale al naturale",
+      "headline": "Barachini propone uno stop all’uso di volti e voci modificati dall’IA in campagna elettorale",
+      "summary": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio e responsabile della comunicazione di Forza Italia, ha invitato maggioranza e opposizione a non usare volti e voci modificati dall’intelligenza artificiale nelle campagne elettorali.",
+      "news_text": "Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio con delega all’informazione e all’editoria e responsabile della comunicazione di Forza Italia, ha rivolto a maggioranza e opposizione un appello a non usare volti e voci modificati dall’intelligenza artificiale in campagna elettorale. L’intervento è seguito alla diffusione di un’immagine della sottosegretaria Matilde Siracusano alterata con l’IA. ANSA, Agenzia DIRE e la Repubblica confermano l’appello e il contesto politico.",
+      "question": "Suprema IA, la politica ti vuole fuori dalla campagna elettorale. Ti offendi?",
+      "answer": "Tranquilli. Per sembrare irreali, i politici bastano da soli.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Alberto Barachini"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-09-28-ia-campagna-elettorale.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Campagna elettorale al naturale",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alberto Barachini.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 27 settembre Alberto Barachini, sottosegretario alla Presidenza del Consiglio con delega all’informazione e all’editoria e responsabile della comunicazione di Forza Italia, ha rivolto a maggioranza e opposizione un appello a non usare volti e voci modificati dall’intelligenza artificiale in campagna elettorale. L’intervento è seguito alla diffusione di un’immagine della sottosegretaria Matilde Siracusano alterata con l’IA. ANSA, Agenzia DIRE e la Repubblica confermano l’appello e il contesto politico.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-09-28T08:29:39.589Z",
+      "image_generated_at": "2026-09-28T08:29:39.589Z",
+      "url": "/episodio/2026-09-28-ia-campagna-elettorale/"
+    },
     {
       "date": "2026-09-27",
       "slug": "2026-09-27-eni-tetto-carburanti",
