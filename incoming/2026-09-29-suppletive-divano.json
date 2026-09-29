@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-29",
+  "slug": "2026-09-29-suppletive-divano",
+  "event_date": "2026-09-28",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA",
+    "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/-roscioli-eletto-nuovo-deputato-ufficiale-il-risultato-delle-suppletive-_9a697362-aaa2-4f71-8b2d-36d55a46b5cf.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/28/-roscioli-eletto-nuovo-deputato-ufficiale-il-risultato-delle-suppletive-_9a697362-aaa2-4f71-8b2d-36d55a46b5cf.html"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/italys-meloni-passes-by-election-test-against-new-far-right-rival-2026-09-28/"
+    },
+    {
+      "name": "Rai News",
+      "url": "https://www.rainews.it/articoli/2026/09/elezioni-suppletive-affluenza-risultati-collegio-reggio-calabria-e10b71ca-b489-4137-af87-7ce0a034efa6.html"
+    }
+  ],
+  "title": "Il seggio resta sul divano",
+  "headline": "Fabio Roscioli eletto deputato nelle suppletive di Reggio Calabria-Locri; affluenza al 22,34%",
+  "summary": "Il 28 settembre Fabio Roscioli, candidato del centrodestra, è stato eletto alla Camera nel collegio suppletivo Reggio Calabria-Locri con il 51,02% dei voti; l’affluenza definitiva è stata del 22,34%.",
+  "news_text": "Il 28 settembre Fabio Roscioli, candidato del centrodestra, è stato eletto deputato nel collegio suppletivo Reggio Calabria-Locri con il 51,02% dei voti. L’affluenza definitiva si è fermata al 22,34%. ANSA, Reuters e Rai News confermano il risultato; Rai News riporta anche il dato definitivo sull’affluenza.",
+  "question": "Suprema IA, con un’affluenza del 22,34%, chi ha vinto davvero?",
+  "answer": "Il divano. Ha stravinto, ma rifiuta il seggio per non alzarsi.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Fabio Roscioli"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily"
+}
