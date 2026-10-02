@@ -4,12 +4,14 @@ import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 const publisher = await fs.readFile(new URL('./publish-autonomous.mjs', import.meta.url), 'utf8');
+const reviewModule = await fs.readFile(new URL('./editorial-review.mjs', import.meta.url), 'utf8');
 const today = new Intl.DateTimeFormat('en-CA', {timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 for (const scenario of ['missing', 'today_exists', 'stale_pending']) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'daily-publish-test-'));
   try {
     for (const dir of ['scripts','incoming','data/episodes']) await fs.mkdir(path.join(root,dir), {recursive:true});
     await fs.writeFile(path.join(root,'scripts/publish-autonomous.mjs'), publisher);
+    await fs.writeFile(path.join(root,'scripts/editorial-review.mjs'), reviewModule);
     await fs.writeFile(path.join(root,'scripts/render-caricature.mjs'), 'export async function generateCaricature(){throw new Error("unexpected renderer call")}');
     const current = scenario === 'today_exists' ? {date:today,slug:today+'-fixture',published:true} : {date:'2000-01-01',published:true};
     await fs.writeFile(path.join(root,'data/site.json'), JSON.stringify({current}));
