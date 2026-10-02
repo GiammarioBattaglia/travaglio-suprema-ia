@@ -11,7 +11,7 @@ on:
       - 'scripts/verify-production.mjs'
       - 'scripts/build-site.mjs'
   schedule:
-    - cron: '15 10 * * *' # Controllo di recupero: la redazione quotidiana resta nell'automazione ChatGPT
+    - cron: '15 9,11,14,17,20 * * *' # UTC: recovery checks; editorial preparation runs in Europe/Rome
   workflow_dispatch:
 
 permissions:
@@ -24,6 +24,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
