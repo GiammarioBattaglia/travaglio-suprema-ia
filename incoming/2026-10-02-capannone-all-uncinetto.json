@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-02",
+  "slug": "2026-10-02-capannone-all-uncinetto",
+  "event_date": "2026-10-01",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+    },
+    {
+      "name": "CNA",
+      "url": "https://www.cna.it/la-premier-agli-80-anni-della-cna-sulla-legge-quadro-andremo-avanti/"
+    }
+  ],
+  "title": "Il capannone all’uncinetto",
+  "headline": "Meloni conferma alla CNA l’impegno per la riforma dell’artigianato",
+  "summary": "Il 1° ottobre, alle celebrazioni degli 80 anni della CNA, Giorgia Meloni ha ribadito l’intenzione di consentire alle imprese artigiane con una storia consolidata di assumere più persone conservando la loro qualifica.",
+  "news_text": "Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.",
+  "question": "Suprema IA, gli artigiani potranno crescere senza perdere la loro qualifica?",
+  "answer": "Certo. Il capannone nuovo lo facciamo all’uncinetto.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Giorgia Meloni"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "In una bottega artigiana, la Suprema IA mostra un grande capannone industriale lavorato all’uncinetto, con gomitoli e un enorme uncinetto. Marco Travaglio osserva con taccuino. Giorgia Meloni è presente come caricatura. La gag riguarda soltanto il contrasto visivo fra crescita dimensionale e lavoro fatto a mano."
+}
