@@ -8,6 +8,7 @@ on:
       - 'scripts/publish-autonomous.mjs'
       - 'scripts/render-caricature.mjs'
       - 'scripts/test-render-caricature.mjs'
+      - 'scripts/test-daily-publish.mjs'
       - 'scripts/verify-production.mjs'
       - 'scripts/build-site.mjs'
   schedule:
@@ -38,6 +39,8 @@ jobs:
           npm --silent install --no-save --no-package-lock sharp@0.34.4 >/dev/null 2>&1
       - name: Validate renderer with offline fixture
         run: node scripts/test-render-caricature.mjs
+      - name: Validate daily recovery guards
+        run: node scripts/test-daily-publish.mjs
       - name: Check image generation configuration
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
