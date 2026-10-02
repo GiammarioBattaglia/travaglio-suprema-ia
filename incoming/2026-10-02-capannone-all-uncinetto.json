@@ -20,12 +20,12 @@
       "url": "https://www.cna.it/la-premier-agli-80-anni-della-cna-sulla-legge-quadro-andremo-avanti/"
     }
   ],
-  "title": "Il capannone all’uncinetto",
+  "title": "Il fatturato fatto a mano",
   "headline": "Meloni conferma alla CNA l’impegno per la riforma dell’artigianato",
   "summary": "Il 1° ottobre, alle celebrazioni degli 80 anni della CNA, Giorgia Meloni ha ribadito l’intenzione di consentire alle imprese artigiane con una storia consolidata di assumere più persone conservando la loro qualifica.",
   "news_text": "Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.",
-  "question": "Suprema IA, gli artigiani potranno crescere senza perdere la loro qualifica?",
-  "answer": "Certo. Il capannone nuovo lo facciamo all’uncinetto.",
+  "question": "Quindi un’impresa può diventare grande e restare artigiana?",
+  "answer": "Certo. Purché anche il fatturato sia fatto a mano.",
   "characters": [
     "Marco Travaglio",
     "Suprema IA",
@@ -33,5 +33,19 @@
   ],
   "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
   "edition": "daily",
-  "visual_context": "In una bottega artigiana, la Suprema IA mostra un grande capannone industriale lavorato all’uncinetto, con gomitoli e un enorme uncinetto. Marco Travaglio osserva con taccuino. Giorgia Meloni è presente come caricatura. La gag riguarda soltanto il contrasto visivo fra crescita dimensionale e lavoro fatto a mano."
+  "visual_context": "Scena di bottega con registri contabili e un’impresa che cresce. La gag è il doppio senso di fatto a mano applicato al fatturato, non una ricostruzione di illeciti.",
+  "revision_requested": true,
+  "revision_of": "2026-10-02-capannone-all-uncinetto",
+  "editorial_revision": "punchline_v3_user_20261002",
+  "editorial_review": {
+    "version": 2,
+    "method": "user_approved",
+    "approved_by": "user",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "selected_answer": "Certo. Purché anche il fatturato sia fatto a mano.",
+    "fact_anchor": "Crescita degli addetti conservando la qualifica artigiana; doppio senso immediato di fatto a mano."
+  }
 }
