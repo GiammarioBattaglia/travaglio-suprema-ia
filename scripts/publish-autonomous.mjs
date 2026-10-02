@@ -231,6 +231,8 @@ async function main(){
   const files=(await fs.readdir(incomingDir)).filter(f=>f.endsWith('.json')).sort();
   let changed=false;
   for(const file of files){
+    const candidate = JSON.parse(await fs.readFile(path.join(incomingDir, file), 'utf8'));
+    if (candidate.date !== todayRome()) continue; // Old pending items must not block today's queue.
     if (await publishFile(file)) {
       changed = true;
       if (process.env.GITHUB_OUTPUT) {
@@ -241,5 +243,10 @@ async function main(){
     }
   }
   console.log(changed?'AUTONOMOUS_PUBLISH_CHANGED=1':'AUTONOMOUS_PUBLISH_CHANGED=0');
+  const site = JSON.parse(await fs.readFile(siteFile, 'utf8'));
+  if (site.current?.date !== todayRome() || site.current?.published !== true) {
+    throw new Error('MISSING_DAILY_EPISODE: manca la vignetta di oggi. Il cron pubblica gli incoming, ma non scrive la notizia: verificare e recuperare il turno editoriale ChatGPT.');
+  }
+  if (process.env.GITHUB_OUTPUT) await fs.appendFile(process.env.GITHUB_OUTPUT, 'slug=' + site.current.slug + '\n');
 }
 main().catch(err=>{console.error(err);process.exit(1);});
