@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { generateCaricature } from './render-caricature.mjs';
+import { validateEditorialReview } from './editorial-review.mjs';
 
 const root = process.cwd();
 const incomingDir = path.join(root, 'incoming');
@@ -121,6 +122,7 @@ function buildSvg(ep) {
 }
 
 function validate(ep){
+  validateEditorialReview(ep);
   for(const k of REQUIRED){
     if(!String(ep[k]||'').trim()) throw new Error(`Campo obbligatorio mancante: ${k}`);
   }
@@ -171,6 +173,10 @@ async function publishFile(file){
   try {
     existingRecord = JSON.parse(await fs.readFile(publishedPath, 'utf8'));
     if (ep.revision_requested === true && ep.revision_of === ep.slug && existingRecord.slug === ep.slug) {
+      if (existingRecord.editorial_revision === ep.editorial_revision && existingRecord.question === ep.question && existingRecord.answer === ep.answer && existingRecord.title === ep.title && existingRecord.image_status === 'generated_jpeg') {
+        console.log(`Revisione già applicata, nessuna nuova generazione: ${ep.slug}`);
+        return false;
+      }
       isRevision = true;
       console.log(`Revisione editoriale controllata: ${ep.slug}`);
     } else {
