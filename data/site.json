@@ -1,67 +1,131 @@
 {
   "current": {
-    "date": "2026-10-02",
-    "slug": "2026-10-02-capannone-all-uncinetto",
-    "event_date": "2026-10-01",
+    "date": "2026-10-03",
+    "event_date": "2026-10-02",
+    "slug": "2026-10-03-intesa-parita",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "ANSA",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+      "name": "UEFA",
+      "url": "https://fr.uefa.com/uefanationsleague/match/2047960--france-vs-italy/"
     },
     "sources": [
       {
         "name": "ANSA",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+        "url": "https://www.ansa.it/amp/sito/notizie/sport/calcio/2026/10/02/nations-league-francia-italia-1-1_45a99c29-160e-4f2c-a176-241c67b445f3.html"
       },
       {
-        "name": "CNA",
-        "url": "https://www.cna.it/la-premier-agli-80-anni-della-cna-sulla-legge-quadro-andremo-avanti/"
+        "name": "Le Monde",
+        "url": "https://www.lemonde.fr/en/sports/article/2026/10/03/france-italy-frustrating-night-for-les-bleus-despite-zidane-s-triumphant-return-to-stade-de-france_6758204_9.html"
       }
     ],
-    "title": "Il fatturato fatto a mano",
-    "headline": "Meloni conferma alla CNA l’impegno per la riforma dell’artigianato",
-    "summary": "Il 1° ottobre, alle celebrazioni degli 80 anni della CNA, Giorgia Meloni ha ribadito l’intenzione di consentire alle imprese artigiane con una storia consolidata di assumere più persone conservando la loro qualifica.",
-    "news_text": "Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.",
-    "question": "Quindi un’impresa può diventare grande e restare artigiana?",
-    "answer": "Certo. Purché anche il fatturato sia fatto a mano.",
+    "title": "L’intesa da 1-1",
+    "headline": "Nations League, Francia-Italia finisce 1-1",
+    "summary": "Il 2 ottobre, Francia e Italia hanno pareggiato 1-1 allo Stade de France in una partita di Nations League.",
+    "news_text": "La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.",
+    "question": "Travaglio: Francia e Italia hanno pareggiato 1-1 in Nations League: che accordo hanno firmato?",
+    "answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Giorgia Meloni"
+      "Alessandro Bastoni",
+      "Michael Olise"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Scena di bottega con registri contabili e un’impresa che cresce. La gag è il doppio senso di fatto a mano applicato al fatturato, non una ricostruzione di illeciti.",
-    "revision_requested": true,
-    "revision_of": "2026-10-02-capannone-all-uncinetto",
-    "editorial_revision": "punchline_v3_user_20261002",
+    "visual_context": "Marco Travaglio e la Suprema IA davanti a un tabellone con il risultato Francia 1-1 Italia; sullo sfondo, un pallone e due bandiere, senza altri riferimenti.",
     "editorial_review": {
       "version": 2,
-      "method": "user_approved",
-      "approved_by": "user",
+      "method": "candidate_review",
       "self_contained_question": true,
-      "inference_steps": 1,
+      "inference_steps": 0,
       "needs_explanation": false,
       "twist_count": 1,
-      "selected_answer": "Certo. Purché anche il fatturato sia fatto a mano.",
-      "fact_anchor": "Crescita degli addetti conservando la qualifica artigiana; doppio senso immediato di fatto a mano."
+      "alternatives": [
+        "Un’intesa perfetta: un gol a testa, nessun trattato.",
+        "La diplomazia del pallone: ciascuno segna e nessuno cede il punto.",
+        "Parigi e Roma chiudono in parità: il trattato stavolta ha due reti."
+      ],
+      "selected_answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+      "selection_reason": "È la più immediata: lega il pareggio all’idea di intesa con un solo gioco di parole.",
+      "fact_anchor": "Il pareggio per 1-1 tra Francia e Italia nella partita di Nations League del 2 ottobre 2026."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-02-capannone-all-uncinetto.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il fatturato fatto a mano",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-03-intesa-parita.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’intesa da 1-1",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alessandro Bastoni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-02T11:52:06.198Z",
-    "image_generated_at": "2026-10-02T12:04:55.074Z",
-    "revised_at": "2026-10-02T12:04:55.074Z",
-    "url": "/episodio/2026-10-02-capannone-all-uncinetto/"
+    "published_at": "2026-10-03T08:45:30.782Z",
+    "image_generated_at": "2026-10-03T08:45:30.783Z",
+    "url": "/episodio/2026-10-03-intesa-parita/"
   },
   "archive": [
+    {
+      "date": "2026-10-02",
+      "slug": "2026-10-02-capannone-all-uncinetto",
+      "event_date": "2026-10-01",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/01/il-governo-rassicura-gli-artigiani-avanti-con-la-riforma_b3557b56-e2dc-4828-9ed9-4fcda1f9d4d2.html"
+        },
+        {
+          "name": "CNA",
+          "url": "https://www.cna.it/la-premier-agli-80-anni-della-cna-sulla-legge-quadro-andremo-avanti/"
+        }
+      ],
+      "title": "Il fatturato fatto a mano",
+      "headline": "Meloni conferma alla CNA l’impegno per la riforma dell’artigianato",
+      "summary": "Il 1° ottobre, alle celebrazioni degli 80 anni della CNA, Giorgia Meloni ha ribadito l’intenzione di consentire alle imprese artigiane con una storia consolidata di assumere più persone conservando la loro qualifica.",
+      "news_text": "Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.",
+      "question": "Quindi un’impresa può diventare grande e restare artigiana?",
+      "answer": "Certo. Purché anche il fatturato sia fatto a mano.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Scena di bottega con registri contabili e un’impresa che cresce. La gag è il doppio senso di fatto a mano applicato al fatturato, non una ricostruzione di illeciti.",
+      "revision_requested": true,
+      "revision_of": "2026-10-02-capannone-all-uncinetto",
+      "editorial_revision": "punchline_v3_user_20261002",
+      "editorial_review": {
+        "version": 2,
+        "method": "user_approved",
+        "approved_by": "user",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "selected_answer": "Certo. Purché anche il fatturato sia fatto a mano.",
+        "fact_anchor": "Crescita degli addetti conservando la qualifica artigiana; doppio senso immediato di fatto a mano."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-02-capannone-all-uncinetto.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il fatturato fatto a mano",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 1° ottobre 2026 Giorgia Meloni è intervenuta a Roma per gli 80 anni della CNA. Ha confermato l’impegno del Governo a proseguire la delega di riforma dell’artigianato, per permettere alle imprese con una storia consolidata di crescere negli addetti mantenendo la qualifica artigiana. ANSA e CNA confermano l’annuncio. I dettagli della riforma sono ancora in definizione: l’annuncio non equivale a nuove regole già operative.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-02T11:52:06.198Z",
+      "image_generated_at": "2026-10-02T12:04:55.074Z",
+      "revised_at": "2026-10-02T12:04:55.074Z",
+      "url": "/episodio/2026-10-02-capannone-all-uncinetto/"
+    },
     {
       "date": "2026-10-01",
       "slug": "2026-10-01-righello-elastico",
@@ -550,6 +614,70 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-03",
+      "event_date": "2026-10-02",
+      "slug": "2026-10-03-intesa-parita",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "UEFA",
+        "url": "https://fr.uefa.com/uefanationsleague/match/2047960--france-vs-italy/"
+      },
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/amp/sito/notizie/sport/calcio/2026/10/02/nations-league-francia-italia-1-1_45a99c29-160e-4f2c-a176-241c67b445f3.html"
+        },
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/10/03/france-italy-frustrating-night-for-les-bleus-despite-zidane-s-triumphant-return-to-stade-de-france_6758204_9.html"
+        }
+      ],
+      "title": "L’intesa da 1-1",
+      "headline": "Nations League, Francia-Italia finisce 1-1",
+      "summary": "Il 2 ottobre, Francia e Italia hanno pareggiato 1-1 allo Stade de France in una partita di Nations League.",
+      "news_text": "La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.",
+      "question": "Travaglio: Francia e Italia hanno pareggiato 1-1 in Nations League: che accordo hanno firmato?",
+      "answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Alessandro Bastoni",
+        "Michael Olise"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Marco Travaglio e la Suprema IA davanti a un tabellone con il risultato Francia 1-1 Italia; sullo sfondo, un pallone e due bandiere, senza altri riferimenti.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Un’intesa perfetta: un gol a testa, nessun trattato.",
+          "La diplomazia del pallone: ciascuno segna e nessuno cede il punto.",
+          "Parigi e Roma chiudono in parità: il trattato stavolta ha due reti."
+        ],
+        "selected_answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+        "selection_reason": "È la più immediata: lega il pareggio all’idea di intesa con un solo gioco di parole.",
+        "fact_anchor": "Il pareggio per 1-1 tra Francia e Italia nella partita di Nations League del 2 ottobre 2026."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-03-intesa-parita.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’intesa da 1-1",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alessandro Bastoni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-03T08:45:30.782Z",
+      "image_generated_at": "2026-10-03T08:45:30.783Z",
+      "url": "/episodio/2026-10-03-intesa-parita/"
+    },
     {
       "date": "2026-10-02",
       "slug": "2026-10-02-capannone-all-uncinetto",
