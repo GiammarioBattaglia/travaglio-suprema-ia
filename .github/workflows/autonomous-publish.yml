@@ -5,6 +5,7 @@ on:
     paths:
       - 'incoming/*.json'
       - '.github/workflows/autonomous-publish.yml'
+      - 'scripts/prepare-autonomous.mjs'
       - 'scripts/publish-autonomous.mjs'
       - 'scripts/render-caricature.mjs'
       - 'scripts/test-render-caricature.mjs'
@@ -14,7 +15,7 @@ on:
       - 'scripts/verify-production.mjs'
       - 'scripts/build-site.mjs'
   schedule:
-    - cron: '15 9,11,14,17,20 * * *' # UTC: recovery checks; editorial preparation runs in Europe/Rome
+    - cron: '15 5,7,9,11,14,17,20 * * *' # UTC recovery slots; preparation is idempotent and uses Europe/Rome date
   workflow_dispatch:
 
 permissions:
@@ -55,6 +56,11 @@ jobs:
           else
             echo "OPENAI_IMAGE_AVAILABLE=false — fallback SVG only"
           fi
+      - name: Prepare missing daily episode
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TEXT_MODEL: gpt-6-luna
+        run: node scripts/prepare-autonomous.mjs
       - name: Validate and publish autonomous episode
         id: publish
         env:
@@ -65,7 +71,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/episodes data/site.json data/episodes.json episodio archive/index.html assets/episodes
+          git add incoming index.html data/episodes data/site.json data/episodes.json episodio archive/index.html assets/episodes
           if git diff --cached --quiet; then
             echo "No autonomous publication changes"
           else
