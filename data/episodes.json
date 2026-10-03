@@ -1,41 +1,39 @@
 {
   "current": {
-    "date": "2026-10-03",
-    "event_date": "2026-10-02",
-    "slug": "2026-10-03-intesa-parita",
+    "date": "2026-10-04",
+    "event_date": "2026-10-03",
+    "slug": "2026-10-04-rho-data-center",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "UEFA",
-      "url": "https://fr.uefa.com/uefanationsleague/match/2047960--france-vs-italy/"
+      "name": "Il Giorno",
+      "url": "https://www.ilgiorno.it/milano/cronaca/rho-data-center-44c5badf"
     },
     "sources": [
       {
-        "name": "ANSA",
-        "url": "https://www.ansa.it/amp/sito/notizie/sport/calcio/2026/10/02/nations-league-francia-italia-1-1_45a99c29-160e-4f2c-a176-241c67b445f3.html"
+        "name": "Il Giorno",
+        "url": "https://www.ilgiorno.it/milano/cronaca/rho-data-center-44c5badf"
       },
       {
-        "name": "Le Monde",
-        "url": "https://www.lemonde.fr/en/sports/article/2026/10/03/france-italy-frustrating-night-for-les-bleus-despite-zidane-s-triumphant-return-to-stade-de-france_6758204_9.html"
+        "name": "Malpensa24",
+        "url": "https://www.malpensa24.it/rho-datacenter-corteo-protesta/"
       }
     ],
-    "title": "L’intesa da 1-1",
-    "headline": "Nations League, Francia-Italia finisce 1-1",
-    "summary": "Il 2 ottobre, Francia e Italia hanno pareggiato 1-1 allo Stade de France in una partita di Nations League.",
-    "news_text": "La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.",
-    "question": "Travaglio: Francia e Italia hanno pareggiato 1-1 in Nations League: che accordo hanno firmato?",
-    "answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+    "title": "Il corteo fa centro",
+    "headline": "A Rho corteo contro i data center previsti",
+    "summary": "Sabato 3 ottobre si è svolta a Rho una manifestazione contro i tre data center previsti in città.",
+    "news_text": "Il Giorno e Malpensa24 riferiscono che sabato 3 ottobre si è tenuto a Rho un corteo di protesta contro i tre data center previsti in città. Le due testate descrivono la partecipazione come numerosa, ma riportano stime diverse; perciò non viene indicato un numero preciso. La manifestazione ha chiesto di fermare o limitare i progetti: non implica che siano stati annullati.",
+    "question": "A Rho un corteo ha protestato contro i tre data center previsti: dove ha fatto centro?",
+    "answer": "Il corteo ha fatto centro: proprio contro i data center.",
     "characters": [
       "Marco Travaglio",
-      "Suprema IA",
-      "Alessandro Bastoni",
-      "Michael Olise"
+      "Suprema IA"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Marco Travaglio e la Suprema IA davanti a un tabellone con il risultato Francia 1-1 Italia; sullo sfondo, un pallone e due bandiere, senza altri riferimenti.",
+    "visual_context": "Travaglio indica una semplice mappa di Rho con il percorso di un corteo; accanto, l’IA mostra tre icone di data center.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -44,26 +42,90 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Un’intesa perfetta: un gol a testa, nessun trattato.",
-        "La diplomazia del pallone: ciascuno segna e nessuno cede il punto.",
-        "Parigi e Roma chiudono in parità: il trattato stavolta ha due reti."
+        "Il corteo ha fatto centro: proprio contro i data center.",
+        "A Rho, il cloud si è addensato in piazza.",
+        "Più che server, oggi a Rho c’erano manifestanti."
       ],
-      "selected_answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
-      "selection_reason": "È la più immediata: lega il pareggio all’idea di intesa con un solo gioco di parole.",
-      "fact_anchor": "Il pareggio per 1-1 tra Francia e Italia nella partita di Nations League del 2 ottobre 2026."
+      "selected_answer": "Il corteo ha fatto centro: proprio contro i data center.",
+      "selection_reason": "È la più immediata: gioca sul doppio senso di «fare centro» e richiama il tema della protesta.",
+      "fact_anchor": "Il corteo del 3 ottobre a Rho protestava contro tre data center previsti in città."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-03-intesa-parita.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’intesa da 1-1",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alessandro Bastoni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-04-rho-data-center.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il corteo fa centro",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il Giorno e Malpensa24 riferiscono che sabato 3 ottobre si è tenuto a Rho un corteo di protesta contro i tre data center previsti in città. Le due testate descrivono la partecipazione come numerosa, ma riportano stime diverse; perciò non viene indicato un numero preciso. La manifestazione ha chiesto di fermare o limitare i progetti: non implica che siano stati annullati.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-03T08:45:30.782Z",
-    "image_generated_at": "2026-10-03T08:45:30.783Z",
-    "url": "/episodio/2026-10-03-intesa-parita/"
+    "published_at": "2026-10-03T22:53:05.261Z",
+    "image_generated_at": "2026-10-03T22:53:05.261Z",
+    "url": "/episodio/2026-10-04-rho-data-center/"
   },
   "archive": [
+    {
+      "date": "2026-10-03",
+      "event_date": "2026-10-02",
+      "slug": "2026-10-03-intesa-parita",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "UEFA",
+        "url": "https://fr.uefa.com/uefanationsleague/match/2047960--france-vs-italy/"
+      },
+      "sources": [
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/amp/sito/notizie/sport/calcio/2026/10/02/nations-league-francia-italia-1-1_45a99c29-160e-4f2c-a176-241c67b445f3.html"
+        },
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/10/03/france-italy-frustrating-night-for-les-bleus-despite-zidane-s-triumphant-return-to-stade-de-france_6758204_9.html"
+        }
+      ],
+      "title": "L’intesa da 1-1",
+      "headline": "Nations League, Francia-Italia finisce 1-1",
+      "summary": "Il 2 ottobre, Francia e Italia hanno pareggiato 1-1 allo Stade de France in una partita di Nations League.",
+      "news_text": "La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.",
+      "question": "Travaglio: Francia e Italia hanno pareggiato 1-1 in Nations League: che accordo hanno firmato?",
+      "answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Alessandro Bastoni",
+        "Michael Olise"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Marco Travaglio e la Suprema IA davanti a un tabellone con il risultato Francia 1-1 Italia; sullo sfondo, un pallone e due bandiere, senza altri riferimenti.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Un’intesa perfetta: un gol a testa, nessun trattato.",
+          "La diplomazia del pallone: ciascuno segna e nessuno cede il punto.",
+          "Parigi e Roma chiudono in parità: il trattato stavolta ha due reti."
+        ],
+        "selected_answer": "Un’intesa perfetta: un gol a testa, nessun trattato.",
+        "selection_reason": "È la più immediata: lega il pareggio all’idea di intesa con un solo gioco di parole.",
+        "fact_anchor": "Il pareggio per 1-1 tra Francia e Italia nella partita di Nations League del 2 ottobre 2026."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-03-intesa-parita.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’intesa da 1-1",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Alessandro Bastoni.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La partita di Nations League tra Francia e Italia, disputata il 2 ottobre allo Stade de France, è terminata 1-1. ANSA e Le Monde riportano le reti di Michael Olise per la Francia e Alessandro Bastoni per l’Italia. Il risultato e i marcatori sono confermati dalle fonti consultate; il riferimento a un’intesa o a un trattato è soltanto una battuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-03T08:45:30.782Z",
+      "image_generated_at": "2026-10-03T08:45:30.783Z",
+      "url": "/episodio/2026-10-03-intesa-parita/"
+    },
     {
       "date": "2026-10-02",
       "slug": "2026-10-02-capannone-all-uncinetto",

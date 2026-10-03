@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-04",
+  "event_date": "2026-10-03",
+  "slug": "2026-10-04-rho-data-center",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Il Giorno",
+    "url": "https://www.ilgiorno.it/milano/cronaca/rho-data-center-44c5badf"
+  },
+  "sources": [
+    {
+      "name": "Il Giorno",
+      "url": "https://www.ilgiorno.it/milano/cronaca/rho-data-center-44c5badf"
+    },
+    {
+      "name": "Malpensa24",
+      "url": "https://www.malpensa24.it/rho-datacenter-corteo-protesta/"
+    }
+  ],
+  "title": "Il corteo fa centro",
+  "headline": "A Rho corteo contro i data center previsti",
+  "summary": "Sabato 3 ottobre si è svolta a Rho una manifestazione contro i tre data center previsti in città.",
+  "news_text": "Il Giorno e Malpensa24 riferiscono che sabato 3 ottobre si è tenuto a Rho un corteo di protesta contro i tre data center previsti in città. Le due testate descrivono la partecipazione come numerosa, ma riportano stime diverse; perciò non viene indicato un numero preciso. La manifestazione ha chiesto di fermare o limitare i progetti: non implica che siano stati annullati.",
+  "question": "A Rho un corteo ha protestato contro i tre data center previsti: dove ha fatto centro?",
+  "answer": "Il corteo ha fatto centro: proprio contro i data center.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio indica una semplice mappa di Rho con il percorso di un corteo; accanto, l’IA mostra tre icone di data center.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Il corteo ha fatto centro: proprio contro i data center.",
+      "A Rho, il cloud si è addensato in piazza.",
+      "Più che server, oggi a Rho c’erano manifestanti."
+    ],
+    "selected_answer": "Il corteo ha fatto centro: proprio contro i data center.",
+    "selection_reason": "È la più immediata: gioca sul doppio senso di «fare centro» e richiama il tema della protesta.",
+    "fact_anchor": "Il corteo del 3 ottobre a Rho protestava contro tre data center previsti in città."
+  }
+}
