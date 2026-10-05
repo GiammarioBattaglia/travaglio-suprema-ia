@@ -6,6 +6,79 @@ const incomingDir = path.join(root, 'incoming');
 const siteFile = path.join(root, 'data', 'site.json');
 const RESPONSES_API = 'https://api.openai.com/v1/responses';
 const MODEL = process.env.OPENAI_TEXT_MODEL || 'gpt-6-luna';
+const MAX_ATTEMPTS = 3;
+
+const EPISODE_SCHEMA = {
+  type: 'object',
+  properties: {
+    date: { type: 'string' },
+    event_date: { type: 'string' },
+    slug: { type: 'string' },
+    autonomous: { type: 'boolean' },
+    editorial_pass: { type: 'boolean' },
+    political_neutrality_pass: { type: 'boolean' },
+    satire_quality_pass: { type: 'boolean' },
+    source: {
+      type: 'object',
+      properties: {
+        name: { type: 'string' },
+        url: { type: 'string' }
+      },
+      required: ['name', 'url'],
+      additionalProperties: false
+    },
+    sources: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          name: { type: 'string' },
+          url: { type: 'string' }
+        },
+        required: ['name', 'url'],
+        additionalProperties: false
+      }
+    },
+    title: { type: 'string' },
+    headline: { type: 'string' },
+    summary: { type: 'string' },
+    news_text: { type: 'string' },
+    question: { type: 'string' },
+    answer: { type: 'string' },
+    characters: { type: 'array', items: { type: 'string' } },
+    satire_notice: { type: 'string' },
+    edition: { type: 'string' },
+    visual_context: { type: 'string' },
+    editorial_review: {
+      type: 'object',
+      properties: {
+        version: { type: 'integer' },
+        method: { type: 'string' },
+        self_contained_question: { type: 'boolean' },
+        inference_steps: { type: 'integer' },
+        needs_explanation: { type: 'boolean' },
+        twist_count: { type: 'integer' },
+        alternatives: { type: 'array', items: { type: 'string' } },
+        selected_answer: { type: 'string' },
+        selection_reason: { type: 'string' },
+        fact_anchor: { type: 'string' }
+      },
+      required: [
+        'version', 'method', 'self_contained_question', 'inference_steps',
+        'needs_explanation', 'twist_count', 'alternatives', 'selected_answer',
+        'selection_reason', 'fact_anchor'
+      ],
+      additionalProperties: false
+    }
+  },
+  required: [
+    'date', 'event_date', 'slug', 'autonomous', 'editorial_pass',
+    'political_neutrality_pass', 'satire_quality_pass', 'source', 'sources',
+    'title', 'headline', 'summary', 'news_text', 'question', 'answer',
+    'characters', 'satire_notice', 'edition', 'visual_context', 'editorial_review'
+  ],
+  additionalProperties: false
+};
 
 function todayRome() {
   return new Intl.DateTimeFormat('en-CA', {
@@ -35,19 +108,42 @@ function extractOutputText(response) {
   for (const item of response.output || []) {
     if (item.type !== 'message') continue;
     for (const content of item.content || []) {
-      if (content.type === 'output_text' && typeof content.text === 'string') parts.push(content.text);
+      if (content.type === 'output_text' && typeof content.text === 'string') {
+        parts.push(content.text);
+      }
     }
   }
   return parts.join('\n').trim();
 }
 
+function responseDiagnostic(response) {
+  const refusals = [];
+  for (const item of response.output || []) {
+    if (item.type !== 'message') continue;
+    for (const content of item.content || []) {
+      if (content.type === 'refusal' && content.refusal) refusals.push(content.refusal);
+    }
+  }
+  return JSON.stringify({
+    status: response.status || null,
+    incomplete_details: response.incomplete_details || null,
+    error: response.error || null,
+    refusals
+  }).slice(0, 1200);
+}
+
 function parseJsonOnly(text) {
   let clean = String(text || '').trim();
   clean = clean.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
-  const first = clean.indexOf('{');
-  const last = clean.lastIndexOf('}');
-  if (first < 0 || last <= first) throw new Error('La fase editoriale non ha restituito JSON');
-  return JSON.parse(clean.slice(first, last + 1));
+  if (!clean) throw new Error('La fase editoriale non ha restituito testo JSON');
+  try {
+    return JSON.parse(clean);
+  } catch {
+    const first = clean.indexOf('{');
+    const last = clean.lastIndexOf('}');
+    if (first < 0 || last <= first) throw new Error('La fase editoriale non ha restituito JSON');
+    return JSON.parse(clean.slice(first, last + 1));
+  }
 }
 
 function validatePreparedEpisode(ep, today) {
@@ -113,94 +209,96 @@ async function hasTodayIncoming(today) {
   return false;
 }
 
+function normalizeEpisode(episode, today) {
+  episode.date = today;
+  episode.autonomous = true;
+  episode.editorial_pass = true;
+  episode.political_neutrality_pass = true;
+  episode.satire_quality_pass = true;
+  episode.edition = 'daily';
+  episode.satire_notice = 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.';
+  episode.slug = `${today}-${slugify(String(episode.slug || episode.title || episode.headline).replace(/^\d{4}-\d{2}-\d{2}-/, ''))}`;
+  return episode;
+}
+
 async function requestEpisode(today) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('OPENAI_API_KEY non configurata: impossibile preparare automaticamente la vignetta');
 
   const instructions = [
     'Agisci come desk editoriale autonomo di una vignetta satirica italiana chiamata "Travaglio & la Suprema IA".',
-    'Devi cercare sul web un fatto pubblico documentato avvenuto oggi o ieri, verificato da almeno due fonti HTTPS indipendenti.',
+    'Cerca sul web un fatto pubblico documentato avvenuto oggi o ieri e verificalo con almeno due fonti HTTPS indipendenti.',
     'Preferisci notizie italiane di attualità, economia, istituzioni, lavoro, tecnologia o società con un elemento adatto a un gioco di parole immediato.',
-    'Se il fatto riguarda politica o istituzioni, resta descrittivo e non persuasivo: nessun invito di voto, nessun endorsement, nessuna graduatoria tra partiti o candidati, nessuna previsione elettorale.',
+    'Se il fatto riguarda politica o istituzioni, resta descrittivo e non persuasivo: nessun invito di voto, endorsement, graduatoria tra partiti o candidati o previsione elettorale.',
     'Non attribuire reati, corruzione, malattie, incapacità mentale o motivazioni non documentate. Non inventare dichiarazioni fattuali.',
     'La satira deve poggiare su un fatto verificato e avere una sola torsione comica, comprensibile con zero o un solo passaggio mentale.',
     'Genera tre punchline realmente diverse; scegli la più immediata. La risposta scelta deve avere massimo 16 parole e 90 caratteri.',
     'La domanda di Travaglio deve essere autosufficiente e massimo 130 caratteri.',
-    'Usa URL diretti delle fonti, non pagine di ricerca, social network o aggregatori. Restituisci esclusivamente un oggetto JSON valido, senza markdown.'
+    'Usa URL diretti delle fonti, non pagine di ricerca, social network o aggregatori.',
+    'Compila rigorosamente tutti i campi dello schema strutturato.'
   ].join('\n');
 
-  const input = `Data editoriale Europe/Rome: ${today}.\n\nRestituisci questo schema JSON:\n{
-  "date": "${today}",
-  "event_date": "YYYY-MM-DD (oggi o ieri)",
-  "slug": "${today}-slug-breve-minuscolo",
-  "autonomous": true,
-  "editorial_pass": true,
-  "political_neutrality_pass": true,
-  "satire_quality_pass": true,
-  "source": {"name":"fonte primaria","url":"https://..."},
-  "sources": [{"name":"fonte 1","url":"https://..."},{"name":"fonte 2","url":"https://..."}],
-  "title": "titolo breve della vignetta",
-  "headline": "titolo fattuale della notizia",
-  "summary": "sintesi fattuale breve",
-  "news_text": "ricostruzione fattuale prudente con ciò che è confermato e ciò che non lo è",
-  "question": "domanda satirica autosufficiente di Marco Travaglio",
-  "answer": "punchline della Suprema IA",
-  "characters": ["Marco Travaglio","Suprema IA","eventuale protagonista pubblico"],
-  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
-  "edition": "daily",
-  "visual_context": "descrizione visiva sobria della scena, senza insinuazioni non documentate",
-  "editorial_review": {
-    "version": 2,
-    "method": "candidate_review",
-    "self_contained_question": true,
-    "inference_steps": 0,
-    "needs_explanation": false,
-    "twist_count": 1,
-    "alternatives": ["battuta A","battuta B","battuta C"],
-    "selected_answer": "identica ad answer",
-    "selection_reason": "perché è la più immediata e ancorata al fatto",
-    "fact_anchor": "elemento preciso della notizia su cui poggia il gioco di parole"
-  }
-}`;
+  const input = `Data editoriale Europe/Rome: ${today}. Scegli un fatto di ${today} o del giorno precedente. La fonte primaria deve comparire anche nell'array sources. editorial_review.version deve essere 2, method deve essere "candidate_review", self_contained_question true, needs_explanation false, twist_count 1, inference_steps 0 o 1. Le tre alternatives devono essere distinte e selected_answer deve essere identica ad answer.`;
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 150000);
-  try {
-    const response = await fetch(RESPONSES_API, {
-      method: 'POST',
-      signal: controller.signal,
-      headers: {
-        Authorization: 'Bearer ' + key,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        instructions,
-        input,
-        tools: [{ type: 'web_search' }],
-        max_tool_calls: 8,
-        max_output_tokens: 2600
-      })
-    });
-    if (!response.ok) {
-      const detail = await response.text();
-      throw new Error(`Responses API HTTP ${response.status}: ${detail.slice(0, 500)}`);
+  let lastError = null;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 150000);
+    try {
+      const response = await fetch(RESPONSES_API, {
+        method: 'POST',
+        signal: controller.signal,
+        headers: {
+          Authorization: 'Bearer ' + key,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          model: MODEL,
+          instructions,
+          input,
+          tools: [{ type: 'web_search' }],
+          max_tool_calls: 8,
+          max_output_tokens: 5000,
+          text: {
+            format: {
+              type: 'json_schema',
+              name: 'daily_satire_episode',
+              strict: true,
+              schema: EPISODE_SCHEMA
+            }
+          }
+        })
+      });
+
+      if (!response.ok) {
+        const detail = await response.text();
+        const error = new Error(`Responses API HTTP ${response.status}: ${detail.slice(0, 800)}`);
+        if (response.status !== 429 && response.status < 500) throw error;
+        lastError = error;
+        console.warn(`EDITORIAL_ATTEMPT_${attempt}_RETRY: ${error.message}`);
+        continue;
+      }
+
+      const json = await response.json();
+      const text = extractOutputText(json);
+      if (!text) {
+        throw new Error(`Nessun output editoriale utilizzabile. Diagnostica: ${responseDiagnostic(json)}`);
+      }
+
+      const episode = normalizeEpisode(parseJsonOnly(text), today);
+      validatePreparedEpisode(episode, today);
+      if (attempt > 1) console.log(`EDITORIAL_RECOVERED_ON_ATTEMPT=${attempt}`);
+      return episode;
+    } catch (error) {
+      lastError = error;
+      if (attempt >= MAX_ATTEMPTS) break;
+      console.warn(`EDITORIAL_ATTEMPT_${attempt}_RETRY: ${error.message}`);
+    } finally {
+      clearTimeout(timeout);
     }
-    const json = await response.json();
-    const text = extractOutputText(json);
-    const episode = parseJsonOnly(text);
-    episode.date = today;
-    episode.autonomous = true;
-    episode.editorial_pass = true;
-    episode.political_neutrality_pass = true;
-    episode.satire_quality_pass = true;
-    episode.edition = 'daily';
-    episode.satire_notice = 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.';
-    episode.slug = `${today}-${slugify(String(episode.slug || episode.title || episode.headline).replace(/^\d{4}-\d{2}-\d{2}-/, ''))}`;
-    return episode;
-  } finally {
-    clearTimeout(timeout);
   }
+
+  throw new Error(`Preparazione editoriale fallita dopo ${MAX_ATTEMPTS} tentativi: ${lastError?.message || 'errore sconosciuto'}`);
 }
 
 async function main() {
@@ -215,7 +313,6 @@ async function main() {
   }
 
   const episode = await requestEpisode(today);
-  validatePreparedEpisode(episode, today);
   await fs.mkdir(incomingDir, { recursive: true });
   const target = path.join(incomingDir, `${episode.slug}.json`);
   try {
