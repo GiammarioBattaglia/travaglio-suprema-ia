@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-05",
+  "event_date": "2026-10-05",
+  "slug": "2026-10-05-censimento-dare-i-numeri",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Istat",
+    "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+  },
+  "sources": [
+    {
+      "name": "Istat",
+      "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+    },
+    {
+      "name": "Padova24Ore",
+      "url": "https://www.padova24ore.it/censimento-monselice-906-famiglie/"
+    }
+  ],
+  "title": "L’Italia dà i numeri",
+  "headline": "Al via il censimento Istat: coinvolte circa un milione di famiglie",
+  "summary": "Il 5 ottobre è partita la raccolta dei dati per il Censimento permanente della popolazione e delle abitazioni 2026.",
+  "news_text": "L’Istat ha avviato il 5 ottobre la raccolta diretta dei dati del Censimento permanente della popolazione e delle abitazioni. L’edizione 2026 coinvolge 2.529 Comuni e circa un milione di famiglie. Anche Padova24Ore ha riferito dell’avvio della rilevazione, indicando 906 famiglie coinvolte a Monselice.",
+  "question": "Con l’avvio del censimento Istat del 5 ottobre, che cosa chiede l’Istat a circa un milione di famiglie?",
+  "answer": "Di dare i numeri, ma stavolta per statistica.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Travaglio",
+    "La Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio mostra alla Suprema IA un questionario; lei indica una casella con scritto «numeri».",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Di dare i numeri, ma stavolta per statistica.",
+      "Di compilare il ritratto di famiglia: posa libera, caselle obbligatorie.",
+      "Un selfie nazionale, ma con questionario e senza filtro."
+    ],
+    "selected_answer": "Di dare i numeri, ma stavolta per statistica.",
+    "selection_reason": "È la più immediata: riprende l’espressione «dare i numeri» e la collega alla rilevazione statistica.",
+    "fact_anchor": "L’Istat indica che la raccolta diretta del Censimento permanente 2026 prende avvio il 5 ottobre; Padova24Ore riferisce l’avvio della rilevazione a Monselice."
+  }
+}
