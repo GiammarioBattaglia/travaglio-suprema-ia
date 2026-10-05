@@ -20,10 +20,7 @@ const EPISODE_SCHEMA = {
     satire_quality_pass: { type: 'boolean' },
     source: {
       type: 'object',
-      properties: {
-        name: { type: 'string' },
-        url: { type: 'string' }
-      },
+      properties: { name: { type: 'string' }, url: { type: 'string' } },
       required: ['name', 'url'],
       additionalProperties: false
     },
@@ -31,10 +28,7 @@ const EPISODE_SCHEMA = {
       type: 'array',
       items: {
         type: 'object',
-        properties: {
-          name: { type: 'string' },
-          url: { type: 'string' }
-        },
+        properties: { name: { type: 'string' }, url: { type: 'string' } },
         required: ['name', 'url'],
         additionalProperties: false
       }
@@ -108,9 +102,7 @@ function extractOutputText(response) {
   for (const item of response.output || []) {
     if (item.type !== 'message') continue;
     for (const content of item.content || []) {
-      if (content.type === 'output_text' && typeof content.text === 'string') {
-        parts.push(content.text);
-      }
+      if (content.type === 'output_text' && typeof content.text === 'string') parts.push(content.text);
     }
   }
   return parts.join('\n').trim();
@@ -217,6 +209,10 @@ function normalizeEpisode(episode, today) {
   episode.satire_quality_pass = true;
   episode.edition = 'daily';
   episode.satire_notice = 'Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.';
+  const extras = Array.isArray(episode.characters)
+    ? episode.characters.filter(name => name && name !== 'Marco Travaglio' && name !== 'Suprema IA')
+    : [];
+  episode.characters = ['Marco Travaglio', 'Suprema IA', ...extras];
   episode.slug = `${today}-${slugify(String(episode.slug || episode.title || episode.headline).replace(/^\d{4}-\d{2}-\d{2}-/, ''))}`;
   return episode;
 }
@@ -248,10 +244,7 @@ async function requestEpisode(today) {
       const response = await fetch(RESPONSES_API, {
         method: 'POST',
         signal: controller.signal,
-        headers: {
-          Authorization: 'Bearer ' + key,
-          'Content-Type': 'application/json'
-        },
+        headers: { Authorization: 'Bearer ' + key, 'Content-Type': 'application/json' },
         body: JSON.stringify({
           model: MODEL,
           instructions,
@@ -281,9 +274,7 @@ async function requestEpisode(today) {
 
       const json = await response.json();
       const text = extractOutputText(json);
-      if (!text) {
-        throw new Error(`Nessun output editoriale utilizzabile. Diagnostica: ${responseDiagnostic(json)}`);
-      }
+      if (!text) throw new Error(`Nessun output editoriale utilizzabile. Diagnostica: ${responseDiagnostic(json)}`);
 
       const episode = normalizeEpisode(parseJsonOnly(text), today);
       validatePreparedEpisode(episode, today);
