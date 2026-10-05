@@ -6,6 +6,7 @@ on:
       - 'incoming/*.json'
       - '.github/workflows/autonomous-publish.yml'
       - 'scripts/prepare-autonomous.mjs'
+      - 'scripts/normalize-characters.mjs'
       - 'scripts/publish-autonomous.mjs'
       - 'scripts/render-caricature.mjs'
       - 'scripts/test-render-caricature.mjs'
@@ -61,6 +62,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_TEXT_MODEL: gpt-6-luna
         run: node scripts/prepare-autonomous.mjs
+      - name: Normalize character metadata
+        run: node scripts/normalize-characters.mjs
       - name: Validate and publish autonomous episode
         id: publish
         env:
