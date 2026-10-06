@@ -1,39 +1,39 @@
 {
   "current": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "event_date": "2026-10-05",
-    "slug": "2026-10-05-censimento-dare-i-numeri",
+    "slug": "2026-10-06-legge-elettorale-fiducia-tripla",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Istat",
-      "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+      "name": "Rai News",
+      "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html"
     },
     "sources": [
       {
-        "name": "Istat",
-        "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+        "name": "Rai News",
+        "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-il-governo-pone-la-fiducia-sui-primi-3-articoli-il-calendario-delle-votazioni-566ca898-895c-48d9-9a42-982bb742d314.html"
       },
       {
-        "name": "Padova24Ore",
-        "url": "https://www.padova24ore.it/censimento-monselice-906-famiglie/"
+        "name": "Sky TG24",
+        "url": "https://tg24.sky.it/politica/2026/10/05/nuova-legge-elettorale-voto-camera"
       }
     ],
-    "title": "L’Italia dà i numeri",
-    "headline": "Al via il censimento Istat: coinvolte circa un milione di famiglie",
-    "summary": "Il 5 ottobre è partita la raccolta dei dati per il Censimento permanente della popolazione e delle abitazioni 2026.",
-    "news_text": "L’Istat ha avviato il 5 ottobre la raccolta diretta dei dati del Censimento permanente della popolazione e delle abitazioni. L’edizione 2026 coinvolge 2.529 Comuni e circa un milione di famiglie. Anche Padova24Ore ha riferito dell’avvio della rilevazione, indicando 906 famiglie coinvolte a Monselice.",
-    "question": "Con l’avvio del censimento Istat del 5 ottobre, che cosa chiede l’Istat a circa un milione di famiglie?",
-    "answer": "Di dare i numeri, ma stavolta per statistica.",
+    "title": "La fiducia è tripla",
+    "headline": "Legge elettorale, il governo pone la fiducia sui primi tre articoli",
+    "summary": "Il 5 ottobre il governo ha posto alla Camera tre questioni di fiducia sui primi tre articoli della legge elettorale.",
+    "news_text": "Il ministro per i Rapporti con il Parlamento, Luca Ciriani, ha posto alla Camera la questione di fiducia sugli articoli 1, 2 e 3 della legge elettorale. Rai News e Sky TG24 hanno riferito il 5 ottobre che le votazioni sarebbero iniziate il 6 ottobre e che il voto finale sul provvedimento era previsto per giovedì.",
+    "question": "Il governo pone tre fiducie sulla legge elettorale: il Parlamento può ancora scegliere?",
+    "answer": "Certo: fiducia, fiducia o fiducia.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio mostra alla Suprema IA un questionario; lei indica una casella con scritto «numeri».",
+    "visual_context": "Travaglio mostra tre pulsanti identici con la parola «fiducia»; la Suprema IA indica il pannello delle votazioni della Camera.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -42,26 +42,88 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Di dare i numeri, ma stavolta per statistica.",
-        "Di compilare il ritratto di famiglia: posa libera, caselle obbligatorie.",
-        "Un selfie nazionale, ma con questionario e senza filtro."
+        "Certo: fiducia, fiducia o fiducia.",
+        "Sì: può scegliere di fidarsi tre volte.",
+        "La scelta è ampia: fiducia uno, fiducia due, fiducia tre."
       ],
-      "selected_answer": "Di dare i numeri, ma stavolta per statistica.",
-      "selection_reason": "È la più immediata: riprende l’espressione «dare i numeri» e la collega alla rilevazione statistica.",
-      "fact_anchor": "L’Istat indica che la raccolta diretta del Censimento permanente 2026 prende avvio il 5 ottobre; Padova24Ore riferisce l’avvio della rilevazione a Monselice."
+      "selected_answer": "Certo: fiducia, fiducia o fiducia.",
+      "selection_reason": "È la più breve e immediata: rovescia la tripla fiducia in una scelta composta da tre opzioni identiche.",
+      "fact_anchor": "Il 5 ottobre il governo ha posto alla Camera la questione di fiducia sugli articoli 1, 2 e 3 della legge elettorale, come riferito da Rai News e Sky TG24."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-05-censimento-dare-i-numeri.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’Italia dà i numeri",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Travaglio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’Istat ha avviato il 5 ottobre la raccolta diretta dei dati del Censimento permanente della popolazione e delle abitazioni. L’edizione 2026 coinvolge 2.529 Comuni e circa un milione di famiglie. Anche Padova24Ore ha riferito dell’avvio della rilevazione, indicando 906 famiglie coinvolte a Monselice.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-06-legge-elettorale-fiducia-tripla.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La fiducia è tripla",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il ministro per i Rapporti con il Parlamento, Luca Ciriani, ha posto alla Camera la questione di fiducia sugli articoli 1, 2 e 3 della legge elettorale. Rai News e Sky TG24 hanno riferito il 5 ottobre che le votazioni sarebbero iniziate il 6 ottobre e che il voto finale sul provvedimento era previsto per giovedì.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-05T05:38:00.102Z",
-    "image_generated_at": "2026-10-05T05:38:00.102Z",
-    "url": "/episodio/2026-10-05-censimento-dare-i-numeri/"
+    "published_at": "2026-10-06T08:27:21.643Z",
+    "image_generated_at": "2026-10-06T08:27:21.643Z",
+    "url": "/episodio/2026-10-06-legge-elettorale-fiducia-tripla/"
   },
   "archive": [
+    {
+      "date": "2026-10-05",
+      "event_date": "2026-10-05",
+      "slug": "2026-10-05-censimento-dare-i-numeri",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Istat",
+        "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+      },
+      "sources": [
+        {
+          "name": "Istat",
+          "url": "https://www.istat.it/statistiche-per-temi/censimenti/popolazione-e-abitazioni/"
+        },
+        {
+          "name": "Padova24Ore",
+          "url": "https://www.padova24ore.it/censimento-monselice-906-famiglie/"
+        }
+      ],
+      "title": "L’Italia dà i numeri",
+      "headline": "Al via il censimento Istat: coinvolte circa un milione di famiglie",
+      "summary": "Il 5 ottobre è partita la raccolta dei dati per il Censimento permanente della popolazione e delle abitazioni 2026.",
+      "news_text": "L’Istat ha avviato il 5 ottobre la raccolta diretta dei dati del Censimento permanente della popolazione e delle abitazioni. L’edizione 2026 coinvolge 2.529 Comuni e circa un milione di famiglie. Anche Padova24Ore ha riferito dell’avvio della rilevazione, indicando 906 famiglie coinvolte a Monselice.",
+      "question": "Con l’avvio del censimento Istat del 5 ottobre, che cosa chiede l’Istat a circa un milione di famiglie?",
+      "answer": "Di dare i numeri, ma stavolta per statistica.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio mostra alla Suprema IA un questionario; lei indica una casella con scritto «numeri».",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Di dare i numeri, ma stavolta per statistica.",
+          "Di compilare il ritratto di famiglia: posa libera, caselle obbligatorie.",
+          "Un selfie nazionale, ma con questionario e senza filtro."
+        ],
+        "selected_answer": "Di dare i numeri, ma stavolta per statistica.",
+        "selection_reason": "È la più immediata: riprende l’espressione «dare i numeri» e la collega alla rilevazione statistica.",
+        "fact_anchor": "L’Istat indica che la raccolta diretta del Censimento permanente 2026 prende avvio il 5 ottobre; Padova24Ore riferisce l’avvio della rilevazione a Monselice."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-05-censimento-dare-i-numeri.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’Italia dà i numeri",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Travaglio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’Istat ha avviato il 5 ottobre la raccolta diretta dei dati del Censimento permanente della popolazione e delle abitazioni. L’edizione 2026 coinvolge 2.529 Comuni e circa un milione di famiglie. Anche Padova24Ore ha riferito dell’avvio della rilevazione, indicando 906 famiglie coinvolte a Monselice.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-05T05:38:00.102Z",
+      "image_generated_at": "2026-10-05T05:38:00.102Z",
+      "url": "/episodio/2026-10-05-censimento-dare-i-numeri/"
+    },
     {
       "date": "2026-10-04",
       "event_date": "2026-10-03",
