@@ -7,16 +7,19 @@ function escapeXml(value = '') {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;');
 }
 
-function wrapText(value, maxChars = 43, maxLines = 5) {
+function wrapText(value, maxChars = 43, maxLines = 7) {
   const words = String(value).trim().split(/\s+/).filter(Boolean);
   const lines = [];
   let line = '';
-  for (const word of words) {
-    if (word.length > maxChars) throw new Error('Parola troppo lunga nella vignetta');
-    const next = line ? line + ' ' + word : word;
-    if (next.length <= maxChars) { line = next; continue; }
-    lines.push(line);
-    line = word;
+  for (const originalWord of words) {
+    const chars = Array.from(originalWord);
+    for(let i=0;i<chars.length;i+=maxChars) {
+      const word=chars.slice(i,i+maxChars).join('');
+      const next = line ? line + ' ' + word : word;
+      if (next.length <= maxChars) { line = next; continue; }
+      if(line) lines.push(line);
+      line = word;
+    }
   }
   if (line) lines.push(line);
   if (lines.length > maxLines) throw new Error('Testo troppo lungo per la vignetta: nessun taglio automatico');
@@ -24,11 +27,12 @@ function wrapText(value, maxChars = 43, maxLines = 5) {
 }
 
 function renderSpeechBubble(text, box, tail, stroke) {
-  const lines = wrapText(text, 41, 4);
-  const lineHeight = 36;
-  const textY = box.y + 52;
+  const lines = wrapText(text, 41, 7);
+  const fontSize = lines.length > 5 ? 20 : lines.length > 4 ? 24 : 28;
+  const lineHeight = lines.length > 5 ? 24 : lines.length > 4 ? 30 : 36;
+  const textY = box.y + Math.round((box.h - (lines.length - 1) * lineHeight + fontSize) / 2);
   const labels = lines.map((line, index) =>
-    '<text x="' + (box.x + 32) + '" y="' + (textY + index * lineHeight) + '" font-size="28" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
+    '<text x="' + (box.x + 32) + '" y="' + (textY + index * lineHeight) + '" font-size="' + fontSize + '" font-weight="700" fill="#17212c">' + escapeXml(line) + '</text>'
   ).join('');
   // Coda classica molto sottile: collega il fumetto al parlante senza coprire la scena.
   const halfBase = 10;

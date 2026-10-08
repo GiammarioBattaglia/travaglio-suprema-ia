@@ -59,19 +59,22 @@ function clamp(value, max) {
   return s.length<=max?s:s.slice(0,max-1)+'…';
 }
 
-function wrap(text, maxChars=34, maxLines=4) {
+function wrap(text, maxChars=34, maxLines=8) {
   const words=String(text||'').trim().split(/\s+/).filter(Boolean);
   const lines=[];
   let line='';
-  for (const word of words) {
-    if (word.length > maxChars) throw new Error('Parola troppo lunga nel fallback SVG');
-    const next=line ? line+' '+word : word;
-    if (next.length<=maxChars) { line=next; continue; }
-    lines.push(line);
-    line=word;
+  for (const originalWord of words) {
+    const characters=Array.from(originalWord);
+    for(let offset=0;offset<characters.length;offset+=maxChars) {
+      const word=characters.slice(offset,offset+maxChars).join('');
+      const next=line ? line+' '+word : word;
+      if(next.length<=maxChars) { line=next; continue; }
+      if(line) lines.push(line);
+      line=word;
+    }
   }
   if(line) lines.push(line);
-  if(lines.length>maxLines) throw new Error('Testo troppo lungo per il fallback SVG; non troncare');
+  if(lines.length>maxLines) throw new Error('Il testo non entra nella vignetta nemmeno con il layout adattivo');
   return lines;
 }
 
@@ -80,8 +83,14 @@ function textBlock(lines, x, y, size, lineHeight, weight='700', anchor='start') 
 }
 
 function buildSvg(ep) {
-  const q=wrap(ep.question,32,4);
-  const a=wrap(ep.answer,34,4);
+  const q=wrap(ep.question,32,8);
+  const a=wrap(ep.answer,34,7);
+  const qSize=q.length>6?17:q.length>4?19:22;
+  const aSize=a.length>6?17:a.length>4?19:22;
+  const qStep=q.length>6?20:q.length>4?24:28;
+  const aStep=a.length>6?20:a.length>4?24:28;
+  const qBaseline=Math.round(560+(200-(q.length-1)*qStep+qSize)/2);
+  const aBaseline=Math.round(560+(200-(a.length-1)*aStep+aSize)/2);
   const subject=clamp((ep.characters||[]).filter(x=>x!=='Marco Travaglio'&&x!=='Suprema IA')[0]||'ATTUALITÀ',24);
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <rect width="1600" height="900" fill="#f6f2ea"/>
@@ -97,8 +106,8 @@ function buildSvg(ep) {
   <path d="M230 355 Q282 390 334 355" fill="none" stroke="#151515" stroke-width="5"/>
   <path d="M160 650 Q282 505 405 650 L405 760 L160 760Z" fill="#283444"/>
   <path d="M270 595 L282 420 L290 595 Z" fill="#ffffff" stroke="#a32226" stroke-width="3" stroke-linejoin="round"/>
-  <rect x="72" y="595" width="422" height="145" rx="26" fill="#ffffff" stroke="#a32226" stroke-width="3"/>
-  ${textBlock(q,283,620,27,34,'700','middle')}
+  <rect x="72" y="560" width="422" height="200" rx="26" fill="#ffffff" stroke="#a32226" stroke-width="3"/>
+  ${textBlock(q,283,qBaseline,qSize,qStep,'700','middle')}
 
   <rect x="565" y="155" width="470" height="590" rx="42" fill="#122a42"/>
   <circle cx="800" cy="335" r="120" fill="#d7efff" opacity=".95"/>
@@ -106,8 +115,8 @@ function buildSvg(ep) {
   <circle cx="800" cy="335" r="40" fill="#72c7ff"/>
   <path d="M690 335 H625 M975 335 H910 M800 225 V165 M800 505 V445" stroke="#72c7ff" stroke-width="12" stroke-linecap="round"/>
   <path d="M790 585 L800 440 L808 585 Z" fill="#ffffff" stroke="#173c62" stroke-width="3" stroke-linejoin="round"/>
-  <rect x="595" y="585" width="410" height="135" rx="26" fill="#ffffff" stroke="#173c62" stroke-width="3"/>
-  ${textBlock(a,800,610,27,34,'700','middle')}
+  <rect x="595" y="560" width="410" height="200" rx="26" fill="#ffffff" stroke="#173c62" stroke-width="3"/>
+  ${textBlock(a,800,aBaseline,aSize,aStep,'700','middle')}
 
   <rect x="1082" y="110" width="470" height="680" rx="28" fill="#ffffff" stroke="#d7cfc2" stroke-width="3"/>
   <rect x="1162" y="520" width="310" height="180" rx="18" fill="#ece7df" stroke="#151515" stroke-width="4"/>
@@ -132,8 +141,10 @@ function validate(ep){
   if(ep.answer.length>90) throw new Error('Risposta troppo lunga: massimo 90 caratteri');
   if(ep.answer.trim().split(/\s+/).length>16) throw new Error('Risposta IA troppo prolissa: massimo 16 parole');
   if(/^(non così in fretta|in pratica|significa che|in altre parole|dipende)\b/i.test(ep.answer.trim())) throw new Error('Risposta IA troppo esplicativa: serve una punchline più netta');
-  wrap(ep.question,32,4);
-  wrap(ep.answer,34,4);
+  // Test di impaginazione allineato alle reali dimensioni del fallback.
+  // La JPEG usa un layout adattivo indipendente; non imporre il vecchio limite di 4 righe.
+  wrap(ep.question,32,8);
+  wrap(ep.answer,34,7);
   if(!ep.source?.name || !ep.source?.url?.startsWith('http')) throw new Error('Fonte primaria non valida');
   if(!Array.isArray(ep.sources) || ep.sources.length<2) throw new Error('Servono almeno due fonti');
   if(ep.sources.some(s=>!s?.name||!String(s.url||'').startsWith('https://'))) throw new Error('Fonti non valide');
