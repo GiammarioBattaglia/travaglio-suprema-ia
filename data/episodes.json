@@ -1,44 +1,43 @@
 {
   "current": {
-    "date": "2026-10-07",
-    "event_date": "2026-10-06",
-    "slug": "2026-10-07-gasolio-pieno-accise",
+    "date": "2026-10-08",
+    "event_date": "2026-10-07",
+    "slug": "2026-10-08-nobel-chimica-lato-migliore",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Gazzetta Ufficiale — Decreto-legge 17 settembre 2026, n. 162",
-      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00181&atto.dataPubblicazioneGazzetta=2026-09-17&atto.tipoProvvedimento=DECRETO-LEGGE"
+      "name": "Nobel Prize — Premio per la Chimica 2026, pagina ufficiale",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2026/summary/"
     },
     "sources": [
       {
-        "name": "Gazzetta Ufficiale — Decreto-legge 17 settembre 2026, n. 162",
-        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00181&atto.dataPubblicazioneGazzetta=2026-09-17&atto.tipoProvvedimento=DECRETO-LEGGE"
+        "name": "Nobel Prize — Premio per la Chimica 2026, pagina ufficiale",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2026/summary/"
       },
       {
-        "name": "ANSA — Scattano accise sul gasolio più alte, nessun decreto in Gazzetta",
-        "url": "https://www.ansa.it/sito/notizie/economia/2026/10/05/scattano-accise-sul-gasolio-piu-alte-nessun-decreto-in-gazzetta_664823dc-12a3-42e9-851b-f10f32a6c4dd.html"
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/nobel-prize-chemistry-sweden-e92801a294ba29d5ff1fbbf63904c977"
       },
       {
-        "name": "Euronews — Carburanti in Italia, scadono i tagli fiscali: gasolio aumenta",
-        "url": "https://it.euronews.com/2026/10/06/carburanti-in-italia-scadono-i-tagli-fiscali-gasolio-aumenta-e-autotrasporto-minaccia-scio"
+        "name": "ANSA",
+        "url": "https://www.ansa.it/canale_scienza/notizie/biotech/2026/10/07/il-nobel-per-la-chimica-a-kagan-e-soai-registi-delle-molecole-specchio_f8f2b9cf-0b31-40e4-a001-c9e5a57670a5.html"
       }
     ],
-    "title": "Il pieno di accise",
-    "headline": "Dal 6 ottobre il gasolio costa 6,1 centesimi in più al litro",
-    "summary": "Il 6 ottobre è scaduto lo sconto temporaneo sul gasolio: l’accisa è tornata al livello ordinario, con un aumento di 6,1 centesimi al litro rispetto al giorno precedente.",
-    "news_text": "Il decreto-legge n. 162 del 17 settembre fissava l’aliquota ridotta sul gasolio fino al 5 ottobre 2026. ANSA ed Euronews hanno riferito che, dal 6 ottobre, terminato lo sconto di 6,1 centesimi al litro, l’accisa è aumentata e il meccanismo delle accise mobili non era stato attivato.",
-    "question": "Dal 6 ottobre, finito lo sconto di 6,1 centesimi, di che cosa fa il pieno il gasolio?",
-    "answer": "Un pieno di accise.",
+    "title": "Travaglio & la Suprema IA — Edizione dell’8 ottobre 2026",
+    "headline": "Nobel per la Chimica a Kagan e Soai: premiata la ricerca sulle molecole speculari",
+    "summary": "Il 7 ottobre Henri B. Kagan e Kenso Soai hanno ricevuto il Nobel per la Chimica 2026 per le loro ricerche sugli effetti non lineari e l’autocatalisi nella sintesi organica asimmetrica.",
+    "news_text": "La Reale Accademia svedese delle scienze ha assegnato il Nobel per la Chimica 2026 a Henri B. Kagan e Kenso Soai. Le loro ricerche hanno permesso di controllare reazioni che producono una specifica forma speculare delle molecole, un risultato rilevante anche per lo sviluppo di farmaci.",
+    "question": "Travaglio: Kagan e Soai hanno preso il Nobel per controllare la forma speculare delle molecole: qual è il lato migliore?",
+    "answer": "La chimica, finalmente, ha trovato il suo lato migliore.",
     "characters": [
       "Marco Travaglio",
-      "Suprema IA",
-      "Il gasolio"
+      "Suprema IA"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio osserva una pompa di carburante; la Suprema IA indica il display, dove accanto al prezzo compare la scritta «accise».",
+    "visual_context": "Travaglio guarda una molecola allo specchio; la Suprema IA indica il riflesso con aria solenne.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -47,26 +46,93 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Un pieno di accise.",
-        "Il gasolio fa rifornimento di tasse.",
-        "Alla pompa trova il conto salato."
+        "La chimica, finalmente, ha trovato il suo lato migliore.",
+        "Le molecole scelgono la mano giusta: lo specchio fa da consulente.",
+        "Nel laboratorio Nobel, anche la chimica ha il suo lato B."
       ],
-      "selected_answer": "Un pieno di accise.",
-      "selection_reason": "È la battuta più immediata: collega il pieno di carburante all’aumento documentato dell’accisa con un solo gioco di parole.",
-      "fact_anchor": "La riduzione temporanea dell’accisa sul gasolio prevista fino al 5 ottobre è terminata; dal 6 ottobre l’aumento riportato è di 6,1 centesimi al litro."
+      "selected_answer": "La chimica, finalmente, ha trovato il suo lato migliore.",
+      "selection_reason": "È la battuta più immediata: trasforma la forma speculare studiata dai premiati nel comune modo di dire «lato migliore».",
+      "fact_anchor": "Il 7 ottobre 2026 il Nobel per la Chimica è stato assegnato a Henri B. Kagan e Kenso Soai per ricerche sull’autocatalisi e sulla sintesi organica asimmetrica."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-07-gasolio-pieno-accise.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il pieno di accise",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il gasolio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il decreto-legge n. 162 del 17 settembre fissava l’aliquota ridotta sul gasolio fino al 5 ottobre 2026. ANSA ed Euronews hanno riferito che, dal 6 ottobre, terminato lo sconto di 6,1 centesimi al litro, l’accisa è aumentata e il meccanismo delle accise mobili non era stato attivato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-08-nobel-chimica-lato-migliore.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA — Edizione dell’8 ottobre 2026",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La Reale Accademia svedese delle scienze ha assegnato il Nobel per la Chimica 2026 a Henri B. Kagan e Kenso Soai. Le loro ricerche hanno permesso di controllare reazioni che producono una specifica forma speculare delle molecole, un risultato rilevante anche per lo sviluppo di farmaci.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-06T23:47:31.553Z",
-    "image_generated_at": "2026-10-06T23:47:31.554Z",
-    "url": "/episodio/2026-10-07-gasolio-pieno-accise/"
+    "published_at": "2026-10-08T05:22:27.564Z",
+    "image_generated_at": "2026-10-08T05:22:27.564Z",
+    "url": "/episodio/2026-10-08-nobel-chimica-lato-migliore/"
   },
   "archive": [
+    {
+      "date": "2026-10-07",
+      "event_date": "2026-10-06",
+      "slug": "2026-10-07-gasolio-pieno-accise",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Gazzetta Ufficiale — Decreto-legge 17 settembre 2026, n. 162",
+        "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00181&atto.dataPubblicazioneGazzetta=2026-09-17&atto.tipoProvvedimento=DECRETO-LEGGE"
+      },
+      "sources": [
+        {
+          "name": "Gazzetta Ufficiale — Decreto-legge 17 settembre 2026, n. 162",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=26G00181&atto.dataPubblicazioneGazzetta=2026-09-17&atto.tipoProvvedimento=DECRETO-LEGGE"
+        },
+        {
+          "name": "ANSA — Scattano accise sul gasolio più alte, nessun decreto in Gazzetta",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/05/scattano-accise-sul-gasolio-piu-alte-nessun-decreto-in-gazzetta_664823dc-12a3-42e9-851b-f10f32a6c4dd.html"
+        },
+        {
+          "name": "Euronews — Carburanti in Italia, scadono i tagli fiscali: gasolio aumenta",
+          "url": "https://it.euronews.com/2026/10/06/carburanti-in-italia-scadono-i-tagli-fiscali-gasolio-aumenta-e-autotrasporto-minaccia-scio"
+        }
+      ],
+      "title": "Il pieno di accise",
+      "headline": "Dal 6 ottobre il gasolio costa 6,1 centesimi in più al litro",
+      "summary": "Il 6 ottobre è scaduto lo sconto temporaneo sul gasolio: l’accisa è tornata al livello ordinario, con un aumento di 6,1 centesimi al litro rispetto al giorno precedente.",
+      "news_text": "Il decreto-legge n. 162 del 17 settembre fissava l’aliquota ridotta sul gasolio fino al 5 ottobre 2026. ANSA ed Euronews hanno riferito che, dal 6 ottobre, terminato lo sconto di 6,1 centesimi al litro, l’accisa è aumentata e il meccanismo delle accise mobili non era stato attivato.",
+      "question": "Dal 6 ottobre, finito lo sconto di 6,1 centesimi, di che cosa fa il pieno il gasolio?",
+      "answer": "Un pieno di accise.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Il gasolio"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio osserva una pompa di carburante; la Suprema IA indica il display, dove accanto al prezzo compare la scritta «accise».",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Un pieno di accise.",
+          "Il gasolio fa rifornimento di tasse.",
+          "Alla pompa trova il conto salato."
+        ],
+        "selected_answer": "Un pieno di accise.",
+        "selection_reason": "È la battuta più immediata: collega il pieno di carburante all’aumento documentato dell’accisa con un solo gioco di parole.",
+        "fact_anchor": "La riduzione temporanea dell’accisa sul gasolio prevista fino al 5 ottobre è terminata; dal 6 ottobre l’aumento riportato è di 6,1 centesimi al litro."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-07-gasolio-pieno-accise.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il pieno di accise",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il gasolio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il decreto-legge n. 162 del 17 settembre fissava l’aliquota ridotta sul gasolio fino al 5 ottobre 2026. ANSA ed Euronews hanno riferito che, dal 6 ottobre, terminato lo sconto di 6,1 centesimi al litro, l’accisa è aumentata e il meccanismo delle accise mobili non era stato attivato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-06T23:47:31.553Z",
+      "image_generated_at": "2026-10-06T23:47:31.554Z",
+      "url": "/episodio/2026-10-07-gasolio-pieno-accise/"
+    },
     {
       "date": "2026-10-06",
       "event_date": "2026-10-05",
