@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-10",
+  "event_date": "2026-10-09",
+  "slug": "2026-10-10-legge-elettorale-firma-in-calce",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Gazzetta Ufficiale — Legge 9 ottobre 2026, n. 180",
+    "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26G00201&atto.dataPubblicazioneGazzetta=2026-10-09&elenco30giorni=false"
+  },
+  "sources": [
+    {
+      "name": "Gazzetta Ufficiale — Legge 9 ottobre 2026, n. 180 (fonte primaria)",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26G00201&atto.dataPubblicazioneGazzetta=2026-10-09&elenco30giorni=false"
+    },
+    {
+      "name": "ANSA — Mattarella ha promulgato la legge elettorale",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/09/mattarella-ha-promulgato-la-legge-elettorale_b3de459f-a11e-40e2-9dee-6d7e76f64be4.html"
+    },
+    {
+      "name": "Corriere della Sera — Legge elettorale, Mattarella ha promulgato lo Stabilicum",
+      "url": "https://roma.corriere.it/notizie/politica/26_ottobre_09/legge-elettorale-mattarella-ha-promulgato-lo-stabilicum-68d61a63-bfa4-4286-8b46-7e2f80cccxlk.shtml"
+    }
+  ],
+  "title": "Travaglio & la Suprema IA — La firma in calce",
+  "headline": "Mattarella promulga la nuova legge elettorale il 9 ottobre",
+  "summary": "Il 9 ottobre 2026 Sergio Mattarella ha promulgato la legge elettorale, pubblicata in Gazzetta Ufficiale come legge n. 180.",
+  "news_text": "Il 9 ottobre 2026 il presidente della Repubblica Sergio Mattarella ha promulgato la legge «Disposizioni in materia di elezioni della Camera dei deputati e del Senato della Repubblica». La legge n. 180 è stata pubblicata nella Gazzetta Ufficiale dello stesso giorno. ANSA e Corriere della Sera hanno riportato la promulgazione.",
+  "question": "Mattarella ha promulgato la legge elettorale il 9 ottobre: che cosa hanno ora le nuove regole?",
+  "answer": "L’autografo del Quirinale: anche le regole del voto sono appena state firmate.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio mostra una legge elettorale con una grande firma in calce; la Suprema IA indica l’autografo.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "L’autografo del Quirinale: anche le regole del voto sono appena state firmate.",
+      "La legge elettorale ha il timbro: stavolta la firma è proprio in calce.",
+      "Promulgata la legge elettorale: alle nuove regole non manca più la firma."
+    ],
+    "selected_answer": "L’autografo del Quirinale: anche le regole del voto sono appena state firmate.",
+    "selection_reason": "È la formulazione più immediata: trasforma la firma istituzionale in autografo senza prendere posizione sul contenuto della legge.",
+    "fact_anchor": "Mattarella ha promulgato il 9 ottobre 2026 la legge elettorale n. 180, pubblicata nella Gazzetta Ufficiale lo stesso giorno."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-10-10-legge-elettorale-firma-in-calce.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA — La firma in calce",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 9 ottobre 2026 il presidente della Repubblica Sergio Mattarella ha promulgato la legge «Disposizioni in materia di elezioni della Camera dei deputati e del Senato della Repubblica». La legge n. 180 è stata pubblicata nella Gazzetta Ufficiale dello stesso giorno. ANSA e Corriere della Sera hanno riportato la promulgazione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-10-10T00:02:09.122Z",
+  "image_generated_at": "2026-10-10T00:02:09.122Z"
+}
