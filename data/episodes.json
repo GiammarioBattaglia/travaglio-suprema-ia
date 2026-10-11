@@ -1,67 +1,130 @@
 {
   "current": {
-    "date": "2026-10-11",
-    "event_date": "2026-10-10",
-    "slug": "2026-10-11-legge-elettorale-tasto-reclamo",
+    "date": "2026-10-12",
+    "event_date": "2026-10-11",
+    "slug": "2026-10-12-serie-a-primo-zero-como-roma",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Rai News — La coalizione dei ricorsi (10 ottobre 2026)",
-      "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-ricorsi-consulta-primarie-centrosinistra-51eeb128-2157-43cc-a8c4-0b42dc0194e2.html"
+      "name": "Lega Serie A",
+      "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
     },
     "sources": [
       {
-        "name": "Rai News — La coalizione dei ricorsi (10 ottobre 2026)",
-        "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-ricorsi-consulta-primarie-centrosinistra-51eeb128-2157-43cc-a8c4-0b42dc0194e2.html"
+        "name": "Lega Serie A — Como-Roma 0-0",
+        "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
       },
       {
-        "name": "ANSA — Mattarella ha promulgato la legge elettorale, mobilitazione sui ricorsi (10 ottobre 2026)",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/09/mattarella-ha-promulgato-la-legge-elettorale_b3de459f-a11e-40e2-9dee-6d7e76f64be4.html"
+        "name": "ANSA — Serie A: Como-Roma 0-0",
+        "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/11/serie-a-como-roma-0-0_7acf84ca-df1b-4d88-88fc-77b302036f0f.html"
       }
     ],
-    "title": "Travaglio & la Suprema IA — Il tasto reclamo",
-    "headline": "Legge elettorale: preparati ricorsi nei 29 distretti di Corte d’appello",
-    "summary": "Il 10 ottobre Rai News e ANSA riferiscono dei ricorsi in preparazione contro la nuova legge elettorale: i promotori mirano a una valutazione della Consulta prima del voto.",
-    "news_text": "Il 10 ottobre 2026 Rai News riferisce che la Rete per un voto libero e uguale sta preparando ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello. I promotori presenteranno il percorso il 12 ottobre alla Camera, con l’obiettivo dichiarato di portare le questioni alla Corte costituzionale prima delle elezioni. ANSA conferma il programma della mobilitazione e le contestazioni in preparazione. I ricorsi non risultano ancora depositati e non esiste alcuna decisione della Consulta.",
-    "question": "Preparano ricorsi contro la nuova legge elettorale in 29 distretti?",
-    "answer": "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
+    "title": "Il primo zero della Serie A",
+    "headline": "Como-Roma finisce 0-0: il primo pareggio senza reti arriva alla 54ª partita",
+    "summary": "L’11 ottobre Como e Roma hanno pareggiato 0-0: secondo la Lega Serie A, è stato il primo pareggio senza gol della stagione, alla 54ª partita.",
+    "news_text": "Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.",
+    "question": "Como-Roma è finita 0-0: primo pareggio senza reti in 54 gare di Serie A. Che record?",
+    "answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
     "characters": [
       "Marco Travaglio",
-      "Suprema IA"
+      "Suprema IA",
+      "Il tabellino"
     ],
-    "satire_notice": "Satira indipendente: la domanda del personaggio satirico di Travaglio e la risposta della Suprema IA sono dialoghi inventati, non dichiarazioni del vero Marco Travaglio.",
+    "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Il personaggio satirico di Travaglio mostra una scheda elettorale immaginaria; la Suprema IA indica un pulsante «reclamo» come paradosso visivo, senza attribuire alla scheda reale tale funzione.",
+    "visual_context": "Travaglio e la Suprema IA davanti a un tabellone Como-Roma 0-0; un grande zero occupa il posto del marcatore.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
-      "alternatives": [
-        "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
-        "Sì. Prima delle urne, bisogna passare dalla cancelleria.",
-        "Sì. La campagna elettorale comincia con la carta bollata."
-      ],
-      "selection_reason": "Il tasto reclamo rovescia direttamente i ricorsi contro le regole del voto in un gesto quotidiano comprensibile; le alternative sono più descrittive.",
-      "fact_anchor": "Rai News e ANSA il 10 ottobre riferiscono della preparazione dei ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1
+      "twist_count": 1,
+      "alternatives": [
+        "Dopo 54 partite, la Serie A ha finalmente fatto centro: zero.",
+        "Il primo 0-0 è arrivato: il campionato ha trovato il minimo comune denominatore.",
+        "La Serie A ha segnato il primo zero: ci sono volute 54 partite."
+      ],
+      "selected_answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+      "selection_reason": "È la più immediata: trasforma il risultato 0-0 nel primo «zero» segnato dal campionato.",
+      "fact_anchor": "Como-Roma 0-0 dell’11 ottobre 2026: primo pareggio senza reti della stagione, alla 54ª partita."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-11-legge-elettorale-tasto-reclamo.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA — Il tasto reclamo",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 10 ottobre 2026 Rai News riferisce che la Rete per un voto libero e uguale sta preparando ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello. I promotori presenteranno il percorso il 12 ottobre alla Camera, con l’obiettivo dichiarato di portare le questioni alla Corte costituzionale prima delle elezioni. ANSA conferma il programma della mobilitazione e le contestazioni in preparazione. I ricorsi non risultano ancora depositati e non esiste alcuna decisione della Consulta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-12-serie-a-primo-zero-como-roma.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il primo zero della Serie A",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il tabellino.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-11T06:50:30.082Z",
-    "image_generated_at": "2026-10-11T06:50:30.082Z",
-    "url": "/episodio/2026-10-11-legge-elettorale-tasto-reclamo/"
+    "published_at": "2026-10-11T23:38:57.868Z",
+    "image_generated_at": "2026-10-11T23:38:57.868Z",
+    "url": "/episodio/2026-10-12-serie-a-primo-zero-como-roma/"
   },
   "archive": [
+    {
+      "date": "2026-10-11",
+      "event_date": "2026-10-10",
+      "slug": "2026-10-11-legge-elettorale-tasto-reclamo",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Rai News — La coalizione dei ricorsi (10 ottobre 2026)",
+        "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-ricorsi-consulta-primarie-centrosinistra-51eeb128-2157-43cc-a8c4-0b42dc0194e2.html"
+      },
+      "sources": [
+        {
+          "name": "Rai News — La coalizione dei ricorsi (10 ottobre 2026)",
+          "url": "https://www.rainews.it/articoli/2026/10/legge-elettorale-ricorsi-consulta-primarie-centrosinistra-51eeb128-2157-43cc-a8c4-0b42dc0194e2.html"
+        },
+        {
+          "name": "ANSA — Mattarella ha promulgato la legge elettorale, mobilitazione sui ricorsi (10 ottobre 2026)",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/09/mattarella-ha-promulgato-la-legge-elettorale_b3de459f-a11e-40e2-9dee-6d7e76f64be4.html"
+        }
+      ],
+      "title": "Travaglio & la Suprema IA — Il tasto reclamo",
+      "headline": "Legge elettorale: preparati ricorsi nei 29 distretti di Corte d’appello",
+      "summary": "Il 10 ottobre Rai News e ANSA riferiscono dei ricorsi in preparazione contro la nuova legge elettorale: i promotori mirano a una valutazione della Consulta prima del voto.",
+      "news_text": "Il 10 ottobre 2026 Rai News riferisce che la Rete per un voto libero e uguale sta preparando ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello. I promotori presenteranno il percorso il 12 ottobre alla Camera, con l’obiettivo dichiarato di portare le questioni alla Corte costituzionale prima delle elezioni. ANSA conferma il programma della mobilitazione e le contestazioni in preparazione. I ricorsi non risultano ancora depositati e non esiste alcuna decisione della Consulta.",
+      "question": "Preparano ricorsi contro la nuova legge elettorale in 29 distretti?",
+      "answer": "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA"
+      ],
+      "satire_notice": "Satira indipendente: la domanda del personaggio satirico di Travaglio e la risposta della Suprema IA sono dialoghi inventati, non dichiarazioni del vero Marco Travaglio.",
+      "edition": "daily",
+      "visual_context": "Il personaggio satirico di Travaglio mostra una scheda elettorale immaginaria; la Suprema IA indica un pulsante «reclamo» come paradosso visivo, senza attribuire alla scheda reale tale funzione.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
+        "alternatives": [
+          "Sì. La scheda elettorale ora ha anche il tasto «reclamo».",
+          "Sì. Prima delle urne, bisogna passare dalla cancelleria.",
+          "Sì. La campagna elettorale comincia con la carta bollata."
+        ],
+        "selection_reason": "Il tasto reclamo rovescia direttamente i ricorsi contro le regole del voto in un gesto quotidiano comprensibile; le alternative sono più descrittive.",
+        "fact_anchor": "Rai News e ANSA il 10 ottobre riferiscono della preparazione dei ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-11-legge-elettorale-tasto-reclamo.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA — Il tasto reclamo",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 10 ottobre 2026 Rai News riferisce che la Rete per un voto libero e uguale sta preparando ricorsi contro la nuova legge elettorale nei 29 distretti di Corte d’appello. I promotori presenteranno il percorso il 12 ottobre alla Camera, con l’obiettivo dichiarato di portare le questioni alla Corte costituzionale prima delle elezioni. ANSA conferma il programma della mobilitazione e le contestazioni in preparazione. I ricorsi non risultano ancora depositati e non esiste alcuna decisione della Consulta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-11T06:50:30.082Z",
+      "image_generated_at": "2026-10-11T06:50:30.082Z",
+      "url": "/episodio/2026-10-11-legge-elettorale-tasto-reclamo/"
+    },
     {
       "date": "2026-10-10",
       "event_date": "2026-10-09",

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "event_date": "2026-10-11",
+  "slug": "2026-10-12-serie-a-primo-zero-como-roma",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Lega Serie A",
+    "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+  },
+  "sources": [
+    {
+      "name": "Lega Serie A — Como-Roma 0-0",
+      "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+    },
+    {
+      "name": "ANSA — Serie A: Como-Roma 0-0",
+      "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/11/serie-a-como-roma-0-0_7acf84ca-df1b-4d88-88fc-77b302036f0f.html"
+    }
+  ],
+  "title": "Il primo zero della Serie A",
+  "headline": "Como-Roma finisce 0-0: il primo pareggio senza reti arriva alla 54ª partita",
+  "summary": "L’11 ottobre Como e Roma hanno pareggiato 0-0: secondo la Lega Serie A, è stato il primo pareggio senza gol della stagione, alla 54ª partita.",
+  "news_text": "Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.",
+  "question": "Como-Roma è finita 0-0: primo pareggio senza reti in 54 gare di Serie A. Che record?",
+  "answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Il tabellino"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio e la Suprema IA davanti a un tabellone Como-Roma 0-0; un grande zero occupa il posto del marcatore.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Dopo 54 partite, la Serie A ha finalmente fatto centro: zero.",
+      "Il primo 0-0 è arrivato: il campionato ha trovato il minimo comune denominatore.",
+      "La Serie A ha segnato il primo zero: ci sono volute 54 partite."
+    ],
+    "selected_answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+    "selection_reason": "È la più immediata: trasforma il risultato 0-0 nel primo «zero» segnato dal campionato.",
+    "fact_anchor": "Como-Roma 0-0 dell’11 ottobre 2026: primo pareggio senza reti della stagione, alla 54ª partita."
+  }
+}
