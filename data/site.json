@@ -1,40 +1,47 @@
 {
   "current": {
-    "date": "2026-10-12",
-    "event_date": "2026-10-11",
-    "slug": "2026-10-12-serie-a-primo-zero-como-roma",
+    "date": "2026-10-13",
+    "event_date": "2026-10-12",
+    "slug": "2026-10-13-una-capitale-in-condominio",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Lega Serie A",
-      "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+      "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+      "url": "https://cultura.gov.it/comunicato/29388"
     },
     "sources": [
       {
-        "name": "Lega Serie A — Como-Roma 0-0",
-        "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+        "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+        "url": "https://cultura.gov.it/comunicato/29388"
       },
       {
-        "name": "ANSA — Serie A: Como-Roma 0-0",
-        "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/11/serie-a-como-roma-0-0_7acf84ca-df1b-4d88-88fc-77b302036f0f.html"
+        "name": "ANSA — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+        "url": "https://www.ansa.it/sito/notizie/cultura/2026/10/12/giuli-civita-di-bagnoregiobolsena-capitale-italiana-dellarte-contemporanea-2028_1e9ccdda-3509-4b0a-b3dd-7fc9dd3937f4.html"
+      },
+      {
+        "name": "DIRE — Civita di Bagnoregio-Bolsena designate Capitale dell’Arte Contemporanea 2028",
+        "url": "https://www.dire.it/12-10-2026/1275571-civita-di-bagnoregio-bolsena-designate-capitale-dellarte-contemporanea-2028/"
+      },
+      {
+        "name": "RaiNews — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+        "url": "https://www.rainews.it/articoli/2026/10/il-ministro-giuli-civita-di-bagnoregiobolsena-capitale-italiana-arte-contemporanea-2028-463676a6-ec3d-4a0f-9230-9144418446e7.html"
       }
     ],
-    "title": "Il primo zero della Serie A",
-    "headline": "Como-Roma finisce 0-0: il primo pareggio senza reti arriva alla 54ª partita",
-    "summary": "L’11 ottobre Como e Roma hanno pareggiato 0-0: secondo la Lega Serie A, è stato il primo pareggio senza gol della stagione, alla 54ª partita.",
-    "news_text": "Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.",
-    "question": "Como-Roma è finita 0-0: primo pareggio senza reti in 54 gare di Serie A. Che record?",
-    "answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+    "title": "Una Capitale in condominio",
+    "headline": "Civita di Bagnoregio e Bolsena designate insieme Capitale italiana dell’arte contemporanea 2028",
+    "summary": "Il 12 ottobre il ministro della Cultura ha annunciato la designazione congiunta di Civita di Bagnoregio e Bolsena per il titolo 2028.",
+    "news_text": "Il ministro della Cultura Alessandro Giuli ha annunciato il 12 ottobre la designazione di Civita di Bagnoregio, in aggregazione con Bolsena, a Capitale italiana dell’arte contemporanea 2028. La giuria ha indicato la candidatura congiunta; il titolo sarà formalmente conferito con delibera del Consiglio dei ministri. La notizia è riportata da ANSA e DIRE; il Ministero aveva annunciato ufficialmente la cerimonia e le candidature finaliste.",
+    "question": "Civita di Bagnoregio e Bolsena condividono il titolo di Capitale dell’arte contemporanea 2028: che formula è?",
+    "answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
     "characters": [
       "Marco Travaglio",
-      "Suprema IA",
-      "Il tabellino"
+      "Suprema IA"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio e la Suprema IA davanti a un tabellone Como-Roma 0-0; un grande zero occupa il posto del marcatore.",
+    "visual_context": "Travaglio e la Suprema IA davanti a due campanili sotto un’unica insegna: «Capitale dell’arte contemporanea 2028».",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -43,26 +50,89 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Dopo 54 partite, la Serie A ha finalmente fatto centro: zero.",
-        "Il primo 0-0 è arrivato: il campionato ha trovato il minimo comune denominatore.",
-        "La Serie A ha segnato il primo zero: ci sono volute 54 partite."
+        "Il campanilismo va in condominio: una Capitale, due Comuni.",
+        "Nel 2028 i campanili fanno rete: l’arte contemporanea comincia dal municipio.",
+        "Per essere Capitale, stavolta basta mettersi d’accordo in due."
       ],
-      "selected_answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
-      "selection_reason": "È la più immediata: trasforma il risultato 0-0 nel primo «zero» segnato dal campionato.",
-      "fact_anchor": "Como-Roma 0-0 dell’11 ottobre 2026: primo pareggio senza reti della stagione, alla 54ª partita."
+      "selected_answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
+      "selection_reason": "È la più immediata: trasforma la candidatura condivisa in un condominio, con un solo gioco comico.",
+      "fact_anchor": "Il 12 ottobre 2026 è stata annunciata la designazione congiunta di Civita di Bagnoregio e Bolsena a Capitale italiana dell’arte contemporanea 2028."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-12-serie-a-primo-zero-como-roma.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il primo zero della Serie A",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il tabellino.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-13-una-capitale-in-condominio.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Una Capitale in condominio",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il ministro della Cultura Alessandro Giuli ha annunciato il 12 ottobre la designazione di Civita di Bagnoregio, in aggregazione con Bolsena, a Capitale italiana dell’arte contemporanea 2028. La giuria ha indicato la candidatura congiunta; il titolo sarà formalmente conferito con delibera del Consiglio dei ministri. La notizia è riportata da ANSA e DIRE; il Ministero aveva annunciato ufficialmente la cerimonia e le candidature finaliste.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-11T23:38:57.868Z",
-    "image_generated_at": "2026-10-11T23:38:57.868Z",
-    "url": "/episodio/2026-10-12-serie-a-primo-zero-como-roma/"
+    "published_at": "2026-10-12T22:09:32.182Z",
+    "image_generated_at": "2026-10-12T22:09:32.182Z",
+    "url": "/episodio/2026-10-13-una-capitale-in-condominio/"
   },
   "archive": [
+    {
+      "date": "2026-10-12",
+      "event_date": "2026-10-11",
+      "slug": "2026-10-12-serie-a-primo-zero-como-roma",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Lega Serie A",
+        "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+      },
+      "sources": [
+        {
+          "name": "Lega Serie A — Como-Roma 0-0",
+          "url": "https://www.legaseriea.it/serie-a/news/como-roma-2026-2027-0-0-cronaca-risultato-gol"
+        },
+        {
+          "name": "ANSA — Serie A: Como-Roma 0-0",
+          "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/10/11/serie-a-como-roma-0-0_7acf84ca-df1b-4d88-88fc-77b302036f0f.html"
+        }
+      ],
+      "title": "Il primo zero della Serie A",
+      "headline": "Como-Roma finisce 0-0: il primo pareggio senza reti arriva alla 54ª partita",
+      "summary": "L’11 ottobre Como e Roma hanno pareggiato 0-0: secondo la Lega Serie A, è stato il primo pareggio senza gol della stagione, alla 54ª partita.",
+      "news_text": "Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.",
+      "question": "Como-Roma è finita 0-0: primo pareggio senza reti in 54 gare di Serie A. Che record?",
+      "answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Il tabellino"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio e la Suprema IA davanti a un tabellone Como-Roma 0-0; un grande zero occupa il posto del marcatore.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Dopo 54 partite, la Serie A ha finalmente fatto centro: zero.",
+          "Il primo 0-0 è arrivato: il campionato ha trovato il minimo comune denominatore.",
+          "La Serie A ha segnato il primo zero: ci sono volute 54 partite."
+        ],
+        "selected_answer": "La Serie A ha segnato il primo zero: ci sono volute 54 partite.",
+        "selection_reason": "È la più immediata: trasforma il risultato 0-0 nel primo «zero» segnato dal campionato.",
+        "fact_anchor": "Como-Roma 0-0 dell’11 ottobre 2026: primo pareggio senza reti della stagione, alla 54ª partita."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-12-serie-a-primo-zero-como-roma.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il primo zero della Serie A",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il tabellino.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Como-Roma è terminata 0-0 l’11 ottobre 2026. La Lega Serie A ha indicato che si tratta del primo pareggio senza reti della stagione, alla 54ª partita disputata. ANSA conferma il risultato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-11T23:38:57.868Z",
+      "image_generated_at": "2026-10-11T23:38:57.868Z",
+      "url": "/episodio/2026-10-12-serie-a-primo-zero-como-roma/"
+    },
     {
       "date": "2026-10-11",
       "event_date": "2026-10-10",
@@ -1186,6 +1256,76 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-13",
+      "event_date": "2026-10-12",
+      "slug": "2026-10-13-una-capitale-in-condominio",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+        "url": "https://cultura.gov.it/comunicato/29388"
+      },
+      "sources": [
+        {
+          "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+          "url": "https://cultura.gov.it/comunicato/29388"
+        },
+        {
+          "name": "ANSA — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+          "url": "https://www.ansa.it/sito/notizie/cultura/2026/10/12/giuli-civita-di-bagnoregiobolsena-capitale-italiana-dellarte-contemporanea-2028_1e9ccdda-3509-4b0a-b3dd-7fc9dd3937f4.html"
+        },
+        {
+          "name": "DIRE — Civita di Bagnoregio-Bolsena designate Capitale dell’Arte Contemporanea 2028",
+          "url": "https://www.dire.it/12-10-2026/1275571-civita-di-bagnoregio-bolsena-designate-capitale-dellarte-contemporanea-2028/"
+        },
+        {
+          "name": "RaiNews — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+          "url": "https://www.rainews.it/articoli/2026/10/il-ministro-giuli-civita-di-bagnoregiobolsena-capitale-italiana-arte-contemporanea-2028-463676a6-ec3d-4a0f-9230-9144418446e7.html"
+        }
+      ],
+      "title": "Una Capitale in condominio",
+      "headline": "Civita di Bagnoregio e Bolsena designate insieme Capitale italiana dell’arte contemporanea 2028",
+      "summary": "Il 12 ottobre il ministro della Cultura ha annunciato la designazione congiunta di Civita di Bagnoregio e Bolsena per il titolo 2028.",
+      "news_text": "Il ministro della Cultura Alessandro Giuli ha annunciato il 12 ottobre la designazione di Civita di Bagnoregio, in aggregazione con Bolsena, a Capitale italiana dell’arte contemporanea 2028. La giuria ha indicato la candidatura congiunta; il titolo sarà formalmente conferito con delibera del Consiglio dei ministri. La notizia è riportata da ANSA e DIRE; il Ministero aveva annunciato ufficialmente la cerimonia e le candidature finaliste.",
+      "question": "Civita di Bagnoregio e Bolsena condividono il titolo di Capitale dell’arte contemporanea 2028: che formula è?",
+      "answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio e la Suprema IA davanti a due campanili sotto un’unica insegna: «Capitale dell’arte contemporanea 2028».",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Il campanilismo va in condominio: una Capitale, due Comuni.",
+          "Nel 2028 i campanili fanno rete: l’arte contemporanea comincia dal municipio.",
+          "Per essere Capitale, stavolta basta mettersi d’accordo in due."
+        ],
+        "selected_answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
+        "selection_reason": "È la più immediata: trasforma la candidatura condivisa in un condominio, con un solo gioco comico.",
+        "fact_anchor": "Il 12 ottobre 2026 è stata annunciata la designazione congiunta di Civita di Bagnoregio e Bolsena a Capitale italiana dell’arte contemporanea 2028."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-13-una-capitale-in-condominio.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Una Capitale in condominio",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il ministro della Cultura Alessandro Giuli ha annunciato il 12 ottobre la designazione di Civita di Bagnoregio, in aggregazione con Bolsena, a Capitale italiana dell’arte contemporanea 2028. La giuria ha indicato la candidatura congiunta; il titolo sarà formalmente conferito con delibera del Consiglio dei ministri. La notizia è riportata da ANSA e DIRE; il Ministero aveva annunciato ufficialmente la cerimonia e le candidature finaliste.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-12T22:09:32.182Z",
+      "image_generated_at": "2026-10-12T22:09:32.182Z",
+      "url": "/episodio/2026-10-13-una-capitale-in-condominio/"
+    },
     {
       "date": "2026-10-12",
       "event_date": "2026-10-11",

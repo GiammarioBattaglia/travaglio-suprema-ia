@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-13",
+  "event_date": "2026-10-12",
+  "slug": "2026-10-13-una-capitale-in-condominio",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+    "url": "https://cultura.gov.it/comunicato/29388"
+  },
+  "sources": [
+    {
+      "name": "Ministero della Cultura — comunicato ufficiale sulla proclamazione",
+      "url": "https://cultura.gov.it/comunicato/29388"
+    },
+    {
+      "name": "ANSA — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+      "url": "https://www.ansa.it/sito/notizie/cultura/2026/10/12/giuli-civita-di-bagnoregiobolsena-capitale-italiana-dellarte-contemporanea-2028_1e9ccdda-3509-4b0a-b3dd-7fc9dd3937f4.html"
+    },
+    {
+      "name": "DIRE — Civita di Bagnoregio-Bolsena designate Capitale dell’Arte Contemporanea 2028",
+      "url": "https://www.dire.it/12-10-2026/1275571-civita-di-bagnoregio-bolsena-designate-capitale-dellarte-contemporanea-2028/"
+    },
+    {
+      "name": "RaiNews — Civita di Bagnoregio con Bolsena Capitale italiana dell’arte contemporanea 2028",
+      "url": "https://www.rainews.it/articoli/2026/10/il-ministro-giuli-civita-di-bagnoregiobolsena-capitale-italiana-arte-contemporanea-2028-463676a6-ec3d-4a0f-9230-9144418446e7.html"
+    }
+  ],
+  "title": "Una Capitale in condominio",
+  "headline": "Civita di Bagnoregio e Bolsena designate insieme Capitale italiana dell’arte contemporanea 2028",
+  "summary": "Il 12 ottobre il ministro della Cultura ha annunciato la designazione congiunta di Civita di Bagnoregio e Bolsena per il titolo 2028.",
+  "news_text": "Il ministro della Cultura Alessandro Giuli ha annunciato il 12 ottobre la designazione di Civita di Bagnoregio, in aggregazione con Bolsena, a Capitale italiana dell’arte contemporanea 2028. La giuria ha indicato la candidatura congiunta; il titolo sarà formalmente conferito con delibera del Consiglio dei ministri. La notizia è riportata da ANSA e DIRE; il Ministero aveva annunciato ufficialmente la cerimonia e le candidature finaliste.",
+  "question": "Civita di Bagnoregio e Bolsena condividono il titolo di Capitale dell’arte contemporanea 2028: che formula è?",
+  "answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio e la Suprema IA davanti a due campanili sotto un’unica insegna: «Capitale dell’arte contemporanea 2028».",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Il campanilismo va in condominio: una Capitale, due Comuni.",
+      "Nel 2028 i campanili fanno rete: l’arte contemporanea comincia dal municipio.",
+      "Per essere Capitale, stavolta basta mettersi d’accordo in due."
+    ],
+    "selected_answer": "Il campanilismo va in condominio: una Capitale, due Comuni.",
+    "selection_reason": "È la più immediata: trasforma la candidatura condivisa in un condominio, con un solo gioco comico.",
+    "fact_anchor": "Il 12 ottobre 2026 è stata annunciata la designazione congiunta di Civita di Bagnoregio e Bolsena a Capitale italiana dell’arte contemporanea 2028."
+  }
+}
