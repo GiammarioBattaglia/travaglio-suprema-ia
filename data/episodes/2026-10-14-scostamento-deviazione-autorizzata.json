@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-14",
+  "event_date": "2026-10-13",
+  "slug": "2026-10-14-scostamento-deviazione-autorizzata",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Camera dei deputati — resoconto stenografico della seduta del 13 ottobre 2026",
+    "url": "https://www.camera.it/leg19/410?idSeduta=0726&tipo=stenografico"
+  },
+  "sources": [
+    {
+      "name": "Camera dei deputati — resoconto stenografico della seduta del 13 ottobre 2026",
+      "url": "https://www.camera.it/leg19/410?idSeduta=0726&tipo=stenografico"
+    },
+    {
+      "name": "ANSA — Aula semideserta e Giorgetti si sfoga, passano scostamento e Dpfp",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/10/13/giorgetti-alla-camera-nuvoloni-allorizzonte-proseguiamo-sul-consolidamento_87a99904-92d1-4218-8a51-bf746e9d2916.html"
+    },
+    {
+      "name": "RTL 102.5 — Dpfp e scostamento, ok dal Parlamento",
+      "url": "https://www.rtl.it/notizie/italia/dpfp-e-scostamento-ok-dal-parlamento-giorgetti-rivendica-prudenza-e-rigore/"
+    }
+  ],
+  "title": "Travaglio & la Suprema IA",
+  "headline": "Scostamento di bilancio: deviazione autorizzata",
+  "summary": "Il 13 ottobre Camera e Senato hanno approvato risoluzioni di maggioranza sul Dpfp e sullo scostamento di bilancio.",
+  "news_text": "Il 13 ottobre 2026 la Camera ha approvato la risoluzione sul Documento programmatico di finanza pubblica e, con un voto distinto, quella che autorizza lo scostamento di bilancio. Il Senato ha approvato analoghe risoluzioni.",
+  "question": "Travaglio, il Parlamento ha autorizzato lo scostamento di bilancio: che cartello stradale ci va?",
+  "answer": "Deviazione autorizzata.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio indica un cartello stradale «Deviazione autorizzata» accanto a un foglio intitolato «Scostamento di bilancio»; la Suprema IA lo posa sul cavalletto.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Deviazione autorizzata.",
+      "I conti hanno preso l’uscita consentita.",
+      "Il bilancio cambia corsia, con timbro parlamentare."
+    ],
+    "selected_answer": "Deviazione autorizzata.",
+    "selection_reason": "È la battuta più breve e immediata: trasforma lo «scostamento» in una deviazione stradale autorizzata.",
+    "fact_anchor": "Il 13 ottobre 2026 la Camera e il Senato hanno approvato risoluzioni di maggioranza sul Dpfp e sullo scostamento di bilancio; il resoconto ufficiale della Camera registra l’approvazione."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-10-14-scostamento-deviazione-autorizzata.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 13 ottobre 2026 la Camera ha approvato la risoluzione sul Documento programmatico di finanza pubblica e, con un voto distinto, quella che autorizza lo scostamento di bilancio. Il Senato ha approvato analoghe risoluzioni.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-10-13T23:46:17.870Z",
+  "image_generated_at": "2026-10-13T23:46:17.870Z"
+}
