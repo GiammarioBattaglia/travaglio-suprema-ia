@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "event_date": "2026-10-16",
+  "slug": "2026-10-17-rete-in-tilt-cielo-modalita-aereo",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ENAV — comunicato ufficiale",
+    "url": "https://www.enav.it/node/18703"
+  },
+  "sources": [
+    {
+      "name": "ENAV — comunicato ufficiale",
+      "url": "https://www.enav.it/node/18703"
+    },
+    {
+      "name": "Associated Press",
+      "url": "https://apnews.com/article/40002058f13fa4fc13146d4408e80b22"
+    }
+  ],
+  "title": "Travaglio & la Suprema IA",
+  "headline": "Rete in tilt, voli dimezzati: il cielo va in modalità aereo",
+  "summary": "Il 16 ottobre, un’anomalia alla rete dati di supporto al controllo del traffico aereo ha ridotto temporaneamente la capacità operativa in Italia. ENAV ha comunicato in seguito il ripristino della piena capacità.",
+  "news_text": "ENAV ha riferito che nella notte del 16 ottobre sono state riscontrate anomalie nella rete di trasmissione dati che supporta il controllo del traffico aereo. Dalle 6 sono state introdotte misure di regolazione dei flussi, con una temporanea riduzione della capacità operativa. In serata ENAV ha comunicato il ripristino della piena funzionalità; Associated Press ha riportato il ritorno alla piena capacità e i disagi negli aeroporti.",
+  "question": "Il 16 ottobre 2026 un guasto alla rete dati ENAV ha ridotto temporaneamente la capacità dei voli: qual è la battuta?",
+  "answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Una rete dati stilizzata si interrompe sotto un cielo con aerei in coda; un’icona di modalità aereo completa la vignetta.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+      "Traffico aereo in buffering: per il decollo, attendere il caricamento.",
+      "La rete ENAV perde la connessione e il cielo resta offline."
+    ],
+    "selected_answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+    "selection_reason": "È la più immediata: collega il guasto alla rete all’espressione comune «modalità aereo» con una sola torsione.",
+    "fact_anchor": "ENAV ha comunicato il 16 ottobre 2026 anomalie alla rete dati di supporto al controllo del traffico aereo e una temporanea riduzione della capacità operativa; la piena funzionalità è stata poi ripristinata."
+  }
+}
