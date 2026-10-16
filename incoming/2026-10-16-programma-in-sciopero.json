@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-16",
+  "event_date": "2026-10-16",
+  "slug": "2026-10-16-programma-in-sciopero",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Cruscotto degli scioperi nel pubblico impiego – Dipartimento della Funzione Pubblica",
+    "url": "https://crusc-gepas.perlapa.gov.it/"
+  },
+  "sources": [
+    {
+      "name": "Cruscotto degli scioperi nel pubblico impiego – Dipartimento della Funzione Pubblica",
+      "url": "https://crusc-gepas.perlapa.gov.it/"
+    },
+    {
+      "name": "la Repubblica – Corteo studentesco a Milano, 16 ottobre 2026",
+      "url": "https://milano.repubblica.it/cronaca/2026/10/16/news/corteo_studenti_milano_contro_tetto_stranieri_classi_valditara_manifestazione-425651760/"
+    },
+    {
+      "name": "ANSA – Gli studenti in piazza per il No Meloni Day, cortei in tutta Italia",
+      "url": "https://www.ansa.it/amp/sito/notizie/cronaca/2026/10/16/gli-studenti-in-piazza-per-il-no-meloni-day-cortei-in-tutta-italia_1e152b63-e67e-4efd-9ec7-0ca3507f55e3.html"
+    }
+  ],
+  "title": "Travaglio & la Suprema IA",
+  "headline": "Sciopero nella scuola, studenti in piazza",
+  "summary": "Il 16 ottobre è in corso lo sciopero nazionale del personale scolastico proclamato da SISA; studenti manifestano in diverse città.",
+  "news_text": "Il Cruscotto della Funzione Pubblica registra lo sciopero SISA del 16 ottobre per il personale docente, dirigente e ATA. Nella stessa giornata, resoconti indipendenti documentano manifestazioni studentesche, tra cui un corteo partito a Milano.",
+  "question": "Il 16 ottobre il personale scolastico sciopera e gli studenti manifestano: chi salta la lezione?",
+  "answer": "Oggi sciopera anche il programma: salta la lezione per solidarietà.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Il Programma"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Un programma scolastico con cartello «oggi sciopero» davanti a una cattedra vuota.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Oggi sciopera anche il programma: salta la lezione per solidarietà.",
+      "Il registro segna assente: oggi manca perfino il programma.",
+      "La campanella suona, ma il programma ha chiesto un giorno di permesso."
+    ],
+    "selected_answer": "Oggi sciopera anche il programma: salta la lezione per solidarietà.",
+    "selection_reason": "È la più immediata: trasforma lo sciopero scolastico in un’unica personificazione comprensibile al volo.",
+    "fact_anchor": "Sciopero SISA del personale scolastico registrato per il 16 ottobre 2026; manifestazioni studentesche documentate nella stessa giornata."
+  }
+}
