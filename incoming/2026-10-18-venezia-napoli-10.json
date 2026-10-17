@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "event_date": "2026-10-17",
+  "slug": "2026-10-18-venezia-napoli-10",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Lega Serie A",
+    "url": "https://www.legaseriea.it/serie-a/news/venezia-napoli-2026-2027-1-0-cronaca-risultato-gol"
+  },
+  "sources": [
+    {
+      "name": "Lega Serie A",
+      "url": "https://www.legaseriea.it/serie-a/news/venezia-napoli-2026-2027-1-0-cronaca-risultato-gol"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/veneto/notizie/2026/10/17/serie-a-adams-rilancia-il-venezia-napoli-battuto-1-0_7d1dccba-ee29-4bbe-bc2a-8ae8ade85655.html"
+    }
+  ],
+  "title": "Il Napoli si perde a Venezia",
+  "headline": "A Venezia il Napoli si perde: il gol lo trova solo il Venezia",
+  "summary": "Il 17 ottobre il Venezia ha battuto il Napoli 1-0 in Serie A: ha segnato Akor Adams.",
+  "news_text": "Il 17 ottobre 2026, nella settima giornata di Serie A, il Venezia ha battuto il Napoli 1-0 allo stadio Penzo. La rete decisiva è stata segnata da Akor Adams all’inizio della ripresa. Il risultato è riportato dalla Lega Serie A e da ANSA.",
+  "question": "Che cosa è successo a Venezia-Napoli, partita di Serie A giocata a Venezia il 17 ottobre 2026?",
+  "answer": "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Il Napoli",
+    "Il Venezia"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio e la Suprema IA osservano una mappa di Venezia con il Napoli disorientato e il Venezia accanto alla porta.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
+      "Il Venezia ha fatto centro; il Napoli, a Venezia, ha sbagliato strada.",
+      "A Venezia il Napoli è rimasto a secco: l’unico gol l’ha servito Adams."
+    ],
+    "selected_answer": "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
+    "selection_reason": "È la più immediata: lega il risultato al cliché del perdersi tra i canali di Venezia, con una sola torsione.",
+    "fact_anchor": "Il Venezia ha battuto il Napoli 1-0 il 17 ottobre 2026; la rete è stata segnata da Akor Adams."
+  }
+}

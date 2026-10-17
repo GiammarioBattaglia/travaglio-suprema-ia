@@ -1,39 +1,41 @@
 {
   "current": {
-    "date": "2026-10-17",
-    "event_date": "2026-10-16",
-    "slug": "2026-10-17-rete-in-tilt-cielo-modalita-aereo",
+    "date": "2026-10-18",
+    "event_date": "2026-10-17",
+    "slug": "2026-10-18-venezia-napoli-10",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "ENAV — comunicato ufficiale",
-      "url": "https://www.enav.it/node/18703"
+      "name": "Lega Serie A",
+      "url": "https://www.legaseriea.it/serie-a/news/venezia-napoli-2026-2027-1-0-cronaca-risultato-gol"
     },
     "sources": [
       {
-        "name": "ENAV — comunicato ufficiale",
-        "url": "https://www.enav.it/node/18703"
+        "name": "Lega Serie A",
+        "url": "https://www.legaseriea.it/serie-a/news/venezia-napoli-2026-2027-1-0-cronaca-risultato-gol"
       },
       {
-        "name": "Associated Press",
-        "url": "https://apnews.com/article/40002058f13fa4fc13146d4408e80b22"
+        "name": "ANSA",
+        "url": "https://www.ansa.it/veneto/notizie/2026/10/17/serie-a-adams-rilancia-il-venezia-napoli-battuto-1-0_7d1dccba-ee29-4bbe-bc2a-8ae8ade85655.html"
       }
     ],
-    "title": "Travaglio & la Suprema IA",
-    "headline": "Rete in tilt, voli dimezzati: il cielo va in modalità aereo",
-    "summary": "Il 16 ottobre, un’anomalia alla rete dati di supporto al controllo del traffico aereo ha ridotto temporaneamente la capacità operativa in Italia. ENAV ha comunicato in seguito il ripristino della piena capacità.",
-    "news_text": "ENAV ha riferito che nella notte del 16 ottobre sono state riscontrate anomalie nella rete di trasmissione dati che supporta il controllo del traffico aereo. Dalle 6 sono state introdotte misure di regolazione dei flussi, con una temporanea riduzione della capacità operativa. In serata ENAV ha comunicato il ripristino della piena funzionalità; Associated Press ha riportato il ritorno alla piena capacità e i disagi negli aeroporti.",
-    "question": "Il 16 ottobre 2026 un guasto alla rete dati ENAV ha ridotto temporaneamente la capacità dei voli: qual è la battuta?",
-    "answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+    "title": "Il Napoli si perde a Venezia",
+    "headline": "A Venezia il Napoli si perde: il gol lo trova solo il Venezia",
+    "summary": "Il 17 ottobre il Venezia ha battuto il Napoli 1-0 in Serie A: ha segnato Akor Adams.",
+    "news_text": "Il 17 ottobre 2026, nella settima giornata di Serie A, il Venezia ha battuto il Napoli 1-0 allo stadio Penzo. La rete decisiva è stata segnata da Akor Adams all’inizio della ripresa. Il risultato è riportato dalla Lega Serie A e da ANSA.",
+    "question": "Che cosa è successo a Venezia-Napoli, partita di Serie A giocata a Venezia il 17 ottobre 2026?",
+    "answer": "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
     "characters": [
       "Marco Travaglio",
-      "Suprema IA"
+      "Suprema IA",
+      "Il Napoli",
+      "Il Venezia"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Una rete dati stilizzata si interrompe sotto un cielo con aerei in coda; un’icona di modalità aereo completa la vignetta.",
+    "visual_context": "Travaglio e la Suprema IA osservano una mappa di Venezia con il Napoli disorientato e il Venezia accanto alla porta.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -42,26 +44,88 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
-        "Traffico aereo in buffering: per il decollo, attendere il caricamento.",
-        "La rete ENAV perde la connessione e il cielo resta offline."
+        "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
+        "Il Venezia ha fatto centro; il Napoli, a Venezia, ha sbagliato strada.",
+        "A Venezia il Napoli è rimasto a secco: l’unico gol l’ha servito Adams."
       ],
-      "selected_answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
-      "selection_reason": "È la più immediata: collega il guasto alla rete all’espressione comune «modalità aereo» con una sola torsione.",
-      "fact_anchor": "ENAV ha comunicato il 16 ottobre 2026 anomalie alla rete dati di supporto al controllo del traffico aereo e una temporanea riduzione della capacità operativa; la piena funzionalità è stata poi ripristinata."
+      "selected_answer": "A Venezia il Napoli si è perso: il gol l’ha trovato solo il Venezia.",
+      "selection_reason": "È la più immediata: lega il risultato al cliché del perdersi tra i canali di Venezia, con una sola torsione.",
+      "fact_anchor": "Il Venezia ha battuto il Napoli 1-0 il 17 ottobre 2026; la rete è stata segnata da Akor Adams."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-17-rete-in-tilt-cielo-modalita-aereo.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ENAV ha riferito che nella notte del 16 ottobre sono state riscontrate anomalie nella rete di trasmissione dati che supporta il controllo del traffico aereo. Dalle 6 sono state introdotte misure di regolazione dei flussi, con una temporanea riduzione della capacità operativa. In serata ENAV ha comunicato il ripristino della piena funzionalità; Associated Press ha riportato il ritorno alla piena capacità e i disagi negli aeroporti.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-18-venezia-napoli-10.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il Napoli si perde a Venezia",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Il Napoli.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 17 ottobre 2026, nella settima giornata di Serie A, il Venezia ha battuto il Napoli 1-0 allo stadio Penzo. La rete decisiva è stata segnata da Akor Adams all’inizio della ripresa. Il risultato è riportato dalla Lega Serie A e da ANSA.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-16T22:49:13.772Z",
-    "image_generated_at": "2026-10-16T22:49:13.772Z",
-    "url": "/episodio/2026-10-17-rete-in-tilt-cielo-modalita-aereo/"
+    "published_at": "2026-10-17T22:16:34.597Z",
+    "image_generated_at": "2026-10-17T22:16:34.597Z",
+    "url": "/episodio/2026-10-18-venezia-napoli-10/"
   },
   "archive": [
+    {
+      "date": "2026-10-17",
+      "event_date": "2026-10-16",
+      "slug": "2026-10-17-rete-in-tilt-cielo-modalita-aereo",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ENAV — comunicato ufficiale",
+        "url": "https://www.enav.it/node/18703"
+      },
+      "sources": [
+        {
+          "name": "ENAV — comunicato ufficiale",
+          "url": "https://www.enav.it/node/18703"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/40002058f13fa4fc13146d4408e80b22"
+        }
+      ],
+      "title": "Travaglio & la Suprema IA",
+      "headline": "Rete in tilt, voli dimezzati: il cielo va in modalità aereo",
+      "summary": "Il 16 ottobre, un’anomalia alla rete dati di supporto al controllo del traffico aereo ha ridotto temporaneamente la capacità operativa in Italia. ENAV ha comunicato in seguito il ripristino della piena capacità.",
+      "news_text": "ENAV ha riferito che nella notte del 16 ottobre sono state riscontrate anomalie nella rete di trasmissione dati che supporta il controllo del traffico aereo. Dalle 6 sono state introdotte misure di regolazione dei flussi, con una temporanea riduzione della capacità operativa. In serata ENAV ha comunicato il ripristino della piena funzionalità; Associated Press ha riportato il ritorno alla piena capacità e i disagi negli aeroporti.",
+      "question": "Il 16 ottobre 2026 un guasto alla rete dati ENAV ha ridotto temporaneamente la capacità dei voli: qual è la battuta?",
+      "answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Una rete dati stilizzata si interrompe sotto un cielo con aerei in coda; un’icona di modalità aereo completa la vignetta.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+          "Traffico aereo in buffering: per il decollo, attendere il caricamento.",
+          "La rete ENAV perde la connessione e il cielo resta offline."
+        ],
+        "selected_answer": "Rete in tilt, voli dimezzati: il cielo è finito in modalità aereo.",
+        "selection_reason": "È la più immediata: collega il guasto alla rete all’espressione comune «modalità aereo» con una sola torsione.",
+        "fact_anchor": "ENAV ha comunicato il 16 ottobre 2026 anomalie alla rete dati di supporto al controllo del traffico aereo e una temporanea riduzione della capacità operativa; la piena funzionalità è stata poi ripristinata."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-17-rete-in-tilt-cielo-modalita-aereo.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di il protagonista istituzionale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ENAV ha riferito che nella notte del 16 ottobre sono state riscontrate anomalie nella rete di trasmissione dati che supporta il controllo del traffico aereo. Dalle 6 sono state introdotte misure di regolazione dei flussi, con una temporanea riduzione della capacità operativa. In serata ENAV ha comunicato il ripristino della piena funzionalità; Associated Press ha riportato il ritorno alla piena capacità e i disagi negli aeroporti.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-16T22:49:13.772Z",
+      "image_generated_at": "2026-10-16T22:49:13.772Z",
+      "url": "/episodio/2026-10-17-rete-in-tilt-cielo-modalita-aereo/"
+    },
     {
       "date": "2026-10-16",
       "event_date": "2026-10-16",
