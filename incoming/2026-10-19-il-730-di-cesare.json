@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "event_date": "2026-10-18",
+  "slug": "2026-10-19-il-730-di-cesare",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Vaticano — testo ufficiale dell’Angelus",
+    "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+  },
+  "sources": [
+    {
+      "name": "Vaticano — testo ufficiale dell’Angelus",
+      "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+    },
+    {
+      "name": "Associated Press",
+      "url": "https://apnews.com/article/7c3dfef5de69ebfc0e888ebe1e6a22ca"
+    },
+    {
+      "name": "Euronews",
+      "url": "https://www.euronews.com/2026/10/18/pope-leo-xiv-after-his-hospital-stay-i-have-felt-closer-to-those-who-suffer-illness"
+    }
+  ],
+  "title": "Travaglio & la Suprema IA",
+  "headline": "All’Angelus spunta il 730 di Cesare",
+  "summary": "Il 18 ottobre Leone XIV ha recitato l’Angelus in Piazza San Pietro e ha commentato il passo evangelico su ciò che spetta a Cesare.",
+  "news_text": "Domenica 18 ottobre 2026 Leone XIV ha recitato l’Angelus in Piazza San Pietro. Nel testo ufficiale ha commentato il passo del Vangelo: «Date a Cesare quello che è di Cesare e a Dio quello che è di Dio». L’evento e il ritorno pubblico del Papa all’Angelus sono riportati anche da Associated Press ed Euronews.",
+  "question": "Nell’Angelus del 18 ottobre 2026, Gesù dice di dare a Cesare ciò che è di Cesare: quale modulo presenta l’impero?",
+  "answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Cesare, contribuente immaginario"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Un banco da CAF nell’antica Roma: Cesare consegna un modulo 730, mentre la Suprema IA controlla una ricevuta con sigillo imperiale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Allo sportello imperiale: «Dare a Cesare» vale come dichiarazione dei redditi.",
+      "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+      "Cesare apre un CAF: il Vangelo gli ha già assegnato la partita IVA."
+    ],
+    "selected_answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+    "selection_reason": "Collega subito Cesare e il tributo al modulo fiscale 730, con una sola torsione verbale.",
+    "fact_anchor": "Nel testo ufficiale dell’Angelus del 18 ottobre 2026, Leone XIV cita il passo «Date a Cesare quello che è di Cesare»."
+  }
+}
