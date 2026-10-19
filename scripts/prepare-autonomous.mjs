@@ -167,8 +167,8 @@ function validatePreparedEpisode(ep, today) {
     throw new Error('La battuta non supera il controllo di immediatezza');
   }
   if (!Number.isInteger(review.inference_steps) || review.inference_steps < 0 || review.inference_steps > 1) throw new Error('Troppi passaggi mentali');
-  if (!Array.isArray(review.alternatives) || new Set(review.alternatives).size < 3 || !review.alternatives.includes(ep.answer)) {
-    throw new Error('Mancano tre alternative editoriali distinte');
+  if (!Array.isArray(review.alternatives) || new Set(review.alternatives).size < 5 || !review.alternatives.includes(ep.answer)) {
+    throw new Error('Mancano cinque alternative editoriali distinte');
   }
   if (!String(review.selection_reason || '').trim() || !String(review.fact_anchor || '').trim()) throw new Error('Revisione editoriale incompleta');
   const persuasive = /\b(vota|votate|votare|sostieni|sostenete|eleggi|eleggete|non votare|meglio votare)\b/i;
@@ -217,6 +217,44 @@ function normalizeEpisode(episode, today) {
   return episode;
 }
 
+// Independent, fail-closed comedy gate. The critic sees only the factual anchor and balloons.
+async function reviewComedy(ep) {
+  const key = process.env.OPENAI_API_KEY;
+  if (!key) throw new Error('COMEDY_REVIEW_UNAVAILABLE: API key missing');
+  const response = await fetch(RESPONSES_API, {
+    method: 'POST',
+    headers: { Authorization: 'Bearer ' + key, 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(60000),
+    body: JSON.stringify({
+      model: process.env.OPENAI_REVIEW_MODEL || MODEL,
+      instructions: [
+        'Sei un revisore comico indipendente e severo, NON il generatore.',
+        'Valuta soltanto domanda e risposta come se fossero gli unici due fumetti.',
+        'Rifiuta giochi di parole oscuri, metafore ornamentali, semplici descrizioni,',
+        'battute che richiedono spiegazioni o conoscenze non presenti nella domanda.',
+        'Rifiuta temi non legati alla politica e alle istituzioni italiane.',
+        'Non valutare la veridicità delle fonti: questo controllo è separato.',
+        'Rispondi ESCLUSIVAMENTE JSON con approved boolean, reason string.',
+        'Approva solo una battuta con rovesciamento chiaro e sorpresa immediata.',
+        'Se sei incerto, rifiuta. Non modificare né proporre nuove battute.'
+      ].join(' '),
+      input: JSON.stringify({
+        headline: ep.headline, fact_anchor: ep.editorial_review.fact_anchor,
+        question: ep.question, answer: ep.answer
+      }),
+      max_output_tokens: 350
+    })
+  });
+  if (!response.ok) throw new Error('COMEDY_REVIEW_HTTP_' + response.status);
+  const result = await response.json();
+  const verdict = parseJsonOnly(extractOutputText(result));
+  if (typeof verdict.approved !== 'boolean' || typeof verdict.reason !== 'string') {
+    throw new Error('COMEDY_REVIEW_INVALID_VERDICT');
+  }
+  if (!verdict.approved) throw new Error('COMEDY_REVIEW_REJECTED: ' + verdict.reason.slice(0, 240));
+  console.log('COMEDY_REVIEW_APPROVED');
+}
+
 async function requestEpisode(today) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('OPENAI_API_KEY non configurata: impossibile preparare automaticamente la vignetta');
@@ -224,17 +262,20 @@ async function requestEpisode(today) {
   const instructions = [
     'Agisci come desk editoriale autonomo di una vignetta satirica italiana chiamata "Travaglio & la Suprema IA".',
     'Cerca sul web un fatto pubblico documentato avvenuto oggi o ieri e verificalo con almeno due fonti HTTPS indipendenti.',
-    'Preferisci notizie italiane di attualità, economia, istituzioni, lavoro, tecnologia o società con un elemento adatto a un gioco di parole immediato.',
-    'Se il fatto riguarda politica o istituzioni, resta descrittivo e non persuasivo: nessun invito di voto, endorsement, graduatoria tra partiti o candidati o previsione elettorale.',
+    'Scegli ESCLUSIVAMENTE notizie di politica italiana o vita istituzionale italiana. Escludi sport, spettacolo, notizie religiose, consumi, tecnologia e cronaca generica, anche se più facili da trasformare in battuta.',
+    'La selezione politica deve essere neutrale e non persuasiva: nessun invito di voto, endorsement, graduatoria tra partiti o candidati o previsione elettorale.',
     'Non attribuire reati, corruzione, malattie, incapacità mentale o motivazioni non documentate. Non inventare dichiarazioni fattuali.',
     'La satira deve poggiare su un fatto verificato e avere una sola torsione comica, comprensibile con zero o un solo passaggio mentale.',
-    'Genera tre punchline realmente diverse; scegli la più immediata. La risposta scelta deve avere massimo 16 parole e 90 caratteri.',
+    'Genera almeno cinque punchline realmente diverse: doppio senso, rovesciamento logico, paradosso burocratico, autoironia IA e assurdo strettamente legato al fatto. Non scegliere per mera brevità: scarta battute descrittive, metafore decorative e quelle che richiedono una spiegazione. Se nessuna fa sorridere immediatamente, cambia domanda e rigenera; se ancora non funziona, non produrre un episodio.',
+    'La domanda deve contenere il fatto essenziale in parole comuni; la risposta deve funzionare leggendo solo i due fumetti, con un solo rovesciamento e una chiusura secca. Massimo 16 parole e 90 caratteri.',
+    'Non attribuire parole inventate al vero Marco Travaglio: il personaggio è una rappresentazione satirica.',
+    'Escludi tragedie, minori, insinuazioni non provate, salute o competenza delle persone.',
     'La domanda di Travaglio deve essere autosufficiente e massimo 130 caratteri.',
     'Usa URL diretti delle fonti, non pagine di ricerca, social network o aggregatori.',
     'Compila rigorosamente tutti i campi dello schema strutturato.'
   ].join('\n');
 
-  const input = `Data editoriale Europe/Rome: ${today}. Scegli un fatto di ${today} o del giorno precedente. La fonte primaria deve comparire anche nell'array sources. editorial_review.version deve essere 2, method deve essere "candidate_review", self_contained_question true, needs_explanation false, twist_count 1, inference_steps 0 o 1. Le tre alternatives devono essere distinte e selected_answer deve essere identica ad answer.`;
+  const input = `Data editoriale Europe/Rome: ${today}. Scegli un fatto di ${today} o del giorno precedente. La fonte primaria deve comparire anche nell'array sources. editorial_review.version deve essere 2, method deve essere "candidate_review", self_contained_question true, needs_explanation false, twist_count 1, inference_steps 0 o 1. Le almeno cinque alternatives devono essere distinte e selected_answer deve essere identica ad answer. Non inventare fonti né fingere una revisione comica superata.`;
 
   let lastError = null;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
@@ -278,6 +319,7 @@ async function requestEpisode(today) {
 
       const episode = normalizeEpisode(parseJsonOnly(text), today);
       validatePreparedEpisode(episode, today);
+      await reviewComedy(episode);
       if (attempt > 1) console.log(`EDITORIAL_RECOVERED_ON_ATTEMPT=${attempt}`);
       return episode;
     } catch (error) {
