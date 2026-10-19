@@ -167,8 +167,8 @@ function validatePreparedEpisode(ep, today) {
     throw new Error('La battuta non supera il controllo di immediatezza');
   }
   if (!Number.isInteger(review.inference_steps) || review.inference_steps < 0 || review.inference_steps > 1) throw new Error('Troppi passaggi mentali');
-  if (!Array.isArray(review.alternatives) || new Set(review.alternatives).size < 3 || !review.alternatives.includes(ep.answer)) {
-    throw new Error('Mancano tre alternative editoriali distinte');
+  if (!Array.isArray(review.alternatives) || new Set(review.alternatives).size < 5 || !review.alternatives.includes(ep.answer)) {
+    throw new Error('Mancano cinque alternative editoriali distinte');
   }
   if (!String(review.selection_reason || '').trim() || !String(review.fact_anchor || '').trim()) throw new Error('Revisione editoriale incompleta');
   const persuasive = /\b(vota|votate|votare|sostieni|sostenete|eleggi|eleggete|non votare|meglio votare)\b/i;
@@ -224,17 +224,20 @@ async function requestEpisode(today) {
   const instructions = [
     'Agisci come desk editoriale autonomo di una vignetta satirica italiana chiamata "Travaglio & la Suprema IA".',
     'Cerca sul web un fatto pubblico documentato avvenuto oggi o ieri e verificalo con almeno due fonti HTTPS indipendenti.',
-    'Preferisci notizie italiane di attualità, economia, istituzioni, lavoro, tecnologia o società con un elemento adatto a un gioco di parole immediato.',
-    'Se il fatto riguarda politica o istituzioni, resta descrittivo e non persuasivo: nessun invito di voto, endorsement, graduatoria tra partiti o candidati o previsione elettorale.',
+    'Scegli ESCLUSIVAMENTE notizie di politica italiana o vita istituzionale italiana. Escludi sport, spettacolo, notizie religiose, consumi, tecnologia e cronaca generica, anche se più facili da trasformare in battuta.',
+    'La selezione politica deve essere neutrale e non persuasiva: nessun invito di voto, endorsement, graduatoria tra partiti o candidati o previsione elettorale.',
     'Non attribuire reati, corruzione, malattie, incapacità mentale o motivazioni non documentate. Non inventare dichiarazioni fattuali.',
     'La satira deve poggiare su un fatto verificato e avere una sola torsione comica, comprensibile con zero o un solo passaggio mentale.',
-    'Genera tre punchline realmente diverse; scegli la più immediata. La risposta scelta deve avere massimo 16 parole e 90 caratteri.',
+    'Genera almeno cinque punchline realmente diverse: doppio senso, rovesciamento logico, paradosso burocratico, autoironia IA e assurdo strettamente legato al fatto. Non scegliere per mera brevità: scarta battute descrittive, metafore decorative e quelle che richiedono una spiegazione. Se nessuna fa sorridere immediatamente, cambia domanda e rigenera; se ancora non funziona, non produrre un episodio.',
+    'La domanda deve contenere il fatto essenziale in parole comuni; la risposta deve funzionare leggendo solo i due fumetti, con un solo rovesciamento e una chiusura secca. Massimo 16 parole e 90 caratteri.',
+    'Non attribuire parole inventate al vero Marco Travaglio: il personaggio è una rappresentazione satirica.',
+    'Escludi tragedie, minori, insinuazioni non provate, salute o competenza delle persone.',
     'La domanda di Travaglio deve essere autosufficiente e massimo 130 caratteri.',
     'Usa URL diretti delle fonti, non pagine di ricerca, social network o aggregatori.',
     'Compila rigorosamente tutti i campi dello schema strutturato.'
   ].join('\n');
 
-  const input = `Data editoriale Europe/Rome: ${today}. Scegli un fatto di ${today} o del giorno precedente. La fonte primaria deve comparire anche nell'array sources. editorial_review.version deve essere 2, method deve essere "candidate_review", self_contained_question true, needs_explanation false, twist_count 1, inference_steps 0 o 1. Le tre alternatives devono essere distinte e selected_answer deve essere identica ad answer.`;
+  const input = `Data editoriale Europe/Rome: ${today}. Scegli un fatto di ${today} o del giorno precedente. La fonte primaria deve comparire anche nell'array sources. editorial_review.version deve essere 2, method deve essere "candidate_review", self_contained_question true, needs_explanation false, twist_count 1, inference_steps 0 o 1. Le almeno cinque alternatives devono essere distinte e selected_answer deve essere identica ad answer. Non inventare fonti né fingere una revisione comica superata.`;
 
   let lastError = null;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
