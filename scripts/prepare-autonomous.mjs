@@ -217,6 +217,44 @@ function normalizeEpisode(episode, today) {
   return episode;
 }
 
+// Independent, fail-closed comedy gate. The critic sees only the factual anchor and balloons.
+async function reviewComedy(ep) {
+  const key = process.env.OPENAI_API_KEY;
+  if (!key) throw new Error('COMEDY_REVIEW_UNAVAILABLE: API key missing');
+  const response = await fetch(RESPONSES_API, {
+    method: 'POST',
+    headers: { Authorization: 'Bearer ' + key, 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(60000),
+    body: JSON.stringify({
+      model: process.env.OPENAI_REVIEW_MODEL || MODEL,
+      instructions: [
+        'Sei un revisore comico indipendente e severo, NON il generatore.',
+        'Valuta soltanto domanda e risposta come se fossero gli unici due fumetti.',
+        'Rifiuta giochi di parole oscuri, metafore ornamentali, semplici descrizioni,',
+        'battute che richiedono spiegazioni o conoscenze non presenti nella domanda.',
+        'Rifiuta temi non legati alla politica e alle istituzioni italiane.',
+        'Non valutare la veridicità delle fonti: questo controllo è separato.',
+        'Rispondi ESCLUSIVAMENTE JSON con approved boolean, reason string.',
+        'Approva solo una battuta con rovesciamento chiaro e sorpresa immediata.',
+        'Se sei incerto, rifiuta. Non modificare né proporre nuove battute.'
+      ].join(' '),
+      input: JSON.stringify({
+        headline: ep.headline, fact_anchor: ep.editorial_review.fact_anchor,
+        question: ep.question, answer: ep.answer
+      }),
+      max_output_tokens: 350
+    })
+  });
+  if (!response.ok) throw new Error('COMEDY_REVIEW_HTTP_' + response.status);
+  const result = await response.json();
+  const verdict = parseJsonOnly(extractOutputText(result));
+  if (typeof verdict.approved !== 'boolean' || typeof verdict.reason !== 'string') {
+    throw new Error('COMEDY_REVIEW_INVALID_VERDICT');
+  }
+  if (!verdict.approved) throw new Error('COMEDY_REVIEW_REJECTED: ' + verdict.reason.slice(0, 240));
+  console.log('COMEDY_REVIEW_APPROVED');
+}
+
 async function requestEpisode(today) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error('OPENAI_API_KEY non configurata: impossibile preparare automaticamente la vignetta');
@@ -281,6 +319,7 @@ async function requestEpisode(today) {
 
       const episode = normalizeEpisode(parseJsonOnly(text), today);
       validatePreparedEpisode(episode, today);
+      await reviewComedy(episode);
       if (attempt > 1) console.log(`EDITORIAL_RECOVERED_ON_ATTEMPT=${attempt}`);
       return episode;
     } catch (error) {
