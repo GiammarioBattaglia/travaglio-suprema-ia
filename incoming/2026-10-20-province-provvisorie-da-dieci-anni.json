@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "event_date": "2026-10-19",
+  "slug": "2026-10-20-province-provvisorie-da-dieci-anni",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+    "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+  },
+  "sources": [
+    {
+      "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+      "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+    },
+    {
+      "name": "ANSA — Mattarella: far uscire le Province dal limbo",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/mattarella-far-uscire-le-province-dal-limbo-tema-che-non-puo_0b913a77-2301-4e13-aca6-a202dc2e06e7.html"
+    }
+  ],
+  "title": "Le Province in prova da dieci anni",
+  "headline": "Province nel limbo: il provvisorio dura da dieci anni",
+  "summary": "Il 19 ottobre Sergio Mattarella ha chiesto di completare la transizione istituzionale delle Province, rimaste per un decennio in una condizione incerta.",
+  "news_text": "Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.",
+  "question": "Mattarella dice che le Province sono nel limbo istituzionale da dieci anni: è provvisorio?",
+  "answer": "Certo. Infatti dura soltanto da dieci anni.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Le Province italiane personificate"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Un edificio provinciale con valigia e salvagente fermo a metà di un guado, mentre attende davanti a una porta istituzionale che non si apre.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Certo. Infatti dura soltanto da dieci anni.",
+      "Sì. Il provvisorio è diventato la loro sede permanente.",
+      "È una transizione: ha soltanto dimenticato di transitare.",
+      "Appena trovano l’uscita: il legislatore ha perso la segnaletica.",
+      "Le Province aspettano: il limbo non ha ancora approvato l’uscita."
+    ],
+    "selected_answer": "Certo. Infatti dura soltanto da dieci anni.",
+    "selection_reason": "È autosufficiente e rovescia subito la parola «provvisorio» contro una durata di dieci anni.",
+    "fact_anchor": "Il 19 ottobre 2026 Mattarella ha detto che l’inerzia legislativa ha lasciato le Province nel guado e che la transizione incompiuta dura da un decennio."
+  }
+}
