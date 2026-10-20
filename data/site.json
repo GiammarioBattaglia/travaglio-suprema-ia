@@ -1,72 +1,137 @@
 {
   "current": {
-    "date": "2026-10-19",
-    "event_date": "2026-10-18",
-    "slug": "2026-10-19-il-730-di-cesare",
+    "date": "2026-10-20",
+    "event_date": "2026-10-19",
+    "slug": "2026-10-20-province-provvisorie-da-dieci-anni",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Vaticano — testo ufficiale dell’Angelus",
-      "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+      "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+      "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
     },
     "sources": [
       {
-        "name": "Vaticano — testo ufficiale dell’Angelus",
-        "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+        "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+        "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
       },
       {
-        "name": "Associated Press",
-        "url": "https://apnews.com/article/7c3dfef5de69ebfc0e888ebe1e6a22ca"
-      },
-      {
-        "name": "Euronews",
-        "url": "https://www.euronews.com/2026/10/18/pope-leo-xiv-after-his-hospital-stay-i-have-felt-closer-to-those-who-suffer-illness"
+        "name": "ANSA — Mattarella: far uscire le Province dal limbo",
+        "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/mattarella-far-uscire-le-province-dal-limbo-tema-che-non-puo_0b913a77-2301-4e13-aca6-a202dc2e06e7.html"
       }
     ],
-    "title": "Travaglio & la Suprema IA",
-    "headline": "All’Angelus spunta il 730 di Cesare",
-    "summary": "Il 18 ottobre Leone XIV ha recitato l’Angelus in Piazza San Pietro e ha commentato il passo evangelico su ciò che spetta a Cesare.",
-    "news_text": "Domenica 18 ottobre 2026 Leone XIV ha recitato l’Angelus in Piazza San Pietro. Nel testo ufficiale ha commentato il passo del Vangelo: «Date a Cesare quello che è di Cesare e a Dio quello che è di Dio». L’evento e il ritorno pubblico del Papa all’Angelus sono riportati anche da Associated Press ed Euronews.",
-    "question": "Nell’Angelus del 18 ottobre 2026, Gesù dice di dare a Cesare ciò che è di Cesare: quale modulo presenta l’impero?",
-    "answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+    "title": "Le Province in prova da dieci anni",
+    "headline": "Province nel limbo: il provvisorio dura da dieci anni",
+    "summary": "Il 19 ottobre Sergio Mattarella ha chiesto di completare la transizione istituzionale delle Province, rimaste per un decennio in una condizione incerta.",
+    "news_text": "Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.",
+    "question": "Mattarella dice che le Province sono nel limbo istituzionale da dieci anni: è provvisorio?",
+    "answer": "Certo. Infatti dura soltanto da dieci anni.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Cesare, contribuente immaginario"
+      "Le Province italiane personificate"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Un banco da CAF nell’antica Roma: Cesare consegna un modulo 730, mentre la Suprema IA controlla una ricevuta con sigillo imperiale.",
+    "visual_context": "Un edificio provinciale con valigia e salvagente fermo a metà di un guado, mentre attende davanti a una porta istituzionale che non si apre.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
       "self_contained_question": true,
-      "inference_steps": 1,
+      "inference_steps": 0,
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Allo sportello imperiale: «Dare a Cesare» vale come dichiarazione dei redditi.",
-        "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
-        "Cesare apre un CAF: il Vangelo gli ha già assegnato la partita IVA."
+        "Certo. Infatti dura soltanto da dieci anni.",
+        "Sì. Il provvisorio è diventato la loro sede permanente.",
+        "È una transizione: ha soltanto dimenticato di transitare.",
+        "Appena trovano l’uscita: il legislatore ha perso la segnaletica.",
+        "Le Province aspettano: il limbo non ha ancora approvato l’uscita."
       ],
-      "selected_answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
-      "selection_reason": "Collega subito Cesare e il tributo al modulo fiscale 730, con una sola torsione verbale.",
-      "fact_anchor": "Nel testo ufficiale dell’Angelus del 18 ottobre 2026, Leone XIV cita il passo «Date a Cesare quello che è di Cesare»."
+      "selected_answer": "Certo. Infatti dura soltanto da dieci anni.",
+      "selection_reason": "È autosufficiente e rovescia subito la parola «provvisorio» contro una durata di dieci anni.",
+      "fact_anchor": "Il 19 ottobre 2026 Mattarella ha detto che l’inerzia legislativa ha lasciato le Province nel guado e che la transizione incompiuta dura da un decennio."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-19-il-730-di-cesare.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Cesare, contribuente immaginario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Domenica 18 ottobre 2026 Leone XIV ha recitato l’Angelus in Piazza San Pietro. Nel testo ufficiale ha commentato il passo del Vangelo: «Date a Cesare quello che è di Cesare e a Dio quello che è di Dio». L’evento e il ritorno pubblico del Papa all’Angelus sono riportati anche da Associated Press ed Euronews.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-20-province-provvisorie-da-dieci-anni.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le Province in prova da dieci anni",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Le Province italiane personificate.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-18T22:25:52.231Z",
-    "image_generated_at": "2026-10-18T22:25:52.231Z",
-    "url": "/episodio/2026-10-19-il-730-di-cesare/"
+    "published_at": "2026-10-20T08:24:16.676Z",
+    "image_generated_at": "2026-10-20T08:24:16.676Z",
+    "url": "/episodio/2026-10-20-province-provvisorie-da-dieci-anni/"
   },
   "archive": [
+    {
+      "date": "2026-10-19",
+      "event_date": "2026-10-18",
+      "slug": "2026-10-19-il-730-di-cesare",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Vaticano — testo ufficiale dell’Angelus",
+        "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+      },
+      "sources": [
+        {
+          "name": "Vaticano — testo ufficiale dell’Angelus",
+          "url": "https://www.vatican.va/content/leo-xiv/it/angelus/2026/documents/20261018-angelus.html"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/7c3dfef5de69ebfc0e888ebe1e6a22ca"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/10/18/pope-leo-xiv-after-his-hospital-stay-i-have-felt-closer-to-those-who-suffer-illness"
+        }
+      ],
+      "title": "Travaglio & la Suprema IA",
+      "headline": "All’Angelus spunta il 730 di Cesare",
+      "summary": "Il 18 ottobre Leone XIV ha recitato l’Angelus in Piazza San Pietro e ha commentato il passo evangelico su ciò che spetta a Cesare.",
+      "news_text": "Domenica 18 ottobre 2026 Leone XIV ha recitato l’Angelus in Piazza San Pietro. Nel testo ufficiale ha commentato il passo del Vangelo: «Date a Cesare quello che è di Cesare e a Dio quello che è di Dio». L’evento e il ritorno pubblico del Papa all’Angelus sono riportati anche da Associated Press ed Euronews.",
+      "question": "Nell’Angelus del 18 ottobre 2026, Gesù dice di dare a Cesare ciò che è di Cesare: quale modulo presenta l’impero?",
+      "answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Cesare, contribuente immaginario"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Un banco da CAF nell’antica Roma: Cesare consegna un modulo 730, mentre la Suprema IA controlla una ricevuta con sigillo imperiale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Allo sportello imperiale: «Dare a Cesare» vale come dichiarazione dei redditi.",
+          "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+          "Cesare apre un CAF: il Vangelo gli ha già assegnato la partita IVA."
+        ],
+        "selected_answer": "Il 730 di Cesare: l’unico tributo con ricevuta evangelica.",
+        "selection_reason": "Collega subito Cesare e il tributo al modulo fiscale 730, con una sola torsione verbale.",
+        "fact_anchor": "Nel testo ufficiale dell’Angelus del 18 ottobre 2026, Leone XIV cita il passo «Date a Cesare quello che è di Cesare»."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-19-il-730-di-cesare.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Cesare, contribuente immaginario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Domenica 18 ottobre 2026 Leone XIV ha recitato l’Angelus in Piazza San Pietro. Nel testo ufficiale ha commentato il passo del Vangelo: «Date a Cesare quello che è di Cesare e a Dio quello che è di Dio». L’evento e il ritorno pubblico del Papa all’Angelus sono riportati anche da Associated Press ed Euronews.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-18T22:25:52.231Z",
+      "image_generated_at": "2026-10-18T22:25:52.231Z",
+      "url": "/episodio/2026-10-19-il-730-di-cesare/"
+    },
     {
       "date": "2026-10-18",
       "event_date": "2026-10-17",
@@ -1649,6 +1714,71 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-20",
+      "event_date": "2026-10-19",
+      "slug": "2026-10-20-province-provvisorie-da-dieci-anni",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+        "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+      },
+      "sources": [
+        {
+          "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+          "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+        },
+        {
+          "name": "ANSA — Mattarella: far uscire le Province dal limbo",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/mattarella-far-uscire-le-province-dal-limbo-tema-che-non-puo_0b913a77-2301-4e13-aca6-a202dc2e06e7.html"
+        }
+      ],
+      "title": "Le Province in prova da dieci anni",
+      "headline": "Province nel limbo: il provvisorio dura da dieci anni",
+      "summary": "Il 19 ottobre Sergio Mattarella ha chiesto di completare la transizione istituzionale delle Province, rimaste per un decennio in una condizione incerta.",
+      "news_text": "Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.",
+      "question": "Mattarella dice che le Province sono nel limbo istituzionale da dieci anni: è provvisorio?",
+      "answer": "Certo. Infatti dura soltanto da dieci anni.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Le Province italiane personificate"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Un edificio provinciale con valigia e salvagente fermo a metà di un guado, mentre attende davanti a una porta istituzionale che non si apre.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Certo. Infatti dura soltanto da dieci anni.",
+          "Sì. Il provvisorio è diventato la loro sede permanente.",
+          "È una transizione: ha soltanto dimenticato di transitare.",
+          "Appena trovano l’uscita: il legislatore ha perso la segnaletica.",
+          "Le Province aspettano: il limbo non ha ancora approvato l’uscita."
+        ],
+        "selected_answer": "Certo. Infatti dura soltanto da dieci anni.",
+        "selection_reason": "È autosufficiente e rovescia subito la parola «provvisorio» contro una durata di dieci anni.",
+        "fact_anchor": "Il 19 ottobre 2026 Mattarella ha detto che l’inerzia legislativa ha lasciato le Province nel guado e che la transizione incompiuta dura da un decennio."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-20-province-provvisorie-da-dieci-anni.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le Province in prova da dieci anni",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Le Province italiane personificate.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-20T08:24:16.676Z",
+      "image_generated_at": "2026-10-20T08:24:16.676Z",
+      "url": "/episodio/2026-10-20-province-provvisorie-da-dieci-anni/"
+    },
     {
       "date": "2026-10-19",
       "event_date": "2026-10-18",
