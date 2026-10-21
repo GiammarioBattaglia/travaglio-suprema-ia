@@ -1,40 +1,44 @@
 {
   "current": {
-    "date": "2026-10-20",
-    "event_date": "2026-10-19",
-    "slug": "2026-10-20-province-provvisorie-da-dieci-anni",
+    "date": "2026-10-21",
+    "event_date": "2026-10-20",
+    "slug": "2026-10-21-il-caos-col-foglio-firme",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
-      "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+      "name": "Presidenza del Consiglio dei Ministri — videomessaggio sul decreto sicurezza",
+      "url": "https://www.governo.it/it/articolo/disposizioni-urgenti-materia-di-sicurezza-pubblica-il-videomessaggio-del-presidente-meloni"
     },
     "sources": [
       {
-        "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
-        "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+        "name": "Presidenza del Consiglio dei Ministri — videomessaggio sul decreto sicurezza",
+        "url": "https://www.governo.it/it/articolo/disposizioni-urgenti-materia-di-sicurezza-pubblica-il-videomessaggio-del-presidente-meloni"
       },
       {
-        "name": "ANSA — Mattarella: far uscire le Province dal limbo",
-        "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/mattarella-far-uscire-le-province-dal-limbo-tema-che-non-puo_0b913a77-2301-4e13-aca6-a202dc2e06e7.html"
+        "name": "Reuters — Italy approves new offence of violent participation in demonstrations",
+        "url": "https://www.reuters.com/world/italys-meloni-boost-police-arrest-powers-response-weekend-riots-2026-10-20/"
+      },
+      {
+        "name": "ANSA — Via libera al decreto sicurezza",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/20/via-libera-al-decreto-sicurezza-nasce-il-reato-di-partecipazione-violenta-a-una-manifestazione._b5702cd2-a73e-4734-8495-07184704c255.html"
       }
     ],
-    "title": "Le Province in prova da dieci anni",
-    "headline": "Province nel limbo: il provvisorio dura da dieci anni",
-    "summary": "Il 19 ottobre Sergio Mattarella ha chiesto di completare la transizione istituzionale delle Province, rimaste per un decennio in una condizione incerta.",
-    "news_text": "Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.",
-    "question": "Mattarella dice che le Province sono nel limbo istituzionale da dieci anni: è provvisorio?",
-    "answer": "Certo. Infatti dura soltanto da dieci anni.",
+    "title": "Il caos col foglio firme",
+    "headline": "Nuovo decreto sicurezza: nasce il reato di partecipazione violenta",
+    "summary": "Il 20 ottobre il Consiglio dei ministri ha approvato un decreto che introduce il reato di partecipazione violenta a una manifestazione.",
+    "news_text": "Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto-legge in materia di sicurezza pubblica. Il Governo, Reuters e ANSA riferiscono che il provvedimento introduce il nuovo reato di partecipazione violenta a una manifestazione, punito con la reclusione fino a cinque anni e una multa fino a 20.000 euro.",
+    "question": "Il nuovo decreto introduce il reato di partecipazione violenta alle manifestazioni: bisogna registrarsi?",
+    "answer": "Sì. Il caos adesso pretende il foglio firme.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Le Province italiane personificate"
+      "Un foglio firme della piazza personificato"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Un edificio provinciale con valigia e salvagente fermo a metà di un guado, mentre attende davanti a una porta istituzionale che non si apre.",
+    "visual_context": "Una piazza istituzionale ordinata come un ufficio pubblico: davanti ai cartelli abbassati, un enorme registro delle presenze aspetta le firme.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -43,28 +47,93 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Certo. Infatti dura soltanto da dieci anni.",
-        "Sì. Il provvisorio è diventato la loro sede permanente.",
-        "È una transizione: ha soltanto dimenticato di transitare.",
-        "Appena trovano l’uscita: il legislatore ha perso la segnaletica.",
-        "Le Province aspettano: il limbo non ha ancora approvato l’uscita."
+        "Sì. Il caos adesso pretende il foglio firme.",
+        "Certo. Senza firma, la violenza resta assente ingiustificata.",
+        "Prima si protesta, poi si giustifica l’assenza.",
+        "Sì. La piazza ha finalmente un registro presenze.",
+        "Il disordine è ammesso soltanto con partecipazione certificata."
       ],
-      "selected_answer": "Certo. Infatti dura soltanto da dieci anni.",
-      "selection_reason": "È autosufficiente e rovescia subito la parola «provvisorio» contro una durata di dieci anni.",
-      "fact_anchor": "Il 19 ottobre 2026 Mattarella ha detto che l’inerzia legislativa ha lasciato le Province nel guado e che la transizione incompiuta dura da un decennio."
+      "selected_answer": "Sì. Il caos adesso pretende il foglio firme.",
+      "selection_reason": "Trasforma subito «partecipazione» in presenza registrata, con un solo rovesciamento e una chiusura visiva.",
+      "fact_anchor": "Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto che introduce il reato di partecipazione violenta a una manifestazione."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-20-province-provvisorie-da-dieci-anni.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le Province in prova da dieci anni",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Le Province italiane personificate.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-21-il-caos-col-foglio-firme.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il caos col foglio firme",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Un foglio firme della piazza personificato.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto-legge in materia di sicurezza pubblica. Il Governo, Reuters e ANSA riferiscono che il provvedimento introduce il nuovo reato di partecipazione violenta a una manifestazione, punito con la reclusione fino a cinque anni e una multa fino a 20.000 euro.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-20T08:24:16.676Z",
-    "image_generated_at": "2026-10-20T08:24:16.676Z",
-    "url": "/episodio/2026-10-20-province-provvisorie-da-dieci-anni/"
+    "published_at": "2026-10-21T10:28:37.146Z",
+    "image_generated_at": "2026-10-21T10:28:37.146Z",
+    "url": "/episodio/2026-10-21-il-caos-col-foglio-firme/"
   },
   "archive": [
+    {
+      "date": "2026-10-20",
+      "event_date": "2026-10-19",
+      "slug": "2026-10-20-province-provvisorie-da-dieci-anni",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+        "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+      },
+      "sources": [
+        {
+          "name": "Presidenza della Repubblica — intervento ufficiale all’Assemblea UPI",
+          "url": "https://www.quirinale.it/it/discorso/mattarella-39-assemblea-annuale-province-d-italia-2"
+        },
+        {
+          "name": "ANSA — Mattarella: far uscire le Province dal limbo",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/mattarella-far-uscire-le-province-dal-limbo-tema-che-non-puo_0b913a77-2301-4e13-aca6-a202dc2e06e7.html"
+        }
+      ],
+      "title": "Le Province in prova da dieci anni",
+      "headline": "Province nel limbo: il provvisorio dura da dieci anni",
+      "summary": "Il 19 ottobre Sergio Mattarella ha chiesto di completare la transizione istituzionale delle Province, rimaste per un decennio in una condizione incerta.",
+      "news_text": "Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.",
+      "question": "Mattarella dice che le Province sono nel limbo istituzionale da dieci anni: è provvisorio?",
+      "answer": "Certo. Infatti dura soltanto da dieci anni.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Le Province italiane personificate"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Un edificio provinciale con valigia e salvagente fermo a metà di un guado, mentre attende davanti a una porta istituzionale che non si apre.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Certo. Infatti dura soltanto da dieci anni.",
+          "Sì. Il provvisorio è diventato la loro sede permanente.",
+          "È una transizione: ha soltanto dimenticato di transitare.",
+          "Appena trovano l’uscita: il legislatore ha perso la segnaletica.",
+          "Le Province aspettano: il limbo non ha ancora approvato l’uscita."
+        ],
+        "selected_answer": "Certo. Infatti dura soltanto da dieci anni.",
+        "selection_reason": "È autosufficiente e rovescia subito la parola «provvisorio» contro una durata di dieci anni.",
+        "fact_anchor": "Il 19 ottobre 2026 Mattarella ha detto che l’inerzia legislativa ha lasciato le Province nel guado e che la transizione incompiuta dura da un decennio."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-20-province-provvisorie-da-dieci-anni.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le Province in prova da dieci anni",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Le Province italiane personificate.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 19 ottobre 2026, intervenendo alla 39ª Assemblea nazionale dell’UPI a Imperia, il Presidente della Repubblica Sergio Mattarella ha affermato che l’inerzia del legislatore ha lasciato le Province «nel guado» e che occorre farle uscire dal «limbo». Il Quirinale e ANSA riferiscono che la transizione istituzionale, avviata nel decennio passato, è rimasta incompiuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-20T08:24:16.676Z",
+      "image_generated_at": "2026-10-20T08:24:16.676Z",
+      "url": "/episodio/2026-10-20-province-provvisorie-da-dieci-anni/"
+    },
     {
       "date": "2026-10-19",
       "event_date": "2026-10-18",
@@ -1714,6 +1783,75 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-21",
+      "event_date": "2026-10-20",
+      "slug": "2026-10-21-il-caos-col-foglio-firme",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Presidenza del Consiglio dei Ministri — videomessaggio sul decreto sicurezza",
+        "url": "https://www.governo.it/it/articolo/disposizioni-urgenti-materia-di-sicurezza-pubblica-il-videomessaggio-del-presidente-meloni"
+      },
+      "sources": [
+        {
+          "name": "Presidenza del Consiglio dei Ministri — videomessaggio sul decreto sicurezza",
+          "url": "https://www.governo.it/it/articolo/disposizioni-urgenti-materia-di-sicurezza-pubblica-il-videomessaggio-del-presidente-meloni"
+        },
+        {
+          "name": "Reuters — Italy approves new offence of violent participation in demonstrations",
+          "url": "https://www.reuters.com/world/italys-meloni-boost-police-arrest-powers-response-weekend-riots-2026-10-20/"
+        },
+        {
+          "name": "ANSA — Via libera al decreto sicurezza",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/20/via-libera-al-decreto-sicurezza-nasce-il-reato-di-partecipazione-violenta-a-una-manifestazione._b5702cd2-a73e-4734-8495-07184704c255.html"
+        }
+      ],
+      "title": "Il caos col foglio firme",
+      "headline": "Nuovo decreto sicurezza: nasce il reato di partecipazione violenta",
+      "summary": "Il 20 ottobre il Consiglio dei ministri ha approvato un decreto che introduce il reato di partecipazione violenta a una manifestazione.",
+      "news_text": "Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto-legge in materia di sicurezza pubblica. Il Governo, Reuters e ANSA riferiscono che il provvedimento introduce il nuovo reato di partecipazione violenta a una manifestazione, punito con la reclusione fino a cinque anni e una multa fino a 20.000 euro.",
+      "question": "Il nuovo decreto introduce il reato di partecipazione violenta alle manifestazioni: bisogna registrarsi?",
+      "answer": "Sì. Il caos adesso pretende il foglio firme.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Un foglio firme della piazza personificato"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Una piazza istituzionale ordinata come un ufficio pubblico: davanti ai cartelli abbassati, un enorme registro delle presenze aspetta le firme.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 0,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Sì. Il caos adesso pretende il foglio firme.",
+          "Certo. Senza firma, la violenza resta assente ingiustificata.",
+          "Prima si protesta, poi si giustifica l’assenza.",
+          "Sì. La piazza ha finalmente un registro presenze.",
+          "Il disordine è ammesso soltanto con partecipazione certificata."
+        ],
+        "selected_answer": "Sì. Il caos adesso pretende il foglio firme.",
+        "selection_reason": "Trasforma subito «partecipazione» in presenza registrata, con un solo rovesciamento e una chiusura visiva.",
+        "fact_anchor": "Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto che introduce il reato di partecipazione violenta a una manifestazione."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-21-il-caos-col-foglio-firme.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il caos col foglio firme",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Un foglio firme della piazza personificato.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 20 ottobre 2026 il Consiglio dei ministri ha approvato un decreto-legge in materia di sicurezza pubblica. Il Governo, Reuters e ANSA riferiscono che il provvedimento introduce il nuovo reato di partecipazione violenta a una manifestazione, punito con la reclusione fino a cinque anni e una multa fino a 20.000 euro.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-21T10:28:37.146Z",
+      "image_generated_at": "2026-10-21T10:28:37.146Z",
+      "url": "/episodio/2026-10-21-il-caos-col-foglio-firme/"
+    },
     {
       "date": "2026-10-20",
       "event_date": "2026-10-19",
