@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-24",
+  "event_date": "2026-10-23",
+  "slug": "2026-10-24-l-incertezza-garantita",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Banca d’Italia — The two-tier system in transition: public foundations, private innovation",
+    "url": "https://www.bancaditalia.it/media/notizia/chiara-scotti-to-speak-at-the-annual-meeting-of-the-institut-international-d-tudes-bancaires-iieb/"
+  },
+  "sources": [
+    {
+      "name": "Banca d’Italia — The two-tier system in transition: public foundations, private innovation",
+      "url": "https://www.bancaditalia.it/media/notizia/chiara-scotti-to-speak-at-the-annual-meeting-of-the-institut-international-d-tudes-bancaires-iieb/"
+    },
+    {
+      "name": "Reuters — Bank of Italy calls for digital asset investments by banks despite uncertainty",
+      "url": "https://www.reuters.com/business/finance/bank-italy-calls-digital-asset-investments-by-banks-despite-uncertainty-2026-10-23/"
+    },
+    {
+      "name": "ANSA — Scotti (Bankitalia), per le banche sfida strategica dalla tokenizzazione",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/10/23/scotti-bankitalia-per-le-banche-sfida-strategica-dalla-tokenizzazione_fd79ece8-107e-428f-ac25-1597ecf15d0e.html"
+    }
+  ],
+  "title": "L’incertezza garantita",
+  "headline": "Bankitalia: sperimentare il digitale senza attendere la tecnologia vincente",
+  "summary": "Il 23 ottobre Chiara Scotti, vice direttrice generale della Banca d’Italia, ha invitato le banche a sperimentare con gradualità le tecnologie digitali senza attendere che prevalga un’unica soluzione.",
+  "news_text": "Il 23 ottobre 2026 Chiara Scotti, vice direttrice generale della Banca d’Italia, è intervenuta all’incontro annuale dell’Institut International d’Études Bancaires. Banca d’Italia, Reuters e ANSA riferiscono che, pur restando incerto lo sviluppo della tokenizzazione, attendere un ecosistema pienamente definito può limitare apprendimento e capacità di incidere sugli standard; Scotti ha indicato sperimentazioni circoscritte, flessibili e graduali.",
+  "question": "Bankitalia invita le banche a sperimentare il digitale senza aspettare certezze: è prudenza?",
+  "answer": "Certo. L’incertezza è l’unico investimento già garantito.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Una banca tradizionale davanti a prototipi digitali"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Una banca tradizionale osserva piccoli prototipi di monete digitali in un laboratorio finanziario, provandoli uno alla volta con cautela; Travaglio e la Suprema IA assistono.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Certo. L’incertezza è l’unico investimento già garantito.",
+      "Sì. Aspettare la certezza costa interessi.",
+      "Certo. Anche il dubbio va messo a rendimento.",
+      "Sì. Prima si tokenizza il dubbio, poi il denaro.",
+      "Prudenza digitale: investire poco, dubitare molto."
+    ],
+    "selected_answer": "Certo. L’incertezza è l’unico investimento già garantito.",
+    "selection_reason": "Rovescia direttamente l’assenza di certezze in una garanzia paradossale, con una sola sorpresa e una chiusura netta.",
+    "fact_anchor": "Il 23 ottobre 2026 Chiara Scotti ha detto che attendere la tecnologia vincente può frenare apprendimento e opportunità, indicando sperimentazioni limitate e graduali."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-10-24-l-incertezza-garantita.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’incertezza garantita",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Una banca tradizionale davanti a prototipi digitali.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 23 ottobre 2026 Chiara Scotti, vice direttrice generale della Banca d’Italia, è intervenuta all’incontro annuale dell’Institut International d’Études Bancaires. Banca d’Italia, Reuters e ANSA riferiscono che, pur restando incerto lo sviluppo della tokenizzazione, attendere un ecosistema pienamente definito può limitare apprendimento e capacità di incidere sugli standard; Scotti ha indicato sperimentazioni circoscritte, flessibili e graduali.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-10-24T08:28:30.718Z",
+  "image_generated_at": "2026-10-24T08:28:30.718Z"
+}
