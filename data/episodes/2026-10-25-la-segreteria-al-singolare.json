@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-25",
+  "event_date": "2026-10-24",
+  "slug": "2026-10-25-la-segreteria-al-singolare",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Nasce la segreteria politica Lega, ok per acclamazione a un emendamento allo statuto",
+    "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/24/nasce-la-segreteria-politica-lega-ok-per-acclamazione-a-un-emendamento-allo-statuto_feafc2ca-0f0c-4154-9f43-5033549284fe.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Nasce la segreteria politica Lega, ok per acclamazione a un emendamento allo statuto",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/24/nasce-la-segreteria-politica-lega-ok-per-acclamazione-a-un-emendamento-allo-statuto_feafc2ca-0f0c-4154-9f43-5033549284fe.html"
+    },
+    {
+      "name": "Sky TG24 — Congresso Lega, nella prima giornata attacco a Romeo. In ballo un ruolo per Zaia",
+      "url": "https://tg24.sky.it/politica/2026/10/24/congresso-lega-prima-giornata"
+    }
+  ],
+  "title": "La segreteria al singolare",
+  "headline": "Lega: nasce una segreteria politica fino a nove membri nominati dal segretario",
+  "summary": "Il 24 ottobre il congresso straordinario della Lega ha approvato per acclamazione una modifica statutaria che istituisce una segreteria politica composta da un massimo di nove membri.",
+  "news_text": "Il 24 ottobre 2026, durante il congresso straordinario della Lega a Milano, è stato approvato per acclamazione un emendamento allo statuto che introduce una segreteria politica. ANSA e Sky TG24 riferiscono che l’organo potrà avere fino a nove membri, espressione dei livelli nazionale, regionale e locale, nominati e revocati dal segretario federale.",
+  "question": "La Lega crea una segreteria politica di nove membri, tutti nominati dal segretario: è collegiale?",
+  "answer": "Certo. Uno decide in nove.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Matteo Salvini davanti a nove poltrone"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Matteo Salvini davanti a nove poltrone da segreteria politica, tutte collegate allo stesso unico pulsante; Travaglio e la Suprema IA osservano la scena.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 0,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Certo. Uno decide in nove.",
+      "Sì. La collegialità arriva già nominata.",
+      "Molto. Il plurale lo sceglie il singolare.",
+      "Certo. Nove sedie, un solo telecomando.",
+      "Sì. Il collegio ha un’unica penna."
+    ],
+    "selected_answer": "Certo. Uno decide in nove.",
+    "selection_reason": "Rovescia immediatamente i nove componenti nell’unicità della nomina, con un solo passaggio e una chiusura secca.",
+    "fact_anchor": "Il 24 ottobre 2026 il congresso della Lega ha approvato una segreteria politica fino a nove membri nominati e revocati dal segretario federale."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-10-25-la-segreteria-al-singolare.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La segreteria al singolare",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Matteo Salvini davanti a nove poltrone.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 24 ottobre 2026, durante il congresso straordinario della Lega a Milano, è stato approvato per acclamazione un emendamento allo statuto che introduce una segreteria politica. ANSA e Sky TG24 riferiscono che l’organo potrà avere fino a nove membri, espressione dei livelli nazionale, regionale e locale, nominati e revocati dal segretario federale.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-10-25T09:26:29.211Z",
+  "image_generated_at": "2026-10-25T09:26:29.211Z"
+}
