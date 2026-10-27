@@ -1,44 +1,44 @@
 {
   "current": {
-    "date": "2026-10-26",
-    "event_date": "2026-10-25",
-    "slug": "2026-10-26-il-nuovo-avanza-da-tre-mandati",
+    "date": "2026-10-27",
+    "event_date": "2026-10-26",
+    "slug": "2026-10-27-la-priorita-prende-il-numero",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters — Italy's League leader Salvini secures reappointment ahead of polls next year",
-      "url": "https://www.reuters.com/world/italys-league-leader-salvini-secures-reappointment-ahead-polls-next-year-2026-10-25/"
+      "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+      "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
     },
     "sources": [
       {
-        "name": "Reuters — Italy's League leader Salvini secures reappointment ahead of polls next year",
-        "url": "https://www.reuters.com/world/italys-league-leader-salvini-secures-reappointment-ahead-polls-next-year-2026-10-25/"
+        "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+        "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
       },
       {
-        "name": "ANSA — Salvini riconfermato segretario Lega con 465 voti",
-        "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/25/salvini-riconfermato-segretario-lega-con-465-voti_782bfed1-1b91-4120-ad68-c1e8295172af.html"
+        "name": "ANSA — Mattarella: tutela Ssn assoluta priorità, diritto garantito da Costituzione",
+        "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/26/mattarella-tutela-ssn-assoluta-priorita-diritto-garantito-da-costituzione_a5ee0b53-de81-496e-9203-b5a02a437507.html"
       },
       {
-        "name": "Rai News — Congresso Lega: Salvini riconfermato segretario",
-        "url": "https://www.rainews.it/tgr/lombardia/video/2026/10/congresso-lega-salvini-riconfermato-segretario-c915bb22-76bf-4813-b828-47d0bf873880.html"
+        "name": "Rai News — Mattarella al Festival delle Regioni: tutela del Ssn è assoluta priorità",
+        "url": "https://www.rainews.it/tgr/liguria/articoli/2026/10/mattarella-al-festival-delle-regioni-tutela-del-servizio-sanitario-nazionale-e-assoluta-priorita-60b608b3-f13f-4889-8993-6ec85f067a95.html"
       }
     ],
-    "title": "Il nuovo avanza da tre mandati",
-    "headline": "Salvini rieletto segretario della Lega per la quarta volta",
-    "summary": "Il 25 ottobre il congresso straordinario della Lega ha rieletto Matteo Salvini segretario federale per la quarta volta, con mandato fino al 2030.",
-    "news_text": "Il 25 ottobre 2026 il congresso straordinario della Lega a Milano ha rieletto Matteo Salvini segretario federale per la quarta volta. ANSA e Rai News riferiscono 465 voti per Salvini e 146 per Massimo Garavaglia; Reuters conferma la rielezione e il nuovo mandato.",
-    "question": "Matteo Salvini è stato rieletto segretario della Lega per la quarta volta: è il nuovo che avanza?",
-    "answer": "Sì. Avanza da tre mandati.",
+    "title": "La priorità prende il numero",
+    "headline": "Mattarella: tutelare il Servizio sanitario nazionale è una priorità assoluta",
+    "summary": "Il 26 ottobre Sergio Mattarella ha indicato la tutela del Servizio sanitario nazionale come una priorità assoluta, richiamando il diritto alla salute garantito dalla Costituzione.",
+    "news_text": "Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.",
+    "question": "Mattarella dice che il Servizio sanitario nazionale è una priorità assoluta: quindi viene prima?",
+    "answer": "Certo. Appena arriva il suo turno.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Matteo Salvini su un tapis roulant politico"
+      "Sergio Mattarella davanti a un eliminacode sanitario"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Matteo Salvini avanza su un tapis roulant con la scritta «NUOVO» e tre cartelli di mandato già superati; Travaglio e la Suprema IA osservano il contatore segnare il quarto giro.",
+    "visual_context": "Sergio Mattarella accanto a uno sportello del Servizio sanitario nazionale, con in mano il numero uno dell’eliminacode mentre il display della sala d’attesa è ancora fermo; Travaglio e la Suprema IA osservano.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -47,28 +47,97 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Sì. Avanza da tre mandati.",
-        "Certo. La novità ha già tre rinnovi.",
-        "Sì. Ha soltanto quattro prime volte.",
-        "Certo. È il cambiamento in modalità replica.",
-        "Nuovissimo: è appena al quarto giro."
+        "Certo. Appena arriva il suo turno.",
+        "Sì. È la prima in lista d’attesa.",
+        "Certo. La priorità può attendere.",
+        "Sì. Prenda il numero delle priorità.",
+        "Certo. Ha il numero uno, ma chiamano ancora lo zero."
       ],
-      "selected_answer": "Sì. Avanza da tre mandati.",
-      "selection_reason": "Il doppio senso su «avanza» lega subito il quarto mandato al fatto reale, con una chiusura breve e riconoscibile.",
-      "fact_anchor": "Il 25 ottobre 2026 Matteo Salvini è stato rieletto segretario della Lega per la quarta volta, con 465 voti contro i 146 di Massimo Garavaglia."
+      "selected_answer": "Certo. Appena arriva il suo turno.",
+      "selection_reason": "Rovescia subito «priorità» nel turno sanitario, con un solo passaggio e una chiusura secca.",
+      "fact_anchor": "Il 26 ottobre 2026 Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità per garantire il diritto costituzionale alla salute."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-26-il-nuovo-avanza-da-tre-mandati.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il nuovo avanza da tre mandati",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Matteo Salvini su un tapis roulant politico.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 ottobre 2026 il congresso straordinario della Lega a Milano ha rieletto Matteo Salvini segretario federale per la quarta volta. ANSA e Rai News riferiscono 465 voti per Salvini e 146 per Massimo Garavaglia; Reuters conferma la rielezione e il nuovo mandato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-27-la-priorita-prende-il-numero.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La priorità prende il numero",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Sergio Mattarella davanti a un eliminacode sanitario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-26T09:30:58.589Z",
-    "image_generated_at": "2026-10-26T09:30:58.589Z",
-    "url": "/episodio/2026-10-26-il-nuovo-avanza-da-tre-mandati/"
+    "published_at": "2026-10-27T09:28:08.934Z",
+    "image_generated_at": "2026-10-27T09:28:08.934Z",
+    "url": "/episodio/2026-10-27-la-priorita-prende-il-numero/"
   },
   "archive": [
+    {
+      "date": "2026-10-26",
+      "event_date": "2026-10-25",
+      "slug": "2026-10-26-il-nuovo-avanza-da-tre-mandati",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Italy's League leader Salvini secures reappointment ahead of polls next year",
+        "url": "https://www.reuters.com/world/italys-league-leader-salvini-secures-reappointment-ahead-polls-next-year-2026-10-25/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Italy's League leader Salvini secures reappointment ahead of polls next year",
+          "url": "https://www.reuters.com/world/italys-league-leader-salvini-secures-reappointment-ahead-polls-next-year-2026-10-25/"
+        },
+        {
+          "name": "ANSA — Salvini riconfermato segretario Lega con 465 voti",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/25/salvini-riconfermato-segretario-lega-con-465-voti_782bfed1-1b91-4120-ad68-c1e8295172af.html"
+        },
+        {
+          "name": "Rai News — Congresso Lega: Salvini riconfermato segretario",
+          "url": "https://www.rainews.it/tgr/lombardia/video/2026/10/congresso-lega-salvini-riconfermato-segretario-c915bb22-76bf-4813-b828-47d0bf873880.html"
+        }
+      ],
+      "title": "Il nuovo avanza da tre mandati",
+      "headline": "Salvini rieletto segretario della Lega per la quarta volta",
+      "summary": "Il 25 ottobre il congresso straordinario della Lega ha rieletto Matteo Salvini segretario federale per la quarta volta, con mandato fino al 2030.",
+      "news_text": "Il 25 ottobre 2026 il congresso straordinario della Lega a Milano ha rieletto Matteo Salvini segretario federale per la quarta volta. ANSA e Rai News riferiscono 465 voti per Salvini e 146 per Massimo Garavaglia; Reuters conferma la rielezione e il nuovo mandato.",
+      "question": "Matteo Salvini è stato rieletto segretario della Lega per la quarta volta: è il nuovo che avanza?",
+      "answer": "Sì. Avanza da tre mandati.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Matteo Salvini su un tapis roulant politico"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Matteo Salvini avanza su un tapis roulant con la scritta «NUOVO» e tre cartelli di mandato già superati; Travaglio e la Suprema IA osservano il contatore segnare il quarto giro.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Sì. Avanza da tre mandati.",
+          "Certo. La novità ha già tre rinnovi.",
+          "Sì. Ha soltanto quattro prime volte.",
+          "Certo. È il cambiamento in modalità replica.",
+          "Nuovissimo: è appena al quarto giro."
+        ],
+        "selected_answer": "Sì. Avanza da tre mandati.",
+        "selection_reason": "Il doppio senso su «avanza» lega subito il quarto mandato al fatto reale, con una chiusura breve e riconoscibile.",
+        "fact_anchor": "Il 25 ottobre 2026 Matteo Salvini è stato rieletto segretario della Lega per la quarta volta, con 465 voti contro i 146 di Massimo Garavaglia."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-26-il-nuovo-avanza-da-tre-mandati.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il nuovo avanza da tre mandati",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Matteo Salvini su un tapis roulant politico.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 ottobre 2026 il congresso straordinario della Lega a Milano ha rieletto Matteo Salvini segretario federale per la quarta volta. ANSA e Rai News riferiscono 465 voti per Salvini e 146 per Massimo Garavaglia; Reuters conferma la rielezione e il nuovo mandato.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-26T09:30:58.589Z",
+      "image_generated_at": "2026-10-26T09:30:58.589Z",
+      "url": "/episodio/2026-10-26-il-nuovo-avanza-da-tre-mandati/"
+    },
     {
       "date": "2026-10-25",
       "event_date": "2026-10-24",
@@ -2055,6 +2124,75 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-27",
+      "event_date": "2026-10-26",
+      "slug": "2026-10-27-la-priorita-prende-il-numero",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+        "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+      },
+      "sources": [
+        {
+          "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+          "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+        },
+        {
+          "name": "ANSA — Mattarella: tutela Ssn assoluta priorità, diritto garantito da Costituzione",
+          "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/26/mattarella-tutela-ssn-assoluta-priorita-diritto-garantito-da-costituzione_a5ee0b53-de81-496e-9203-b5a02a437507.html"
+        },
+        {
+          "name": "Rai News — Mattarella al Festival delle Regioni: tutela del Ssn è assoluta priorità",
+          "url": "https://www.rainews.it/tgr/liguria/articoli/2026/10/mattarella-al-festival-delle-regioni-tutela-del-servizio-sanitario-nazionale-e-assoluta-priorita-60b608b3-f13f-4889-8993-6ec85f067a95.html"
+        }
+      ],
+      "title": "La priorità prende il numero",
+      "headline": "Mattarella: tutelare il Servizio sanitario nazionale è una priorità assoluta",
+      "summary": "Il 26 ottobre Sergio Mattarella ha indicato la tutela del Servizio sanitario nazionale come una priorità assoluta, richiamando il diritto alla salute garantito dalla Costituzione.",
+      "news_text": "Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.",
+      "question": "Mattarella dice che il Servizio sanitario nazionale è una priorità assoluta: quindi viene prima?",
+      "answer": "Certo. Appena arriva il suo turno.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Sergio Mattarella davanti a un eliminacode sanitario"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Sergio Mattarella accanto a uno sportello del Servizio sanitario nazionale, con in mano il numero uno dell’eliminacode mentre il display della sala d’attesa è ancora fermo; Travaglio e la Suprema IA osservano.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Certo. Appena arriva il suo turno.",
+          "Sì. È la prima in lista d’attesa.",
+          "Certo. La priorità può attendere.",
+          "Sì. Prenda il numero delle priorità.",
+          "Certo. Ha il numero uno, ma chiamano ancora lo zero."
+        ],
+        "selected_answer": "Certo. Appena arriva il suo turno.",
+        "selection_reason": "Rovescia subito «priorità» nel turno sanitario, con un solo passaggio e una chiusura secca.",
+        "fact_anchor": "Il 26 ottobre 2026 Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità per garantire il diritto costituzionale alla salute."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-27-la-priorita-prende-il-numero.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La priorità prende il numero",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Sergio Mattarella davanti a un eliminacode sanitario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-27T09:28:08.934Z",
+      "image_generated_at": "2026-10-27T09:28:08.934Z",
+      "url": "/episodio/2026-10-27-la-priorita-prende-il-numero/"
+    },
     {
       "date": "2026-10-26",
       "event_date": "2026-10-25",
