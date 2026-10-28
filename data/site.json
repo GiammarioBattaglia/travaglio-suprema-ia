@@ -1,74 +1,139 @@
 {
   "current": {
-    "date": "2026-10-27",
-    "event_date": "2026-10-26",
-    "slug": "2026-10-27-la-priorita-prende-il-numero",
+    "date": "2026-10-28",
+    "event_date": "2026-10-27",
+    "slug": "2026-10-28-il-coperchio-di-bilancio",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
-      "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+      "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+      "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
     },
     "sources": [
       {
-        "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
-        "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+        "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+        "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
       },
       {
-        "name": "ANSA — Mattarella: tutela Ssn assoluta priorità, diritto garantito da Costituzione",
-        "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/26/mattarella-tutela-ssn-assoluta-priorita-diritto-garantito-da-costituzione_a5ee0b53-de81-496e-9203-b5a02a437507.html"
-      },
-      {
-        "name": "Rai News — Mattarella al Festival delle Regioni: tutela del Ssn è assoluta priorità",
-        "url": "https://www.rainews.it/tgr/liguria/articoli/2026/10/mattarella-al-festival-delle-regioni-tutela-del-servizio-sanitario-nazionale-e-assoluta-priorita-60b608b3-f13f-4889-8993-6ec85f067a95.html"
+        "name": "ANSA — La manovra che verrà: flat tax per i giovani. Sull’Irpef si tratta ancora",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/10/27/la-manovra-che-verra-flat-tax-per-i-giovani.-sullirpef-si-tratta-ancora_6fc9fca1-c596-4520-94b8-30e064861904.html"
       }
     ],
-    "title": "La priorità prende il numero",
-    "headline": "Mattarella: tutelare il Servizio sanitario nazionale è una priorità assoluta",
-    "summary": "Il 26 ottobre Sergio Mattarella ha indicato la tutela del Servizio sanitario nazionale come una priorità assoluta, richiamando il diritto alla salute garantito dalla Costituzione.",
-    "news_text": "Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.",
-    "question": "Mattarella dice che il Servizio sanitario nazionale è una priorità assoluta: quindi viene prima?",
-    "answer": "Certo. Appena arriva il suo turno.",
+    "title": "Il coperchio di bilancio",
+    "headline": "Manovra 2027 da 23,5 miliardi attesa in Consiglio dei ministri",
+    "summary": "Il 27 ottobre Giancarlo Giorgetti ha annunciato per oggi l’esame in Consiglio dei ministri della manovra 2027 da circa 23,5 miliardi, dopo i progressi nel confronto con l’Unione europea.",
+    "news_text": "Il 27 ottobre 2026 il ministro dell’Economia Giancarlo Giorgetti ha annunciato che la legge di bilancio 2027 sarebbe arrivata il giorno successivo in Consiglio dei ministri. Reuters e ANSA riferiscono una manovra da circa 23,5 miliardi, con risorse limitate rispetto alle richieste dei ministeri e alcuni dettagli fiscali ancora da definire. ANSA ha riportato la metafora di Giorgetti della manovra «nel forno».",
+    "question": "Giorgetti dice che la manovra è nel forno, ma mancano coperture: è quasi pronta?",
+    "answer": "Certo. Manca solo il coperchio.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Sergio Mattarella davanti a un eliminacode sanitario"
+      "Giancarlo Giorgetti davanti a un forno di bilancio"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Sergio Mattarella accanto a uno sportello del Servizio sanitario nazionale, con in mano il numero uno dell’eliminacode mentre il display della sala d’attesa è ancora fermo; Travaglio e la Suprema IA osservano.",
+    "visual_context": "Giancarlo Giorgetti, in veste di cuoco del bilancio, osserva un grande forno istituzionale con dentro una cartella della manovra e cerca un coperchio troppo piccolo; Travaglio e la Suprema IA assistono.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
+      "selected_answer": "Certo. Manca solo il coperchio.",
+      "alternatives": [
+        "Certo. Manca solo il coperchio.",
+        "Sì. Cercano un coperchio da 23,5 miliardi.",
+        "Quasi. Il forno è acceso, le coperture no.",
+        "Sì. La torta è pronta, il conto è ancora crudo.",
+        "Certo. Coperta corta, cottura lunga."
+      ],
+      "selection_reason": "Trasforma subito «coperture» in «coperchio», con un’unica immagine e la chiusura più breve.",
+      "fact_anchor": "Il 27 ottobre 2026 Giorgetti ha annunciato per il giorno successivo il Consiglio dei ministri sulla manovra 2027 da circa 23,5 miliardi, con risorse limitate e alcuni dettagli ancora da definire.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1,
-      "alternatives": [
-        "Certo. Appena arriva il suo turno.",
-        "Sì. È la prima in lista d’attesa.",
-        "Certo. La priorità può attendere.",
-        "Sì. Prenda il numero delle priorità.",
-        "Certo. Ha il numero uno, ma chiamano ancora lo zero."
-      ],
-      "selected_answer": "Certo. Appena arriva il suo turno.",
-      "selection_reason": "Rovescia subito «priorità» nel turno sanitario, con un solo passaggio e una chiusura secca.",
-      "fact_anchor": "Il 26 ottobre 2026 Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità per garantire il diritto costituzionale alla salute."
+      "twist_count": 1
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-27-la-priorita-prende-il-numero.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La priorità prende il numero",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Sergio Mattarella davanti a un eliminacode sanitario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-28-il-coperchio-di-bilancio.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il coperchio di bilancio",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giancarlo Giorgetti davanti a un forno di bilancio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 27 ottobre 2026 il ministro dell’Economia Giancarlo Giorgetti ha annunciato che la legge di bilancio 2027 sarebbe arrivata il giorno successivo in Consiglio dei ministri. Reuters e ANSA riferiscono una manovra da circa 23,5 miliardi, con risorse limitate rispetto alle richieste dei ministeri e alcuni dettagli fiscali ancora da definire. ANSA ha riportato la metafora di Giorgetti della manovra «nel forno».\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-27T09:28:08.934Z",
-    "image_generated_at": "2026-10-27T09:28:08.934Z",
-    "url": "/episodio/2026-10-27-la-priorita-prende-il-numero/"
+    "published_at": "2026-10-28T09:27:37.920Z",
+    "image_generated_at": "2026-10-28T09:27:37.920Z",
+    "url": "/episodio/2026-10-28-il-coperchio-di-bilancio/"
   },
   "archive": [
+    {
+      "date": "2026-10-27",
+      "event_date": "2026-10-26",
+      "slug": "2026-10-27-la-priorita-prende-il-numero",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+        "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+      },
+      "sources": [
+        {
+          "name": "Presidenza della Repubblica — Intervento del Presidente Mattarella al 5° Festival delle Regioni",
+          "url": "https://www.quirinale.it/it/discorso/intervento-presidente-mattarella-cerimonia-apertura-5-festival-regioni-province-autonome"
+        },
+        {
+          "name": "ANSA — Mattarella: tutela Ssn assoluta priorità, diritto garantito da Costituzione",
+          "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/26/mattarella-tutela-ssn-assoluta-priorita-diritto-garantito-da-costituzione_a5ee0b53-de81-496e-9203-b5a02a437507.html"
+        },
+        {
+          "name": "Rai News — Mattarella al Festival delle Regioni: tutela del Ssn è assoluta priorità",
+          "url": "https://www.rainews.it/tgr/liguria/articoli/2026/10/mattarella-al-festival-delle-regioni-tutela-del-servizio-sanitario-nazionale-e-assoluta-priorita-60b608b3-f13f-4889-8993-6ec85f067a95.html"
+        }
+      ],
+      "title": "La priorità prende il numero",
+      "headline": "Mattarella: tutelare il Servizio sanitario nazionale è una priorità assoluta",
+      "summary": "Il 26 ottobre Sergio Mattarella ha indicato la tutela del Servizio sanitario nazionale come una priorità assoluta, richiamando il diritto alla salute garantito dalla Costituzione.",
+      "news_text": "Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.",
+      "question": "Mattarella dice che il Servizio sanitario nazionale è una priorità assoluta: quindi viene prima?",
+      "answer": "Certo. Appena arriva il suo turno.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Sergio Mattarella davanti a un eliminacode sanitario"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Sergio Mattarella accanto a uno sportello del Servizio sanitario nazionale, con in mano il numero uno dell’eliminacode mentre il display della sala d’attesa è ancora fermo; Travaglio e la Suprema IA osservano.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Certo. Appena arriva il suo turno.",
+          "Sì. È la prima in lista d’attesa.",
+          "Certo. La priorità può attendere.",
+          "Sì. Prenda il numero delle priorità.",
+          "Certo. Ha il numero uno, ma chiamano ancora lo zero."
+        ],
+        "selected_answer": "Certo. Appena arriva il suo turno.",
+        "selection_reason": "Rovescia subito «priorità» nel turno sanitario, con un solo passaggio e una chiusura secca.",
+        "fact_anchor": "Il 26 ottobre 2026 Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità per garantire il diritto costituzionale alla salute."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-27-la-priorita-prende-il-numero.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La priorità prende il numero",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Sergio Mattarella davanti a un eliminacode sanitario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 ottobre 2026, all’apertura del quinto Festival delle Regioni e delle Province autonome a Firenze, il presidente della Repubblica Sergio Mattarella ha definito la tutela del Servizio sanitario nazionale un campo di assoluta priorità. Il Quirinale, ANSA e Rai News riportano il richiamo a preservare e sviluppare il sistema pubblico per garantire il diritto costituzionale alla salute.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-27T09:28:08.934Z",
+      "image_generated_at": "2026-10-27T09:28:08.934Z",
+      "url": "/episodio/2026-10-27-la-priorita-prende-il-numero/"
+    },
     {
       "date": "2026-10-26",
       "event_date": "2026-10-25",
@@ -2124,6 +2189,71 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-28",
+      "event_date": "2026-10-27",
+      "slug": "2026-10-28-il-coperchio-di-bilancio",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+        "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+          "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
+        },
+        {
+          "name": "ANSA — La manovra che verrà: flat tax per i giovani. Sull’Irpef si tratta ancora",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/27/la-manovra-che-verra-flat-tax-per-i-giovani.-sullirpef-si-tratta-ancora_6fc9fca1-c596-4520-94b8-30e064861904.html"
+        }
+      ],
+      "title": "Il coperchio di bilancio",
+      "headline": "Manovra 2027 da 23,5 miliardi attesa in Consiglio dei ministri",
+      "summary": "Il 27 ottobre Giancarlo Giorgetti ha annunciato per oggi l’esame in Consiglio dei ministri della manovra 2027 da circa 23,5 miliardi, dopo i progressi nel confronto con l’Unione europea.",
+      "news_text": "Il 27 ottobre 2026 il ministro dell’Economia Giancarlo Giorgetti ha annunciato che la legge di bilancio 2027 sarebbe arrivata il giorno successivo in Consiglio dei ministri. Reuters e ANSA riferiscono una manovra da circa 23,5 miliardi, con risorse limitate rispetto alle richieste dei ministeri e alcuni dettagli fiscali ancora da definire. ANSA ha riportato la metafora di Giorgetti della manovra «nel forno».",
+      "question": "Giorgetti dice che la manovra è nel forno, ma mancano coperture: è quasi pronta?",
+      "answer": "Certo. Manca solo il coperchio.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giancarlo Giorgetti davanti a un forno di bilancio"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Giancarlo Giorgetti, in veste di cuoco del bilancio, osserva un grande forno istituzionale con dentro una cartella della manovra e cerca un coperchio troppo piccolo; Travaglio e la Suprema IA assistono.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo. Manca solo il coperchio.",
+        "alternatives": [
+          "Certo. Manca solo il coperchio.",
+          "Sì. Cercano un coperchio da 23,5 miliardi.",
+          "Quasi. Il forno è acceso, le coperture no.",
+          "Sì. La torta è pronta, il conto è ancora crudo.",
+          "Certo. Coperta corta, cottura lunga."
+        ],
+        "selection_reason": "Trasforma subito «coperture» in «coperchio», con un’unica immagine e la chiusura più breve.",
+        "fact_anchor": "Il 27 ottobre 2026 Giorgetti ha annunciato per il giorno successivo il Consiglio dei ministri sulla manovra 2027 da circa 23,5 miliardi, con risorse limitate e alcuni dettagli ancora da definire.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-28-il-coperchio-di-bilancio.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il coperchio di bilancio",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giancarlo Giorgetti davanti a un forno di bilancio.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 27 ottobre 2026 il ministro dell’Economia Giancarlo Giorgetti ha annunciato che la legge di bilancio 2027 sarebbe arrivata il giorno successivo in Consiglio dei ministri. Reuters e ANSA riferiscono una manovra da circa 23,5 miliardi, con risorse limitate rispetto alle richieste dei ministeri e alcuni dettagli fiscali ancora da definire. ANSA ha riportato la metafora di Giorgetti della manovra «nel forno».\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-28T09:27:37.920Z",
+      "image_generated_at": "2026-10-28T09:27:37.920Z",
+      "url": "/episodio/2026-10-28-il-coperchio-di-bilancio/"
+    },
     {
       "date": "2026-10-27",
       "event_date": "2026-10-26",
