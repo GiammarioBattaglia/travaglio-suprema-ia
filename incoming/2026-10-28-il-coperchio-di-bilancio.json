@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "event_date": "2026-10-27",
+  "slug": "2026-10-28-il-coperchio-di-bilancio",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+    "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
+  },
+  "sources": [
+    {
+      "name": "Reuters — Italy to approve 2027 budget on Wednesday, after clinching EU deficit leeway",
+      "url": "https://www.reuters.com/business/finance/italy-approve-2027-budget-wednesday-talks-progress-with-eu-deficit-2026-10-27/"
+    },
+    {
+      "name": "ANSA — La manovra che verrà: flat tax per i giovani. Sull’Irpef si tratta ancora",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/10/27/la-manovra-che-verra-flat-tax-per-i-giovani.-sullirpef-si-tratta-ancora_6fc9fca1-c596-4520-94b8-30e064861904.html"
+    }
+  ],
+  "title": "Il coperchio di bilancio",
+  "headline": "Manovra 2027 da 23,5 miliardi attesa in Consiglio dei ministri",
+  "summary": "Il 27 ottobre Giancarlo Giorgetti ha annunciato per oggi l’esame in Consiglio dei ministri della manovra 2027 da circa 23,5 miliardi, dopo i progressi nel confronto con l’Unione europea.",
+  "news_text": "Il 27 ottobre 2026 il ministro dell’Economia Giancarlo Giorgetti ha annunciato che la legge di bilancio 2027 sarebbe arrivata il giorno successivo in Consiglio dei ministri. Reuters e ANSA riferiscono una manovra da circa 23,5 miliardi, con risorse limitate rispetto alle richieste dei ministeri e alcuni dettagli fiscali ancora da definire. ANSA ha riportato la metafora di Giorgetti della manovra «nel forno».",
+  "question": "Giorgetti dice che la manovra è nel forno, ma mancano coperture: è quasi pronta?",
+  "answer": "Certo. Manca solo il coperchio.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Giancarlo Giorgetti davanti a un forno di bilancio"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Giancarlo Giorgetti, in veste di cuoco del bilancio, osserva un grande forno istituzionale con dentro una cartella della manovra e cerca un coperchio troppo piccolo; Travaglio e la Suprema IA assistono.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Certo. Manca solo il coperchio.",
+    "alternatives": [
+      "Certo. Manca solo il coperchio.",
+      "Sì. Cercano un coperchio da 23,5 miliardi.",
+      "Quasi. Il forno è acceso, le coperture no.",
+      "Sì. La torta è pronta, il conto è ancora crudo.",
+      "Certo. Coperta corta, cottura lunga."
+    ],
+    "selection_reason": "Trasforma subito «coperture» in «coperchio», con un’unica immagine e la chiusura più breve.",
+    "fact_anchor": "Il 27 ottobre 2026 Giorgetti ha annunciato per il giorno successivo il Consiglio dei ministri sulla manovra 2027 da circa 23,5 miliardi, con risorse limitate e alcuni dettagli ancora da definire.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
