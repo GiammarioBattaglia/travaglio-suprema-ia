@@ -1,52 +1,52 @@
 {
   "current": {
-    "date": "2026-10-29",
-    "event_date": "2026-10-28",
-    "slug": "2026-10-29-il-grazie-alla-fonte",
+    "date": "2026-10-30",
+    "event_date": "2026-10-29",
+    "slug": "2026-10-30-l-ultima-area-a-caldo",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters — Italy approves 2027 budget with tax hikes on banks, energy firms",
-      "url": "https://www.reuters.com/legal/transactional/italy-approves-2027-budget-with-tax-hikes-banks-energy-firms-2026-10-28/"
+      "name": "Reuters — Italy's top court upholds shutdown of former Ilva steelworks",
+      "url": "https://www.reuters.com/world/italys-top-court-upholds-shutdown-former-ilva-steelworks-setback-meloni-2026-10-29/"
     },
     "sources": [
       {
-        "name": "Reuters — Italy approves 2027 budget with tax hikes on banks, energy firms",
-        "url": "https://www.reuters.com/legal/transactional/italy-approves-2027-budget-with-tax-hikes-banks-energy-firms-2026-10-28/"
+        "name": "Reuters — Italy's top court upholds shutdown of former Ilva steelworks",
+        "url": "https://www.reuters.com/world/italys-top-court-upholds-shutdown-former-ilva-steelworks-setback-meloni-2026-10-29/"
       },
       {
-        "name": "ANSA — Via libera del Consiglio dei ministri alla manovra. Meloni: vale 26 miliardi",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/28/via-libera-del-consiglio-dei-ministri-alla-manovra.-meloni-vale_a800dc0a-5e17-4252-b135-567ad9587d2b.html"
+        "name": "ANSA — La Cassazione rigetta tutti i ricorsi contro lo stop dell’area a caldo dell’ex Ilva",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/10/29/la-cassazione-rigetta-tutti-i-ricorsi-contro-lo-stop-area-a-caldo-dellex-ilva_5718d63d-7b4d-4fd9-bab3-4ebb7814d248.html"
       }
     ],
-    "title": "Il grazie alla fonte",
-    "headline": "Il Governo approva la manovra 2027 da 26 miliardi con nuovi prelievi sui settori finanziario ed energetico",
-    "summary": "Il 28 ottobre il Consiglio dei ministri ha approvato la manovra 2027 da circa 26 miliardi. Reuters e ANSA riferiscono nuovi prelievi su banche, assicurazioni e imprese energetiche; Giorgia Meloni ha ringraziato il settore finanziario per il contributo.",
-    "news_text": "Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la legge di bilancio 2027 da circa 26 miliardi. Reuters riferisce oltre 5 miliardi di contributi da banche e assicurazioni e circa 700 milioni dalle imprese energetiche. ANSA riporta le stesse grandezze e il ringraziamento della presidente del Consiglio Giorgia Meloni al settore finanziario per il contributo alla manovra.",
-    "question": "Il Governo aumenta le tasse alle banche e poi le ringrazia: è gratitudine fiscale?",
-    "answer": "Certo. Il grazie è già trattenuto alla fonte.",
+    "title": "L’ultima area a caldo",
+    "headline": "La Cassazione conferma lo stop dell’area a caldo dell’ex Ilva di Taranto",
+    "summary": "Il 29 ottobre le Sezioni Unite della Cassazione hanno rigettato i ricorsi contro lo stop dell’area a caldo dell’ex Ilva di Taranto, lasciando valido il decreto della Corte d’appello di Milano.",
+    "news_text": "Il 29 ottobre 2026 la Corte di Cassazione ha rigettato i ricorsi presentati contro il provvedimento che dispone lo stop dell’area a caldo dell’ex Ilva di Taranto. Reuters e ANSA riferiscono che resta valida la decisione della Corte d’appello di Milano. Palazzo Chigi ha dichiarato che la pronuncia complica ulteriormente il percorso industriale e che il Governo continuerà a esercitare le proprie responsabilità.",
+    "question": "La Cassazione ferma l’area a caldo dell’ex Ilva: si raffredda anche la politica?",
+    "answer": "No. Quella resta l’unica area a caldo.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Giorgia Meloni con una ricevuta di ringraziamento fiscale"
+      "Giorgia Meloni davanti a un altoforno spento"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Giorgia Meloni porge a un banchiere un grande biglietto di ringraziamento che passa attraverso una macchina fiscale e ne esce visibilmente ridotto; Travaglio e la Suprema IA osservano la scena.",
+    "visual_context": "Giorgia Meloni davanti a un altoforno ormai freddo e silenzioso, mentre da un vicino podio istituzionale sale una piccola nube di vapore politico; Travaglio e la Suprema IA osservano, senza raffigurare lavoratori o conseguenze sanitarie.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Certo. Il grazie è già trattenuto alla fonte.",
+      "selected_answer": "No. Quella resta l’unica area a caldo.",
       "alternatives": [
-        "Certo. Il grazie è già trattenuto alla fonte.",
-        "Sì. Il ringraziamento arriva già tassato.",
-        "Certo. Prima il prelievo, poi la cortesia.",
-        "Sì. È un grazie con ritenuta d’acconto."
+        "No. Quella resta l’unica area a caldo.",
+        "Certo. Si spegne tutto tranne la polemica.",
+        "No. Gli altiforni si spengono, i comunicati no.",
+        "Solo l’acciaio. Il dibattito resta incandescente."
       ],
-      "selection_reason": "Lega subito il ringraziamento al prelievo fiscale con un solo rovesciamento e la chiusura più netta.",
-      "fact_anchor": "Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la manovra 2027 da circa 26 miliardi; Reuters e ANSA riferiscono nuovi prelievi su banche e assicurazioni e il ringraziamento di Meloni al settore finanziario.",
+      "selection_reason": "Riprende direttamente «area a caldo» e la trasferisce alla politica con un solo rovesciamento, immediato e non offensivo.",
+      "fact_anchor": "Il 29 ottobre 2026 la Cassazione ha rigettato i ricorsi contro lo stop dell’area a caldo dell’ex Ilva di Taranto, lasciando valida la decisione della Corte d’appello di Milano.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -54,16 +54,80 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-29-il-grazie-alla-fonte.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il grazie alla fonte",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni con una ricevuta di ringraziamento fiscale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la legge di bilancio 2027 da circa 26 miliardi. Reuters riferisce oltre 5 miliardi di contributi da banche e assicurazioni e circa 700 milioni dalle imprese energetiche. ANSA riporta le stesse grandezze e il ringraziamento della presidente del Consiglio Giorgia Meloni al settore finanziario per il contributo alla manovra.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-10-30-l-ultima-area-a-caldo.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’ultima area a caldo",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni davanti a un altoforno spento.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 29 ottobre 2026 la Corte di Cassazione ha rigettato i ricorsi presentati contro il provvedimento che dispone lo stop dell’area a caldo dell’ex Ilva di Taranto. Reuters e ANSA riferiscono che resta valida la decisione della Corte d’appello di Milano. Palazzo Chigi ha dichiarato che la pronuncia complica ulteriormente il percorso industriale e che il Governo continuerà a esercitare le proprie responsabilità.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-29T09:27:08.138Z",
-    "image_generated_at": "2026-10-29T09:27:08.138Z",
-    "url": "/episodio/2026-10-29-il-grazie-alla-fonte/"
+    "published_at": "2026-10-30T09:29:59.423Z",
+    "image_generated_at": "2026-10-30T09:29:59.423Z",
+    "url": "/episodio/2026-10-30-l-ultima-area-a-caldo/"
   },
   "archive": [
+    {
+      "date": "2026-10-29",
+      "event_date": "2026-10-28",
+      "slug": "2026-10-29-il-grazie-alla-fonte",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Italy approves 2027 budget with tax hikes on banks, energy firms",
+        "url": "https://www.reuters.com/legal/transactional/italy-approves-2027-budget-with-tax-hikes-banks-energy-firms-2026-10-28/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Italy approves 2027 budget with tax hikes on banks, energy firms",
+          "url": "https://www.reuters.com/legal/transactional/italy-approves-2027-budget-with-tax-hikes-banks-energy-firms-2026-10-28/"
+        },
+        {
+          "name": "ANSA — Via libera del Consiglio dei ministri alla manovra. Meloni: vale 26 miliardi",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/10/28/via-libera-del-consiglio-dei-ministri-alla-manovra.-meloni-vale_a800dc0a-5e17-4252-b135-567ad9587d2b.html"
+        }
+      ],
+      "title": "Il grazie alla fonte",
+      "headline": "Il Governo approva la manovra 2027 da 26 miliardi con nuovi prelievi sui settori finanziario ed energetico",
+      "summary": "Il 28 ottobre il Consiglio dei ministri ha approvato la manovra 2027 da circa 26 miliardi. Reuters e ANSA riferiscono nuovi prelievi su banche, assicurazioni e imprese energetiche; Giorgia Meloni ha ringraziato il settore finanziario per il contributo.",
+      "news_text": "Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la legge di bilancio 2027 da circa 26 miliardi. Reuters riferisce oltre 5 miliardi di contributi da banche e assicurazioni e circa 700 milioni dalle imprese energetiche. ANSA riporta le stesse grandezze e il ringraziamento della presidente del Consiglio Giorgia Meloni al settore finanziario per il contributo alla manovra.",
+      "question": "Il Governo aumenta le tasse alle banche e poi le ringrazia: è gratitudine fiscale?",
+      "answer": "Certo. Il grazie è già trattenuto alla fonte.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni con una ricevuta di ringraziamento fiscale"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Giorgia Meloni porge a un banchiere un grande biglietto di ringraziamento che passa attraverso una macchina fiscale e ne esce visibilmente ridotto; Travaglio e la Suprema IA osservano la scena.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo. Il grazie è già trattenuto alla fonte.",
+        "alternatives": [
+          "Certo. Il grazie è già trattenuto alla fonte.",
+          "Sì. Il ringraziamento arriva già tassato.",
+          "Certo. Prima il prelievo, poi la cortesia.",
+          "Sì. È un grazie con ritenuta d’acconto."
+        ],
+        "selection_reason": "Lega subito il ringraziamento al prelievo fiscale con un solo rovesciamento e la chiusura più netta.",
+        "fact_anchor": "Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la manovra 2027 da circa 26 miliardi; Reuters e ANSA riferiscono nuovi prelievi su banche e assicurazioni e il ringraziamento di Meloni al settore finanziario.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-29-il-grazie-alla-fonte.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il grazie alla fonte",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni con una ricevuta di ringraziamento fiscale.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 28 ottobre 2026 il Consiglio dei ministri ha approvato la legge di bilancio 2027 da circa 26 miliardi. Reuters riferisce oltre 5 miliardi di contributi da banche e assicurazioni e circa 700 milioni dalle imprese energetiche. ANSA riporta le stesse grandezze e il ringraziamento della presidente del Consiglio Giorgia Meloni al settore finanziario per il contributo alla manovra.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-29T09:27:08.138Z",
+      "image_generated_at": "2026-10-29T09:27:08.138Z",
+      "url": "/episodio/2026-10-29-il-grazie-alla-fonte/"
+    },
     {
       "date": "2026-10-28",
       "event_date": "2026-10-27",
@@ -2253,6 +2317,70 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-10-30",
+      "event_date": "2026-10-29",
+      "slug": "2026-10-30-l-ultima-area-a-caldo",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Italy's top court upholds shutdown of former Ilva steelworks",
+        "url": "https://www.reuters.com/world/italys-top-court-upholds-shutdown-former-ilva-steelworks-setback-meloni-2026-10-29/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Italy's top court upholds shutdown of former Ilva steelworks",
+          "url": "https://www.reuters.com/world/italys-top-court-upholds-shutdown-former-ilva-steelworks-setback-meloni-2026-10-29/"
+        },
+        {
+          "name": "ANSA — La Cassazione rigetta tutti i ricorsi contro lo stop dell’area a caldo dell’ex Ilva",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/10/29/la-cassazione-rigetta-tutti-i-ricorsi-contro-lo-stop-area-a-caldo-dellex-ilva_5718d63d-7b4d-4fd9-bab3-4ebb7814d248.html"
+        }
+      ],
+      "title": "L’ultima area a caldo",
+      "headline": "La Cassazione conferma lo stop dell’area a caldo dell’ex Ilva di Taranto",
+      "summary": "Il 29 ottobre le Sezioni Unite della Cassazione hanno rigettato i ricorsi contro lo stop dell’area a caldo dell’ex Ilva di Taranto, lasciando valido il decreto della Corte d’appello di Milano.",
+      "news_text": "Il 29 ottobre 2026 la Corte di Cassazione ha rigettato i ricorsi presentati contro il provvedimento che dispone lo stop dell’area a caldo dell’ex Ilva di Taranto. Reuters e ANSA riferiscono che resta valida la decisione della Corte d’appello di Milano. Palazzo Chigi ha dichiarato che la pronuncia complica ulteriormente il percorso industriale e che il Governo continuerà a esercitare le proprie responsabilità.",
+      "question": "La Cassazione ferma l’area a caldo dell’ex Ilva: si raffredda anche la politica?",
+      "answer": "No. Quella resta l’unica area a caldo.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni davanti a un altoforno spento"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Giorgia Meloni davanti a un altoforno ormai freddo e silenzioso, mentre da un vicino podio istituzionale sale una piccola nube di vapore politico; Travaglio e la Suprema IA osservano, senza raffigurare lavoratori o conseguenze sanitarie.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "No. Quella resta l’unica area a caldo.",
+        "alternatives": [
+          "No. Quella resta l’unica area a caldo.",
+          "Certo. Si spegne tutto tranne la polemica.",
+          "No. Gli altiforni si spengono, i comunicati no.",
+          "Solo l’acciaio. Il dibattito resta incandescente."
+        ],
+        "selection_reason": "Riprende direttamente «area a caldo» e la trasferisce alla politica con un solo rovesciamento, immediato e non offensivo.",
+        "fact_anchor": "Il 29 ottobre 2026 la Cassazione ha rigettato i ricorsi contro lo stop dell’area a caldo dell’ex Ilva di Taranto, lasciando valida la decisione della Corte d’appello di Milano.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-30-l-ultima-area-a-caldo.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’ultima area a caldo",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni davanti a un altoforno spento.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 29 ottobre 2026 la Corte di Cassazione ha rigettato i ricorsi presentati contro il provvedimento che dispone lo stop dell’area a caldo dell’ex Ilva di Taranto. Reuters e ANSA riferiscono che resta valida la decisione della Corte d’appello di Milano. Palazzo Chigi ha dichiarato che la pronuncia complica ulteriormente il percorso industriale e che il Governo continuerà a esercitare le proprie responsabilità.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-30T09:29:59.423Z",
+      "image_generated_at": "2026-10-30T09:29:59.423Z",
+      "url": "/episodio/2026-10-30-l-ultima-area-a-caldo/"
+    },
     {
       "date": "2026-10-29",
       "event_date": "2026-10-28",
