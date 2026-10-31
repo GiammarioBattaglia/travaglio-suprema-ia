@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-31",
+  "event_date": "2026-10-30",
+  "slug": "2026-10-31-la-risposta-al-minimo",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters — Mass protests sweep Italy during nationwide strike",
+    "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+  },
+  "sources": [
+    {
+      "name": "Reuters — Mass protests sweep Italy during nationwide strike",
+      "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+    },
+    {
+      "name": "ANSA — Sciopero a Perugia, studenti aprono corteo contro riarmo e carovita",
+      "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/30/sciopero-a-perugia-studenti-aprono-corteo-contro-riarmo-e-carovita_afa0b7ae-c495-4d72-93a4-433ab15b9c50.html"
+    },
+    {
+      "name": "Rai News — La Sardegna scende in piazza: cortei a Cagliari, Sassari e Nuoro",
+      "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/la-sardegna-scende-in-piazza-cortei-cagliari-sassari-nuoro-92ad27bd-db70-40ea-bef5-4311196dcac1.html"
+    }
+  ],
+  "title": "La risposta al minimo",
+  "headline": "Sciopero generale USB in decine di città per salari, costo della vita e servizi pubblici",
+  "summary": "Il 30 ottobre lo sciopero generale proclamato dall’USB ha portato lavoratori e manifestanti in piazza in numerose città italiane, con richieste di salari più alti e servizi pubblici più forti.",
+  "news_text": "Il 30 ottobre 2026 si è svolto in Italia uno sciopero generale di 24 ore proclamato dall’Unione Sindacale di Base. Reuters, ANSA e Rai News riferiscono di manifestazioni in numerose città e di rivendicazioni contro il carovita e i salari insufficienti, con la richiesta di maggiori risorse per i servizi pubblici.",
+  "question": "Lo sciopero generale chiede salari più alti e servizi migliori: la politica ha risposto?",
+  "answer": "Sì. Ma al minimo sindacale.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "un lavoratore adulto con un cartello sui salari"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Un lavoratore adulto davanti a un grande sportello istituzionale quasi chiuso espone un cartello semplice sui salari; dal piccolo sportello aperto esce soltanto un minuscolo foglio di risposta. Travaglio e la Suprema IA osservano. Nessun minore, nessuna violenza e nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Sì. Ma al minimo sindacale.",
+    "alternatives": [
+      "Sì. Ma al minimo sindacale.",
+      "Certo. È in sciopero anche la risposta.",
+      "Sì. La risposta ha incrociato le braccia.",
+      "Certo. Ha risposto solo il servizio minimo.",
+      "Sì. Ma senza aumento di parole."
+    ],
+    "selection_reason": "Riprende direttamente lo sciopero con il doppio senso di «minimo sindacale»; è la più breve e ha un solo rovesciamento immediato.",
+    "fact_anchor": "Il 30 ottobre 2026 lo sciopero generale proclamato dall’USB ha portato manifestazioni in numerose città con richieste su salari, carovita e servizi pubblici.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
