@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-01",
+  "event_date": "2026-10-31",
+  "slug": "2026-11-01-il-temporaneo-a-rinnovo",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Su difesa e sicurezza linea comune nella manovra: i parà a Milano fino a marzo",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/10/31/su-difesa-e-sicurezza-linea-comune-nella-manovra-i-para-a-milano-fino-a-marzo_468492f1-e0c1-45a9-a32b-d93c7fec981f.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Su difesa e sicurezza linea comune nella manovra: i parà a Milano fino a marzo",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/31/su-difesa-e-sicurezza-linea-comune-nella-manovra-i-para-a-milano-fino-a-marzo_468492f1-e0c1-45a9-a32b-d93c7fec981f.html"
+    },
+    {
+      "name": "la Repubblica — Parà in missione lunga a Milano: la mossa del governo scalda la sfida elettorale",
+      "url": "https://milano.repubblica.it/cronaca/2026/11/01/news/para_esercito_milano_elezioni_comunali-425690354/amp/"
+    },
+    {
+      "name": "Open — Manovra, l’Esercito resta a Milano: 500 militari in strada fino a marzo 2027",
+      "url": "https://www.open.online/2026/10/31/manovra-esercito-milano-proroga-500-militari-misure-sicurezza/"
+    }
+  ],
+  "title": "Il temporaneo a rinnovo",
+  "headline": "La manovra proroga fino al 31 marzo 2027 i 500 militari impiegati a Milano",
+  "summary": "La legge di bilancio proroga di tre mesi, dal 31 dicembre 2026 al 31 marzo 2027, l’impiego di 500 militari a Milano nell’operazione Strade Sicure, con uno stanziamento di circa 6,1 milioni di euro.",
+  "news_text": "Il 31 ottobre 2026 ANSA, la Repubblica e Open hanno riferito che l’articolo 100 del disegno di legge di bilancio proroga fino al 31 marzo 2027 l’impiego di 500 militari a Milano nell’operazione Strade Sicure. Il decreto approvato in ottobre ne prevedeva l’impiego fino al 31 dicembre 2026; per i tre mesi aggiuntivi sono stanziati circa 6,1 milioni di euro.",
+  "question": "La manovra proroga fino a marzo i 500 militari temporanei a Milano: sono ancora temporanei?",
+  "answer": "Certo. Il temporaneo è a rinnovo automatico.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "un militare adulto accanto a un calendario"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Un militare adulto in uniforme, rappresentato con rispetto e senza armi in evidenza, è accanto a un grande calendario: la scadenza di dicembre è barrata e quella di marzo è cerchiata. Travaglio e la Suprema IA osservano. Nessuna violenza, nessun minore, nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Certo. Il temporaneo è a rinnovo automatico.",
+    "alternatives": [
+      "Certo. Il temporaneo è a rinnovo automatico.",
+      "Sì. Il provvisorio ha ottenuto un altro trimestre.",
+      "Certo. Temporanei, ma con diritto di rinnovo.",
+      "Sì. La scadenza ha chiesto più tempo.",
+      "Certo. Il provvisorio ha già la proroga."
+    ],
+    "selection_reason": "Riprende direttamente «temporanei» e «proroga» con il linguaggio familiare dei contratti; è il rovesciamento più immediato e resta neutrale.",
+    "fact_anchor": "La manovra proroga dal 31 dicembre 2026 al 31 marzo 2027 l’impiego di 500 militari a Milano nell’operazione Strade Sicure.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
