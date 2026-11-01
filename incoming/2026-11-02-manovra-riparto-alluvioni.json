@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-02",
+  "event_date": "2026-11-01",
+  "slug": "2026-11-02-manovra-riparto-alluvioni",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027",
+    "url": "https://www.quirinale.it/elementi/414249"
+  },
+  "sources": [
+    {
+      "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027 (fonte primaria)",
+      "url": "https://www.quirinale.it/elementi/414249"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/toscana/notizie/2026/11/01/manovra-17-milioni-per-le-alluvioni-in-emilia-romagna-marche-e-toscana_0d3a864a-ff61-4252-bf49-d8fd89892945.html"
+    },
+    {
+      "name": "Blasting News",
+      "url": "https://it.blastingnews.com/economia/2026/11/manovra-171-milioni-per-le-alluvioni-2023-2024-in-tre-regioni-004198337.html"
+    }
+  ],
+  "title": "Le quote della manovra",
+  "headline": "17,1 milioni proposti per le alluvioni, ma senza quote per le tre regioni",
+  "summary": "Il disegno di legge di Bilancio propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni in Emilia-Romagna, Marche e Toscana. La disposizione non indica come ripartire la somma tra i territori.",
+  "news_text": "Il 1° novembre ANSA ha riferito che l’articolo 113 del disegno di legge di Bilancio 2027 propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni del 2023 e del 2024 in Emilia-Romagna, Marche e Toscana. La disposizione non specifica la ripartizione territoriale. Si tratta di una proposta contenuta nel disegno di legge, non di fondi già assegnati. Il Quirinale registra il disegno di legge il 30 ottobre 2026.",
+  "question": "Il ddl propone 17,1 milioni per le alluvioni di tre regioni, ma non li ripartisce: come li dividiamo?",
+  "answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio mostra un foglio con una sola cifra, «17,1 milioni», e tre caselle regionali vuote. La Suprema IA indica tre volte la stessa cifra, una per casella.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Le quote sono ancora in sospeso: almeno loro hanno trovato una casella.",
+      "Dividere per tre? La somma resta intera; è la fila che si allunga.",
+      "Per ripartirli serve una commissione. Per nominare la commissione, un’altra commissione.",
+      "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+      "Tre regioni, una cifra: la calcolatrice ha chiesto di essere trasferita."
+    ],
+    "selected_answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+    "selection_reason": "La risposta crea un unico rovesciamento immediato: l’IA, invece di ripartire la cifra totale, la assegna per intero a ogni regione.",
+    "fact_anchor": "Il ddl propone 17,1 milioni nel biennio 2027-2028 per interventi legati alle alluvioni, senza indicare la ripartizione tra i territori."
+  }
+}
