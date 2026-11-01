@@ -1,57 +1,57 @@
 {
   "current": {
-    "date": "2026-10-31",
-    "event_date": "2026-10-30",
-    "slug": "2026-10-31-la-risposta-al-minimo",
+    "date": "2026-11-01",
+    "event_date": "2026-10-31",
+    "slug": "2026-11-01-il-temporaneo-a-rinnovo",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters — Mass protests sweep Italy during nationwide strike",
-      "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+      "name": "ANSA — Su difesa e sicurezza linea comune nella manovra: i parà a Milano fino a marzo",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/10/31/su-difesa-e-sicurezza-linea-comune-nella-manovra-i-para-a-milano-fino-a-marzo_468492f1-e0c1-45a9-a32b-d93c7fec981f.html"
     },
     "sources": [
       {
-        "name": "Reuters — Mass protests sweep Italy during nationwide strike",
-        "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+        "name": "ANSA — Su difesa e sicurezza linea comune nella manovra: i parà a Milano fino a marzo",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/10/31/su-difesa-e-sicurezza-linea-comune-nella-manovra-i-para-a-milano-fino-a-marzo_468492f1-e0c1-45a9-a32b-d93c7fec981f.html"
       },
       {
-        "name": "ANSA — Sciopero a Perugia, studenti aprono corteo contro riarmo e carovita",
-        "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/30/sciopero-a-perugia-studenti-aprono-corteo-contro-riarmo-e-carovita_afa0b7ae-c495-4d72-93a4-433ab15b9c50.html"
+        "name": "la Repubblica — Parà in missione lunga a Milano: la mossa del governo scalda la sfida elettorale",
+        "url": "https://milano.repubblica.it/cronaca/2026/11/01/news/para_esercito_milano_elezioni_comunali-425690354/amp/"
       },
       {
-        "name": "Rai News — La Sardegna scende in piazza: cortei a Cagliari, Sassari e Nuoro",
-        "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/la-sardegna-scende-in-piazza-cortei-cagliari-sassari-nuoro-92ad27bd-db70-40ea-bef5-4311196dcac1.html"
+        "name": "Open — Manovra, l’Esercito resta a Milano: 500 militari in strada fino a marzo 2027",
+        "url": "https://www.open.online/2026/10/31/manovra-esercito-milano-proroga-500-militari-misure-sicurezza/"
       }
     ],
-    "title": "La risposta al minimo",
-    "headline": "Sciopero generale USB in decine di città per salari, costo della vita e servizi pubblici",
-    "summary": "Il 30 ottobre lo sciopero generale proclamato dall’USB ha portato lavoratori e manifestanti in piazza in numerose città italiane, con richieste di salari più alti e servizi pubblici più forti.",
-    "news_text": "Il 30 ottobre 2026 si è svolto in Italia uno sciopero generale di 24 ore proclamato dall’Unione Sindacale di Base. Reuters, ANSA e Rai News riferiscono di manifestazioni in numerose città e di rivendicazioni contro il carovita e i salari insufficienti, con la richiesta di maggiori risorse per i servizi pubblici.",
-    "question": "Lo sciopero generale chiede salari più alti e servizi migliori: la politica ha risposto?",
-    "answer": "Sì. Ma al minimo sindacale.",
+    "title": "Il temporaneo a rinnovo",
+    "headline": "La manovra proroga fino al 31 marzo 2027 i 500 militari impiegati a Milano",
+    "summary": "La legge di bilancio proroga di tre mesi, dal 31 dicembre 2026 al 31 marzo 2027, l’impiego di 500 militari a Milano nell’operazione Strade Sicure, con uno stanziamento di circa 6,1 milioni di euro.",
+    "news_text": "Il 31 ottobre 2026 ANSA, la Repubblica e Open hanno riferito che l’articolo 100 del disegno di legge di bilancio proroga fino al 31 marzo 2027 l’impiego di 500 militari a Milano nell’operazione Strade Sicure. Il decreto approvato in ottobre ne prevedeva l’impiego fino al 31 dicembre 2026; per i tre mesi aggiuntivi sono stanziati circa 6,1 milioni di euro.",
+    "question": "La manovra proroga fino a marzo i 500 militari temporanei a Milano: sono ancora temporanei?",
+    "answer": "Certo. Il temporaneo è a rinnovo automatico.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "un lavoratore adulto con un cartello sui salari"
+      "un militare adulto accanto a un calendario"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Un lavoratore adulto davanti a un grande sportello istituzionale quasi chiuso espone un cartello semplice sui salari; dal piccolo sportello aperto esce soltanto un minuscolo foglio di risposta. Travaglio e la Suprema IA osservano. Nessun minore, nessuna violenza e nessun simbolo elettorale.",
+    "visual_context": "Un militare adulto in uniforme, rappresentato con rispetto e senza armi in evidenza, è accanto a un grande calendario: la scadenza di dicembre è barrata e quella di marzo è cerchiata. Travaglio e la Suprema IA osservano. Nessuna violenza, nessun minore, nessun simbolo elettorale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Sì. Ma al minimo sindacale.",
+      "selected_answer": "Certo. Il temporaneo è a rinnovo automatico.",
       "alternatives": [
-        "Sì. Ma al minimo sindacale.",
-        "Certo. È in sciopero anche la risposta.",
-        "Sì. La risposta ha incrociato le braccia.",
-        "Certo. Ha risposto solo il servizio minimo.",
-        "Sì. Ma senza aumento di parole."
+        "Certo. Il temporaneo è a rinnovo automatico.",
+        "Sì. Il provvisorio ha ottenuto un altro trimestre.",
+        "Certo. Temporanei, ma con diritto di rinnovo.",
+        "Sì. La scadenza ha chiesto più tempo.",
+        "Certo. Il provvisorio ha già la proroga."
       ],
-      "selection_reason": "Riprende direttamente lo sciopero con il doppio senso di «minimo sindacale»; è la più breve e ha un solo rovesciamento immediato.",
-      "fact_anchor": "Il 30 ottobre 2026 lo sciopero generale proclamato dall’USB ha portato manifestazioni in numerose città con richieste su salari, carovita e servizi pubblici.",
+      "selection_reason": "Riprende direttamente «temporanei» e «proroga» con il linguaggio familiare dei contratti; è il rovesciamento più immediato e resta neutrale.",
+      "fact_anchor": "La manovra proroga dal 31 dicembre 2026 al 31 marzo 2027 l’impiego di 500 militari a Milano nell’operazione Strade Sicure.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -59,16 +59,85 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-10-31-la-risposta-al-minimo.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La risposta al minimo",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di un lavoratore adulto con un cartello sui salari.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 30 ottobre 2026 si è svolto in Italia uno sciopero generale di 24 ore proclamato dall’Unione Sindacale di Base. Reuters, ANSA e Rai News riferiscono di manifestazioni in numerose città e di rivendicazioni contro il carovita e i salari insufficienti, con la richiesta di maggiori risorse per i servizi pubblici.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-01-il-temporaneo-a-rinnovo.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il temporaneo a rinnovo",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di un militare adulto accanto a un calendario.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 31 ottobre 2026 ANSA, la Repubblica e Open hanno riferito che l’articolo 100 del disegno di legge di bilancio proroga fino al 31 marzo 2027 l’impiego di 500 militari a Milano nell’operazione Strade Sicure. Il decreto approvato in ottobre ne prevedeva l’impiego fino al 31 dicembre 2026; per i tre mesi aggiuntivi sono stanziati circa 6,1 milioni di euro.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-10-31T09:28:10.033Z",
-    "image_generated_at": "2026-10-31T09:28:10.033Z",
-    "url": "/episodio/2026-10-31-la-risposta-al-minimo/"
+    "published_at": "2026-11-01T09:31:30.091Z",
+    "image_generated_at": "2026-11-01T09:31:30.091Z",
+    "url": "/episodio/2026-11-01-il-temporaneo-a-rinnovo/"
   },
   "archive": [
+    {
+      "date": "2026-10-31",
+      "event_date": "2026-10-30",
+      "slug": "2026-10-31-la-risposta-al-minimo",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Mass protests sweep Italy during nationwide strike",
+        "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Mass protests sweep Italy during nationwide strike",
+          "url": "https://www.reuters.com/world/mass-protests-sweep-italy-during-nationwide-strike-2026-10-30/"
+        },
+        {
+          "name": "ANSA — Sciopero a Perugia, studenti aprono corteo contro riarmo e carovita",
+          "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/10/30/sciopero-a-perugia-studenti-aprono-corteo-contro-riarmo-e-carovita_afa0b7ae-c495-4d72-93a4-433ab15b9c50.html"
+        },
+        {
+          "name": "Rai News — La Sardegna scende in piazza: cortei a Cagliari, Sassari e Nuoro",
+          "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/10/la-sardegna-scende-in-piazza-cortei-cagliari-sassari-nuoro-92ad27bd-db70-40ea-bef5-4311196dcac1.html"
+        }
+      ],
+      "title": "La risposta al minimo",
+      "headline": "Sciopero generale USB in decine di città per salari, costo della vita e servizi pubblici",
+      "summary": "Il 30 ottobre lo sciopero generale proclamato dall’USB ha portato lavoratori e manifestanti in piazza in numerose città italiane, con richieste di salari più alti e servizi pubblici più forti.",
+      "news_text": "Il 30 ottobre 2026 si è svolto in Italia uno sciopero generale di 24 ore proclamato dall’Unione Sindacale di Base. Reuters, ANSA e Rai News riferiscono di manifestazioni in numerose città e di rivendicazioni contro il carovita e i salari insufficienti, con la richiesta di maggiori risorse per i servizi pubblici.",
+      "question": "Lo sciopero generale chiede salari più alti e servizi migliori: la politica ha risposto?",
+      "answer": "Sì. Ma al minimo sindacale.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "un lavoratore adulto con un cartello sui salari"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Un lavoratore adulto davanti a un grande sportello istituzionale quasi chiuso espone un cartello semplice sui salari; dal piccolo sportello aperto esce soltanto un minuscolo foglio di risposta. Travaglio e la Suprema IA osservano. Nessun minore, nessuna violenza e nessun simbolo elettorale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Sì. Ma al minimo sindacale.",
+        "alternatives": [
+          "Sì. Ma al minimo sindacale.",
+          "Certo. È in sciopero anche la risposta.",
+          "Sì. La risposta ha incrociato le braccia.",
+          "Certo. Ha risposto solo il servizio minimo.",
+          "Sì. Ma senza aumento di parole."
+        ],
+        "selection_reason": "Riprende direttamente lo sciopero con il doppio senso di «minimo sindacale»; è la più breve e ha un solo rovesciamento immediato.",
+        "fact_anchor": "Il 30 ottobre 2026 lo sciopero generale proclamato dall’USB ha portato manifestazioni in numerose città con richieste su salari, carovita e servizi pubblici.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-10-31-la-risposta-al-minimo.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La risposta al minimo",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di un lavoratore adulto con un cartello sui salari.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 30 ottobre 2026 si è svolto in Italia uno sciopero generale di 24 ore proclamato dall’Unione Sindacale di Base. Reuters, ANSA e Rai News riferiscono di manifestazioni in numerose città e di rivendicazioni contro il carovita e i salari insufficienti, con la richiesta di maggiori risorse per i servizi pubblici.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-10-31T09:28:10.033Z",
+      "image_generated_at": "2026-10-31T09:28:10.033Z",
+      "url": "/episodio/2026-10-31-la-risposta-al-minimo/"
+    },
     {
       "date": "2026-10-30",
       "event_date": "2026-10-29",
