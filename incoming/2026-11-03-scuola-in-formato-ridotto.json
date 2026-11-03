@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-03",
+  "event_date": "2026-11-02",
+  "slug": "2026-11-03-scuola-in-formato-ridotto",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/02/i-sindacati-della-scuola-pronti-alla-mobilitazione-contro-i-tagli-previsti-nella_ade17b33-28ec-4e0d-8182-d5235c910705.html"
+    }
+  ],
+  "title": "La scuola in formato ridotto",
+  "headline": "La manovra prevede 6.974 posti in meno nella scuola dal 2027/28",
+  "summary": "Il disegno di legge di Bilancio 2027 prevede, dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario.",
+  "news_text": "Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.",
+  "question": "Con meno studenti, la manovra taglia quasi settemila posti nella scuola: avremo classi più piccole?",
+  "answer": "Le classi no. La scuola sì.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Insegnante, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio osserva una classe mentre cattedra, sedie e organico scolastico si rimpiccioliscono; la Suprema IA misura la scuola con un righello. A destra, un’insegnante rappresentata in forma satirica.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Le classi no. La scuola sì.",
+    "alternatives": [
+      "Le classi no. La scuola sì.",
+      "Certo. Cominciando dagli insegnanti.",
+      "Sì. Si restringe prima il personale.",
+      "Meno alunni, meno adulti: la classe resta uguale."
+    ],
+    "selection_reason": "È la più breve e ribalta immediatamente «classi più piccole» in una scuola complessivamente ridotta.",
+    "fact_anchor": "Il ddl Bilancio 2027 prevede 6.974 posti scolastici in meno dal 2027/28 mentre diminuisce il numero degli studenti.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
