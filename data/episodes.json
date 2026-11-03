@@ -1,74 +1,138 @@
 {
   "current": {
-    "date": "2026-11-02",
-    "event_date": "2026-11-01",
-    "slug": "2026-11-02-manovra-riparto-alluvioni",
+    "date": "2026-11-03",
+    "event_date": "2026-11-02",
+    "slug": "2026-11-03-scuola-in-formato-ridotto",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027",
-      "url": "https://www.quirinale.it/elementi/414249"
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
     },
     "sources": [
       {
-        "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027 (fonte primaria)",
-        "url": "https://www.quirinale.it/elementi/414249"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
       },
       {
         "name": "ANSA",
-        "url": "https://www.ansa.it/toscana/notizie/2026/11/01/manovra-17-milioni-per-le-alluvioni-in-emilia-romagna-marche-e-toscana_0d3a864a-ff61-4252-bf49-d8fd89892945.html"
-      },
-      {
-        "name": "Blasting News",
-        "url": "https://it.blastingnews.com/economia/2026/11/manovra-171-milioni-per-le-alluvioni-2023-2024-in-tre-regioni-004198337.html"
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/02/i-sindacati-della-scuola-pronti-alla-mobilitazione-contro-i-tagli-previsti-nella_ade17b33-28ec-4e0d-8182-d5235c910705.html"
       }
     ],
-    "title": "Le quote della manovra",
-    "headline": "17,1 milioni proposti per le alluvioni, ma senza quote per le tre regioni",
-    "summary": "Il disegno di legge di Bilancio propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni in Emilia-Romagna, Marche e Toscana. La disposizione non indica come ripartire la somma tra i territori.",
-    "news_text": "Il 1° novembre ANSA ha riferito che l’articolo 113 del disegno di legge di Bilancio 2027 propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni del 2023 e del 2024 in Emilia-Romagna, Marche e Toscana. La disposizione non specifica la ripartizione territoriale. Si tratta di una proposta contenuta nel disegno di legge, non di fondi già assegnati. Il Quirinale registra il disegno di legge il 30 ottobre 2026.",
-    "question": "Il ddl propone 17,1 milioni per le alluvioni di tre regioni, ma non li ripartisce: come li dividiamo?",
-    "answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+    "title": "La scuola in formato ridotto",
+    "headline": "La manovra prevede 6.974 posti in meno nella scuola dal 2027/28",
+    "summary": "Il disegno di legge di Bilancio 2027 prevede, dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario.",
+    "news_text": "Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.",
+    "question": "Con meno studenti, la manovra taglia quasi settemila posti nella scuola: avremo classi più piccole?",
+    "answer": "Le classi no. La scuola sì.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Marco Travaglio, rappresentazione satirica"
+      "Insegnante, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio mostra un foglio con una sola cifra, «17,1 milioni», e tre caselle regionali vuote. La Suprema IA indica tre volte la stessa cifra, una per casella.",
+    "visual_context": "Travaglio osserva una classe mentre cattedra, sedie e organico scolastico si rimpiccioliscono; la Suprema IA misura la scuola con un righello. A destra, un’insegnante rappresentata in forma satirica.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
+      "selected_answer": "Le classi no. La scuola sì.",
+      "alternatives": [
+        "Le classi no. La scuola sì.",
+        "Certo. Cominciando dagli insegnanti.",
+        "Sì. Si restringe prima il personale.",
+        "Meno alunni, meno adulti: la classe resta uguale."
+      ],
+      "selection_reason": "È la più breve e ribalta immediatamente «classi più piccole» in una scuola complessivamente ridotta.",
+      "fact_anchor": "Il ddl Bilancio 2027 prevede 6.974 posti scolastici in meno dal 2027/28 mentre diminuisce il numero degli studenti.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1,
-      "alternatives": [
-        "Le quote sono ancora in sospeso: almeno loro hanno trovato una casella.",
-        "Dividere per tre? La somma resta intera; è la fila che si allunga.",
-        "Per ripartirli serve una commissione. Per nominare la commissione, un’altra commissione.",
-        "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
-        "Tre regioni, una cifra: la calcolatrice ha chiesto di essere trasferita."
-      ],
-      "selected_answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
-      "selection_reason": "La risposta crea un unico rovesciamento immediato: l’IA, invece di ripartire la cifra totale, la assegna per intero a ogni regione.",
-      "fact_anchor": "Il ddl propone 17,1 milioni nel biennio 2027-2028 per interventi legati alle alluvioni, senza indicare la ripartizione tra i territori."
+      "twist_count": 1
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-02-manovra-riparto-alluvioni.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le quote della manovra",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 1° novembre ANSA ha riferito che l’articolo 113 del disegno di legge di Bilancio 2027 propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni del 2023 e del 2024 in Emilia-Romagna, Marche e Toscana. La disposizione non specifica la ripartizione territoriale. Si tratta di una proposta contenuta nel disegno di legge, non di fondi già assegnati. Il Quirinale registra il disegno di legge il 30 ottobre 2026.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-03-scuola-in-formato-ridotto.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La scuola in formato ridotto",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Insegnante, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-01T23:34:52.933Z",
-    "image_generated_at": "2026-11-01T23:34:52.933Z",
-    "url": "/episodio/2026-11-02-manovra-riparto-alluvioni/"
+    "published_at": "2026-11-03T09:29:16.463Z",
+    "image_generated_at": "2026-11-03T09:29:16.463Z",
+    "url": "/episodio/2026-11-03-scuola-in-formato-ridotto/"
   },
   "archive": [
+    {
+      "date": "2026-11-02",
+      "event_date": "2026-11-01",
+      "slug": "2026-11-02-manovra-riparto-alluvioni",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027",
+        "url": "https://www.quirinale.it/elementi/414249"
+      },
+      "sources": [
+        {
+          "name": "Quirinale — registrazione del disegno di legge di Bilancio 2027 (fonte primaria)",
+          "url": "https://www.quirinale.it/elementi/414249"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/toscana/notizie/2026/11/01/manovra-17-milioni-per-le-alluvioni-in-emilia-romagna-marche-e-toscana_0d3a864a-ff61-4252-bf49-d8fd89892945.html"
+        },
+        {
+          "name": "Blasting News",
+          "url": "https://it.blastingnews.com/economia/2026/11/manovra-171-milioni-per-le-alluvioni-2023-2024-in-tre-regioni-004198337.html"
+        }
+      ],
+      "title": "Le quote della manovra",
+      "headline": "17,1 milioni proposti per le alluvioni, ma senza quote per le tre regioni",
+      "summary": "Il disegno di legge di Bilancio propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni in Emilia-Romagna, Marche e Toscana. La disposizione non indica come ripartire la somma tra i territori.",
+      "news_text": "Il 1° novembre ANSA ha riferito che l’articolo 113 del disegno di legge di Bilancio 2027 propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni del 2023 e del 2024 in Emilia-Romagna, Marche e Toscana. La disposizione non specifica la ripartizione territoriale. Si tratta di una proposta contenuta nel disegno di legge, non di fondi già assegnati. Il Quirinale registra il disegno di legge il 30 ottobre 2026.",
+      "question": "Il ddl propone 17,1 milioni per le alluvioni di tre regioni, ma non li ripartisce: come li dividiamo?",
+      "answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Marco Travaglio, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio mostra un foglio con una sola cifra, «17,1 milioni», e tre caselle regionali vuote. La Suprema IA indica tre volte la stessa cifra, una per casella.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Le quote sono ancora in sospeso: almeno loro hanno trovato una casella.",
+          "Dividere per tre? La somma resta intera; è la fila che si allunga.",
+          "Per ripartirli serve una commissione. Per nominare la commissione, un’altra commissione.",
+          "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+          "Tre regioni, una cifra: la calcolatrice ha chiesto di essere trasferita."
+        ],
+        "selected_answer": "Ho chiesto alla Suprema IA: ha assegnato 17,1 milioni a ciascuna.",
+        "selection_reason": "La risposta crea un unico rovesciamento immediato: l’IA, invece di ripartire la cifra totale, la assegna per intero a ogni regione.",
+        "fact_anchor": "Il ddl propone 17,1 milioni nel biennio 2027-2028 per interventi legati alle alluvioni, senza indicare la ripartizione tra i territori."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-02-manovra-riparto-alluvioni.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Le quote della manovra",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 1° novembre ANSA ha riferito che l’articolo 113 del disegno di legge di Bilancio 2027 propone 17,1 milioni di euro nel biennio 2027-2028 per interventi legati alle alluvioni del 2023 e del 2024 in Emilia-Romagna, Marche e Toscana. La disposizione non specifica la ripartizione territoriale. Si tratta di una proposta contenuta nel disegno di legge, non di fondi già assegnati. Il Quirinale registra il disegno di legge il 30 ottobre 2026.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-01T23:34:52.933Z",
+      "image_generated_at": "2026-11-01T23:34:52.933Z",
+      "url": "/episodio/2026-11-02-manovra-riparto-alluvioni/"
+    },
     {
       "date": "2026-11-01",
       "event_date": "2026-10-31",
