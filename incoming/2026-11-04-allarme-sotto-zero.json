@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-04",
+  "event_date": "2026-11-03",
+  "slug": "2026-11-04-allarme-sotto-zero",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+    },
+    {
+      "name": "Il Sole 24 Ore Radiocor via Borsa Italiana — Cybersicurezza, nessun allarme dopo gli attacchi",
+      "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/cybersicurezza-pchigi-nessun-allarme-dopo-attacchi-sistemi-refrigerazione-nRC_03112026_1324_415180047.html"
+    }
+  ],
+  "title": "Allarme sotto zero",
+  "headline": "Palazzo Chigi: impatto limitato degli attacchi ai sistemi di refrigerazione",
+  "summary": "Dopo un vertice con ACN e intelligence, Palazzo Chigi ha riferito che gli attacchi ai sistemi di refrigerazione commerciale hanno coinvolto poche unità in Italia e che non sono emersi rischi per la salute.",
+  "news_text": "Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.",
+  "question": "Gli hacker colpiscono i frigoriferi dei supermercati, ma Palazzo Chigi dice «nessun allarme»: tutto freddo?",
+  "answer": "Certo. L’allarme è sotto zero.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Tecnico della cybersicurezza, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "In un supermercato, Travaglio indica un banco frigorifero con un piccolo lucchetto digitale; la Suprema IA osserva un termometro sotto zero. A destra, un tecnico della cybersicurezza rappresentato in forma satirica controlla il sistema. Nessun marchio commerciale, nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Certo. L’allarme è sotto zero.",
+    "alternatives": [
+      "Certo. L’allarme è sotto zero.",
+      "Sì. Hanno congelato anche l’allarme.",
+      "Certo. Il rischio è surgelato.",
+      "Sì. L’allarme è rimasto nel congelatore."
+    ],
+    "selection_reason": "Riprende direttamente «allarme» e il freddo dei frigoriferi con un solo doppio senso immediato; è la più breve e neutrale.",
+    "fact_anchor": "Il 3 novembre Palazzo Chigi ha riferito un impatto limitato degli attacchi ai sistemi di refrigerazione commerciale e nessun rischio sanitario emerso.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
