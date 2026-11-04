@@ -1,52 +1,52 @@
 {
   "current": {
-    "date": "2026-11-03",
-    "event_date": "2026-11-02",
-    "slug": "2026-11-03-scuola-in-formato-ridotto",
+    "date": "2026-11-04",
+    "event_date": "2026-11-03",
+    "slug": "2026-11-04-allarme-sotto-zero",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+      "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
     },
     "sources": [
       {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+        "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
       },
       {
-        "name": "ANSA",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/02/i-sindacati-della-scuola-pronti-alla-mobilitazione-contro-i-tagli-previsti-nella_ade17b33-28ec-4e0d-8182-d5235c910705.html"
+        "name": "Il Sole 24 Ore Radiocor via Borsa Italiana — Cybersicurezza, nessun allarme dopo gli attacchi",
+        "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/cybersicurezza-pchigi-nessun-allarme-dopo-attacchi-sistemi-refrigerazione-nRC_03112026_1324_415180047.html"
       }
     ],
-    "title": "La scuola in formato ridotto",
-    "headline": "La manovra prevede 6.974 posti in meno nella scuola dal 2027/28",
-    "summary": "Il disegno di legge di Bilancio 2027 prevede, dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario.",
-    "news_text": "Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.",
-    "question": "Con meno studenti, la manovra taglia quasi settemila posti nella scuola: avremo classi più piccole?",
-    "answer": "Le classi no. La scuola sì.",
+    "title": "Allarme sotto zero",
+    "headline": "Palazzo Chigi: impatto limitato degli attacchi ai sistemi di refrigerazione",
+    "summary": "Dopo un vertice con ACN e intelligence, Palazzo Chigi ha riferito che gli attacchi ai sistemi di refrigerazione commerciale hanno coinvolto poche unità in Italia e che non sono emersi rischi per la salute.",
+    "news_text": "Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.",
+    "question": "Gli hacker colpiscono i frigoriferi dei supermercati, ma Palazzo Chigi dice «nessun allarme»: tutto freddo?",
+    "answer": "Certo. L’allarme è sotto zero.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Insegnante, rappresentazione satirica"
+      "Tecnico della cybersicurezza, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio osserva una classe mentre cattedra, sedie e organico scolastico si rimpiccioliscono; la Suprema IA misura la scuola con un righello. A destra, un’insegnante rappresentata in forma satirica.",
+    "visual_context": "In un supermercato, Travaglio indica un banco frigorifero con un piccolo lucchetto digitale; la Suprema IA osserva un termometro sotto zero. A destra, un tecnico della cybersicurezza rappresentato in forma satirica controlla il sistema. Nessun marchio commerciale, nessun simbolo elettorale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Le classi no. La scuola sì.",
+      "selected_answer": "Certo. L’allarme è sotto zero.",
       "alternatives": [
-        "Le classi no. La scuola sì.",
-        "Certo. Cominciando dagli insegnanti.",
-        "Sì. Si restringe prima il personale.",
-        "Meno alunni, meno adulti: la classe resta uguale."
+        "Certo. L’allarme è sotto zero.",
+        "Sì. Hanno congelato anche l’allarme.",
+        "Certo. Il rischio è surgelato.",
+        "Sì. L’allarme è rimasto nel congelatore."
       ],
-      "selection_reason": "È la più breve e ribalta immediatamente «classi più piccole» in una scuola complessivamente ridotta.",
-      "fact_anchor": "Il ddl Bilancio 2027 prevede 6.974 posti scolastici in meno dal 2027/28 mentre diminuisce il numero degli studenti.",
+      "selection_reason": "Riprende direttamente «allarme» e il freddo dei frigoriferi con un solo doppio senso immediato; è la più breve e neutrale.",
+      "fact_anchor": "Il 3 novembre Palazzo Chigi ha riferito un impatto limitato degli attacchi ai sistemi di refrigerazione commerciale e nessun rischio sanitario emerso.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -54,16 +54,80 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-03-scuola-in-formato-ridotto.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La scuola in formato ridotto",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Insegnante, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-04-allarme-sotto-zero.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Allarme sotto zero",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Tecnico della cybersicurezza, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-03T09:29:16.463Z",
-    "image_generated_at": "2026-11-03T09:29:16.463Z",
-    "url": "/episodio/2026-11-03-scuola-in-formato-ridotto/"
+    "published_at": "2026-11-04T09:27:41.991Z",
+    "image_generated_at": "2026-11-04T09:27:41.991Z",
+    "url": "/episodio/2026-11-04-allarme-sotto-zero/"
   },
   "archive": [
+    {
+      "date": "2026-11-03",
+      "event_date": "2026-11-02",
+      "slug": "2026-11-03-scuola-in-formato-ridotto",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/demographic-crisis-bites-italy-cuts-school-staff-2026-11-02/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/02/i-sindacati-della-scuola-pronti-alla-mobilitazione-contro-i-tagli-previsti-nella_ade17b33-28ec-4e0d-8182-d5235c910705.html"
+        }
+      ],
+      "title": "La scuola in formato ridotto",
+      "headline": "La manovra prevede 6.974 posti in meno nella scuola dal 2027/28",
+      "summary": "Il disegno di legge di Bilancio 2027 prevede, dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario.",
+      "news_text": "Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.",
+      "question": "Con meno studenti, la manovra taglia quasi settemila posti nella scuola: avremo classi più piccole?",
+      "answer": "Le classi no. La scuola sì.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Insegnante, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio osserva una classe mentre cattedra, sedie e organico scolastico si rimpiccioliscono; la Suprema IA misura la scuola con un righello. A destra, un’insegnante rappresentata in forma satirica.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Le classi no. La scuola sì.",
+        "alternatives": [
+          "Le classi no. La scuola sì.",
+          "Certo. Cominciando dagli insegnanti.",
+          "Sì. Si restringe prima il personale.",
+          "Meno alunni, meno adulti: la classe resta uguale."
+        ],
+        "selection_reason": "È la più breve e ribalta immediatamente «classi più piccole» in una scuola complessivamente ridotta.",
+        "fact_anchor": "Il ddl Bilancio 2027 prevede 6.974 posti scolastici in meno dal 2027/28 mentre diminuisce il numero degli studenti.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-03-scuola-in-formato-ridotto.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La scuola in formato ridotto",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Insegnante, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 2 novembre Reuters e ANSA hanno riferito che il disegno di legge di Bilancio 2027 prevede, a partire dall’anno scolastico 2027/28, una riduzione di 4.925 posti docenti e 2.049 posti del personale amministrativo, tecnico e ausiliario, per un totale di 6.974 unità. Reuters collega la misura al calo della popolazione scolastica; ANSA riferisce la mobilitazione annunciata dai sindacati. Si tratta di una previsione contenuta nel disegno di legge, ancora soggetto all’esame parlamentare.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-03T09:29:16.463Z",
+      "image_generated_at": "2026-11-03T09:29:16.463Z",
+      "url": "/episodio/2026-11-03-scuola-in-formato-ridotto/"
+    },
     {
       "date": "2026-11-02",
       "event_date": "2026-11-01",
