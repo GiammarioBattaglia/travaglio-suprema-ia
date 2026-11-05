@@ -1,52 +1,52 @@
 {
   "current": {
-    "date": "2026-11-04",
-    "event_date": "2026-11-03",
-    "slug": "2026-11-04-allarme-sotto-zero",
+    "date": "2026-11-05",
+    "event_date": "2026-11-04",
+    "slug": "2026-11-05-via-libera-in-retromarcia",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
-      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+      "name": "Camera dei deputati — approvato il decreto sui prezzi petroliferi",
+      "url": "https://www.camera.it/leg19/1/1?active_tab_27538=27542&anno=2026&giorno=09&idlegislatura=19&mese=09&sezione=documenti&tipoDoc=assemblea_allegato_odg"
     },
     "sources": [
       {
-        "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+        "name": "Camera dei deputati — approvato il decreto sui prezzi petroliferi",
+        "url": "https://www.camera.it/leg19/1/1?active_tab_27538=27542&anno=2026&giorno=09&idlegislatura=19&mese=09&sezione=documenti&tipoDoc=assemblea_allegato_odg"
       },
       {
-        "name": "Il Sole 24 Ore Radiocor via Borsa Italiana — Cybersicurezza, nessun allarme dopo gli attacchi",
-        "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/cybersicurezza-pchigi-nessun-allarme-dopo-attacchi-sistemi-refrigerazione-nRC_03112026_1324_415180047.html"
+        "name": "ANSA — Via libera definitivo della Camera al decreto carburanti",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/04/via-libera-definitivo-della-camera-al-dl-carburanti-137-si_f4e58a8e-b3e2-4604-aa84-c117f56c3c53.html"
       }
     ],
-    "title": "Allarme sotto zero",
-    "headline": "Palazzo Chigi: impatto limitato degli attacchi ai sistemi di refrigerazione",
-    "summary": "Dopo un vertice con ACN e intelligence, Palazzo Chigi ha riferito che gli attacchi ai sistemi di refrigerazione commerciale hanno coinvolto poche unità in Italia e che non sono emersi rischi per la salute.",
-    "news_text": "Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.",
-    "question": "Gli hacker colpiscono i frigoriferi dei supermercati, ma Palazzo Chigi dice «nessun allarme»: tutto freddo?",
-    "answer": "Certo. L’allarme è sotto zero.",
+    "title": "Via libera in retromarcia",
+    "headline": "La Camera approva definitivamente il decreto carburanti con 137 voti favorevoli",
+    "summary": "La Camera ha approvato definitivamente il decreto che proroga, per il periodo dall’11 al 17 settembre 2026, la riduzione delle accise sul gasolio, sui gasoli paraffinici HVO e sul biodiesel.",
+    "news_text": "Il 4 novembre 2026 la Camera dei deputati ha approvato in via definitiva, con 137 voti favorevoli e 97 contrari, il disegno di legge di conversione del decreto-legge 10 settembre 2026, n. 157. Camera e ANSA riferiscono che il provvedimento proroga, per il periodo dall’11 al 17 settembre 2026, la riduzione delle aliquote di accisa applicate al gasolio usato come carburante, ai gasoli paraffinici HVO e al biodiesel. Il Servizio Studi della Camera quantifica la riduzione in 14 centesimi al litro per il gasolio e 8,45 centesimi per HVO e biodiesel rispetto alle aliquote di riferimento.",
+    "question": "La Camera dà il via libera a novembre allo sconto sul gasolio dell’11-17 settembre: si va avanti?",
+    "answer": "Certo. In retromarcia.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Tecnico della cybersicurezza, rappresentazione satirica"
+      "Automobilista adulto, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "In un supermercato, Travaglio indica un banco frigorifero con un piccolo lucchetto digitale; la Suprema IA osserva un termometro sotto zero. A destra, un tecnico della cybersicurezza rappresentato in forma satirica controlla il sistema. Nessun marchio commerciale, nessun simbolo elettorale.",
+    "visual_context": "Accanto a una pompa di carburante, Travaglio indica un calendario fermo alla settimana 11-17 settembre; la Suprema IA innesta una vistosa retromarcia su una piccola automobile. A destra, un automobilista adulto osserva la scena. Nessun marchio commerciale, nessun simbolo elettorale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Certo. L’allarme è sotto zero.",
+      "selected_answer": "Certo. In retromarcia.",
       "alternatives": [
-        "Certo. L’allarme è sotto zero.",
-        "Sì. Hanno congelato anche l’allarme.",
-        "Certo. Il rischio è surgelato.",
-        "Sì. L’allarme è rimasto nel congelatore."
+        "Certo. In retromarcia.",
+        "Sì. Il pieno parte dal passato.",
+        "Certo. È uno sconto d’epoca.",
+        "Sì. Ma il calendario va a gasolio."
       ],
-      "selection_reason": "Riprende direttamente «allarme» e il freddo dei frigoriferi con un solo doppio senso immediato; è la più breve e neutrale.",
-      "fact_anchor": "Il 3 novembre Palazzo Chigi ha riferito un impatto limitato degli attacchi ai sistemi di refrigerazione commerciale e nessun rischio sanitario emerso.",
+      "selection_reason": "Ribalta direttamente «andare avanti» nel ritorno al periodo di settembre; è la più breve, visiva e comprensibile senza spiegazioni.",
+      "fact_anchor": "Il 4 novembre la Camera ha approvato definitivamente il decreto che riduceva le accise sui carburanti per il periodo 11-17 settembre 2026.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -54,16 +54,80 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-04-allarme-sotto-zero.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Allarme sotto zero",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Tecnico della cybersicurezza, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-05-via-libera-in-retromarcia.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Via libera in retromarcia",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Automobilista adulto, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 4 novembre 2026 la Camera dei deputati ha approvato in via definitiva, con 137 voti favorevoli e 97 contrari, il disegno di legge di conversione del decreto-legge 10 settembre 2026, n. 157. Camera e ANSA riferiscono che il provvedimento proroga, per il periodo dall’11 al 17 settembre 2026, la riduzione delle aliquote di accisa applicate al gasolio usato come carburante, ai gasoli paraffinici HVO e al biodiesel. Il Servizio Studi della Camera quantifica la riduzione in 14 centesimi al litro per il gasolio e 8,45 centesimi per HVO e biodiesel rispetto alle aliquote di riferimento.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-04T09:27:41.991Z",
-    "image_generated_at": "2026-11-04T09:27:41.991Z",
-    "url": "/episodio/2026-11-04-allarme-sotto-zero/"
+    "published_at": "2026-11-05T09:30:41.905Z",
+    "image_generated_at": "2026-11-05T09:30:41.905Z",
+    "url": "/episodio/2026-11-05-via-libera-in-retromarcia/"
   },
   "archive": [
+    {
+      "date": "2026-11-04",
+      "event_date": "2026-11-03",
+      "slug": "2026-11-04-allarme-sotto-zero",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA — Palazzo Chigi: massima attenzione ma nessun allarme per gli attacchi hacker",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/03/p.chigi-massima-attenzione-ma-nessun-allarme-per-gli-attacchi-hacker_657a5fe1-efc2-491c-9e07-d4bdebebd9c1.html"
+        },
+        {
+          "name": "Il Sole 24 Ore Radiocor via Borsa Italiana — Cybersicurezza, nessun allarme dopo gli attacchi",
+          "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/cybersicurezza-pchigi-nessun-allarme-dopo-attacchi-sistemi-refrigerazione-nRC_03112026_1324_415180047.html"
+        }
+      ],
+      "title": "Allarme sotto zero",
+      "headline": "Palazzo Chigi: impatto limitato degli attacchi ai sistemi di refrigerazione",
+      "summary": "Dopo un vertice con ACN e intelligence, Palazzo Chigi ha riferito che gli attacchi ai sistemi di refrigerazione commerciale hanno coinvolto poche unità in Italia e che non sono emersi rischi per la salute.",
+      "news_text": "Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.",
+      "question": "Gli hacker colpiscono i frigoriferi dei supermercati, ma Palazzo Chigi dice «nessun allarme»: tutto freddo?",
+      "answer": "Certo. L’allarme è sotto zero.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Tecnico della cybersicurezza, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "In un supermercato, Travaglio indica un banco frigorifero con un piccolo lucchetto digitale; la Suprema IA osserva un termometro sotto zero. A destra, un tecnico della cybersicurezza rappresentato in forma satirica controlla il sistema. Nessun marchio commerciale, nessun simbolo elettorale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo. L’allarme è sotto zero.",
+        "alternatives": [
+          "Certo. L’allarme è sotto zero.",
+          "Sì. Hanno congelato anche l’allarme.",
+          "Certo. Il rischio è surgelato.",
+          "Sì. L’allarme è rimasto nel congelatore."
+        ],
+        "selection_reason": "Riprende direttamente «allarme» e il freddo dei frigoriferi con un solo doppio senso immediato; è la più breve e neutrale.",
+        "fact_anchor": "Il 3 novembre Palazzo Chigi ha riferito un impatto limitato degli attacchi ai sistemi di refrigerazione commerciale e nessun rischio sanitario emerso.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-04-allarme-sotto-zero.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Allarme sotto zero",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Tecnico della cybersicurezza, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 3 novembre 2026 ANSA e Il Sole 24 Ore Radiocor hanno riferito l’esito di una riunione a Palazzo Chigi con il sottosegretario Alfredo Mantovano, il ministro Francesco Lollobrigida, il direttore dell’Agenzia per la cybersicurezza nazionale e i direttori delle Agenzie di intelligence. Secondo la nota del Governo, gli attacchi informatici ai sistemi di refrigerazione commerciale hanno avuto in Italia un impatto fortemente limitato, interessando poche unità commerciali; non è emerso alcun caso di rischio per la salute riconducibile a fenomeni di scongelamento. Palazzo Chigi ha dichiarato che non sussiste alcun allarme, pur mantenendo la massima attenzione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-04T09:27:41.991Z",
+      "image_generated_at": "2026-11-04T09:27:41.991Z",
+      "url": "/episodio/2026-11-04-allarme-sotto-zero/"
+    },
     {
       "date": "2026-11-03",
       "event_date": "2026-11-02",
