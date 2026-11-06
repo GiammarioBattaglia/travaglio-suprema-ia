@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-06",
+  "event_date": "2026-11-05",
+  "slug": "2026-11-06-l-uscita-dalla-tassa-d-uscita",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters — Italy open to changing planned exit tax on the rich",
+    "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+  },
+  "sources": [
+    {
+      "name": "Reuters — Italy open to changing planned exit tax on the rich",
+      "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+    },
+    {
+      "name": "ANSA — Manovra: FI, servono tre correzioni sulla exit tax",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/05/manovra-fiservono-3-correzioni-su-exit-taxal-lavoro-per-migliorarla-in-parlamento_af3d1ae2-3cb2-4cb9-a54b-5faa4a2f5de4.html"
+    }
+  ],
+  "title": "L’uscita dalla tassa d’uscita",
+  "headline": "Il Governo apre a possibili correzioni della exit tax prevista dalla manovra 2027",
+  "summary": "La manovra propone un’imposta del 26% sulle plusvalenze finanziarie di chi possiede almeno 800.000 euro di investimenti e trasferisce all’estero la residenza fiscale; dalla maggioranza arriva l’apertura a modifiche.",
+  "news_text": "Il 5 novembre 2026 Reuters ha riferito che il viceministro dell’Economia Maurizio Leo si è detto disponibile a valutare proposte per migliorare la exit tax contenuta nella manovra 2027. La misura proposta prevede un’imposta del 26% sulle plusvalenze finanziarie maturate in Italia per le persone con almeno 800.000 euro di investimenti finanziari che trasferiscono all’estero la residenza fiscale. ANSA ha riferito che Forza Italia, partito della maggioranza, chiede tre correzioni e lavora per modificare la misura durante l’esame parlamentare.",
+  "question": "Il Governo tassa i ricchi che lasciano l’Italia, poi apre alle modifiche: cerca l’uscita?",
+  "answer": "Sì. Dalla tassa d’uscita.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Contribuente benestante adulto, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Davanti a una porta con la scritta simbolica «uscita», Travaglio indica una valigia fiscale; la Suprema IA mostra un cartello stradale che rimanda indietro verso la manovra. A destra, un contribuente adulto benestante rappresentato in forma satirica osserva il percorso. Nessun simbolo elettorale, nessuna accusa personale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Sì. Dalla tassa d’uscita.",
+    "alternatives": [
+      "Sì. Dalla tassa d’uscita.",
+      "Certo. L’exit tax cerca l’exit.",
+      "Sì. Ma l’uscita è tassata.",
+      "No. È entrata in manovra senza via d’uscita."
+    ],
+    "selection_reason": "Ribalta direttamente «cercare l’uscita» nella necessità di uscire dalla stessa tassa; è breve, autosufficiente e immediata.",
+    "fact_anchor": "Il 5 novembre il Governo si è detto aperto a modificare la exit tax proposta nella manovra 2027.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
