@@ -1,52 +1,52 @@
 {
   "current": {
-    "date": "2026-11-06",
-    "event_date": "2026-11-05",
-    "slug": "2026-11-06-l-uscita-dalla-tassa-d-uscita",
+    "date": "2026-11-07",
+    "event_date": "2026-11-06",
+    "slug": "2026-11-07-il-controllore-autocontrollato",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Reuters — Italy open to changing planned exit tax on the rich",
-      "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+      "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
     },
     "sources": [
       {
-        "name": "Reuters — Italy open to changing planned exit tax on the rich",
-        "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+        "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
       },
       {
-        "name": "ANSA — Manovra: FI, servono tre correzioni sulla exit tax",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/05/manovra-fiservono-3-correzioni-su-exit-taxal-lavoro-per-migliorarla-in-parlamento_af3d1ae2-3cb2-4cb9-a54b-5faa4a2f5de4.html"
+        "name": "Rai News — Altieri ritira la disponibilità all’incarico di presidente ANAC",
+        "url": "https://www.rainews.it/articoli/2026/11/altieri-ritiro-la-mia-disponibilita-allincarico-di-presidente-dellanac-f99c68fe-672b-44c6-980e-84ec5aff4cae.html"
       }
     ],
-    "title": "L’uscita dalla tassa d’uscita",
-    "headline": "Il Governo apre a possibili correzioni della exit tax prevista dalla manovra 2027",
-    "summary": "La manovra propone un’imposta del 26% sulle plusvalenze finanziarie di chi possiede almeno 800.000 euro di investimenti e trasferisce all’estero la residenza fiscale; dalla maggioranza arriva l’apertura a modifiche.",
-    "news_text": "Il 5 novembre 2026 Reuters ha riferito che il viceministro dell’Economia Maurizio Leo si è detto disponibile a valutare proposte per migliorare la exit tax contenuta nella manovra 2027. La misura proposta prevede un’imposta del 26% sulle plusvalenze finanziarie maturate in Italia per le persone con almeno 800.000 euro di investimenti finanziari che trasferiscono all’estero la residenza fiscale. ANSA ha riferito che Forza Italia, partito della maggioranza, chiede tre correzioni e lavora per modificare la misura durante l’esame parlamentare.",
-    "question": "Il Governo tassa i ricchi che lasciano l’Italia, poi apre alle modifiche: cerca l’uscita?",
-    "answer": "Sì. Dalla tassa d’uscita.",
+    "title": "Il controllore autocontrollato",
+    "headline": "Altieri ritira la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina",
+    "summary": "Trifone Altieri ha ritirato la propria disponibilità alla presidenza dell’Autorità nazionale anticorruzione, motivando la decisione con ragioni di opportunità politica, istituzionale e personale.",
+    "news_text": "Il 6 novembre 2026 Trifone Altieri ha annunciato il ritiro della propria disponibilità all’incarico di presidente dell’Autorità nazionale anticorruzione. La decisione è arrivata il giorno dopo che il Consiglio dei ministri aveva avviato la procedura per la sua nomina. ANSA e Rai News riferiscono che Altieri ha richiamato ragioni di opportunità politica, istituzionale e personale; Palazzo Chigi ha preso atto della decisione.",
+    "question": "Il Governo propone Altieri all’Anticorruzione, lui si ritira il giorno dopo: controllo riuscito?",
+    "answer": "Certo. Il controllore si è controllato da solo.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Contribuente benestante adulto, rappresentazione satirica"
+      "Trifone Altieri, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Davanti a una porta con la scritta simbolica «uscita», Travaglio indica una valigia fiscale; la Suprema IA mostra un cartello stradale che rimanda indietro verso la manovra. A destra, un contribuente adulto benestante rappresentato in forma satirica osserva il percorso. Nessun simbolo elettorale, nessuna accusa personale.",
+    "visual_context": "Davanti all’ingresso simbolico dell’ANAC, Travaglio indica una poltrona appena avanzata e subito arretrata; la Suprema IA mostra uno specchio a forma di lente di controllo. A destra, Altieri è rappresentato mentre compie un passo indietro. Nessuna accusa personale, nessun simbolo elettorale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Sì. Dalla tassa d’uscita.",
+      "selected_answer": "Certo. Il controllore si è controllato da solo.",
       "alternatives": [
-        "Sì. Dalla tassa d’uscita.",
-        "Certo. L’exit tax cerca l’exit.",
-        "Sì. Ma l’uscita è tassata.",
-        "No. È entrata in manovra senza via d’uscita."
+        "Certo. Il controllore si è controllato da solo.",
+        "Sì. La nomina si è fermata per autocontrollo.",
+        "Certo. Il controllo è iniziato dalla nomina.",
+        "Sì. Ha vigilato sulla propria uscita."
       ],
-      "selection_reason": "Ribalta direttamente «cercare l’uscita» nella necessità di uscire dalla stessa tassa; è breve, autosufficiente e immediata.",
-      "fact_anchor": "Il 5 novembre il Governo si è detto aperto a modificare la exit tax proposta nella manovra 2027.",
+      "selection_reason": "Riprende direttamente «controllo» e lo rovescia nell’autocontrollo del candidato; è immediata, autosufficiente e visiva.",
+      "fact_anchor": "Il 6 novembre Altieri ha ritirato la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -54,16 +54,80 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-06-l-uscita-dalla-tassa-d-uscita.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’uscita dalla tassa d’uscita",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Contribuente benestante adulto, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 5 novembre 2026 Reuters ha riferito che il viceministro dell’Economia Maurizio Leo si è detto disponibile a valutare proposte per migliorare la exit tax contenuta nella manovra 2027. La misura proposta prevede un’imposta del 26% sulle plusvalenze finanziarie maturate in Italia per le persone con almeno 800.000 euro di investimenti finanziari che trasferiscono all’estero la residenza fiscale. ANSA ha riferito che Forza Italia, partito della maggioranza, chiede tre correzioni e lavora per modificare la misura durante l’esame parlamentare.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-07-il-controllore-autocontrollato.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il controllore autocontrollato",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Trifone Altieri, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 6 novembre 2026 Trifone Altieri ha annunciato il ritiro della propria disponibilità all’incarico di presidente dell’Autorità nazionale anticorruzione. La decisione è arrivata il giorno dopo che il Consiglio dei ministri aveva avviato la procedura per la sua nomina. ANSA e Rai News riferiscono che Altieri ha richiamato ragioni di opportunità politica, istituzionale e personale; Palazzo Chigi ha preso atto della decisione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-06T09:25:36.195Z",
-    "image_generated_at": "2026-11-06T09:25:36.195Z",
-    "url": "/episodio/2026-11-06-l-uscita-dalla-tassa-d-uscita/"
+    "published_at": "2026-11-07T11:28:13.346Z",
+    "image_generated_at": "2026-11-07T11:28:13.346Z",
+    "url": "/episodio/2026-11-07-il-controllore-autocontrollato/"
   },
   "archive": [
+    {
+      "date": "2026-11-06",
+      "event_date": "2026-11-05",
+      "slug": "2026-11-06-l-uscita-dalla-tassa-d-uscita",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters — Italy open to changing planned exit tax on the rich",
+        "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+      },
+      "sources": [
+        {
+          "name": "Reuters — Italy open to changing planned exit tax on the rich",
+          "url": "https://www.reuters.com/world/italy-open-changing-planned-exit-tax-rich-after-criticism-2026-11-05/"
+        },
+        {
+          "name": "ANSA — Manovra: FI, servono tre correzioni sulla exit tax",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/05/manovra-fiservono-3-correzioni-su-exit-taxal-lavoro-per-migliorarla-in-parlamento_af3d1ae2-3cb2-4cb9-a54b-5faa4a2f5de4.html"
+        }
+      ],
+      "title": "L’uscita dalla tassa d’uscita",
+      "headline": "Il Governo apre a possibili correzioni della exit tax prevista dalla manovra 2027",
+      "summary": "La manovra propone un’imposta del 26% sulle plusvalenze finanziarie di chi possiede almeno 800.000 euro di investimenti e trasferisce all’estero la residenza fiscale; dalla maggioranza arriva l’apertura a modifiche.",
+      "news_text": "Il 5 novembre 2026 Reuters ha riferito che il viceministro dell’Economia Maurizio Leo si è detto disponibile a valutare proposte per migliorare la exit tax contenuta nella manovra 2027. La misura proposta prevede un’imposta del 26% sulle plusvalenze finanziarie maturate in Italia per le persone con almeno 800.000 euro di investimenti finanziari che trasferiscono all’estero la residenza fiscale. ANSA ha riferito che Forza Italia, partito della maggioranza, chiede tre correzioni e lavora per modificare la misura durante l’esame parlamentare.",
+      "question": "Il Governo tassa i ricchi che lasciano l’Italia, poi apre alle modifiche: cerca l’uscita?",
+      "answer": "Sì. Dalla tassa d’uscita.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Contribuente benestante adulto, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Davanti a una porta con la scritta simbolica «uscita», Travaglio indica una valigia fiscale; la Suprema IA mostra un cartello stradale che rimanda indietro verso la manovra. A destra, un contribuente adulto benestante rappresentato in forma satirica osserva il percorso. Nessun simbolo elettorale, nessuna accusa personale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Sì. Dalla tassa d’uscita.",
+        "alternatives": [
+          "Sì. Dalla tassa d’uscita.",
+          "Certo. L’exit tax cerca l’exit.",
+          "Sì. Ma l’uscita è tassata.",
+          "No. È entrata in manovra senza via d’uscita."
+        ],
+        "selection_reason": "Ribalta direttamente «cercare l’uscita» nella necessità di uscire dalla stessa tassa; è breve, autosufficiente e immediata.",
+        "fact_anchor": "Il 5 novembre il Governo si è detto aperto a modificare la exit tax proposta nella manovra 2027.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-06-l-uscita-dalla-tassa-d-uscita.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: L’uscita dalla tassa d’uscita",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Contribuente benestante adulto, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 5 novembre 2026 Reuters ha riferito che il viceministro dell’Economia Maurizio Leo si è detto disponibile a valutare proposte per migliorare la exit tax contenuta nella manovra 2027. La misura proposta prevede un’imposta del 26% sulle plusvalenze finanziarie maturate in Italia per le persone con almeno 800.000 euro di investimenti finanziari che trasferiscono all’estero la residenza fiscale. ANSA ha riferito che Forza Italia, partito della maggioranza, chiede tre correzioni e lavora per modificare la misura durante l’esame parlamentare.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-06T09:25:36.195Z",
+      "image_generated_at": "2026-11-06T09:25:36.195Z",
+      "url": "/episodio/2026-11-06-l-uscita-dalla-tassa-d-uscita/"
+    },
     {
       "date": "2026-11-05",
       "event_date": "2026-11-04",
@@ -2780,6 +2844,70 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-11-07",
+      "event_date": "2026-11-06",
+      "slug": "2026-11-07-il-controllore-autocontrollato",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
+        },
+        {
+          "name": "Rai News — Altieri ritira la disponibilità all’incarico di presidente ANAC",
+          "url": "https://www.rainews.it/articoli/2026/11/altieri-ritiro-la-mia-disponibilita-allincarico-di-presidente-dellanac-f99c68fe-672b-44c6-980e-84ec5aff4cae.html"
+        }
+      ],
+      "title": "Il controllore autocontrollato",
+      "headline": "Altieri ritira la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina",
+      "summary": "Trifone Altieri ha ritirato la propria disponibilità alla presidenza dell’Autorità nazionale anticorruzione, motivando la decisione con ragioni di opportunità politica, istituzionale e personale.",
+      "news_text": "Il 6 novembre 2026 Trifone Altieri ha annunciato il ritiro della propria disponibilità all’incarico di presidente dell’Autorità nazionale anticorruzione. La decisione è arrivata il giorno dopo che il Consiglio dei ministri aveva avviato la procedura per la sua nomina. ANSA e Rai News riferiscono che Altieri ha richiamato ragioni di opportunità politica, istituzionale e personale; Palazzo Chigi ha preso atto della decisione.",
+      "question": "Il Governo propone Altieri all’Anticorruzione, lui si ritira il giorno dopo: controllo riuscito?",
+      "answer": "Certo. Il controllore si è controllato da solo.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Trifone Altieri, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Davanti all’ingresso simbolico dell’ANAC, Travaglio indica una poltrona appena avanzata e subito arretrata; la Suprema IA mostra uno specchio a forma di lente di controllo. A destra, Altieri è rappresentato mentre compie un passo indietro. Nessuna accusa personale, nessun simbolo elettorale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo. Il controllore si è controllato da solo.",
+        "alternatives": [
+          "Certo. Il controllore si è controllato da solo.",
+          "Sì. La nomina si è fermata per autocontrollo.",
+          "Certo. Il controllo è iniziato dalla nomina.",
+          "Sì. Ha vigilato sulla propria uscita."
+        ],
+        "selection_reason": "Riprende direttamente «controllo» e lo rovescia nell’autocontrollo del candidato; è immediata, autosufficiente e visiva.",
+        "fact_anchor": "Il 6 novembre Altieri ha ritirato la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-07-il-controllore-autocontrollato.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il controllore autocontrollato",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Trifone Altieri, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 6 novembre 2026 Trifone Altieri ha annunciato il ritiro della propria disponibilità all’incarico di presidente dell’Autorità nazionale anticorruzione. La decisione è arrivata il giorno dopo che il Consiglio dei ministri aveva avviato la procedura per la sua nomina. ANSA e Rai News riferiscono che Altieri ha richiamato ragioni di opportunità politica, istituzionale e personale; Palazzo Chigi ha preso atto della decisione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-07T11:28:13.346Z",
+      "image_generated_at": "2026-11-07T11:28:13.346Z",
+      "url": "/episodio/2026-11-07-il-controllore-autocontrollato/"
+    },
     {
       "date": "2026-11-06",
       "event_date": "2026-11-05",
