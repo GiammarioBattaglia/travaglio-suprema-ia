@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-07",
+  "event_date": "2026-11-06",
+  "slug": "2026-11-07-il-controllore-autocontrollato",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Altieri ritira la disponibilità alla presidenza dell’ANAC",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/06/scoppia-il-caso-della-nomina-alla-guida-dellanac-altieri-si-ritira_213db7a9-2dd1-48af-8305-c65f12fa1116.html"
+    },
+    {
+      "name": "Rai News — Altieri ritira la disponibilità all’incarico di presidente ANAC",
+      "url": "https://www.rainews.it/articoli/2026/11/altieri-ritiro-la-mia-disponibilita-allincarico-di-presidente-dellanac-f99c68fe-672b-44c6-980e-84ec5aff4cae.html"
+    }
+  ],
+  "title": "Il controllore autocontrollato",
+  "headline": "Altieri ritira la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina",
+  "summary": "Trifone Altieri ha ritirato la propria disponibilità alla presidenza dell’Autorità nazionale anticorruzione, motivando la decisione con ragioni di opportunità politica, istituzionale e personale.",
+  "news_text": "Il 6 novembre 2026 Trifone Altieri ha annunciato il ritiro della propria disponibilità all’incarico di presidente dell’Autorità nazionale anticorruzione. La decisione è arrivata il giorno dopo che il Consiglio dei ministri aveva avviato la procedura per la sua nomina. ANSA e Rai News riferiscono che Altieri ha richiamato ragioni di opportunità politica, istituzionale e personale; Palazzo Chigi ha preso atto della decisione.",
+  "question": "Il Governo propone Altieri all’Anticorruzione, lui si ritira il giorno dopo: controllo riuscito?",
+  "answer": "Certo. Il controllore si è controllato da solo.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Trifone Altieri, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Davanti all’ingresso simbolico dell’ANAC, Travaglio indica una poltrona appena avanzata e subito arretrata; la Suprema IA mostra uno specchio a forma di lente di controllo. A destra, Altieri è rappresentato mentre compie un passo indietro. Nessuna accusa personale, nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Certo. Il controllore si è controllato da solo.",
+    "alternatives": [
+      "Certo. Il controllore si è controllato da solo.",
+      "Sì. La nomina si è fermata per autocontrollo.",
+      "Certo. Il controllo è iniziato dalla nomina.",
+      "Sì. Ha vigilato sulla propria uscita."
+    ],
+    "selection_reason": "Riprende direttamente «controllo» e lo rovescia nell’autocontrollo del candidato; è immediata, autosufficiente e visiva.",
+    "fact_anchor": "Il 6 novembre Altieri ha ritirato la disponibilità alla presidenza dell’ANAC il giorno dopo l’avvio della procedura di nomina.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
