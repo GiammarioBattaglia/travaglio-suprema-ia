@@ -1,56 +1,56 @@
 {
   "current": {
-    "date": "2026-11-08",
+    "date": "2026-11-09",
     "event_date": "2026-11-08",
-    "slug": "2026-11-08-password-all-ordine-del-giorno",
+    "slug": "2026-11-09-lo-scudo-dello-scudo",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "ANSA — Piantedosi convoca il Comitato sicurezza sulla minaccia cyber",
-      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/08/attacchi-informatici-piantedosi-convoca-comitato-sicurezza-pubblica_2ff3c55f-8d26-4dfe-830b-5bc7344a1033.html"
+      "name": "ANSA — Al Senato tre ddl sullo scudo democratico",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/08/al-senato-tre-ddl-sullo-scudo-democratico-per-proteggere-il-voto-da-ingerenze_80a45278-ce53-46d4-be47-a6b6f9b7859c.html"
     },
     "sources": [
       {
-        "name": "ANSA — Piantedosi convoca il Comitato sicurezza sulla minaccia cyber",
-        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/08/attacchi-informatici-piantedosi-convoca-comitato-sicurezza-pubblica_2ff3c55f-8d26-4dfe-830b-5bc7344a1033.html"
+        "name": "ANSA — Al Senato tre ddl sullo scudo democratico",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/08/al-senato-tre-ddl-sullo-scudo-democratico-per-proteggere-il-voto-da-ingerenze_80a45278-ce53-46d4-be47-a6b6f9b7859c.html"
       },
       {
-        "name": "Agenzia Nova — Riunione del Comitato sicurezza sui cyberattacchi",
-        "url": "https://www.agenzianova.com/news/piantedosi-convoca-per-martedi-una-riunione-del-comitato-sicurezza-focus-sui-cyberattacchi/"
+        "name": "Senato della Repubblica — Disegno di legge n. 1473",
+        "url": "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=59112"
       },
       {
-        "name": "la Repubblica — Emergenza cybersicurezza al Comitato nazionale",
-        "url": "https://www.repubblica.it/cronaca/2026/11/08/news/emergenza_cybersicurezza_piantedosi_convoca_per_martedi_il_comitato_nazionale_per_la_sicurezza-425708322/"
+        "name": "Senato della Repubblica — Audizioni sullo scudo democratico",
+        "url": "https://www.senato.it/attualita/in-copertina"
       }
     ],
-    "title": "La password all’ordine del giorno",
-    "headline": "Piantedosi convoca al Viminale il Comitato nazionale per esaminare la minaccia cyber",
-    "summary": "Il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica dedicata ai rischi degli attacchi informatici.",
-    "news_text": "L’8 novembre 2026 il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre, al Viminale, una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica. ANSA, Agenzia Nova e la Repubblica riferiscono che l’incontro esaminerà i rischi per la sicurezza pubblica connessi agli attacchi informatici e alla minaccia cyber.",
-    "question": "Piantedosi convoca il Comitato contro gli attacchi informatici: la riunione sarà protetta?",
-    "answer": "Certo. La password è all’ordine del giorno.",
+    "title": "Lo scudo dello scudo",
+    "headline": "Al Senato si confrontano tre iniziative per uno scudo democratico contro le ingerenze straniere",
+    "summary": "Il confronto parlamentare riguarda tre iniziative sullo «scudo democratico» per tutelare il voto e le istituzioni da ingerenze straniere e campagne di disinformazione.",
+    "news_text": "L’8 novembre 2026 ANSA ha riferito che al Senato il confronto sullo «scudo democratico» comprende tre iniziative: il disegno di legge n. 1473 già all’esame della commissione Affari costituzionali, una proposta presentata da senatrici di Forza Italia e una terza iniziativa annunciata. Il sito del Senato conferma l’iter del ddl 1473 e le audizioni previste sul provvedimento, volto a tutelare la libertà e l’integrità del voto da ingerenze straniere e disinformazione.",
+    "question": "Al Senato ci sono tre disegni di legge per un solo scudo democratico: perché tre?",
+    "answer": "Uno protegge il voto. Gli altri due proteggono lo scudo.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Matteo Piantedosi, rappresentazione satirica"
+      "Rappresentanti istituzionali, raffigurazione simbolica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Al Viminale, Travaglio indica un tavolo istituzionale predisposto per il Comitato; la Suprema IA protegge simbolicamente la sala con un grande schermo luminoso a forma di firewall. Piantedosi osserva l’ordine del giorno accanto a una tastiera. Nessuna accusa personale, nessun simbolo elettorale.",
+    "visual_context": "In un corridoio del Senato, Travaglio indica tre fascicoli legislativi sagomati come scudi; la Suprema IA regge uno scudo mentre gli altri due sono disposti a proteggerlo. Sullo sfondo, rappresentanti istituzionali generici osservano la scena. Nessun simbolo elettorale, nessuna accusa personale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "Certo. La password è all’ordine del giorno.",
+      "selected_answer": "Uno protegge il voto. Gli altri due proteggono lo scudo.",
       "alternatives": [
-        "Certo. La password è all’ordine del giorno.",
-        "Sì. Per entrare bisogna accettare tutti i cookie.",
-        "Certo. L’ordine del giorno ha l’autenticazione a due fattori.",
-        "Sì. Il tavolo è stato messo dietro un firewall."
+        "Uno protegge il voto. Gli altri due proteggono lo scudo.",
+        "Per sicurezza: anche lo scudo vuole la sua maggioranza.",
+        "Uno fa da scudo. Gli altri due fanno da cornice.",
+        "Perché prima devono proteggersi l’uno dall’altro."
       ],
-      "selection_reason": "Il doppio senso su «ordine del giorno» rovescia subito la protezione della riunione in una password esposta; è breve, autosufficiente e richiede un solo passaggio.",
-      "fact_anchor": "L’8 novembre Piantedosi ha convocato per il 10 novembre il Comitato nazionale per esaminare i rischi degli attacchi informatici e della minaccia cyber.",
+      "selection_reason": "Rovescia subito i tre provvedimenti in due scudi dello scudo; è autosufficiente, visiva e richiede un solo passaggio.",
+      "fact_anchor": "L’8 novembre ANSA ha riferito di tre iniziative al Senato sullo scudo democratico; il Senato conferma l’esame del ddl 1473.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
@@ -58,16 +58,84 @@
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-08-password-all-ordine-del-giorno.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La password all’ordine del giorno",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Matteo Piantedosi, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’8 novembre 2026 il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre, al Viminale, una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica. ANSA, Agenzia Nova e la Repubblica riferiscono che l’incontro esaminerà i rischi per la sicurezza pubblica connessi agli attacchi informatici e alla minaccia cyber.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-09-lo-scudo-dello-scudo.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Lo scudo dello scudo",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Rappresentanti istituzionali, raffigurazione simbolica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’8 novembre 2026 ANSA ha riferito che al Senato il confronto sullo «scudo democratico» comprende tre iniziative: il disegno di legge n. 1473 già all’esame della commissione Affari costituzionali, una proposta presentata da senatrici di Forza Italia e una terza iniziativa annunciata. Il sito del Senato conferma l’iter del ddl 1473 e le audizioni previste sul provvedimento, volto a tutelare la libertà e l’integrità del voto da ingerenze straniere e disinformazione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-08T11:26:33.125Z",
-    "image_generated_at": "2026-11-08T11:26:33.125Z",
-    "url": "/episodio/2026-11-08-password-all-ordine-del-giorno/"
+    "published_at": "2026-11-09T09:39:45.536Z",
+    "image_generated_at": "2026-11-09T09:39:45.536Z",
+    "url": "/episodio/2026-11-09-lo-scudo-dello-scudo/"
   },
   "archive": [
+    {
+      "date": "2026-11-08",
+      "event_date": "2026-11-08",
+      "slug": "2026-11-08-password-all-ordine-del-giorno",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA — Piantedosi convoca il Comitato sicurezza sulla minaccia cyber",
+        "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/08/attacchi-informatici-piantedosi-convoca-comitato-sicurezza-pubblica_2ff3c55f-8d26-4dfe-830b-5bc7344a1033.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA — Piantedosi convoca il Comitato sicurezza sulla minaccia cyber",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/08/attacchi-informatici-piantedosi-convoca-comitato-sicurezza-pubblica_2ff3c55f-8d26-4dfe-830b-5bc7344a1033.html"
+        },
+        {
+          "name": "Agenzia Nova — Riunione del Comitato sicurezza sui cyberattacchi",
+          "url": "https://www.agenzianova.com/news/piantedosi-convoca-per-martedi-una-riunione-del-comitato-sicurezza-focus-sui-cyberattacchi/"
+        },
+        {
+          "name": "la Repubblica — Emergenza cybersicurezza al Comitato nazionale",
+          "url": "https://www.repubblica.it/cronaca/2026/11/08/news/emergenza_cybersicurezza_piantedosi_convoca_per_martedi_il_comitato_nazionale_per_la_sicurezza-425708322/"
+        }
+      ],
+      "title": "La password all’ordine del giorno",
+      "headline": "Piantedosi convoca al Viminale il Comitato nazionale per esaminare la minaccia cyber",
+      "summary": "Il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica dedicata ai rischi degli attacchi informatici.",
+      "news_text": "L’8 novembre 2026 il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre, al Viminale, una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica. ANSA, Agenzia Nova e la Repubblica riferiscono che l’incontro esaminerà i rischi per la sicurezza pubblica connessi agli attacchi informatici e alla minaccia cyber.",
+      "question": "Piantedosi convoca il Comitato contro gli attacchi informatici: la riunione sarà protetta?",
+      "answer": "Certo. La password è all’ordine del giorno.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Matteo Piantedosi, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Al Viminale, Travaglio indica un tavolo istituzionale predisposto per il Comitato; la Suprema IA protegge simbolicamente la sala con un grande schermo luminoso a forma di firewall. Piantedosi osserva l’ordine del giorno accanto a una tastiera. Nessuna accusa personale, nessun simbolo elettorale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo. La password è all’ordine del giorno.",
+        "alternatives": [
+          "Certo. La password è all’ordine del giorno.",
+          "Sì. Per entrare bisogna accettare tutti i cookie.",
+          "Certo. L’ordine del giorno ha l’autenticazione a due fattori.",
+          "Sì. Il tavolo è stato messo dietro un firewall."
+        ],
+        "selection_reason": "Il doppio senso su «ordine del giorno» rovescia subito la protezione della riunione in una password esposta; è breve, autosufficiente e richiede un solo passaggio.",
+        "fact_anchor": "L’8 novembre Piantedosi ha convocato per il 10 novembre il Comitato nazionale per esaminare i rischi degli attacchi informatici e della minaccia cyber.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-08-password-all-ordine-del-giorno.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La password all’ordine del giorno",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Matteo Piantedosi, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’8 novembre 2026 il ministro dell’Interno Matteo Piantedosi ha convocato per martedì 10 novembre, al Viminale, una riunione del Comitato nazionale per l’ordine e la sicurezza pubblica. ANSA, Agenzia Nova e la Repubblica riferiscono che l’incontro esaminerà i rischi per la sicurezza pubblica connessi agli attacchi informatici e alla minaccia cyber.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-08T11:26:33.125Z",
+      "image_generated_at": "2026-11-08T11:26:33.125Z",
+      "url": "/episodio/2026-11-08-password-all-ordine-del-giorno/"
+    },
     {
       "date": "2026-11-07",
       "event_date": "2026-11-06",
@@ -2912,6 +2980,74 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-11-09",
+      "event_date": "2026-11-08",
+      "slug": "2026-11-09-lo-scudo-dello-scudo",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA — Al Senato tre ddl sullo scudo democratico",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/08/al-senato-tre-ddl-sullo-scudo-democratico-per-proteggere-il-voto-da-ingerenze_80a45278-ce53-46d4-be47-a6b6f9b7859c.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA — Al Senato tre ddl sullo scudo democratico",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/08/al-senato-tre-ddl-sullo-scudo-democratico-per-proteggere-il-voto-da-ingerenze_80a45278-ce53-46d4-be47-a6b6f9b7859c.html"
+        },
+        {
+          "name": "Senato della Repubblica — Disegno di legge n. 1473",
+          "url": "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=59112"
+        },
+        {
+          "name": "Senato della Repubblica — Audizioni sullo scudo democratico",
+          "url": "https://www.senato.it/attualita/in-copertina"
+        }
+      ],
+      "title": "Lo scudo dello scudo",
+      "headline": "Al Senato si confrontano tre iniziative per uno scudo democratico contro le ingerenze straniere",
+      "summary": "Il confronto parlamentare riguarda tre iniziative sullo «scudo democratico» per tutelare il voto e le istituzioni da ingerenze straniere e campagne di disinformazione.",
+      "news_text": "L’8 novembre 2026 ANSA ha riferito che al Senato il confronto sullo «scudo democratico» comprende tre iniziative: il disegno di legge n. 1473 già all’esame della commissione Affari costituzionali, una proposta presentata da senatrici di Forza Italia e una terza iniziativa annunciata. Il sito del Senato conferma l’iter del ddl 1473 e le audizioni previste sul provvedimento, volto a tutelare la libertà e l’integrità del voto da ingerenze straniere e disinformazione.",
+      "question": "Al Senato ci sono tre disegni di legge per un solo scudo democratico: perché tre?",
+      "answer": "Uno protegge il voto. Gli altri due proteggono lo scudo.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Rappresentanti istituzionali, raffigurazione simbolica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "In un corridoio del Senato, Travaglio indica tre fascicoli legislativi sagomati come scudi; la Suprema IA regge uno scudo mentre gli altri due sono disposti a proteggerlo. Sullo sfondo, rappresentanti istituzionali generici osservano la scena. Nessun simbolo elettorale, nessuna accusa personale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Uno protegge il voto. Gli altri due proteggono lo scudo.",
+        "alternatives": [
+          "Uno protegge il voto. Gli altri due proteggono lo scudo.",
+          "Per sicurezza: anche lo scudo vuole la sua maggioranza.",
+          "Uno fa da scudo. Gli altri due fanno da cornice.",
+          "Perché prima devono proteggersi l’uno dall’altro."
+        ],
+        "selection_reason": "Rovescia subito i tre provvedimenti in due scudi dello scudo; è autosufficiente, visiva e richiede un solo passaggio.",
+        "fact_anchor": "L’8 novembre ANSA ha riferito di tre iniziative al Senato sullo scudo democratico; il Senato conferma l’esame del ddl 1473.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-09-lo-scudo-dello-scudo.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Lo scudo dello scudo",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Rappresentanti istituzionali, raffigurazione simbolica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’8 novembre 2026 ANSA ha riferito che al Senato il confronto sullo «scudo democratico» comprende tre iniziative: il disegno di legge n. 1473 già all’esame della commissione Affari costituzionali, una proposta presentata da senatrici di Forza Italia e una terza iniziativa annunciata. Il sito del Senato conferma l’iter del ddl 1473 e le audizioni previste sul provvedimento, volto a tutelare la libertà e l’integrità del voto da ingerenze straniere e disinformazione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-09T09:39:45.536Z",
+      "image_generated_at": "2026-11-09T09:39:45.536Z",
+      "url": "/episodio/2026-11-09-lo-scudo-dello-scudo/"
+    },
     {
       "date": "2026-11-08",
       "event_date": "2026-11-08",
