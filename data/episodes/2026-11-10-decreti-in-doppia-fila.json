@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-10",
+  "event_date": "2026-11-09",
+  "slug": "2026-11-10-decreti-in-doppia-fila",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Ingorgo in Parlamento, invito a frenare sui decreti",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/09/ingorgo-in-parlamento-invito-del-ministro-ciriani-in-cdm-a-frenare-sui-decreti_174418cf-fba4-48ee-8a6f-780d39f2a59f.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Ingorgo in Parlamento, invito a frenare sui decreti",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/09/ingorgo-in-parlamento-invito-del-ministro-ciriani-in-cdm-a-frenare-sui-decreti_174418cf-fba4-48ee-8a6f-780d39f2a59f.html"
+    },
+    {
+      "name": "Sky TG24 — Via libera ai decreti Bollette e Infrastrutture",
+      "url": "https://tg24.sky.it/politica/2026/11/09/decreto-bollette-cdm-oggi"
+    },
+    {
+      "name": "Senato della Repubblica — Decreti-legge in corso di conversione",
+      "url": "https://www.senato.it/leg/ldl_new/v3/sldlelencodlconvers.htm"
+    }
+  ],
+  "title": "Decreti in doppia fila",
+  "headline": "Il Governo approva due nuovi decreti mentre il Parlamento affronta numerosi provvedimenti urgenti in conversione",
+  "summary": "Il 9 novembre il Consiglio dei ministri ha approvato i decreti Bollette e Infrastrutture; nello stesso giorno è emersa la richiesta di rallentare ulteriori decreti per il carico già presente in Parlamento.",
+  "news_text": "Il 9 novembre 2026 il Consiglio dei ministri ha approvato due nuovi decreti-legge, dedicati alle bollette e alle infrastrutture. ANSA ha riferito che, prima delle approvazioni, il ministro per i Rapporti con il Parlamento Luca Ciriani aveva richiamato il carico dei provvedimenti urgenti già in conversione e invitato a rallentare ulteriori decreti nelle settimane successive. Sky TG24 conferma il via libera ai due provvedimenti; l’elenco istituzionale del Senato documenta i numerosi decreti-legge in corso di conversione.",
+  "question": "Il Parlamento è pieno di decreti e il Governo ne approva altri due: dove li mette?",
+  "answer": "In doppia fila. Sono urgenti.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Rappresentanti istituzionali, raffigurazione simbolica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "In un corridoio istituzionale affollato da fascicoli legislativi, Travaglio indica due nuovi faldoni parcheggiati simbolicamente in doppia fila davanti all’ingresso dell’Aula; la Suprema IA mostra un piccolo cartello «urgente» senza simboli di partito. Sullo sfondo, rappresentanti istituzionali generici cercano spazio tra pile ordinate di decreti. Nessuna accusa personale, nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "In doppia fila. Sono urgenti.",
+    "alternatives": [
+      "In doppia fila. Sono urgenti.",
+      "Nel corridoio. L’Aula è già piena.",
+      "Sul freno. Così almeno resta premuto.",
+      "Li converte in parcheggi."
+    ],
+    "selection_reason": "Trasforma subito l’ingorgo legislativo in un parcheggio istituzionale; il doppio senso su «urgenti» è unico, visivo e autosufficiente.",
+    "fact_anchor": "Il 9 novembre il Consiglio dei ministri ha approvato due nuovi decreti mentre numerosi decreti-legge erano già in conversione parlamentare.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-10-decreti-in-doppia-fila.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Decreti in doppia fila",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Rappresentanti istituzionali, raffigurazione simbolica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 9 novembre 2026 il Consiglio dei ministri ha approvato due nuovi decreti-legge, dedicati alle bollette e alle infrastrutture. ANSA ha riferito che, prima delle approvazioni, il ministro per i Rapporti con il Parlamento Luca Ciriani aveva richiamato il carico dei provvedimenti urgenti già in conversione e invitato a rallentare ulteriori decreti nelle settimane successive. Sky TG24 conferma il via libera ai due provvedimenti; l’elenco istituzionale del Senato documenta i numerosi decreti-legge in corso di conversione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-10T09:23:11.229Z",
+  "image_generated_at": "2026-11-10T09:23:11.229Z"
+}
