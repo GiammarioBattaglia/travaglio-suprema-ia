@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-12",
+  "event_date": "2026-11-12",
+  "slug": "2026-11-12-i-conti-sotto-esame",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+    "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+  },
+  "sources": [
+    {
+      "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+      "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+    },
+    {
+      "name": "ANSA — Giorgetti, la prudenza sui conti è condizione per avere spazi per difficoltà",
+      "url": "https://www.ansa.it/amp/sito/notizie/economia/2026/11/12/giorgetti-la-prudenza-sui-conti-e-condizione-per-avere-spazi-per-difficolta_c47ec73b-ebb8-41e3-a1f2-9159b50cdd35.html"
+    }
+  ],
+  "title": "I conti sotto esame",
+  "headline": "Giorgetti in audizione sulla manovra 2027",
+  "summary": "Il 12 novembre il ministro dell’Economia Giancarlo Giorgetti è intervenuto in audizione parlamentare sulla manovra 2027. L’ordine del giorno del Senato documenta la seduta; ANSA riferisce dell’intervento.",
+  "news_text": "Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.",
+  "question": "Oggi Giorgetti va in audizione parlamentare sulla manovra 2027: chi è sotto esame?",
+  "answer": "I conti: speriamo non facciano scena muta.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica",
+    "La Suprema IA, personaggio immaginario"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio domanda; la Suprema IA risponde davanti a un banco d’audizione con un foglio di calcoli.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "I conti: speriamo non facciano scena muta.",
+      "La manovra è venuta ad ascoltare il Parlamento: oggi tocca a lei stare zitta.",
+      "I numeri hanno chiesto un microfono: vogliono testimoniare.",
+      "Ho letto i conti: adesso anche la IA chiede di essere sentita.",
+      "Prima si ascolta la manovra; poi si vede se torna a parlare."
+    ],
+    "selected_answer": "I conti: speriamo non facciano scena muta.",
+    "selection_reason": "Selezionata per il doppio senso immediato tra audizione parlamentare e prova orale; gli altri candidati sono meno netti o richiedono un passaggio in più.",
+    "fact_anchor": "Il Senato indica l’audizione di Giorgetti il 12 novembre 2026; ANSA riferisce che è intervenuto quel giorno in audizione sulla manovra."
+  }
+}

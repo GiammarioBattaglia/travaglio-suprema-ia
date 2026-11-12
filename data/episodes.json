@@ -1,32 +1,32 @@
 {
   "current": {
-    "date": "2026-11-11",
-    "event_date": "2026-11-11",
-    "slug": "2026-11-11-csm-schede-bianche-fumata-nera",
+    "date": "2026-11-12",
+    "event_date": "2026-11-12",
+    "slug": "2026-11-12-i-conti-sotto-esame",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Camera dei deputati – WebTV",
-      "url": "https://webtv.camera.it/evento/32855"
+      "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+      "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
     },
     "sources": [
       {
-        "name": "Camera dei deputati – WebTV",
-        "url": "https://webtv.camera.it/evento/32855"
+        "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+        "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
       },
       {
-        "name": "LaPresse",
-        "url": "https://lapresse.us/news/2026/11/11/csm-second-failed-vote-in-parliament-336-blank-ballots/"
+        "name": "ANSA — Giorgetti, la prudenza sui conti è condizione per avere spazi per difficoltà",
+        "url": "https://www.ansa.it/amp/sito/notizie/economia/2026/11/12/giorgetti-la-prudenza-sui-conti-e-condizione-per-avere-spazi-per-difficolta_c47ec73b-ebb8-41e3-a1f2-9159b50cdd35.html"
       }
     ],
-    "title": "Travaglio & la Suprema IA",
-    "headline": "CSM, secondo scrutinio: nessun eletto e 336 schede bianche",
-    "summary": "L’11 novembre il Parlamento non ha eletto i dieci membri laici del CSM; 336 schede sono risultate bianche.",
-    "news_text": "L’11 novembre 2026 Camera e Senato si sono riuniti in seduta comune per il secondo scrutinio sull’elezione di dieci componenti laici del CSM. Nessun candidato ha raggiunto la maggioranza richiesta; secondo LaPresse, 336 schede erano bianche.",
-    "question": "Oggi il Parlamento non ha eletto i dieci membri laici del CSM: 336 schede erano bianche. Com’è finita?",
-    "answer": "Fumata nera: hanno votato in bianco.",
+    "title": "I conti sotto esame",
+    "headline": "Giorgetti in audizione sulla manovra 2027",
+    "summary": "Il 12 novembre il ministro dell’Economia Giancarlo Giorgetti è intervenuto in audizione parlamentare sulla manovra 2027. L’ordine del giorno del Senato documenta la seduta; ANSA riferisce dell’intervento.",
+    "news_text": "Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.",
+    "question": "Oggi Giorgetti va in audizione parlamentare sulla manovra 2027: chi è sotto esame?",
+    "answer": "I conti: speriamo non facciano scena muta.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
@@ -35,7 +35,7 @@
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Due fumetti davanti a un’urna parlamentare; sullo sfondo una scheda bianca e un fumetto di fumo nero.",
+    "visual_context": "Travaglio domanda; la Suprema IA risponde davanti a un banco d’audizione con un foglio di calcoli.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
@@ -44,28 +44,94 @@
       "needs_explanation": false,
       "twist_count": 1,
       "alternatives": [
-        "Fumata nera: hanno votato in bianco.",
-        "Il foglio bianco ha vinto: nessun candidato è riuscito a superarlo.",
-        "Pratica conclusa: l’esito è stato lasciato in bianco.",
-        "Ho analizzato le schede: il risultato è bianco. Per una volta, niente da inventare.",
-        "Hanno eletto una scheda bianca: almeno lei era già nell’urna."
+        "I conti: speriamo non facciano scena muta.",
+        "La manovra è venuta ad ascoltare il Parlamento: oggi tocca a lei stare zitta.",
+        "I numeri hanno chiesto un microfono: vogliono testimoniare.",
+        "Ho letto i conti: adesso anche la IA chiede di essere sentita.",
+        "Prima si ascolta la manovra; poi si vede se torna a parlare."
       ],
-      "selected_answer": "Fumata nera: hanno votato in bianco.",
-      "selection_reason": "Unisce in una sola torsione l’esito senza eletti e le schede bianche, con un gioco di parole immediato e senza spiegazione.",
-      "fact_anchor": "Secondo scrutinio parlamentare per eleggere dieci componenti laici del CSM: nessun candidato ha raggiunto la maggioranza richiesta; LaPresse riferisce 336 schede bianche."
+      "selected_answer": "I conti: speriamo non facciano scena muta.",
+      "selection_reason": "Selezionata per il doppio senso immediato tra audizione parlamentare e prova orale; gli altri candidati sono meno netti o richiedono un passaggio in più.",
+      "fact_anchor": "Il Senato indica l’audizione di Giorgetti il 12 novembre 2026; ANSA riferisce che è intervenuto quel giorno in audizione sulla manovra."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-11-csm-schede-bianche-fumata-nera.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’11 novembre 2026 Camera e Senato si sono riuniti in seduta comune per il secondo scrutinio sull’elezione di dieci componenti laici del CSM. Nessun candidato ha raggiunto la maggioranza richiesta; secondo LaPresse, 336 schede erano bianche.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-12-i-conti-sotto-esame.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: I conti sotto esame",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-11T12:43:47.765Z",
-    "image_generated_at": "2026-11-11T12:43:47.765Z",
-    "url": "/episodio/2026-11-11-csm-schede-bianche-fumata-nera/"
+    "published_at": "2026-11-12T21:28:31.050Z",
+    "image_generated_at": "2026-11-12T21:28:31.050Z",
+    "url": "/episodio/2026-11-12-i-conti-sotto-esame/"
   },
   "archive": [
+    {
+      "date": "2026-11-11",
+      "event_date": "2026-11-11",
+      "slug": "2026-11-11-csm-schede-bianche-fumata-nera",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Camera dei deputati – WebTV",
+        "url": "https://webtv.camera.it/evento/32855"
+      },
+      "sources": [
+        {
+          "name": "Camera dei deputati – WebTV",
+          "url": "https://webtv.camera.it/evento/32855"
+        },
+        {
+          "name": "LaPresse",
+          "url": "https://lapresse.us/news/2026/11/11/csm-second-failed-vote-in-parliament-336-blank-ballots/"
+        }
+      ],
+      "title": "Travaglio & la Suprema IA",
+      "headline": "CSM, secondo scrutinio: nessun eletto e 336 schede bianche",
+      "summary": "L’11 novembre il Parlamento non ha eletto i dieci membri laici del CSM; 336 schede sono risultate bianche.",
+      "news_text": "L’11 novembre 2026 Camera e Senato si sono riuniti in seduta comune per il secondo scrutinio sull’elezione di dieci componenti laici del CSM. Nessun candidato ha raggiunto la maggioranza richiesta; secondo LaPresse, 336 schede erano bianche.",
+      "question": "Oggi il Parlamento non ha eletto i dieci membri laici del CSM: 336 schede erano bianche. Com’è finita?",
+      "answer": "Fumata nera: hanno votato in bianco.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Marco Travaglio, rappresentazione satirica",
+        "La Suprema IA, personaggio immaginario"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Due fumetti davanti a un’urna parlamentare; sullo sfondo una scheda bianca e un fumetto di fumo nero.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Fumata nera: hanno votato in bianco.",
+          "Il foglio bianco ha vinto: nessun candidato è riuscito a superarlo.",
+          "Pratica conclusa: l’esito è stato lasciato in bianco.",
+          "Ho analizzato le schede: il risultato è bianco. Per una volta, niente da inventare.",
+          "Hanno eletto una scheda bianca: almeno lei era già nell’urna."
+        ],
+        "selected_answer": "Fumata nera: hanno votato in bianco.",
+        "selection_reason": "Unisce in una sola torsione l’esito senza eletti e le schede bianche, con un gioco di parole immediato e senza spiegazione.",
+        "fact_anchor": "Secondo scrutinio parlamentare per eleggere dieci componenti laici del CSM: nessun candidato ha raggiunto la maggioranza richiesta; LaPresse riferisce 336 schede bianche."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-11-csm-schede-bianche-fumata-nera.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Travaglio & la Suprema IA",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: L’11 novembre 2026 Camera e Senato si sono riuniti in seduta comune per il secondo scrutinio sull’elezione di dieci componenti laici del CSM. Nessun candidato ha raggiunto la maggioranza richiesta; secondo LaPresse, 336 schede erano bianche.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-11T12:43:47.765Z",
+      "image_generated_at": "2026-11-11T12:43:47.765Z",
+      "url": "/episodio/2026-11-11-csm-schede-bianche-fumata-nera/"
+    },
     {
       "date": "2026-11-10",
       "event_date": "2026-11-09",
