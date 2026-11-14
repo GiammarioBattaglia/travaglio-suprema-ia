@@ -1,71 +1,140 @@
 {
   "current": {
-    "date": "2026-11-12",
-    "event_date": "2026-11-12",
-    "slug": "2026-11-12-i-conti-sotto-esame",
+    "date": "2026-11-14",
+    "event_date": "2026-11-13",
+    "slug": "2026-11-14-la-vigilanza-sotto-vigilanza",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
-      "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+      "name": "ANSA — Vigilanza Rai, manca l'accordo. Da lunedì sceglieranno i presidenti delle Camere",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/13/vigilanza-rai-la-russa-tra-i-partiti-nessuna-intesa-decideremo-io-e-fontana_4fcf871c-cb09-42fe-8e86-06d5b455538e.html"
     },
     "sources": [
       {
-        "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
-        "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+        "name": "ANSA — Vigilanza Rai, manca l'accordo. Da lunedì sceglieranno i presidenti delle Camere",
+        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/13/vigilanza-rai-la-russa-tra-i-partiti-nessuna-intesa-decideremo-io-e-fontana_4fcf871c-cb09-42fe-8e86-06d5b455538e.html"
       },
       {
-        "name": "ANSA — Giorgetti, la prudenza sui conti è condizione per avere spazi per difficoltà",
-        "url": "https://www.ansa.it/amp/sito/notizie/economia/2026/11/12/giorgetti-la-prudenza-sui-conti-e-condizione-per-avere-spazi-per-difficolta_c47ec73b-ebb8-41e3-a1f2-9159b50cdd35.html"
+        "name": "Agenzia Dire — Vigilanza Rai, presidenti Camere ai gruppi: entro lunedì i nomi",
+        "url": "https://www.dire.it/13-11-2026/1288794-tg-commissioni-ledizione-di-venerdi-13-novembre-2026/"
+      },
+      {
+        "name": "Gazzetta Ufficiale — composizione della Commissione parlamentare di Vigilanza Rai",
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/17/41/sg/pdf"
       }
     ],
-    "title": "I conti sotto esame",
-    "headline": "Giorgetti in audizione sulla manovra 2027",
-    "summary": "Il 12 novembre il ministro dell’Economia Giancarlo Giorgetti è intervenuto in audizione parlamentare sulla manovra 2027. L’ordine del giorno del Senato documenta la seduta; ANSA riferisce dell’intervento.",
-    "news_text": "Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.",
-    "question": "Oggi Giorgetti va in audizione parlamentare sulla manovra 2027: chi è sotto esame?",
-    "answer": "I conti: speriamo non facciano scena muta.",
+    "title": "La Vigilanza sotto vigilanza",
+    "headline": "Vigilanza Rai in stallo: senza designazioni procederanno i presidenti delle Camere",
+    "summary": "Il 13 novembre è rimasto senza accordo il completamento della Commissione parlamentare di Vigilanza Rai. In assenza delle designazioni richieste entro il 16 novembre, i presidenti di Camera e Senato hanno annunciato che procederanno alle nomine.",
+    "news_text": "La Commissione parlamentare di Vigilanza Rai è ferma dopo le dimissioni dei componenti e i gruppi interessati non hanno ancora indicato i sostituti. Il 13 novembre il presidente del Senato Ignazio La Russa ha dichiarato che, se le designazioni non arriveranno entro il 16 novembre, lui e il presidente della Camera Lorenzo Fontana procederanno alle nomine secondo una logica istituzionale.",
+    "question": "La Vigilanza Rai è ferma e i partiti non scelgono i componenti: chi vigila?",
+    "answer": "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Marco Travaglio, rappresentazione satirica",
-      "La Suprema IA, personaggio immaginario"
+      "I presidenti delle Camere, raffigurazione istituzionale simbolica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio domanda; la Suprema IA risponde davanti a un banco d’audizione con un foglio di calcoli.",
+    "visual_context": "Travaglio e la Suprema IA davanti a un monitor Rai in modalità pausa; sullo sfondo, due figure istituzionali simboliche osservano una cartellina della Commissione. Nessun simbolo di partito e nessuna accusa personale.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
+      "selected_answer": "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
+      "alternatives": [
+        "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
+        "I presidenti delle Camere. Controllo parentale attivato.",
+        "La vigilano dall’alto: due presidenti e nessun telecomando.",
+        "La Vigilanza si è messa in modalità standby.",
+        "Nessuno: stanno ancora scegliendo chi guarda chi."
+      ],
+      "selection_reason": "È l’unica alternativa che rovescia subito la parola «Vigilanza» sullo stesso organo, senza contesto aggiuntivo o seconda inferenza.",
+      "fact_anchor": "Il 13 novembre mancavano ancora le designazioni per la Commissione di Vigilanza Rai; i presidenti delle Camere hanno annunciato nomine dirette in caso di ulteriore inadempienza.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1,
-      "alternatives": [
-        "I conti: speriamo non facciano scena muta.",
-        "La manovra è venuta ad ascoltare il Parlamento: oggi tocca a lei stare zitta.",
-        "I numeri hanno chiesto un microfono: vogliono testimoniare.",
-        "Ho letto i conti: adesso anche la IA chiede di essere sentita.",
-        "Prima si ascolta la manovra; poi si vede se torna a parlare."
-      ],
-      "selected_answer": "I conti: speriamo non facciano scena muta.",
-      "selection_reason": "Selezionata per il doppio senso immediato tra audizione parlamentare e prova orale; gli altri candidati sono meno netti o richiedono un passaggio in più.",
-      "fact_anchor": "Il Senato indica l’audizione di Giorgetti il 12 novembre 2026; ANSA riferisce che è intervenuto quel giorno in audizione sulla manovra."
+      "twist_count": 1
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-12-i-conti-sotto-esame.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: I conti sotto esame",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-14-la-vigilanza-sotto-vigilanza.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La Vigilanza sotto vigilanza",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di I presidenti delle Camere, raffigurazione istituzionale simbolica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La Commissione parlamentare di Vigilanza Rai è ferma dopo le dimissioni dei componenti e i gruppi interessati non hanno ancora indicato i sostituti. Il 13 novembre il presidente del Senato Ignazio La Russa ha dichiarato che, se le designazioni non arriveranno entro il 16 novembre, lui e il presidente della Camera Lorenzo Fontana procederanno alle nomine secondo una logica istituzionale.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-12T21:28:31.050Z",
-    "image_generated_at": "2026-11-12T21:28:31.050Z",
-    "url": "/episodio/2026-11-12-i-conti-sotto-esame/"
+    "published_at": "2026-11-14T09:27:42.859Z",
+    "image_generated_at": "2026-11-14T09:27:42.859Z",
+    "url": "/episodio/2026-11-14-la-vigilanza-sotto-vigilanza/"
   },
   "archive": [
+    {
+      "date": "2026-11-12",
+      "event_date": "2026-11-12",
+      "slug": "2026-11-12-i-conti-sotto-esame",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+        "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+      },
+      "sources": [
+        {
+          "name": "Senato della Repubblica — ordine del giorno delle Commissioni Bilancio",
+          "url": "https://www.senato.it/CLS/pub/odg/view/0/5/plenaria"
+        },
+        {
+          "name": "ANSA — Giorgetti, la prudenza sui conti è condizione per avere spazi per difficoltà",
+          "url": "https://www.ansa.it/amp/sito/notizie/economia/2026/11/12/giorgetti-la-prudenza-sui-conti-e-condizione-per-avere-spazi-per-difficolta_c47ec73b-ebb8-41e3-a1f2-9159b50cdd35.html"
+        }
+      ],
+      "title": "I conti sotto esame",
+      "headline": "Giorgetti in audizione sulla manovra 2027",
+      "summary": "Il 12 novembre il ministro dell’Economia Giancarlo Giorgetti è intervenuto in audizione parlamentare sulla manovra 2027. L’ordine del giorno del Senato documenta la seduta; ANSA riferisce dell’intervento.",
+      "news_text": "Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.",
+      "question": "Oggi Giorgetti va in audizione parlamentare sulla manovra 2027: chi è sotto esame?",
+      "answer": "I conti: speriamo non facciano scena muta.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Marco Travaglio, rappresentazione satirica",
+        "La Suprema IA, personaggio immaginario"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio domanda; la Suprema IA risponde davanti a un banco d’audizione con un foglio di calcoli.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "I conti: speriamo non facciano scena muta.",
+          "La manovra è venuta ad ascoltare il Parlamento: oggi tocca a lei stare zitta.",
+          "I numeri hanno chiesto un microfono: vogliono testimoniare.",
+          "Ho letto i conti: adesso anche la IA chiede di essere sentita.",
+          "Prima si ascolta la manovra; poi si vede se torna a parlare."
+        ],
+        "selected_answer": "I conti: speriamo non facciano scena muta.",
+        "selection_reason": "Selezionata per il doppio senso immediato tra audizione parlamentare e prova orale; gli altri candidati sono meno netti o richiedono un passaggio in più.",
+        "fact_anchor": "Il Senato indica l’audizione di Giorgetti il 12 novembre 2026; ANSA riferisce che è intervenuto quel giorno in audizione sulla manovra."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-12-i-conti-sotto-esame.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: I conti sotto esame",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Le Commissioni Bilancio di Camera e Senato hanno ascoltato il ministro dell’Economia Giancarlo Giorgetti nell’ambito dell’esame della manovra 2027. In audizione, Giorgetti ha parlato della prudenza nella gestione dei conti pubblici.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-12T21:28:31.050Z",
+      "image_generated_at": "2026-11-12T21:28:31.050Z",
+      "url": "/episodio/2026-11-12-i-conti-sotto-esame/"
+    },
     {
       "date": "2026-11-11",
       "event_date": "2026-11-11",
