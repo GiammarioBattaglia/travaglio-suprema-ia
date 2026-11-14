@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-14",
+  "event_date": "2026-11-13",
+  "slug": "2026-11-14-la-vigilanza-sotto-vigilanza",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Vigilanza Rai, manca l'accordo. Da lunedì sceglieranno i presidenti delle Camere",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/13/vigilanza-rai-la-russa-tra-i-partiti-nessuna-intesa-decideremo-io-e-fontana_4fcf871c-cb09-42fe-8e86-06d5b455538e.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Vigilanza Rai, manca l'accordo. Da lunedì sceglieranno i presidenti delle Camere",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/13/vigilanza-rai-la-russa-tra-i-partiti-nessuna-intesa-decideremo-io-e-fontana_4fcf871c-cb09-42fe-8e86-06d5b455538e.html"
+    },
+    {
+      "name": "Agenzia Dire — Vigilanza Rai, presidenti Camere ai gruppi: entro lunedì i nomi",
+      "url": "https://www.dire.it/13-11-2026/1288794-tg-commissioni-ledizione-di-venerdi-13-novembre-2026/"
+    },
+    {
+      "name": "Gazzetta Ufficiale — composizione della Commissione parlamentare di Vigilanza Rai",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2023/02/17/41/sg/pdf"
+    }
+  ],
+  "title": "La Vigilanza sotto vigilanza",
+  "headline": "Vigilanza Rai in stallo: senza designazioni procederanno i presidenti delle Camere",
+  "summary": "Il 13 novembre è rimasto senza accordo il completamento della Commissione parlamentare di Vigilanza Rai. In assenza delle designazioni richieste entro il 16 novembre, i presidenti di Camera e Senato hanno annunciato che procederanno alle nomine.",
+  "news_text": "La Commissione parlamentare di Vigilanza Rai è ferma dopo le dimissioni dei componenti e i gruppi interessati non hanno ancora indicato i sostituti. Il 13 novembre il presidente del Senato Ignazio La Russa ha dichiarato che, se le designazioni non arriveranno entro il 16 novembre, lui e il presidente della Camera Lorenzo Fontana procederanno alle nomine secondo una logica istituzionale.",
+  "question": "La Vigilanza Rai è ferma e i partiti non scelgono i componenti: chi vigila?",
+  "answer": "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "I presidenti delle Camere, raffigurazione istituzionale simbolica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio e la Suprema IA davanti a un monitor Rai in modalità pausa; sullo sfondo, due figure istituzionali simboliche osservano una cartellina della Commissione. Nessun simbolo di partito e nessuna accusa personale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
+    "alternatives": [
+      "I presidenti delle Camere. La Vigilanza è sotto vigilanza.",
+      "I presidenti delle Camere. Controllo parentale attivato.",
+      "La vigilano dall’alto: due presidenti e nessun telecomando.",
+      "La Vigilanza si è messa in modalità standby.",
+      "Nessuno: stanno ancora scegliendo chi guarda chi."
+    ],
+    "selection_reason": "È l’unica alternativa che rovescia subito la parola «Vigilanza» sullo stesso organo, senza contesto aggiuntivo o seconda inferenza.",
+    "fact_anchor": "Il 13 novembre mancavano ancora le designazioni per la Commissione di Vigilanza Rai; i presidenti delle Camere hanno annunciato nomine dirette in caso di ulteriore inadempienza.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
