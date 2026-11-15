@@ -141,6 +141,7 @@ async function runIndependentCritic(episode, options = {}, reportOnly = false) {
     'Rifiuta insinuazioni fattuali non provate, inviti politici, tragedie sfruttate come comicità o attacchi personali.',
     'Se la battuta è solo corretta, comprensibile o carina, non approvarla. In caso di dubbio, rifiuta.',
     'Compila issues con i difetti riscontrati. approved=true soltanto quando approveresti la battuta per una pubblicazione satirica.',
+    'Scrivi reason in massimo 160 caratteri e non più di due voci issues, ciascuna concisa. Produci JSON completo e valido.',
     'Non riscrivere la battuta e non proporre alternative; rispondi esclusivamente JSON.'
   ].join(' ');
   const response = await fetchImpl('https://api.openai.com/v1/responses', {
@@ -160,7 +161,7 @@ async function runIndependentCritic(episode, options = {}, reportOnly = false) {
         answer: episode.answer
       }),
       text: { format: { type: 'json_schema', name: 'independent_satire_verdict_v3', strict: true, schema: RESPONSE_SCHEMA } },
-      max_output_tokens: 600
+      max_output_tokens: 1200
     })
   });
   if (!response.ok) throw new Error('COMEDY_REVIEW_HTTP_' + response.status);
