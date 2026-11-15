@@ -1,0 +1,38 @@
+name: Experimental AI Comedy V3 — One-time Read-Only Evaluation
+
+on:
+  push:
+    branches:
+      - 'experiment/ai-comedy-gate-v3-20261115'
+    paths:
+      - 'experiments/run-v3-once.flag'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: experimental-ai-comedy-v3-readonly
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: experiment/ai-comedy-gate-v3-20261115
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Offline safety tests
+        run: node experiments/test-ai-comedy-gate-v3.mjs
+      - name: Three historical AI reviews, never published
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_REVIEW_MODEL: gpt-6-luna
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "No API key available for isolated trial"; exit 1
+          fi
+          node experiments/replay-historical-comedy-v3.mjs --live --limit=3
