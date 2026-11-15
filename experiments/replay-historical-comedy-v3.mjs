@@ -28,8 +28,13 @@ async function main() {
   if (!process.env.OPENAI_API_KEY) {
     throw new Error('REPLAY_REQUIRES_API_KEY: no AI calls made, no files changed');
   }
+  const limitOption = process.argv.find(arg => arg.startsWith('--limit='));
+  const limit = limitOption ? Number(limitOption.slice('--limit='.length)) : HISTORICAL_EPISODES.length;
+  if (!Number.isInteger(limit) || limit < 1 || limit > HISTORICAL_EPISODES.length) {
+    throw new Error('REPLAY_LIMIT_INVALID');
+  }
   const summary = [];
-  for (const slug of HISTORICAL_EPISODES) {
+  for (const slug of HISTORICAL_EPISODES.slice(0, limit)) {
     const file = path.join(root, 'data', 'episodes', slug + '.json');
     const episode = JSON.parse(await readFile(file, 'utf8'));
     if (episode.slug !== slug) throw new Error('HISTORICAL_SLUG_MISMATCH: ' + slug);
