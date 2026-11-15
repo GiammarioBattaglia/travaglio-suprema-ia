@@ -106,6 +106,23 @@ function responseOutputText(data) {
 
 export async function reviewComedyV3(episode, options = {}) {
   validateCandidatePool(episode);
+  return runIndependentCritic(episode, options, false);
+}
+
+/**
+ * Read-only historical replay. It cannot be used to approve a new draft:
+ * only already-published records qualify and no file is ever modified.
+ */
+export async function reviewPublishedEpisodeV3(episode, options = {}) {
+  if (!episode || episode.published !== true || !/^\\d{4}-\\d{2}-\\d{2}$/.test(String(episode.date || '')) ||
+      !String(episode.question || '').trim() || !String(episode.answer || '').trim() ||
+      !String(episode.editorial_review?.fact_anchor || '').trim()) {
+    throw new Error('COMEDY_HISTORICAL_RECORD_INVALID');
+  }
+  return { ...await runIndependentCritic(episode, options, true), historical_replay: true };
+}
+
+async function runIndependentCritic(episode, options = {}, reportOnly = false) {
   const apiKey = options.apiKey ?? process.env.OPENAI_API_KEY;
   const model = options.model || process.env.OPENAI_REVIEW_MODEL || 'gpt-6-luna';
   const fetchImpl = options.fetchImpl || fetch;
@@ -148,7 +165,7 @@ export async function reviewComedyV3(episode, options = {}) {
   try { verdict = JSON.parse(raw); }
   catch { throw new Error('COMEDY_REVIEW_BAD_JSON'); }
   const decision = assessAIVerdict(verdict);
-  if (!decision.approved) {
+  if (!decision.approved && !reportOnly) {
     throw new Error('COMEDY_REVIEW_REJECTED: ' + decision.reason.slice(0, 160));
   }
   return decision;
