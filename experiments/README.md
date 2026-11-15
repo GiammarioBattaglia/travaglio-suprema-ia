@@ -31,6 +31,14 @@ node experiments/replay-historical-comedy-v3.mjs --live
 ```
 Le ultime due istruzioni necessitano di `OPENAI_API_KEY` già configurata nell'ambiente di esecuzione. Non inserire mai la chiave nel repository.
 
+## Verifiche IA reali in sola lettura (15 novembre 2026)
+- Il workflow sperimentale su GitHub Actions è stato eseguito con permessi `contents: read`, senza commit né aggiornamenti del sito.
+- Primo campione, tre episodi deboli: tre bocciature da parte dell'IA. Dopo la rimozione degli esempi preimpostati nel prompt: `L’Intesa ritrovata` 2,75/10; `La Vigilanza sotto vigilanza` 3,35/10; `Decreti in doppia fila` 3,45/10.
+- Secondo campione, tre episodi ritenuti relativamente migliori: nessuna approvazione. La prima prova aveva riscontrato un errore temporale del modello, poi corretto introducendo la data reale Europe/Rome.
+- Dopo la correzione temporale: `La risposta al minimo` 3,10/10; `Il coperchio di bilancio` 3,65/10; `La scuola in formato ridotto` ha prodotto una risposta JSON malformata: classificata come errore, **non** come bocciatura editoriale.
+- Per mitigare la risposta troncata sono stati aumentati i token di risposta del revisore e ridotta la lunghezza richiesta della motivazione.
+- Questi test dimostrano il funzionamento del blocco automatico. **Non dimostrano ancora la capacità di approvare battute di qualità**, quindi nessuna attivazione della versione v3 in produzione.
+
 ## Condizioni per l'attivazione definitiva
 1. Riesame indipendente su episodi reali con API disponibili e confronto qualitativo dei falsi positivi.
 2. Test fail-closed delle chiamate API e dei limiti di spesa.
