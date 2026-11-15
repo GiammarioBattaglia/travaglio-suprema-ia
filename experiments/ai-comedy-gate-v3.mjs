@@ -127,9 +127,12 @@ async function runIndependentCritic(episode, options = {}, reportOnly = false) {
   const model = options.model || process.env.OPENAI_REVIEW_MODEL || 'gpt-6-luna';
   const fetchImpl = options.fetchImpl || fetch;
   if (!apiKey) throw new Error('COMEDY_REVIEW_UNAVAILABLE');
+  const editorialToday = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   const instructions = [
     'Sei un giudice satirico IA indipendente dal generatore. Nessuna approvazione umana.',
     'Giudica esclusivamente il fatto, la domanda e la battuta selezionata, senza vedere il voto del generatore.',
+    'La data editoriale corrente è inclusa nell’input. Le date precedenti non sono future: non usare una data di sistema ipotetica.',
+    'La verifica esterna delle fonti è separata. Valuta la qualità comica e segnala soltanto incongruenze chiaramente deducibili dai due fumetti.',
     'Assegna interi 0-10: surprise (sorpresa immediata), satirical_depth (contraddizione del potere realmente svelata),',
     'originality (non una formula già vista), clarity (comprensibile leggendo solo i due fumetti).',
     'Il semplice gioco di parole NON è una garanzia di comicità. Una descrizione, ripetizione o riformulazione non è satira.',
@@ -148,6 +151,9 @@ async function runIndependentCritic(episode, options = {}, reportOnly = false) {
       model,
       instructions,
       input: JSON.stringify({
+        editorial_today: editorialToday,
+        episode_date: String(episode.date || ''),
+        event_date: String(episode.event_date || ''),
         headline: String(episode.headline || ''),
         fact_anchor: episode.editorial_review.fact_anchor,
         question: episode.question,
