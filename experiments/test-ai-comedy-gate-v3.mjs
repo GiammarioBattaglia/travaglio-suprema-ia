@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { validateCandidatePool, assessAIVerdict, reviewComedyV3 } from './ai-comedy-gate-v3.mjs';
+import { validateCandidatePool, assessAIVerdict, reviewComedyV3, reviewPublishedEpisodeV3 } from './ai-comedy-gate-v3.mjs';
+import { evaluateNewDraftInIsolation } from './editorial-dryrun-v3.mjs';
 
 const answer = 'Le classi no. La scuola sì.';
 const episode = {
@@ -45,3 +46,39 @@ await assert.rejects(() => reviewComedyV3(episode, { apiKey: 'test-only', fetchI
 await assert.rejects(() => reviewComedyV3(episode, { apiKey: 'test-only', fetchImpl: async () => ({ ok: true, json: async () => ({ output: [] }) }) }), /EMPTY/);
 
 console.log('COMEDY_GATE_V3_TESTS_PASSED: AI-only selection, minimum quality scores, independent remote review, fail-closed');
+
+
+const legacyEpisode = {
+  ...episode, date: '2026-11-15', slug: '2026-11-15-test',
+  published: true,
+  editorial_review: {
+    ...episode.editorial_review,
+    alternatives: [answer, 'Basta tagliare la lavagna.', 'La scuola è in scala.', 'Una lezione di economia.', 'Contano anche le assenze.']
+  }
+};
+const historicalPass = await reviewPublishedEpisodeV3(legacyEpisode, { apiKey: 'test-only', fetchImpl: mock(good), signal: {} });
+assert.equal(historicalPass.approved, true);
+assert.equal(historicalPass.historical_replay, true);
+const historicalReject = await reviewPublishedEpisodeV3(legacyEpisode, { apiKey: 'test-only', fetchImpl: mock(bad), signal: {} });
+assert.equal(historicalReject.approved, false);
+await assert.rejects(() => reviewPublishedEpisodeV3({ ...legacyEpisode, published: false }, { apiKey: 'test-only', fetchImpl: mock(good), signal: {} }), /HISTORICAL_RECORD_INVALID/);
+
+const draft = {
+  ...episode, date: '2026-11-16', slug: '2026-11-16-test',
+  published: false, edition: 'daily', autonomous: true,
+  editorial_pass: true, political_neutrality_pass: true, satire_quality_pass: true,
+  editorial_review: {
+    ...episode.editorial_review, version: 2, method: 'candidate_review',
+    selected_answer: answer, selection_reason: 'Paradosso netto, immediato',
+    self_contained_question: true, inference_steps: 1, needs_explanation: false, twist_count: 1
+  }
+};
+const dry = await evaluateNewDraftInIsolation(draft, { apiKey: 'test-only', fetchImpl: mock(good), signal: {} });
+assert.equal(dry.publish_authorized, false);
+assert.equal(dry.production_unchanged, true);
+assert.equal(dry.approved_by, 'independent_ai_critic_v3');
+await assert.rejects(() => evaluateNewDraftInIsolation(draft, { apiKey: 'test-only', fetchImpl: mock(bad), signal: {} }), /REJECTED/);
+await assert.rejects(() => evaluateNewDraftInIsolation({ ...draft, published: true }, { apiKey: 'test-only', fetchImpl: mock(good), signal: {} }), /ONLY_NEW/);
+await assert.rejects(() => evaluateNewDraftInIsolation({ ...draft, editorial_review: { ...draft.editorial_review, method: 'user_approved', approved_by: 'user' } }, { apiKey: 'test-only', fetchImpl: mock(good), signal: {} }), /AI_ONLY/);
+
+console.log('EXPERIMENTAL_DRY_RUN_TESTS_PASSED: historical replay and AI-only draft approvals have no publication side effects');
