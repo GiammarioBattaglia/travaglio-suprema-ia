@@ -114,7 +114,7 @@ export async function reviewComedyV3(episode, options = {}) {
  * only already-published records qualify and no file is ever modified.
  */
 export async function reviewPublishedEpisodeV3(episode, options = {}) {
-  if (!episode || episode.published !== true || !/^\\d{4}-\\d{2}-\\d{2}$/.test(String(episode.date || '')) ||
+  if (!episode || episode.published !== true || !/^\d{4}-\d{2}-\d{2}$/.test(String(episode.date || '')) ||
       !String(episode.question || '').trim() || !String(episode.answer || '').trim() ||
       !String(episode.editorial_review?.fact_anchor || '').trim()) {
     throw new Error('COMEDY_HISTORICAL_RECORD_INVALID');
