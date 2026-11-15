@@ -133,7 +133,7 @@ async function runIndependentCritic(episode, options = {}, reportOnly = false) {
     'Assegna interi 0-10: surprise (sorpresa immediata), satirical_depth (contraddizione del potere realmente svelata),',
     'originality (non una formula già vista), clarity (comprensibile leggendo solo i due fumetti).',
     'Il semplice gioco di parole NON è una garanzia di comicità. Una descrizione, ripetizione o riformulazione non è satira.',
-    'Esempi troppo deboli: «Hanno ritrovato l’Intesa», «La Vigilanza è sotto vigilanza».',
+    'Evita confronti con esempi precostituiti: formula il giudizio autonomamente sul contenuto corrente.',
     'Una buona battuta sorprende e rivela qualcosa, anche per contrasto o paradosso; non serve essere offensivi.',
     'Rifiuta insinuazioni fattuali non provate, inviti politici, tragedie sfruttate come comicità o attacchi personali.',
     'Se la battuta è solo corretta, comprensibile o carina, non approvarla. In caso di dubbio, rifiuta.',
