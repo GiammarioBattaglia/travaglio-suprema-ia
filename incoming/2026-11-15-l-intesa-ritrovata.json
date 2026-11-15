@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-15",
+  "event_date": "2026-11-14",
+  "slug": "2026-11-15-l-intesa-ritrovata",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Meloni-Messina, una telefonata per chiarirsi dopo le incomprensioni",
+    "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/11/14/meloni-messina-una-telefonata-per-chiarirsi-dopo-le-incomprensioni_44e64f57-2657-4960-b7bf-c79677f0315e.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Meloni-Messina, una telefonata per chiarirsi dopo le incomprensioni",
+      "url": "https://videoembed.ansa.it/sito/notizie/politica/2026/11/14/meloni-messina-una-telefonata-per-chiarirsi-dopo-le-incomprensioni_44e64f57-2657-4960-b7bf-c79677f0315e.html"
+    },
+    {
+      "name": "la Repubblica — Banche, prove di disgelo tra Meloni e Messina",
+      "url": "https://www.repubblica.it/politica/2026/11/14/news/banche_prove_disgelo_meloni_messina_abi_minaccia_ricorsi-425722327/"
+    },
+    {
+      "name": "Il Foglio — Chiarimento Meloni-Messina",
+      "url": "https://www.ilfoglio.it/politica/2026/11/14/news/chiarimento-meloni-messina-la-difficolta-con-salvini-salta-lo-spalmabonus-il-pd-sogna-lintesa--413728"
+    }
+  ],
+  "title": "L’Intesa ritrovata",
+  "headline": "Meloni e Messina si sentono dopo lo scontro sulle misure per le banche",
+  "summary": "Il 14 novembre Giorgia Meloni e l’amministratore delegato di Intesa Sanpaolo Carlo Messina si sono sentiti al telefono per chiarire le incomprensioni seguite alle critiche sulla manovra e sulla rimodulazione dei crediti del Superbonus.",
+  "news_text": "Dopo il confronto pubblico sulle misure della manovra che riguardano il settore finanziario e i crediti del Superbonus, la presidente del Consiglio Giorgia Meloni e l’amministratore delegato di Intesa Sanpaolo Carlo Messina hanno avuto un colloquio telefonico di chiarimento. Le ricostruzioni giornalistiche riferiscono una volontà di ricomporre le incomprensioni e proseguire il confronto durante l’iter della legge di bilancio.",
+  "question": "Meloni e l’ad di Intesa si telefonano per chiarire lo scontro sulle banche: pace fatta?",
+  "answer": "Sì. Hanno ritrovato l’Intesa.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Giorgia Meloni, rappresentazione satirica",
+    "Carlo Messina, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio e la Suprema IA osservano un telefono con due ricevitori; sullo sfondo, rappresentazioni satiriche di Giorgia Meloni e Carlo Messina ricompongono simbolicamente una targhetta con la parola «Intesa». Nessuna accusa personale, nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Sì. Hanno ritrovato l’Intesa.",
+    "alternatives": [
+      "Sì. Hanno ritrovato l’Intesa.",
+      "Sì. Gli interessi sono tornati comuni.",
+      "Pace fatta: il chiarimento era a tasso variabile.",
+      "Sì. Il conto dello scontro è stato chiuso.",
+      "Hanno ricucito: con un bonifico di parole."
+    ],
+    "selection_reason": "È la risposta più breve e immediata: trasforma direttamente il nome della banca nell’esito del chiarimento, con un solo doppio senso.",
+    "fact_anchor": "Il 14 novembre Meloni e l’amministratore delegato di Intesa Sanpaolo si sono sentiti al telefono dopo le incomprensioni sulle misure della manovra.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
