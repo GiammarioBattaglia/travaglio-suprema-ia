@@ -11,13 +11,15 @@ import { fileURLToPath } from 'node:url';
 import { reviewPublishedEpisodeV3 } from './ai-comedy-gate-v3.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// The first three are a comparatively stronger control group; previous weaker cohort is retained.
 const HISTORICAL_EPISODES = Object.freeze([
+  '2026-11-03-scuola-in-formato-ridotto',
+  '2026-10-31-la-risposta-al-minimo',
+  '2026-10-28-il-coperchio-di-bilancio',
   '2026-11-15-l-intesa-ritrovata',
   '2026-11-14-la-vigilanza-sotto-vigilanza',
   '2026-11-10-decreti-in-doppia-fila',
   '2026-11-09-lo-scudo-dello-scudo',
-  '2026-11-03-scuola-in-formato-ridotto',
-  '2026-10-31-la-risposta-al-minimo',
   '2026-10-19-il-730-di-cesare'
 ]);
 
