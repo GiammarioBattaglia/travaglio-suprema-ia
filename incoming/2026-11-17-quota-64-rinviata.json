@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-17",
+  "event_date": "2026-11-16",
+  "slug": "2026-11-17-quota-64-rinviata",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Sky TG24 — intervista a Claudio Borghi",
+    "url": "https://tg24.sky.it/politica/video/2026/11/16/borghi-quota-64-ci-sara-1140377"
+  },
+  "sources": [
+    {
+      "name": "Sky TG24 — intervista a Claudio Borghi (fonte primaria)",
+      "url": "https://tg24.sky.it/politica/video/2026/11/16/borghi-quota-64-ci-sara-1140377"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/11/16/passo-indietro-della-lega-su-quota-64.-nuovo-vertice-sulla-manovra_3cb9d552-f79d-44b5-abd8-55c8263b801b.html"
+    },
+    {
+      "name": "Avvenire",
+      "url": "https://www.avvenire.it/politica/l-amanovra-risparmia-sullaccoglienza-retromarcia-lega-quota-104-rinviata_115875"
+    }
+  ],
+  "title": "Quota 64, pensione rinviata",
+  "headline": "La Lega annuncia che Quota 64 sarà affidata a un provvedimento separato dalla manovra",
+  "summary": "Il 16 novembre Claudio Borghi ha detto a Sky TG24 che Quota 64 non sarà inserita negli emendamenti alla manovra, ma arriverà con un provvedimento a parte. ANSA e Avvenire hanno riportato la stessa notizia.",
+  "news_text": "Il 16 novembre 2026, intervistato da Sky TG24, il senatore della Lega Claudio Borghi ha dichiarato che Quota 64 non sarà inserita negli emendamenti alla manovra e sarà oggetto di un provvedimento separato. ANSA e Avvenire hanno riferito l’annuncio.",
+  "question": "Borghi dice che Quota 64 uscirà dalla manovra e passerà a un provvedimento a parte: che fine fa?",
+  "answer": "È anticipata: l’hanno rinviata a un’altra legge.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Travaglio indica una cartella «Quota 64» spostata dalla pila «Manovra» a una pila separata.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Va in pensione dal bilancio.",
+      "È anticipata: l’hanno rinviata a un’altra legge.",
+      "Per uscire prima dal lavoro, prima deve uscire da un altro provvedimento.",
+      "L’IA la mette in una casella separata: almeno lei sa dove archiviare il rinvio.",
+      "Anche l’anticipo pensionistico adesso deve fare la fila per un’altra legge."
+    ],
+    "selected_answer": "È anticipata: l’hanno rinviata a un’altra legge.",
+    "selection_reason": "Il contrasto immediato tra «anticipata» e «rinviata» crea una sola torsione, comprensibile senza spiegazioni.",
+    "fact_anchor": "L’annuncio di Claudio Borghi del 16 novembre: Quota 64 non entrerà negli emendamenti alla manovra e sarà proposta con un provvedimento a parte."
+  }
+}

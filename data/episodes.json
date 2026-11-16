@@ -1,74 +1,143 @@
 {
   "current": {
-    "date": "2026-11-16",
-    "event_date": "2026-11-15",
-    "slug": "2026-11-16-retromarcia-inclusa",
+    "date": "2026-11-17",
+    "event_date": "2026-11-16",
+    "slug": "2026-11-17-quota-64-rinviata",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
-      "name": "ANSA — La manovra alla prova delle modifiche, nuovo vertice di maggioranza",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026/11/15/la-manovra-alla-prova-delle-modifiche-nuovo-vertice-di-maggioranza_5b6e09c6-e0a6-433f-8aa7-8b55e44afcff.html"
+      "name": "Sky TG24 — intervista a Claudio Borghi",
+      "url": "https://tg24.sky.it/politica/video/2026/11/16/borghi-quota-64-ci-sara-1140377"
     },
     "sources": [
       {
-        "name": "ANSA — La manovra alla prova delle modifiche, nuovo vertice di maggioranza",
-        "url": "https://www.ansa.it/sito/notizie/economia/2026/11/15/la-manovra-alla-prova-delle-modifiche-nuovo-vertice-di-maggioranza_5b6e09c6-e0a6-433f-8aa7-8b55e44afcff.html"
+        "name": "Sky TG24 — intervista a Claudio Borghi (fonte primaria)",
+        "url": "https://tg24.sky.it/politica/video/2026/11/16/borghi-quota-64-ci-sara-1140377"
       },
       {
-        "name": "Sky TG24 — Manovra, previsto vertice maggioranza: possibili modifiche",
-        "url": "https://tg24.sky.it/politica/video/2026/11/15/manovra-previsto-vertice-maggioranza-possibili-modifiche-1140187"
+        "name": "ANSA",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/11/16/passo-indietro-della-lega-su-quota-64.-nuovo-vertice-sulla-manovra_3cb9d552-f79d-44b5-abd8-55c8263b801b.html"
       },
       {
-        "name": "Camera dei deputati — Commissione Bilancio, termine emendamenti al 17 novembre",
-        "url": "https://www.camera.it/leg19/1099?shadow_organo_parlamentare=3505&slAnnoMese=202611&slGiorno=17&submit1=invia"
+        "name": "Avvenire",
+        "url": "https://www.avvenire.it/politica/l-amanovra-risparmia-sullaccoglienza-retromarcia-lega-quota-104-rinviata_115875"
       }
     ],
-    "title": "Retromarcia inclusa",
-    "headline": "Manovra 2027, maggioranza al lavoro su modifiche a scuola, sanità e Superbonus",
-    "summary": "Il 15 novembre maggioranza e Governo risultavano al lavoro su possibili modifiche alla manovra 2027, con interventi allo studio su scuola, sanità, pensioni, Superbonus ed exit tax. La Camera ha fissato alle 18 del 17 novembre il termine per gli emendamenti in Commissione Bilancio.",
-    "news_text": "ANSA e Sky TG24 hanno riferito il 15 novembre che maggioranza e Governo stanno preparando modifiche alla legge di bilancio 2027. Tra i dossier indicati figurano scuola, sanità, pensioni, Superbonus ed exit tax. La Commissione Bilancio della Camera ha fissato alle ore 18 del 17 novembre il termine per la presentazione degli emendamenti.",
-    "question": "Il governo apre a modifiche alla manovra su scuola e Superbonus: è una retromarcia?",
-    "answer": "No. È una manovra: la retromarcia era inclusa.",
+    "title": "Quota 64, pensione rinviata",
+    "headline": "La Lega annuncia che Quota 64 sarà affidata a un provvedimento separato dalla manovra",
+    "summary": "Il 16 novembre Claudio Borghi ha detto a Sky TG24 che Quota 64 non sarà inserita negli emendamenti alla manovra, ma arriverà con un provvedimento a parte. ANSA e Avvenire hanno riportato la stessa notizia.",
+    "news_text": "Il 16 novembre 2026, intervistato da Sky TG24, il senatore della Lega Claudio Borghi ha dichiarato che Quota 64 non sarà inserita negli emendamenti alla manovra e sarà oggetto di un provvedimento separato. ANSA e Avvenire hanno riferito l’annuncio.",
+    "question": "Borghi dice che Quota 64 uscirà dalla manovra e passerà a un provvedimento a parte: che fine fa?",
+    "answer": "È anticipata: l’hanno rinviata a un’altra legge.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Giorgia Meloni, rappresentazione satirica"
+      "Marco Travaglio, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
     "edition": "daily",
-    "visual_context": "Travaglio e la Suprema IA osservano una piccola automobile istituzionale che esegue una retromarcia davanti a cartelli simbolici «Scuola» e «Superbonus»; Giorgia Meloni è raffigurata in modo satirico al volante. Nessuna accusa personale e nessun simbolo elettorale.",
+    "visual_context": "Travaglio indica una cartella «Quota 64» spostata dalla pila «Manovra» a una pila separata.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
-      "selected_answer": "No. È una manovra: la retromarcia era inclusa.",
-      "alternatives": [
-        "No. È una manovra: la retromarcia era inclusa.",
-        "Sì. Ma la chiamano manovra per non dire inversione.",
-        "Correggono la manovra: evidentemente il volante era optional.",
-        "La manovra cambia corsia, non automobilista.",
-        "È una manovra: prima o poi doveva sterzare."
-      ],
-      "selection_reason": "È la più immediata: rovescia direttamente «manovra» in manovra automobilistica e chiude sulla retromarcia, senza spiegazioni.",
-      "fact_anchor": "Il 15 novembre Governo e maggioranza risultavano al lavoro su modifiche alla manovra 2027, anche su scuola e Superbonus.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1
+      "twist_count": 1,
+      "alternatives": [
+        "Va in pensione dal bilancio.",
+        "È anticipata: l’hanno rinviata a un’altra legge.",
+        "Per uscire prima dal lavoro, prima deve uscire da un altro provvedimento.",
+        "L’IA la mette in una casella separata: almeno lei sa dove archiviare il rinvio.",
+        "Anche l’anticipo pensionistico adesso deve fare la fila per un’altra legge."
+      ],
+      "selected_answer": "È anticipata: l’hanno rinviata a un’altra legge.",
+      "selection_reason": "Il contrasto immediato tra «anticipata» e «rinviata» crea una sola torsione, comprensibile senza spiegazioni.",
+      "fact_anchor": "L’annuncio di Claudio Borghi del 16 novembre: Quota 64 non entrerà negli emendamenti alla manovra e sarà proposta con un provvedimento a parte."
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-16-retromarcia-inclusa.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Retromarcia inclusa",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ANSA e Sky TG24 hanno riferito il 15 novembre che maggioranza e Governo stanno preparando modifiche alla legge di bilancio 2027. Tra i dossier indicati figurano scuola, sanità, pensioni, Superbonus ed exit tax. La Commissione Bilancio della Camera ha fissato alle ore 18 del 17 novembre il termine per la presentazione degli emendamenti.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-17-quota-64-rinviata.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Quota 64, pensione rinviata",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 16 novembre 2026, intervistato da Sky TG24, il senatore della Lega Claudio Borghi ha dichiarato che Quota 64 non sarà inserita negli emendamenti alla manovra e sarà oggetto di un provvedimento separato. ANSA e Avvenire hanno riferito l’annuncio.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-16T09:33:52.161Z",
-    "image_generated_at": "2026-11-16T09:33:52.161Z",
-    "url": "/episodio/2026-11-16-retromarcia-inclusa/"
+    "published_at": "2026-11-16T23:24:06.226Z",
+    "image_generated_at": "2026-11-16T23:24:06.226Z",
+    "url": "/episodio/2026-11-17-quota-64-rinviata/"
   },
   "archive": [
+    {
+      "date": "2026-11-16",
+      "event_date": "2026-11-15",
+      "slug": "2026-11-16-retromarcia-inclusa",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "ANSA — La manovra alla prova delle modifiche, nuovo vertice di maggioranza",
+        "url": "https://www.ansa.it/sito/notizie/economia/2026/11/15/la-manovra-alla-prova-delle-modifiche-nuovo-vertice-di-maggioranza_5b6e09c6-e0a6-433f-8aa7-8b55e44afcff.html"
+      },
+      "sources": [
+        {
+          "name": "ANSA — La manovra alla prova delle modifiche, nuovo vertice di maggioranza",
+          "url": "https://www.ansa.it/sito/notizie/economia/2026/11/15/la-manovra-alla-prova-delle-modifiche-nuovo-vertice-di-maggioranza_5b6e09c6-e0a6-433f-8aa7-8b55e44afcff.html"
+        },
+        {
+          "name": "Sky TG24 — Manovra, previsto vertice maggioranza: possibili modifiche",
+          "url": "https://tg24.sky.it/politica/video/2026/11/15/manovra-previsto-vertice-maggioranza-possibili-modifiche-1140187"
+        },
+        {
+          "name": "Camera dei deputati — Commissione Bilancio, termine emendamenti al 17 novembre",
+          "url": "https://www.camera.it/leg19/1099?shadow_organo_parlamentare=3505&slAnnoMese=202611&slGiorno=17&submit1=invia"
+        }
+      ],
+      "title": "Retromarcia inclusa",
+      "headline": "Manovra 2027, maggioranza al lavoro su modifiche a scuola, sanità e Superbonus",
+      "summary": "Il 15 novembre maggioranza e Governo risultavano al lavoro su possibili modifiche alla manovra 2027, con interventi allo studio su scuola, sanità, pensioni, Superbonus ed exit tax. La Camera ha fissato alle 18 del 17 novembre il termine per gli emendamenti in Commissione Bilancio.",
+      "news_text": "ANSA e Sky TG24 hanno riferito il 15 novembre che maggioranza e Governo stanno preparando modifiche alla legge di bilancio 2027. Tra i dossier indicati figurano scuola, sanità, pensioni, Superbonus ed exit tax. La Commissione Bilancio della Camera ha fissato alle ore 18 del 17 novembre il termine per la presentazione degli emendamenti.",
+      "question": "Il governo apre a modifiche alla manovra su scuola e Superbonus: è una retromarcia?",
+      "answer": "No. È una manovra: la retromarcia era inclusa.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Giorgia Meloni, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+      "edition": "daily",
+      "visual_context": "Travaglio e la Suprema IA osservano una piccola automobile istituzionale che esegue una retromarcia davanti a cartelli simbolici «Scuola» e «Superbonus»; Giorgia Meloni è raffigurata in modo satirico al volante. Nessuna accusa personale e nessun simbolo elettorale.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "No. È una manovra: la retromarcia era inclusa.",
+        "alternatives": [
+          "No. È una manovra: la retromarcia era inclusa.",
+          "Sì. Ma la chiamano manovra per non dire inversione.",
+          "Correggono la manovra: evidentemente il volante era optional.",
+          "La manovra cambia corsia, non automobilista.",
+          "È una manovra: prima o poi doveva sterzare."
+        ],
+        "selection_reason": "È la più immediata: rovescia direttamente «manovra» in manovra automobilistica e chiude sulla retromarcia, senza spiegazioni.",
+        "fact_anchor": "Il 15 novembre Governo e maggioranza risultavano al lavoro su modifiche alla manovra 2027, anche su scuola e Superbonus.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-16-retromarcia-inclusa.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Retromarcia inclusa",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Giorgia Meloni, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: ANSA e Sky TG24 hanno riferito il 15 novembre che maggioranza e Governo stanno preparando modifiche alla legge di bilancio 2027. Tra i dossier indicati figurano scuola, sanità, pensioni, Superbonus ed exit tax. La Commissione Bilancio della Camera ha fissato alle ore 18 del 17 novembre il termine per la presentazione degli emendamenti.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-16T09:33:52.161Z",
+      "image_generated_at": "2026-11-16T09:33:52.161Z",
+      "url": "/episodio/2026-11-16-retromarcia-inclusa/"
+    },
     {
       "date": "2026-11-15",
       "event_date": "2026-11-14",
