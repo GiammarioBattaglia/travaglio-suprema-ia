@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-19",
+  "event_date": "2026-11-18",
+  "slug": "2026-11-19-spid-cyber",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Senato della Repubblica — resoconto stenografico della seduta del 18 novembre 2026",
+    "url": "https://www.senato.it/show-doc?id=0&idoggetto=0&leg=0&part=doc_dc-ressten_rs-gentit_idmddsgiececd&tipodoc=hotresaula"
+  },
+  "sources": [
+    {
+      "name": "Senato della Repubblica — informativa del Ministro della difesa sulla guerra ibrida e cognitiva",
+      "url": "https://www.senato.it/show-doc?id=0&idoggetto=0&leg=0&part=doc_dc-ressten_rs-gentit_idmddsgiececd&tipodoc=hotresaula"
+    },
+    {
+      "name": "ANSA — Crosetto: servono 5mila specialisti cyber, investimenti per 6 miliardi",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/18/crosetto-contro-la-guerra-ibrida-risorse-per-6-miliardi-nei-prossimi-anni_c8b81495-423d-42a6-aab7-030b0af8f27d.html"
+    },
+    {
+      "name": "Reuters — Italy plans €6 billion investment in hybrid-threat defence",
+      "url": "https://www.reuters.com/business/aerospace-defense/italy-plans-6-billion-investment-hybrid-threat-defence-minister-says-2026-11-18/"
+    }
+  ],
+  "title": "Reclutamento a prova di SPID",
+  "headline": "Crosetto propone un’arma cyber civile e militare fino ad almeno cinquemila specialisti",
+  "summary": "Nell’informativa parlamentare del 18 novembre, il ministro della Difesa Guido Crosetto ha proposto una forza cyber civile e militare operativa giorno e notte: un primo nucleo di 1.200-1.500 specialisti, da portare nel tempo ad almeno 5.000.",
+  "news_text": "Il 18 novembre 2026 Guido Crosetto ha riferito a Camera e Senato sulla guerra ibrida e cognitiva. Il ministro ha indicato la costruzione di un’arma cyber civile e militare operativa giorno e notte, inizialmente composta da 1.200-1.500 specialisti e destinata ad arrivare nel tempo ad almeno 5.000. Ha inoltre indicato oltre 6 miliardi di euro per il settore nei prossimi anni.",
+  "question": "Crosetto propone un’arma cyber con cinquemila specialisti: come li reclutiamo?",
+  "answer": "Con SPID: chi entra al primo colpo è già specialista.",
+  "characters": [
+    "Marco Travaglio, rappresentazione satirica",
+    "Suprema IA",
+    "Guido Crosetto, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Il personaggio satirico di Travaglio e la Suprema IA osservano una postazione di reclutamento cyber con una schermata di accesso digitale stilizzata; Guido Crosetto è raffigurato in modo satirico accanto a una fila ordinata di candidati tecnici. Nessuna accusa personale, nessun simbolo elettorale e nessuna rappresentazione di attacchi reali.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Con SPID: chi entra al primo colpo è già specialista.",
+    "alternatives": [
+      "Con SPID: chi entra al primo colpo è già specialista.",
+      "Con un concorso online. Se regge, abbiamo già vinto metà guerra.",
+      "Con SPID. Chi ricorda la password diventa subito ufficiale.",
+      "Prima li cerchiamo online. Sperando che non ci trovino loro.",
+      "Pubblichiamo il bando. Gli hacker lo leggeranno per primi."
+    ],
+    "selection_reason": "È la più immediata: trasforma l’accesso digitale in una prova di selezione con un solo rovesciamento.",
+    "fact_anchor": "Il 18 novembre 2026 Crosetto ha proposto un’arma cyber civile e militare, da un primo nucleo di 1.200-1.500 specialisti fino ad almeno 5.000.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  }
+}
