@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-21",
+  "event_date": "2026-11-20",
+  "slug": "2026-11-21-stipendio-al-passato",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters — Italian workers protest over wages and public services",
+    "url": "https://www.reuters.com/world/thousands-protest-across-italy-strike-over-wages-public-spending-2026-11-20/"
+  },
+  "sources": [
+    {
+      "name": "Reuters — Italian workers protest over wages and public services",
+      "url": "https://www.reuters.com/world/thousands-protest-across-italy-strike-over-wages-public-spending-2026-11-20/"
+    },
+    {
+      "name": "ANSA — Sciopero generale, lavoratori in piazza per salari e servizi pubblici",
+      "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/oggi-lo-sciopero-generale.-in-piazza-lavoratori-e-studenti.-landini-ascoltare-le-piazze-non_599c502c-b0d3-44aa-8e7b-cdf04b274aeb.html"
+    }
+  ],
+  "title": "Lo stipendio è rimasto al passato",
+  "headline": "Sciopero generale per salari più alti e maggiori investimenti nei servizi pubblici",
+  "summary": "Il 20 novembre lavoratori hanno manifestato in numerose città italiane durante lo sciopero generale promosso dalla CGIL, chiedendo salari più alti e maggiori investimenti nei servizi pubblici.",
+  "news_text": "Il 20 novembre 2026 si è svolto in Italia uno sciopero generale promosso dalla CGIL. Reuters e ANSA hanno riferito di manifestazioni in numerose città e di richieste per salari più alti, rinnovi contrattuali e maggiori investimenti nei servizi pubblici. Lo slogan della mobilitazione era «Il futuro è adesso».",
+  "question": "La CGIL sciopera per salari più alti: «Il futuro è adesso»?",
+  "answer": "Sì. Lo stipendio, invece, è rimasto al passato.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica",
+    "Maurizio Landini, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+  "edition": "daily",
+  "visual_context": "Il personaggio satirico di Travaglio e la Suprema IA osservano una busta paga ingiallita accanto a un grande calendario segnato «oggi»; Maurizio Landini è raffigurato in modo satirico sullo sfondo di una manifestazione pacifica di lavoratori adulti. Nessun minore, nessun incidente, nessuna accusa personale e nessun simbolo elettorale.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Sì. Lo stipendio, invece, è rimasto al passato.",
+    "alternatives": [
+      "Sì. Lo stipendio, invece, è rimasto al passato.",
+      "Il futuro sì. La busta paga è ancora in differita.",
+      "Adesso scioperiamo. L’aumento è nel prossimo episodio.",
+      "Il futuro è adesso. Il salario attende la versione aggiornata.",
+      "Sì, ma lo stipendio vive ancora di ricordi."
+    ],
+    "selection_reason": "È la più immediata: oppone lo slogan al potere d’acquisto dei salari con un solo rovesciamento.",
+    "fact_anchor": "Il 20 novembre 2026 la CGIL ha promosso uno sciopero generale per salari più alti e maggiori investimenti nei servizi pubblici, con lo slogan «Il futuro è adesso».",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-21-stipendio-al-passato.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Lo stipendio è rimasto al passato",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 20 novembre 2026 si è svolto in Italia uno sciopero generale promosso dalla CGIL. Reuters e ANSA hanno riferito di manifestazioni in numerose città e di richieste per salari più alti, rinnovi contrattuali e maggiori investimenti nei servizi pubblici. Lo slogan della mobilitazione era «Il futuro è adesso».\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-21T09:26:33.866Z",
+  "image_generated_at": "2026-11-21T09:26:33.866Z"
+}
