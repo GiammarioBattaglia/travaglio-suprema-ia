@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-22",
+  "event_date": "2026-11-21",
+  "slug": "2026-11-22-pensione-senza-uscita",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Manovra, maggioranza verso l’intesa sulla exit tax, resta il nodo pensioni",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/21/manovra-maggioranza-verso-lintesa-sulla-exit-tax-resta-il-nodo-pensioni_eaa34634-ed55-4417-82fe-031e30349e39.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Manovra, maggioranza verso l’intesa sulla exit tax, resta il nodo pensioni",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/21/manovra-maggioranza-verso-lintesa-sulla-exit-tax-resta-il-nodo-pensioni_eaa34634-ed55-4417-82fe-031e30349e39.html"
+    },
+    {
+      "name": "Sky TG24 — Manovra 2027, centrodestra cerca intesa su sanità ed e-book",
+      "url": "https://tg24.sky.it/politica/video/2026/11/21/manovra-2027-centrodestra-cerca-intesa-1141695"
+    }
+  ],
+  "title": "La pensione non trova l’uscita",
+  "headline": "Manovra, maggioranza verso un’intesa sulla exit tax mentre resta aperto il nodo pensioni",
+  "summary": "Il 21 novembre ANSA e Sky TG24 hanno riferito che la maggioranza sta cercando un accordo sulle modifiche alla manovra: si profila un compromesso sulla exit tax, mentre sulle pensioni il confronto resta aperto.",
+  "news_text": "Il 21 novembre 2026 ANSA ha riferito che la maggioranza va verso una possibile soluzione sulla exit tax, l’imposta sulle plusvalenze per chi trasferisce la residenza fiscale all’estero, mentre il capitolo pensioni resta aperto. Sky TG24 ha confermato la ricerca di un accordo sulla manovra, indicando possibili novità sulla exit tax e il perdurare del confronto previdenziale.",
+  "question": "La maggioranza va verso l’accordo sull’exit tax, ma sulle pensioni resta il nodo?",
+  "answer": "Per le tasse c’è l’uscita. Per la pensione ancora no.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica",
+    "Giancarlo Giorgetti, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+  "edition": "daily",
+  "visual_context": "Il personaggio satirico di Travaglio e la Suprema IA osservano un corridoio istituzionale: una porta fiscale è socchiusa, mentre davanti a una porta previdenziale resta un grande nodo di corda. Giancarlo Giorgetti è raffigurato in modo satirico con una cartella della manovra. Nessuna accusa personale, nessun simbolo elettorale e nessun riferimento a minori o tragedie.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Per le tasse c’è l’uscita. Per la pensione ancora no.",
+    "alternatives": [
+      "Per le tasse c’è l’uscita. Per la pensione ancora no.",
+      "La tassa esce dal nodo. La pensione resta in coda.",
+      "Sull’exit tax si esce. Sulle pensioni si rimane.",
+      "La tassa ha una via d’uscita. La pensione aspetta il permesso.",
+      "L’exit tax trova l’uscita. La pensione trova un altro nodo."
+    ],
+    "selection_reason": "È la più immediata: rovescia «exit» in uscita concreta e oppone il compromesso fiscale al nodo pensioni.",
+    "fact_anchor": "Il 21 novembre 2026 la maggioranza risultava orientata verso un compromesso sulla exit tax, mentre il confronto sulle pensioni restava aperto.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-22-pensione-senza-uscita.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La pensione non trova l’uscita",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 21 novembre 2026 ANSA ha riferito che la maggioranza va verso una possibile soluzione sulla exit tax, l’imposta sulle plusvalenze per chi trasferisce la residenza fiscale all’estero, mentre il capitolo pensioni resta aperto. Sky TG24 ha confermato la ricerca di un accordo sulla manovra, indicando possibili novità sulla exit tax e il perdurare del confronto previdenziale.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-22T09:29:41.243Z",
+  "image_generated_at": "2026-11-22T09:29:41.243Z"
+}
