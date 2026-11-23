@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-23",
+  "event_date": "2026-11-22",
+  "slug": "2026-11-23-parla-il-cemento",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — Proposta Lega, 6 mesi ai Comuni per evadere le vecchie domande o scatta il condono",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/22/proposta-lega-6-mesi-ai-comuni-per-evadere-le-vecchie-domande-o-scatta-il-condono_ef3373d1-a0c4-478b-9073-1a56cc0fee3a.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — Proposta Lega, 6 mesi ai Comuni per evadere le vecchie domande o scatta il condono",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/22/proposta-lega-6-mesi-ai-comuni-per-evadere-le-vecchie-domande-o-scatta-il-condono_ef3373d1-a0c4-478b-9073-1a56cc0fee3a.html"
+    },
+    {
+      "name": "Sky TG24 — Manovra 2027, le novità sugli emendamenti e sul silenzio-assenso",
+      "url": "https://tg24.sky.it/economia/2026/11/22/manovra-2027-emendamenti-ultime-notizie"
+    }
+  ],
+  "title": "Quando parla il cemento",
+  "headline": "La Lega propone 180 giorni ai Comuni sulle vecchie pratiche di condono, poi il silenzio-assenso",
+  "summary": "Il 22 novembre ANSA e Sky TG24 hanno riferito della proposta della Lega agli alleati: concedere ai Comuni 180 giorni per esaminare le vecchie domande dei condoni del 1985, 1994 e 2003; senza risposta, la sanatoria scatterebbe automaticamente, con esclusioni previste.",
+  "news_text": "Il 22 novembre 2026 ANSA e Sky TG24 hanno riferito di una proposta della Lega da trasformare in emendamento alla manovra. I Comuni avrebbero 180 giorni per esaminare le domande inevase relative ai condoni del 1985, 1994 e 2003. In assenza di risposta, la sanatoria scatterebbe automaticamente. Resterebbero escluse le situazioni non ammissibili, gli immobili in aree a rischio e quelli soggetti a divieto assoluto di edificazione.",
+  "question": "La Lega propone sei mesi ai Comuni, poi sulle vecchie pratiche scatta il condono?",
+  "answer": "È silenzio-assenso: se tace l’ufficio, parla il cemento.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica",
+    "Matteo Salvini, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+  "edition": "daily",
+  "visual_context": "Il personaggio satirico di Travaglio e la Suprema IA osservano una scrivania comunale silenziosa con fascicoli edilizi e una clessidra; sullo sfondo, un edificio di cemento sembra avanzare verso un timbro. Matteo Salvini è raffigurato in modo satirico accanto a un calendario di sei mesi. Nessuna accusa personale, nessun simbolo elettorale, nessuna area a rischio e nessun riferimento a tragedie o minori.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "È silenzio-assenso: se tace l’ufficio, parla il cemento.",
+    "alternatives": [
+      "È silenzio-assenso: se tace l’ufficio, parla il cemento.",
+      "Il Comune tace. Il mattone si sente assolto.",
+      "Dopo sei mesi, il silenzio diventa un permesso di costruire.",
+      "Se l’ufficio non risponde, risponde il cemento.",
+      "Il fascicolo resta fermo. L’edificio, invece, diventa regolare."
+    ],
+    "selection_reason": "È la più immediata: trasforma il silenzio amministrativo in una voce del cemento con un solo rovesciamento.",
+    "fact_anchor": "Il 22 novembre 2026 è stata riferita una proposta della Lega: 180 giorni ai Comuni per decidere sulle vecchie pratiche di condono, poi possibile sanatoria automatica per silenzio-assenso, con esclusioni.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-23-parla-il-cemento.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Quando parla il cemento",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 22 novembre 2026 ANSA e Sky TG24 hanno riferito di una proposta della Lega da trasformare in emendamento alla manovra. I Comuni avrebbero 180 giorni per esaminare le domande inevase relative ai condoni del 1985, 1994 e 2003. In assenza di risposta, la sanatoria scatterebbe automaticamente. Resterebbero escluse le situazioni non ammissibili, gli immobili in aree a rischio e quelli soggetti a divieto assoluto di edificazione.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-23T09:24:01.364Z",
+  "image_generated_at": "2026-11-23T09:24:01.364Z"
+}
