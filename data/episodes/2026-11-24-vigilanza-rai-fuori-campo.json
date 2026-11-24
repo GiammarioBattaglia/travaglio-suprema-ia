@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-24",
+  "event_date": "2026-11-23",
+  "slug": "2026-11-24-vigilanza-rai-fuori-campo",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "ANSA — dichiarazioni raccolte all’evento",
+    "url": "https://www.ansa.it/sito/notizie/politica/2026/11/23/la-russa-mercoledi-i-nomi-dei-componenti-della-commissione-di-vigilanza-rai_7d118bb9-01c5-40ff-a5fe-418d7373d50f.html"
+  },
+  "sources": [
+    {
+      "name": "ANSA — dichiarazioni raccolte all’evento",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/23/la-russa-mercoledi-i-nomi-dei-componenti-della-commissione-di-vigilanza-rai_7d118bb9-01c5-40ff-a5fe-418d7373d50f.html"
+    },
+    {
+      "name": "La Sestina",
+      "url": "https://www.lasestina.unimi.it/main/politica/vigilanza-rai-mercoledi-i-nomi-la-russa-sceglieremo-con-una-logica/"
+    },
+    {
+      "name": "RaiNews",
+      "url": "https://www.rainews.it/articoli/2026/11/vigilanza-rai-dopo-due-anni-di-stallo-i-vertici-delle-camere-nominano-membri-dufficio-2e295add-5ab0-4e94-9765-1b4d3600fc50.html"
+    }
+  ],
+  "title": "Vigilanza Rai, nomi in arrivo",
+  "headline": "La Russa annuncia i nomi per la Commissione di Vigilanza Rai",
+  "summary": "Il 23 novembre Ignazio La Russa ha detto che lui e Lorenzo Fontana intendono comunicare mercoledì i nomi dei componenti della Commissione di Vigilanza Rai.",
+  "news_text": "La Commissione è in stallo da circa due anni. Il presidente del Senato Ignazio La Russa ha annunciato il 23 novembre che mercoledì, d’intesa con il presidente della Camera Lorenzo Fontana, potrebbero essere comunicati i nomi dei componenti. È un annuncio, non la nomina già avvenuta.",
+  "question": "La Vigilanza Rai è ferma da due anni; La Russa annuncia nuovi nomi. Cosa riparte?",
+  "answer": "Per ora, solo il casting: la Vigilanza resta fuori campo.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Due fumetti: Travaglio domanda davanti a un televisore con la scritta «Vigilanza Rai»; la Suprema IA risponde. La commissione non è rappresentata come già ricostituita.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Le nomine vanno in onda; la Vigilanza resta fuori campo.",
+      "Per ora, solo il casting: la Vigilanza resta fuori campo.",
+      "I nomi arrivano mercoledì; la commissione aspetta ancora la prima convocazione.",
+      "La Vigilanza Rai attende i nomi: almeno il casting ha un palinsesto.",
+      "La commissione è fuori onda: per ora si annuncia soltanto il cast."
+    ],
+    "selected_answer": "Per ora, solo il casting: la Vigilanza resta fuori campo.",
+    "selection_reason": "Scelta per il doppio senso televisivo immediato: annunciare i nomi richiama un casting, mentre la commissione resta inattiva. Non implica che le nomine siano già avvenute.",
+    "fact_anchor": "Il 23 novembre La Russa ha annunciato che i nomi dei componenti potrebbero essere comunicati mercoledì, d’accordo con Fontana; l’articolo RaiNews descrive lo stallo della Commissione."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-24-vigilanza-rai-fuori-campo.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Vigilanza Rai, nomi in arrivo",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: La Commissione è in stallo da circa due anni. Il presidente del Senato Ignazio La Russa ha annunciato il 23 novembre che mercoledì, d’intesa con il presidente della Camera Lorenzo Fontana, potrebbero essere comunicati i nomi dei componenti. È un annuncio, non la nomina già avvenuta.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-24T03:20:40.081Z",
+  "image_generated_at": "2026-11-24T03:20:40.081Z"
+}
