@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-25",
+  "event_date": "2026-11-24",
+  "slug": "2026-11-25-fiducia-decreto-scuola-appello",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Camera dei deputati – WebTV",
+    "url": "https://webtv.camera.it/evento/32997?subtitle=1"
+  },
+  "sources": [
+    {
+      "name": "Camera dei deputati – WebTV",
+      "url": "https://webtv.camera.it/evento/32997?subtitle=1"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/24/ciriani-pone-la-fiducia-al-decreto-scuola-allesame-della-camera_26116dde-43cc-4384-97bd-b24e58491a78.html"
+    },
+    {
+      "name": "Rai News",
+      "url": "https://www.rainews.it/articoli/2026/11/dl-scuola-il-governo-pone-la-fiducia-alla-camera-testo-blindato-e-book-scontati-salvi--b6e4040e-7ee5-4e89-a64e-450aa75175a2.html"
+    }
+  ],
+  "title": "Fiducia, presente!",
+  "headline": "Sul decreto scuola, la fiducia fa l’appello",
+  "summary": "Il 24 novembre il governo ha posto la fiducia sul decreto scuola alla Camera; il voto è previsto per il 25 novembre.",
+  "news_text": "Il 24 novembre 2026 il ministro Luca Ciriani ha posto, a nome del governo, la questione di fiducia sul decreto scuola all’esame della Camera. Il voto è previsto per il 25 novembre. Con la fiducia decadono gli emendamenti.",
+  "question": "Il governo ha posto la fiducia sul decreto scuola alla Camera: chi fa l’appello?",
+  "answer": "La fiducia: «Presente». Gli emendamenti? Assenti giustificati.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità.",
+  "edition": "daily",
+  "visual_context": "Aula di scuola stilizzata come un’aula parlamentare: la fiducia risponde all’appello, i banchi degli emendamenti sono vuoti.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "La fiducia: «Presente». Gli emendamenti? Assenti giustificati.",
+      "Per approvare il testo, il governo ha chiesto fiducia e tolto la parola alle modifiche.",
+      "La Camera discute gli emendamenti: il governo ha già chiuso il dibattito con la fiducia.",
+      "Ho proposto una correzione, ma la fiducia mi ha messo in modalità sola lettura.",
+      "Gli emendamenti sono in gita: la fiducia li ha segnati assenti."
+    ],
+    "selected_answer": "La fiducia: «Presente». Gli emendamenti? Assenti giustificati.",
+    "selection_reason": "Richiama subito la scuola e l’effetto della fiducia sugli emendamenti, con un solo gioco comico basato sull’appello.",
+    "fact_anchor": "Il governo ha posto la fiducia sul decreto scuola alla Camera il 24 novembre; con la fiducia decadono gli emendamenti."
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-25-fiducia-decreto-scuola-appello.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Fiducia, presente!",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 24 novembre 2026 il ministro Luca Ciriani ha posto, a nome del governo, la questione di fiducia sul decreto scuola all’esame della Camera. Il voto è previsto per il 25 novembre. Con la fiducia decadono gli emendamenti.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-25T01:26:15.507Z",
+  "image_generated_at": "2026-11-25T01:26:15.507Z"
+}
