@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-26",
+  "event_date": "2026-11-25",
+  "slug": "2026-11-26-superbonus-retromarcia-spalmata",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Reuters",
+    "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+  },
+  "sources": [
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+    },
+    {
+      "name": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/politica/2026/11/25/verso-la-retromarcia-sul-superbonus-via-lo-spalma-crediti_89646261-4185-4169-ae7b-46ca88eab534.html"
+    }
+  ],
+  "title": "La retromarcia si spalma",
+  "headline": "Manovra, il governo valuta di cancellare lo spalma-crediti del Superbonus",
+  "summary": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a eliminare dalla manovra la misura che distribuirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus.",
+  "news_text": "Il 25 novembre 2026 Reuters e ANSA hanno riferito che il governo e la maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali, soprattutto detenuti dalle banche e legati a interventi edilizi del Superbonus. La modifica è ancora in lavorazione, non risulta già approvata.",
+  "question": "Il governo valuta di togliere lo spalma-crediti del Superbonus: cosa si spalma?",
+  "answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+  "edition": "daily",
+  "visual_context": "Tavolo della manovra con una pila di crediti fiscali intatta; accanto, un grande rullo da pittura procede in retromarcia. Balloon tradizionali, scena leggibile e satirica.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1,
+    "alternatives": [
+      "Il credito no. La retromarcia, invece, si spalma benissimo.",
+      "Niente spalma-crediti: la retromarcia resta in un’unica soluzione.",
+      "Tolto lo spalma-crediti. La retromarcia, invece, matura interessi.",
+      "I crediti restano interi. La retromarcia pure.",
+      "Si spalma solo il dubbio: su dieci anni, per prudenza."
+    ],
+    "selected_answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
+    "selection_reason": "Risponde direttamente a «cosa si spalma?» e rovescia una sola parola-chiave, senza richiedere contesto aggiuntivo.",
+    "fact_anchor": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus."
+  }
+}
