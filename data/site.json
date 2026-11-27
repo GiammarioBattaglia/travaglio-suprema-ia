@@ -1,70 +1,136 @@
 {
   "current": {
-    "date": "2026-11-26",
-    "event_date": "2026-11-25",
-    "slug": "2026-11-26-superbonus-retromarcia-spalmata",
+    "date": "2026-11-27",
+    "event_date": "2026-11-26",
+    "slug": "2026-11-27-bilancio-ue-spiegazioni-in-piu",
     "autonomous": true,
     "editorial_pass": true,
     "political_neutrality_pass": true,
     "satire_quality_pass": true,
     "source": {
       "name": "Reuters",
-      "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+      "url": "https://www.reuters.com/markets/europe/italys-meloni-talks-tough-eu-budget-warns-ukraine-mediterranean-strike-2026-11-26/"
     },
     "sources": [
       {
         "name": "Reuters",
-        "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+        "url": "https://www.reuters.com/markets/europe/italys-meloni-talks-tough-eu-budget-warns-ukraine-mediterranean-strike-2026-11-26/"
       },
       {
         "name": "ANSA",
-        "url": "https://www.ansa.it/sito/notizie/politica/2026/11/25/verso-la-retromarcia-sul-superbonus-via-lo-spalma-crediti_89646261-4185-4169-ae7b-46ca88eab534.html"
+        "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/11/26/fonti-chigi-intesa-a-dicembre-per-italia-solo-a-condizioni-dignitose_b13d3bdb-e162-4a4a-b6c2-b5f052c2791d.html"
       }
     ],
-    "title": "La retromarcia si spalma",
-    "headline": "Manovra, il governo valuta di cancellare lo spalma-crediti del Superbonus",
-    "summary": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a eliminare dalla manovra la misura che distribuirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus.",
-    "news_text": "Il 25 novembre 2026 Reuters e ANSA hanno riferito che il governo e la maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali, soprattutto detenuti dalle banche e legati a interventi edilizi del Superbonus. La modifica è ancora in lavorazione, non risulta già approvata.",
-    "question": "Il governo valuta di togliere lo spalma-crediti del Superbonus: cosa si spalma?",
-    "answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
+    "title": "Il pareggio delle spiegazioni",
+    "headline": "Meloni: l’Italia non sosterrà un bilancio UE in cui dà di più e riceve meno",
+    "summary": "Il 26 novembre Reuters e ANSA hanno riferito che l’Italia non intende sostenere l’accordo sul bilancio UE 2028-2034 se dovesse contribuire di più ricevendo meno; Palazzo Chigi ha escluso che Roma sia già pronta a chiudere l’intesa a dicembre.",
+    "news_text": "Il 26 novembre 2026 Reuters ha riferito che Giorgia Meloni, prima del vertice straordinario UE, ha dichiarato che i leader sono ancora lontani da un accordo sul bilancio europeo 2028-2034 e che l’Italia non intende approvare un quadro in cui contribuisca di più ricevendo meno. ANSA ha riportato la posizione di Palazzo Chigi: l’Italia non è tra i Paesi già pronti a chiudere l’intesa a dicembre e valuterà l’accordo in base alle condizioni e agli interessi nazionali.",
+    "question": "Meloni non vuole un bilancio UE dove l’Italia dà di più e riceve meno: è equilibrato?",
+    "answer": "Certo: per ogni euro in meno, c’è una spiegazione in più.",
     "characters": [
       "Marco Travaglio",
       "Suprema IA",
-      "Marco Travaglio, rappresentazione satirica"
+      "Marco Travaglio, rappresentazione satirica",
+      "Giorgia Meloni, rappresentazione satirica"
     ],
     "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
     "edition": "daily",
-    "visual_context": "Tavolo della manovra con una pila di crediti fiscali intatta; accanto, un grande rullo da pittura procede in retromarcia. Balloon tradizionali, scena leggibile e satirica.",
+    "visual_context": "Una bilancia da tavolo davanti alle bandiere italiana ed europea: da un lato parte una pila di monete, dall’altro torna una ricevuta sottile. Scena istituzionale, leggibile e non aggressiva, con balloon tradizionali.",
     "editorial_review": {
       "version": 2,
       "method": "candidate_review",
+      "selected_answer": "Certo: per ogni euro in meno, c’è una spiegazione in più.",
+      "alternatives": [
+        "Certo: per ogni euro in meno, c’è una spiegazione in più.",
+        "Sì: il più è il contributo, il meno è il rimborso. Pareggio europeo.",
+        "Equilibratissimo: il conto sale, il ritorno scende. Si incontrano a Bruxelles.",
+        "Certo. Il «più» parte da Roma; il «meno» torna puntuale.",
+        "Sì: il dare è maiuscolo, il ricevere resta in corpo piccolo."
+      ],
+      "selection_reason": "Rovescia direttamente «meno» e «più» in un solo passaggio, resta comprensibile senza titolo e chiude subito.",
+      "fact_anchor": "Il 26 novembre Reuters e ANSA hanno riferito che l’Italia non intende sostenere un bilancio UE in cui contribuisca di più ricevendo meno e non si considera già pronta a un’intesa a dicembre.",
       "self_contained_question": true,
       "inference_steps": 1,
       "needs_explanation": false,
-      "twist_count": 1,
-      "alternatives": [
-        "Il credito no. La retromarcia, invece, si spalma benissimo.",
-        "Niente spalma-crediti: la retromarcia resta in un’unica soluzione.",
-        "Tolto lo spalma-crediti. La retromarcia, invece, matura interessi.",
-        "I crediti restano interi. La retromarcia pure.",
-        "Si spalma solo il dubbio: su dieci anni, per prudenza."
-      ],
-      "selected_answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
-      "selection_reason": "Risponde direttamente a «cosa si spalma?» e rovescia una sola parola-chiave, senza richiedere contesto aggiuntivo.",
-      "fact_anchor": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus."
+      "twist_count": 1
     },
     "published": true,
     "status": "published",
-    "image": "/assets/episodes/2026-11-26-superbonus-retromarcia-spalmata.jpg",
-    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La retromarcia si spalma",
-    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 novembre 2026 Reuters e ANSA hanno riferito che il governo e la maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali, soprattutto detenuti dalle banche e legati a interventi edilizi del Superbonus. La modifica è ancora in lavorazione, non risulta già approvata.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+    "image": "/assets/episodes/2026-11-27-bilancio-ue-spiegazioni-in-piu.jpg",
+    "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il pareggio delle spiegazioni",
+    "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 novembre 2026 Reuters ha riferito che Giorgia Meloni, prima del vertice straordinario UE, ha dichiarato che i leader sono ancora lontani da un accordo sul bilancio europeo 2028-2034 e che l’Italia non intende approvare un quadro in cui contribuisca di più ricevendo meno. ANSA ha riportato la posizione di Palazzo Chigi: l’Italia non è tra i Paesi già pronti a chiudere l’intesa a dicembre e valuterà l’accordo in base alle condizioni e agli interessi nazionali.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
     "image_status": "generated_jpeg",
     "image_fallback": false,
-    "published_at": "2026-11-26T09:28:35.682Z",
-    "image_generated_at": "2026-11-26T09:28:35.682Z",
-    "url": "/episodio/2026-11-26-superbonus-retromarcia-spalmata/"
+    "published_at": "2026-11-27T09:30:33.632Z",
+    "image_generated_at": "2026-11-27T09:30:33.632Z",
+    "url": "/episodio/2026-11-27-bilancio-ue-spiegazioni-in-piu/"
   },
   "archive": [
+    {
+      "date": "2026-11-26",
+      "event_date": "2026-11-25",
+      "slug": "2026-11-26-superbonus-retromarcia-spalmata",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/olive-branch-banks-italy-plans-drop-curbs-home-renovation-tax-credits-2026-11-25/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/sito/notizie/politica/2026/11/25/verso-la-retromarcia-sul-superbonus-via-lo-spalma-crediti_89646261-4185-4169-ae7b-46ca88eab534.html"
+        }
+      ],
+      "title": "La retromarcia si spalma",
+      "headline": "Manovra, il governo valuta di cancellare lo spalma-crediti del Superbonus",
+      "summary": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a eliminare dalla manovra la misura che distribuirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus.",
+      "news_text": "Il 25 novembre 2026 Reuters e ANSA hanno riferito che il governo e la maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali, soprattutto detenuti dalle banche e legati a interventi edilizi del Superbonus. La modifica è ancora in lavorazione, non risulta già approvata.",
+      "question": "Il governo valuta di togliere lo spalma-crediti del Superbonus: cosa si spalma?",
+      "answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Marco Travaglio, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+      "edition": "daily",
+      "visual_context": "Tavolo della manovra con una pila di crediti fiscali intatta; accanto, un grande rullo da pittura procede in retromarcia. Balloon tradizionali, scena leggibile e satirica.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1,
+        "alternatives": [
+          "Il credito no. La retromarcia, invece, si spalma benissimo.",
+          "Niente spalma-crediti: la retromarcia resta in un’unica soluzione.",
+          "Tolto lo spalma-crediti. La retromarcia, invece, matura interessi.",
+          "I crediti restano interi. La retromarcia pure.",
+          "Si spalma solo il dubbio: su dieci anni, per prudenza."
+        ],
+        "selected_answer": "Il credito no. La retromarcia, invece, si spalma benissimo.",
+        "selection_reason": "Risponde direttamente a «cosa si spalma?» e rovescia una sola parola-chiave, senza richiedere contesto aggiuntivo.",
+        "fact_anchor": "Il 25 novembre Reuters e ANSA hanno riferito che governo e maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali del Superbonus."
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-26-superbonus-retromarcia-spalmata.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La retromarcia si spalma",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 25 novembre 2026 Reuters e ANSA hanno riferito che il governo e la maggioranza stanno lavorando a cancellare dalla manovra la misura che diluirebbe in dieci anni circa 20 miliardi di crediti fiscali, soprattutto detenuti dalle banche e legati a interventi edilizi del Superbonus. La modifica è ancora in lavorazione, non risulta già approvata.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-26T09:28:35.682Z",
+      "image_generated_at": "2026-11-26T09:28:35.682Z",
+      "url": "/episodio/2026-11-26-superbonus-retromarcia-spalmata/"
+    },
     {
       "date": "2026-11-25",
       "event_date": "2026-11-24",
@@ -3993,6 +4059,72 @@
     }
   ],
   "all": [
+    {
+      "date": "2026-11-27",
+      "event_date": "2026-11-26",
+      "slug": "2026-11-27-bilancio-ue-spiegazioni-in-piu",
+      "autonomous": true,
+      "editorial_pass": true,
+      "political_neutrality_pass": true,
+      "satire_quality_pass": true,
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/europe/italys-meloni-talks-tough-eu-budget-warns-ukraine-mediterranean-strike-2026-11-26/"
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/europe/italys-meloni-talks-tough-eu-budget-warns-ukraine-mediterranean-strike-2026-11-26/"
+        },
+        {
+          "name": "ANSA",
+          "url": "https://www.ansa.it/europa/notizie/rubriche/altrenews/2026/11/26/fonti-chigi-intesa-a-dicembre-per-italia-solo-a-condizioni-dignitose_b13d3bdb-e162-4a4a-b6c2-b5f052c2791d.html"
+        }
+      ],
+      "title": "Il pareggio delle spiegazioni",
+      "headline": "Meloni: l’Italia non sosterrà un bilancio UE in cui dà di più e riceve meno",
+      "summary": "Il 26 novembre Reuters e ANSA hanno riferito che l’Italia non intende sostenere l’accordo sul bilancio UE 2028-2034 se dovesse contribuire di più ricevendo meno; Palazzo Chigi ha escluso che Roma sia già pronta a chiudere l’intesa a dicembre.",
+      "news_text": "Il 26 novembre 2026 Reuters ha riferito che Giorgia Meloni, prima del vertice straordinario UE, ha dichiarato che i leader sono ancora lontani da un accordo sul bilancio europeo 2028-2034 e che l’Italia non intende approvare un quadro in cui contribuisca di più ricevendo meno. ANSA ha riportato la posizione di Palazzo Chigi: l’Italia non è tra i Paesi già pronti a chiudere l’intesa a dicembre e valuterà l’accordo in base alle condizioni e agli interessi nazionali.",
+      "question": "Meloni non vuole un bilancio UE dove l’Italia dà di più e riceve meno: è equilibrato?",
+      "answer": "Certo: per ogni euro in meno, c’è una spiegazione in più.",
+      "characters": [
+        "Marco Travaglio",
+        "Suprema IA",
+        "Marco Travaglio, rappresentazione satirica",
+        "Giorgia Meloni, rappresentazione satirica"
+      ],
+      "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+      "edition": "daily",
+      "visual_context": "Una bilancia da tavolo davanti alle bandiere italiana ed europea: da un lato parte una pila di monete, dall’altro torna una ricevuta sottile. Scena istituzionale, leggibile e non aggressiva, con balloon tradizionali.",
+      "editorial_review": {
+        "version": 2,
+        "method": "candidate_review",
+        "selected_answer": "Certo: per ogni euro in meno, c’è una spiegazione in più.",
+        "alternatives": [
+          "Certo: per ogni euro in meno, c’è una spiegazione in più.",
+          "Sì: il più è il contributo, il meno è il rimborso. Pareggio europeo.",
+          "Equilibratissimo: il conto sale, il ritorno scende. Si incontrano a Bruxelles.",
+          "Certo. Il «più» parte da Roma; il «meno» torna puntuale.",
+          "Sì: il dare è maiuscolo, il ricevere resta in corpo piccolo."
+        ],
+        "selection_reason": "Rovescia direttamente «meno» e «più» in un solo passaggio, resta comprensibile senza titolo e chiude subito.",
+        "fact_anchor": "Il 26 novembre Reuters e ANSA hanno riferito che l’Italia non intende sostenere un bilancio UE in cui contribuisca di più ricevendo meno e non si considera già pronta a un’intesa a dicembre.",
+        "self_contained_question": true,
+        "inference_steps": 1,
+        "needs_explanation": false,
+        "twist_count": 1
+      },
+      "published": true,
+      "status": "published",
+      "image": "/assets/episodes/2026-11-27-bilancio-ue-spiegazioni-in-piu.jpg",
+      "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: Il pareggio delle spiegazioni",
+      "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 26 novembre 2026 Reuters ha riferito che Giorgia Meloni, prima del vertice straordinario UE, ha dichiarato che i leader sono ancora lontani da un accordo sul bilancio europeo 2028-2034 e che l’Italia non intende approvare un quadro in cui contribuisca di più ricevendo meno. ANSA ha riportato la posizione di Palazzo Chigi: l’Italia non è tra i Paesi già pronti a chiudere l’intesa a dicembre e valuterà l’accordo in base alle condizioni e agli interessi nazionali.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+      "image_status": "generated_jpeg",
+      "image_fallback": false,
+      "published_at": "2026-11-27T09:30:33.632Z",
+      "image_generated_at": "2026-11-27T09:30:33.632Z",
+      "url": "/episodio/2026-11-27-bilancio-ue-spiegazioni-in-piu/"
+    },
     {
       "date": "2026-11-26",
       "event_date": "2026-11-25",
