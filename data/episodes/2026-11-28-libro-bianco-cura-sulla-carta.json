@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-28",
+  "event_date": "2026-11-27",
+  "slug": "2026-11-28-libro-bianco-cura-sulla-carta",
+  "autonomous": true,
+  "editorial_pass": true,
+  "political_neutrality_pass": true,
+  "satire_quality_pass": true,
+  "source": {
+    "name": "Presidenza della Repubblica",
+    "url": "https://www.quirinale.it/it/comunicato/presentato-mattarella-libro-bianco-ricerca"
+  },
+  "sources": [
+    {
+      "name": "Presidenza della Repubblica",
+      "url": "https://www.quirinale.it/it/comunicato/presentato-mattarella-libro-bianco-ricerca"
+    },
+    {
+      "name": "Ministero dell'Università e della Ricerca",
+      "url": "https://www.mur.gov.it/it/news/venerdi-27112026/biomedicina-ministero-delluniversita-e-della-ricerca-e-ministero-della-salute"
+    },
+    {
+      "name": "Il Sole 24 Ore Radiocor",
+      "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/ricerca-mattarella-libro-bianco--pista-lavoro-futuro--rimuovere-precarieta--nRC_27112026_1105_249788937.html"
+    }
+  ],
+  "title": "La cura sulla carta",
+  "headline": "Presentato il Libro Bianco per accelerare il percorso dalla ricerca biomedica alla cura",
+  "summary": "Il 27 novembre il Libro Bianco sulla ricerca biomedica è stato consegnato al Presidente della Repubblica e presentato ai Lincei. Il documento propone una strategia 2026-2030 per ridurre la distanza tra scoperta scientifica e applicazione clinica.",
+  "news_text": "Il 27 novembre 2026 il Libro Bianco «Ricerca e innovazione nelle scienze e tecnologie biomediche» è stato consegnato al Presidente della Repubblica Sergio Mattarella e presentato all’Accademia dei Lincei. Quirinale, Ministero dell’Università e della Ricerca e Radiocor confermano la presentazione. Il documento delinea una strategia per il quinquennio 2026-2030 e propone di rendere più rapido il percorso dalla scoperta scientifica alla sperimentazione e alla cura, rafforzando investimenti, trasferimento tecnologico e carriere della ricerca.",
+  "question": "Il Libro Bianco propone di portare più in fretta le scoperte ai pazienti?",
+  "answer": "Sì. Purché la cura non resti sulla carta.",
+  "characters": [
+    "Marco Travaglio",
+    "Suprema IA",
+    "Marco Travaglio, rappresentazione satirica",
+    "Sergio Mattarella, rappresentazione satirica"
+  ],
+  "satire_notice": "Satira indipendente. Dialoghi e scene sono invenzioni umoristiche ispirate all’attualità; nessuna frase è attribuita al vero Marco Travaglio.",
+  "edition": "daily",
+  "visual_context": "Al Quirinale, un grande Libro Bianco aperto forma un ponte tra un microscopio e un lettino clinico. La rappresentazione satirica di Marco Travaglio osserva il ponte con aria interrogativa, la Suprema IA indica una pagina che rischia di restare sospesa, mentre la rappresentazione satirica di Sergio Mattarella assiste con compostezza. Scena istituzionale, sobria e leggibile, con balloon tradizionali.",
+  "editorial_review": {
+    "version": 2,
+    "method": "candidate_review",
+    "selected_answer": "Sì. Purché la cura non resti sulla carta.",
+    "alternatives": [
+      "Sì. Purché la cura non resti sulla carta.",
+      "Certo. Il Libro è Bianco: la terapia deve ancora scriversi.",
+      "Sì. La ricerca corre; la modulistica chiede il certificato medico.",
+      "Certo. Dal laboratorio al paziente, coincidenza burocratica permettendo.",
+      "Sì. Prima la scoperta deve passare l’esame di bella copia."
+    ],
+    "selection_reason": "Il doppio senso su «carta» nasce direttamente dal Libro Bianco, rovescia in una sola battuta il rischio che la strategia resti teorica e si capisce senza contesto.",
+    "fact_anchor": "Il 27 novembre 2026 è stato presentato il Libro Bianco sulla ricerca biomedica, che propone per il 2026-2030 di accorciare il percorso dalla scoperta scientifica alla cura.",
+    "self_contained_question": true,
+    "inference_steps": 1,
+    "needs_explanation": false,
+    "twist_count": 1
+  },
+  "published": true,
+  "status": "published",
+  "image": "/assets/episodes/2026-11-28-libro-bianco-cura-sulla-carta.jpg",
+  "imageAlt": "Caricatura satirica di Marco Travaglio, Suprema IA e protagonista della notizia: La cura sulla carta",
+  "image_prompt": "Una VERA caricatura editoriale italiana, disegnata a mano con inchiostro e colore di alta qualità, non un diagramma, non icone vettoriali, non un poster di testo.\nUnica scena panoramica 16:9, composizione ordinata, tre soggetti ben riconoscibili: A SINISTRA la caricatura di Marco Travaglio, giornalista con espressione inquisitiva e taccuino; AL CENTRO una originale personificazione immaginaria della Suprema IA con volto robotico luminoso; A DESTRA caricatura riconoscibile di Marco Travaglio, rappresentazione satirica.\nLa situazione visiva è un commento ironico LEGGERO al fatto pubblico documentato: Il 27 novembre 2026 il Libro Bianco «Ricerca e innovazione nelle scienze e tecnologie biomediche» è stato consegnato al Presidente della Repubblica Sergio Mattarella e presentato all’Accademia dei Lincei. Quirinale, Ministero dell’Università e della Ricerca e Radiocor confermano la presentazione. Il documento delinea una strategia per il quinquennio 2026-2030 e propone di rendere più rapido il percorso dalla scoperta scientifica alla sperimentazione e alla cura, rafforzando investimenti, trasferimento tecnologico e carriere della ricerca.\nNon raffigurare reati, corruzione, violenza, incapacità mentale o altre condotte non documentate. Nessuna simbologia elettorale o invito a votare. Tutti i soggetti sono rappresentazioni satiriche, non fotografie autentiche.\nColori editoriali eleganti, volti leggibili anche su smartphone, nitidezza alta, illuminazione pulita, nessun elemento sovraffollato.\nMantieni pulita la fascia inferiore della scena e lascia spazio visivo attorno alla bocca di Travaglio e al volto della Suprema IA: verranno aggiunti digitalmente due fumetti tradizionali con code molto sottili e discrete, che indicano chi parla senza coprire lo sfondo.\nIMPORTANTISSIMO: non inserire nessuna scritta, parola, lettera, fumetto, logo, citazione o testo dentro il disegno; domanda e risposta saranno applicate con tipografia reale in fumetti nel passaggio successivo.",
+  "image_status": "generated_jpeg",
+  "image_fallback": false,
+  "published_at": "2026-11-28T09:29:43.607Z",
+  "image_generated_at": "2026-11-28T09:29:43.608Z"
+}
